@@ -1,0 +1,7 @@
+# Ignore Vim temporary files
+.*.sw?
+
+# Python
+.tox/
+docs/_build/
+MANIFEST
