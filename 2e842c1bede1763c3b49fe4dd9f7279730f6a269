@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc43f6cd_90245f8e",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-10-05T17:02:44Z",
+      "side": 1,
+      "message": "Expand this to Continuous Integration and then add a parenthetical (LFCI or CI) so that we can use those terms without having to define them later :)",
+      "range": {
+        "startLine": 9,
+        "startChar": 51,
+        "endLine": 9,
+        "endChar": 53
+      },
+      "revId": "2e842c1bede1763c3b49fe4dd9f7279730f6a269",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
