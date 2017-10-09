@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "adb0cc14_7e43adb1",
+        "filename": ".coafile",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-10-09T16:49:04Z",
+      "side": 1,
+      "message": "What about RSTCheckBear?",
+      "revId": "7cdfbf2bd7c965849c4068f0065c0fe571ffc907",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "50f4b422_b6743d87",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-10-09T16:49:04Z",
+      "side": 1,
+      "message": "\u0027author\u0027 here similar to texinfo",
+      "range": {
+        "startLine": 277,
+        "startChar": 5,
+        "endLine": 277,
+        "endChar": 15
+      },
+      "revId": "7cdfbf2bd7c965849c4068f0065c0fe571ffc907",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1870cc39_abc17c44",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-10-09T16:49:04Z",
+      "side": 1,
+      "message": "It would be nice to include all our projects here in the future (ODL, OPNFV, etc.)",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 356,
+        "endChar": 56
+      },
+      "revId": "7cdfbf2bd7c965849c4068f0065c0fe571ffc907",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
