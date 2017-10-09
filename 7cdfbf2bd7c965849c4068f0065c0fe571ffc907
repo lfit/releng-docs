@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "39648fed_43023c14",
+        "filename": ".coafile",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-09T16:54:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adb0cc14_7e43adb1",
+      "revId": "7cdfbf2bd7c965849c4068f0065c0fe571ffc907",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "50f4b422_b6743d87",
         "filename": "docs/conf.py",
         "patchSetId": 2
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "72bc3867_a6624e8c",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-09T16:54:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50f4b422_b6743d87",
+      "range": {
+        "startLine": 277,
+        "startChar": 5,
+        "endLine": 277,
+        "endChar": 15
+      },
+      "revId": "7cdfbf2bd7c965849c4068f0065c0fe571ffc907",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1870cc39_abc17c44",
         "filename": "docs/conf.py",
         "patchSetId": 2
@@ -53,6 +95,30 @@
       "writtenOn": "2017-10-09T16:49:04Z",
       "side": 1,
       "message": "It would be nice to include all our projects here in the future (ODL, OPNFV, etc.)",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 356,
+        "endChar": 56
+      },
+      "revId": "7cdfbf2bd7c965849c4068f0065c0fe571ffc907",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "93589130_73dd88cd",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-09T16:54:39Z",
+      "side": 1,
+      "message": "Agreed we can add them as we need them. We need to test his feature to make it work for the existing lftools and global-jjb too.",
+      "parentUuid": "1870cc39_abc17c44",
       "range": {
         "startLine": 356,
         "startChar": 0,
