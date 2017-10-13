@@ -20,8 +20,8 @@ Guides:
 
 Tools:
 
-- :ref:`lftools`
-- :ref:`global-jjb`
+- :ref:`lftools <lfreleng-lftools>`
+- :ref:`global-jjb <lfreleng-global-jjb>`
 
 Indices and tables
 ==================
