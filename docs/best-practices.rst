@@ -128,3 +128,8 @@ the tox.ini file the interesting bits are under [testenv:coala].
 
 .. literalinclude:: ../tox.ini
     :language: ini
+
+Jenkins Job Builder
+===================
+
+:ref:`Jenkins Job Builder Best Practices <global-jjb-best-practices>`
