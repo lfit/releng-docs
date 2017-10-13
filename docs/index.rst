@@ -9,7 +9,10 @@ A collection of documentation for Linux Foundation Continuous Integration (LFCI)
 
 Guides:
 
-- Best Practices
+.. toctree::
+   :maxdepth: 2
+
+   best-practices
 
 .. TODO Gerrit (RELENG-509)
 .. TODO Jenkins (RELENG-510)
