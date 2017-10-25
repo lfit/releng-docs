@@ -13,6 +13,7 @@ Guides:
    :maxdepth: 2
 
    best-practices
+   gerrit
 
 .. TODO Gerrit (RELENG-509)
 .. TODO Jenkins (RELENG-510)
