@@ -1,0 +1,152 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d251fe0b_3c26f437",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "Let\u0027s call this the Gerrit Guide",
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b4a2af4b_0186895e",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "This is part of hte Gerrit doc so probably don\u0027t need to repeat Gerrit in the title. A better title might be \"How to clone\"",
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a1fc1ada_73d3749d",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "This is unnecessary as the underline above creates a heading for us.",
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a647960_dab81695",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "Let\u0027s use place holders like USERNAME instead of using your actual username. When we have to talk about credentials.",
+      "range": {
+        "startLine": 26,
+        "startChar": 21,
+        "endLine": 26,
+        "endChar": 31
+      },
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "791dbb32_28e7d213",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "Personally I\u0027d recommend always using the anonymous http solution for cloning. As not everyone needs to push (which is when you really need credentials).",
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2a5d50fa_4e5f1692",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "For pushing we should always recommend SSH and only using HTTPS if the user is behind a network that prevents them from using ssh.",
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7399e6b0_3cca5400",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "This is unnecessary information as a note is already a notice. Just get straight to the point in the message.",
+      "range": {
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 26
+      },
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "73a3acb4_923717e4",
+        "filename": "docs/index.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-25T18:16:02Z",
+      "side": 1,
+      "message": "lowercase \u0027gerrit\u0027",
+      "revId": "23cf6ca218721de05bf090d2d569ba765c895f18",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
