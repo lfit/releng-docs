@@ -1,0 +1,214 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2994aa79_dff5556f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "I\u0027d title this as Sandbox Overview or something. Since this section just provides details on the sandbox system.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "242499fb_0582fe0a",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "We need to be specific here so that people are not surprised. Exactly when are the jobs automatically deleted?\n\n(This was documented in the ODL sandbox docs originally)",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "588cb5f8_bea2d6bb",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "logging access sounds like we\u0027re providing information about the log server. A title like:\n\nAcquiring sandbox permissions\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6bd69db5_c8c8ffa6",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "We should probably have 2 subsections\n\nPushing jobs to the Sandbox\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\nThere are 2 supported ways to push jobs to the sandbox the first one is easier and does not require you to install anything to your local system and uses a jjb-deploy job in production to push jobs from the Gerrit patch to the sandbox.\n\nPushing using Gerrit\n----------------------------\n\nInsert section about how to use the JJB deploy job directly from Gerrit. Please take a look at OpenDaylight Jenkins documentation for this detail. This job is now the default recommended way to deploy sandbox jobs as it does not require the contributor to install JJB on their computer at all.\n\nPushing using JJB CLI\n-------------------------------\n\n.... The section below.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01274ea6_6c0e7dc0",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "This is not information on how to configure the sandbox. It is information on how to configure Jenkins Job Builder tool locally on your computer.\n\nConfiguring JJB CLI\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
+      "range": {
+        "startLine": 46,
+        "startChar": 28,
+        "endLine": 46,
+        "endChar": 0
+      },
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc0af465_37584f76",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "The following configuration can be used if you prefer to use the jjb tool locally on your system.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d26e9db5_888c5a9f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "Indents in RST should line up with the block it\u0027s using eg. should be 3 space indent to line up with the NOTE.\n\nAnother tip if your note is short enough to fit in one line you can just do.\n\n.. note:: Copy jenkins.ini.example to jenkins.ini\n\nThis note is superfluous though. It provides the exact same information as the \"Make a copy of the example JJB config file\" above. So I would not include this note imo.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d69b64e_81483d9f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "3 space indent here.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "77ef6c77_a0eed994",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "3 space indent here.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "566371b6_7226e86d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "Pushing a job with JJB\n------------------------------",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ca7114e_7d5a056e",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "Executing jobs in the Sandbox\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6532296c_bc524879",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 189,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-27T15:16:33Z",
+      "side": 1,
+      "message": "This text is unnecessary.",
+      "revId": "c89e7c9da83a517a2ac871ce6ca93772fb9c5204",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
