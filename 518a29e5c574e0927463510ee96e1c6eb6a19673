@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fee01ace_14212d9e",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-30T16:02:25Z",
+      "side": 1,
+      "message": "3 space indent",
+      "revId": "518a29e5c574e0927463510ee96e1c6eb6a19673",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "114f9723_5235405e",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-30T16:02:25Z",
+      "side": 1,
+      "message": "Personally I still think we should by default recommend anonymous cloning and then only tell them how to setup http password if they want to push patches in a later step.",
+      "revId": "518a29e5c574e0927463510ee96e1c6eb6a19673",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8240adad_efc1ee8b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-30T16:02:25Z",
+      "side": 1,
+      "message": "3 space indent.",
+      "revId": "518a29e5c574e0927463510ee96e1c6eb6a19673",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a25d73d_42e95740",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-30T16:02:25Z",
+      "side": 1,
+      "message": "Since we\u0027re referencing this here we should make an Appendix section about how to generate the HTTP Password. Then we can have this note as well as link to the appendix section.\n\nHere\u0027s the OpenDaylight section on how to create an HTTP password.\n\nhttp://docs.opendaylight.org/en/latest/gerrit.html#using-https-to-push-to-gerrit",
+      "revId": "518a29e5c574e0927463510ee96e1c6eb6a19673",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1784028f_35debe4d",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-30T16:02:25Z",
+      "side": 1,
+      "message": "3 space indent.\n\nWe should also have an Appendix item on how to add your SSH key to your account. Then link to it from this note.",
+      "revId": "518a29e5c574e0927463510ee96e1c6eb6a19673",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ef641f6_bbe06726",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-10-30T16:02:25Z",
+      "side": 1,
+      "message": "3 space indent.",
+      "revId": "518a29e5c574e0927463510ee96e1c6eb6a19673",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
