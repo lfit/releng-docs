@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "492cf86c_f66e2867",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-06T21:11:27Z",
+      "side": 1,
+      "message": "So if we do this the output of the generated HTML becomes:\n\n For more information on Gerrit (google-gerrit)\n\nSphinx takes the link name from the bottom of the file and uses that as the link name and removes the link text. Which is likely not the intention here. If we want to provide the actual text then we need to print it like here.\n\nHowever if we don\u0027t want to link the text and want to just make the word Gerrit a hyper link then we can do:\n\n For more information on `Gerrit \u003cgoogle-gerrit\u003e`_\n\nIn which case the output will be this:\n\n For more information on Gerrit\n\nWith Gerrit as a link. So I think there\u0027s 2 ways to go about this here:\n\n1. If we want to display the hyperlink text leave as is in this patch.\n2. If we wan the word \"Gerrit\" in the note to become a hyperlink the suggestion above.\n\nI think the implementation in Patch Set 8 will be confusing to a reader.",
+      "parentUuid": "f2246ed3_6956e121",
+      "range": {
+        "startLine": 16,
+        "startChar": 39,
+        "endLine": 16,
+        "endChar": 73
+      },
+      "revId": "65a650b1aec4f77eba25af5324396e17f9326764",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "471cf3b6_d52f38ee",
         "filename": "docs/gerrit.rst",
         "patchSetId": 7
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "7b889c5e_66cbf304",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-06T21:11:27Z",
+      "side": 1,
+      "message": "See comment from above about Sphinx links.",
+      "parentUuid": "471cf3b6_d52f38ee",
+      "range": {
+        "startLine": 115,
+        "startChar": 4,
+        "endLine": 115,
+        "endChar": 55
+      },
+      "revId": "65a650b1aec4f77eba25af5324396e17f9326764",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ce9897ef_aa01125d",
         "filename": "docs/gerrit.rst",
         "patchSetId": 7
@@ -59,6 +107,30 @@
       "writtenOn": "2017-11-06T05:50:04Z",
       "side": 1,
       "message": "Reference heyperlinks at the end of the file.\n\nRef: http://www.sphinx-doc.org/en/stable/rest.html#hyperlinks",
+      "range": {
+        "startLine": 117,
+        "startChar": 4,
+        "endLine": 117,
+        "endChar": 57
+      },
+      "revId": "65a650b1aec4f77eba25af5324396e17f9326764",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d18da52c_d29b4257",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-06T21:11:27Z",
+      "side": 1,
+      "message": "See comment from above about Sphinx links.",
+      "parentUuid": "ce9897ef_aa01125d",
       "range": {
         "startLine": 117,
         "startChar": 4,
