@@ -16,6 +16,24 @@
       "revId": "d31a300b8aad9c536d99bc4b75b43cf5f760e5fc",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8a54d677_5b78ea5b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-06T23:07:08Z",
+      "side": 1,
+      "message": "Those two worked here https://logs.opendaylight.org/releng/jenkins092/lf-infra-docs-rtd-verify-any/11/html/gerrit.html\n\nthey are just pointers to the same document.",
+      "parentUuid": "dd923e03_aaee6129",
+      "revId": "d31a300b8aad9c536d99bc4b75b43cf5f760e5fc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
