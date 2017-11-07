@@ -62,6 +62,24 @@
       "revId": "a15cc47228a2860686f9813757245619d5315292",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "24aec3e0_fd12bfcd",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-07T20:54:01Z",
+      "side": 1,
+      "message": "Interesting. Wasn\u0027t aware the new version allowed straight up passwords. Do we plan to have everyone on 2.14 in the near future?\n\nIf so we can drop this note and assume people will use their LFID password.",
+      "parentUuid": "3472b0db_2590862f",
+      "revId": "a15cc47228a2860686f9813757245619d5315292",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
