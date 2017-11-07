@@ -14,6 +14,7 @@ Guides:
 
    best-practices
    gerrit
+   git-review
 
 .. TODO Gerrit (RELENG-509)
 .. TODO Jenkins (RELENG-510)
