@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4aabfbca_7ac780f3",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-07T20:39:19Z",
+      "side": 1,
+      "message": "This should be https. We should not be giving URLs that aren\u0027t SSL related since we enable SSL everywhere.",
+      "range": {
+        "startLine": 36,
+        "startChar": 13,
+        "endLine": 36,
+        "endChar": 17
+      },
+      "revId": "a15cc47228a2860686f9813757245619d5315292",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e88fd77_efde63a2",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-07T20:39:19Z",
+      "side": 1,
+      "message": "This should be https. We should not be giving URLs that aren\u0027t SSL related since we enable SSL everywhere.",
+      "range": {
+        "startLine": 46,
+        "startChar": 13,
+        "endLine": 46,
+        "endChar": 17
+      },
+      "revId": "a15cc47228a2860686f9813757245619d5315292",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3472b0db_2590862f",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-07T20:39:19Z",
+      "side": 1,
+      "message": "This is only true for Gerrit \u003c 2.14. With Gerrit \u003e\u003d 2.14 the LFID credentials end up getting used for the HTTP subsystem.",
+      "revId": "a15cc47228a2860686f9813757245619d5315292",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
