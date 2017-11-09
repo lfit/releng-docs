@@ -1,0 +1,274 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b0ace846_67306118",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "I\u0027m not sure how the author is relevant information here? Just had to Google Shawn Pearce...",
+      "range": {
+        "startLine": 8,
+        "startChar": 21,
+        "endLine": 8,
+        "endChar": 56
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "beac6fb4_9211ea76",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "Instead of a \u0027..note\u0027,  the second mention of Gerrit should be the link to `gerritcodereview.com`",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 75
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed14ad92_9f922d66",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "Where can we see them?",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 28
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "821a524b_da54c2bf",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "Change to \"Anonymous HTTP Clone\"",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 16
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98166831_5f491032",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 23
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c1694c38_4e2ebc51",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "\u0027make any contributions.\u0027",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 25
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f9526e1_6c6be859",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "Instead of using onap as an example URL here, I think we should be more meta and use \u0027gerrit.linuxfoundation.org/releng/docs\u0027.",
+      "range": {
+        "startLine": 36,
+        "startChar": 13,
+        "endLine": 36,
+        "endChar": 47
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0f0ee934_d7018ebc",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "This should be \u0027Authenticated HTTP Clone\u0027",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e3fe8c0_cf0c5320",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "I think this section should come before HTTP Clone, and start with \u0027This option..\u0027, followed by the \u0027..note\u0027.",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 9
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e991086_7acf7e7e",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "private",
+      "range": {
+        "startLine": 64,
+        "startChar": 38,
+        "endLine": 64,
+        "endChar": 45
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "210a95cc_36a27b8b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "more",
+      "range": {
+        "startLine": 68,
+        "startChar": 7,
+        "endLine": 68,
+        "endChar": 10
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e4c3f56_0d78ac60",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-11-09T23:02:17Z",
+      "side": 1,
+      "message": "There should be an extra section here that explains the git commit-hook and how it is set/configured for Authenticated HTTP and SSH clones.",
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
