@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "28ca8b90_69c80c41",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Agree... maybe too much information :)",
+      "parentUuid": "b0ace846_67306118",
+      "range": {
+        "startLine": 8,
+        "startChar": 21,
+        "endLine": 8,
+        "endChar": 56
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "beac6fb4_9211ea76",
         "filename": "docs/gerrit.rst",
         "patchSetId": 18
@@ -36,6 +60,30 @@
       "writtenOn": "2017-11-09T23:02:17Z",
       "side": 1,
       "message": "Instead of a \u0027..note\u0027,  the second mention of Gerrit should be the link to `gerritcodereview.com`",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 75
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c83e9987_72b174d4",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Not sure if people will note that the \"Gerrit\" in line 7 is an actual link. I kind of like the note to make it more noticible.",
+      "parentUuid": "beac6fb4_9211ea76",
       "range": {
         "startLine": 14,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "8601af02_842dadda",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Yep. Will complete the sentance",
+      "parentUuid": "ed14ad92_9f922d66",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 28
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "821a524b_da54c2bf",
         "filename": "docs/gerrit.rst",
         "patchSetId": 18
@@ -82,6 +154,30 @@
       "writtenOn": "2017-11-09T23:02:17Z",
       "side": 1,
       "message": "Change to \"Anonymous HTTP Clone\"",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 16
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ed6cd5a_3b12fa3c",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Agree",
+      "parentUuid": "821a524b_da54c2bf",
       "range": {
         "startLine": 27,
         "startChar": 0,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "73b8f19d_4420e86b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Agree",
+      "parentUuid": "98166831_5f491032",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 23
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c1694c38_4e2ebc51",
         "filename": "docs/gerrit.rst",
         "patchSetId": 18
@@ -128,6 +248,30 @@
       "writtenOn": "2017-11-09T23:02:17Z",
       "side": 1,
       "message": "\u0027make any contributions.\u0027",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 25
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3195b23c_b2ed8411",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "agree",
+      "parentUuid": "c1694c38_4e2ebc51",
       "range": {
         "startLine": 31,
         "startChar": 0,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "a74a0da9_6723441c",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Actually yea.. you are right, since this is going in our gerrit",
+      "parentUuid": "9f9526e1_6c6be859",
+      "range": {
+        "startLine": 36,
+        "startChar": 13,
+        "endLine": 36,
+        "endChar": 47
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0f0ee934_d7018ebc",
         "filename": "docs/gerrit.rst",
         "patchSetId": 18
@@ -174,6 +342,30 @@
       "writtenOn": "2017-11-09T23:02:17Z",
       "side": 1,
       "message": "This should be \u0027Authenticated HTTP Clone\u0027",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d867e458_ef732441",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Agree",
+      "parentUuid": "0f0ee934_d7018ebc",
       "range": {
         "startLine": 38,
         "startChar": 0,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "9202c754_5c7fdfc9",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Agree...corrected it",
+      "parentUuid": "7e3fe8c0_cf0c5320",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 9
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6e991086_7acf7e7e",
         "filename": "docs/gerrit.rst",
         "patchSetId": 18
@@ -220,6 +436,30 @@
       "writtenOn": "2017-11-09T23:02:17Z",
       "side": 1,
       "message": "private",
+      "range": {
+        "startLine": 64,
+        "startChar": 38,
+        "endLine": 64,
+        "endChar": 45
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11ea78ca_d39b0bce",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "oops",
+      "parentUuid": "6e991086_7acf7e7e",
       "range": {
         "startLine": 64,
         "startChar": 38,
@@ -255,6 +495,30 @@
     },
     {
       "key": {
+        "uuid": "92c0713d_853439c4",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "oops... good catches",
+      "parentUuid": "210a95cc_36a27b8b",
+      "range": {
+        "startLine": 68,
+        "startChar": 7,
+        "endLine": 68,
+        "endChar": 10
+      },
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0e4c3f56_0d78ac60",
         "filename": "docs/gerrit.rst",
         "patchSetId": 18
@@ -266,6 +530,24 @@
       "writtenOn": "2017-11-09T23:02:17Z",
       "side": 1,
       "message": "There should be an extra section here that explains the git commit-hook and how it is set/configured for Authenticated HTTP and SSH clones.",
+      "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59711385_0d205e31",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-11-10T07:13:19Z",
+      "side": 1,
+      "message": "Agree, added this section and moved the \"Since we are constantly...\" paragraph with the SSH clone section..",
+      "parentUuid": "0e4c3f56_0d78ac60",
       "revId": "65cc23485823c84c4862485e96ed05a96bb56668",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
