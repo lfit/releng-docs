@@ -80,6 +80,24 @@
       "revId": "a15cc47228a2860686f9813757245619d5315292",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2bb3820b_71376986",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-10T19:01:20Z",
+      "side": 1,
+      "message": "Now that we\u0027ve got working Jenkins commenting again, yes the plan is to move all the projects forward when we can. We found out about the change when FD.io updated to 2.14 and the HTTP password option just disappeared on the people that had it setup. I had to go documentation spelunking to find out what happened.\n\nIt\u0027s still possible for us to do a non-identity password (current style for \u003c 2.14) but I think it\u0027s more intuitive for people to actually use their password.",
+      "parentUuid": "24aec3e0_fd12bfcd",
+      "revId": "a15cc47228a2860686f9813757245619d5315292",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
