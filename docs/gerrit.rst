@@ -13,7 +13,7 @@ occur around the code commits.
 
 .. note::
 
-   Here's more information on `Gerrit <https://code.google.com/p/gerrit/>`_
+   Here is more information on `Gerrit <https://code.google.com/p/gerrit/>`_
 
 How to clone code
 =================
@@ -35,7 +35,8 @@ In such case, use HTTPS.
 .. note::
 
    For more information on how to generate the public/private key pair see
-   `Generating SSH keys for your system`_ and `Registering your SSH key with Gerrit`_
+   `Generating SSH keys for your system`_ and
+   `Registering your SSH key with Gerrit`_
 
 .. note::
 
@@ -48,9 +49,9 @@ For example:
 
    git clone ssh://jwagantall@gerrit.onap.org:29418/aaf/inno
 
-Since we are constantly working on uploading new code into the repositories, it's
-recommended to use SSH clones since the remotes for pushing code get configured
-appropriately.
+Since we are constantly working on uploading new code into the
+repositories, we recommend to use SSH clones since the remotes for
+pushing code get configured appropriately.
 
 Anonymous HTTP Clone
 --------------------
@@ -78,7 +79,7 @@ under HTTP Password->Generate Password.
 
 .. note::
 
-   For Gerrit < 2.14 the HTTP password is not the same as the LFID password.
+   For Gerrit < 2.14 the HTTP password is not the same as the Linux Foundation ID password.
 
 .. note::
 
@@ -130,7 +131,7 @@ fails.
 
 .. note::
 
-    Here's more information on `SSH keys for Ubuntu
+    Here is more information on `SSH keys for Ubuntu
     <https://help.ubuntu.com/community/SSH/OpenSSH/Keys>`_
     and more on `generating SSH keys
     <https://help.github.com/articles/generating-ssh-keys/>`_
@@ -198,3 +199,71 @@ SSHD port::
     $ ssh -p 29418 <sshusername>@gerrit.<project>.org
     Enter passphrase for key '/home/cisco/.ssh/id_rsa':
     ****    Welcome to Gerrit Code Review    ****
+
+
+Submitting over HTTPS
+=====================
+
+While we recommend you submit patchsets over SSH some users may need to
+submit patchsets over HTTPS due to corporate network policies such as
+the blocking of high range ports or outgoing SSH.
+
+To submit code to Gerrit over HTTPS follow these steps.
+
+Configure your Machine
+----------------------
+
+#. Generate a HTTPS password
+
+   .. note::
+
+      Perform this step on Gerrit versions <=2.13. In Gerrit 2.14 and newer
+      you will need to instead use your Linux Foundation ID password.
+
+   Navigate to `<https://gerrit.linuxfoundation.org/infra/#/settings/http-password>`_
+   and click **Generate Password**. Write this to the file **.netrc** in your
+   home directory excluding the angle brackets::
+
+     machine gerrit.linuxfoundation.org user <username> password <http-password>
+
+#. Clone the repository over HTTPS using your Linux Foundation ID
+
+   .. code-block:: shell
+
+      git clone https://bramwelt@gerrit.linuxfoundation.org/infra/releng/docs
+
+Configure the Repository
+------------------------
+
+Because ``git review`` attempts to use SSH by default, you need
+configure the git-review scheme and port through git-config in the
+repository.
+
+.. note::
+
+   When git-review uses HTTPS the project needs to include the full
+   Gerrit path context, ex: ``infra/releng/docs``.
+   The Gerrit path context on the Linux Foundation Gerrit server is
+   ``infra/``, while others may use ``gerrit/`` or ``r/``.
+
+.. code-block:: shell
+
+    cd docs/
+    git config gitreview.scheme https
+    git config gitreview.port 443
+    git config gitreview.project infra/releng/docs
+
+Verify the configuration by running the following command::
+
+    git review -s
+
+If successful the command will not print anything to the console,
+otherwise `git review` will still requests your Gerrit username.
+You can check the configuration enabled verbose output with::
+
+    git review -v -s
+
+If the configuration is correct you will be able to submit your patch
+with::
+
+    git review
