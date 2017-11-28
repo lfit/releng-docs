@@ -198,3 +198,74 @@ SSHD port::
     $ ssh -p 29418 <sshusername>@gerrit.<project>.org
     Enter passphrase for key '/home/cisco/.ssh/id_rsa':
     ****    Welcome to Gerrit Code Review    ****
+
+
+Submitting over HTTPS
+=====================
+
+Though submitting over SSH to Gerrit is always preferred it may
+occasionally be required to submit patchsets over HTTPS. This need may
+arise for a couple of reasons, for example some organization don't allow
+external SSH access, or block high range ports.
+
+Here's how you submit code over HTTPS to a Gerrit server. You will need
+to have cURL installed.
+
+Configure your Machine
+----------------------
+
+First retrieve your HTTPs password from the Gerrit server at:
+
+``https://gerrit.linuxfoundation.org/gerrit/#/settings/http-password``
+
+And click **Generate Password**. Write this to the file **.netrc** in your
+home directory like so::
+
+  machine gerrit.linuxfoundation.org user bramwelt password <http-password-no-angle-brackets>
+
+Then clone the repo you intend to contribute to:
+
+.. code-block:: shell
+
+   git clone https://bramwelt@gerrit.linuxfoundation.org/infra/releng/docs && \
+   (cd docs && curl -kLo `git rev-parse --git-dir`/hooks/commit-msg \
+     https://bramwelt@gerrit.linuxfoundation.org/infra/tools/hooks/commit-msg; \
+     chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
+
+Configure your Repository
+-------------------------
+
+Change directory to that repo, and set gitreview scheme and port in
+git-config, as 'git-review' attempts to use SSH by default.
+
+.. note:: 
+
+     When using SSH, the base name of the project ``releng/docs`` can
+     be used without issue, but when using HTTPS the project needs
+     to include the full Gerrit path context. For the Linux
+     Foundaiton Gerrit server this is ``infra/``, others may use
+     ``gerrit/``.
+
+.. code-block:: shell
+
+    cd docs/
+    git config gitreview.scheme https
+    git config gitreview.port 443
+    git config gitreview.project infra/releng/docs
+
+Verify everything is configured correctly by running the following
+command::
+
+    git review -s
+
+This should exit with return code 0 and nothing printed if things are
+good. If your Gerrit username is requested, something is not properly
+configured. You can check what settings the values have by enabled
+verbose output with::
+
+    git review -v -s
+
+If everything is configure correctly and working as intended, you can
+start working on your patch and submit it once ready with::
+
+    git review -s
