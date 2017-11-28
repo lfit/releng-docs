@@ -1,0 +1,205 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8c65ba0_b20d146b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "Not all of our projects are in the .org namespace, instead this should be \u003cproject-domain\u003e",
+      "range": {
+        "startLine": 29,
+        "startChar": 43,
+        "endLine": 29,
+        "endChar": 61
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfce9e2a_66701012",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "Delete this.",
+      "range": {
+        "startLine": 85,
+        "startChar": 64,
+        "endLine": 85,
+        "endChar": 68
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "54950433_cbd845c4",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "\u003cproject-domain\u003e",
+      "range": {
+        "startLine": 98,
+        "startChar": 23,
+        "endLine": 98,
+        "endChar": 36
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9bc3dced_ba8c129d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "\u003cproject-domain\u003e",
+      "range": {
+        "startLine": 111,
+        "startChar": 33,
+        "endLine": 111,
+        "endChar": 41
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98783466_c16b58c7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "Don\u0027t use project specific examples, select an example that uses global-jjb job templates instead.",
+      "range": {
+        "startLine": 150,
+        "startChar": 45,
+        "endLine": 150,
+        "endChar": 67
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01e9545b_51beb838",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "Don\u0027t use project specific examples, select an example that uses global-jjb job templates instead.",
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b9a76614_c1dfc4dd",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "While this is technically correct, I would suggest using \u0027target\u0027 as the example directory since we have target as an excluded location in our base .gitignore file for ci-management repos",
+      "range": {
+        "startLine": 163,
+        "startChar": 59,
+        "endLine": 163,
+        "endChar": 74
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f69f305d_5a2ed2a9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "Don\u0027t use project specific examples, select an example that uses global-jjb job templates instead.",
+      "range": {
+        "startLine": 181,
+        "startChar": 47,
+        "endLine": 181,
+        "endChar": 69
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78648c84_bf061e3a",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-11-28T14:23:38Z",
+      "side": 1,
+      "message": "Don\u0027t use project specific examples, select an example that uses global-jjb job templates instead.",
+      "range": {
+        "startLine": 195,
+        "startChar": 47,
+        "endLine": 195,
+        "endChar": 69
+      },
+      "revId": "2e36b3cbb4a6031180a67c54fd20e46c2eb4990a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
