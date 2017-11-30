@@ -1,0 +1,1060 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "036b6ca3_2cc89c42",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox\n\nRefer to Jenkins Sandbox once here and then for the rest of the document simply refer to it as The Sandbox.",
+      "range": {
+        "startLine": 10,
+        "startChar": 12,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9199d71c_5a00d3d6",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 12,
+        "startChar": 22,
+        "endLine": 12,
+        "endChar": 29
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e4765d6_c2452086",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 14,
+        "startChar": 44,
+        "endLine": 14,
+        "endChar": 59
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7af9fc02_1ca75dcd",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "OpenStack",
+      "range": {
+        "startLine": 21,
+        "startChar": 21,
+        "endLine": 21,
+        "endChar": 30
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ed19148_498f8418",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "The Sandbox",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "92d1a3ca_71498ce2",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 29,
+        "startChar": 14,
+        "endLine": 29,
+        "endChar": 29
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "abf423b2_a37fbea7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 31,
+        "startChar": 18,
+        "endLine": 31,
+        "endChar": 25
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e1c4ef2_e9f5046f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "This is documentation for downstream projects to consume so we should provide details on how to create an LF Helpdesk ticket for the respective projects.\n\nWe should add a todo...\n\n .. todo:: Link to Opening Helpdesk ticket docs\n\nFor when we have written docs related to helpdesk ticket opening.",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7af4d31_74aa41cf",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "The LF helpdesk team is responsible for adding users to the appropriate group...",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 35
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a08bf57_7f5d0a06",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "access",
+      "range": {
+        "startLine": 37,
+        "startChar": 29,
+        "endLine": 37,
+        "endChar": 34
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "49d5e643_be518752",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 48,
+        "startChar": 47,
+        "endLine": 48,
+        "endChar": 54
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d939aa0_ee7aabee",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 50,
+        "startChar": 60,
+        "endLine": 50,
+        "endChar": 67
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "792c8f5b_2ad641e2",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "from a Gerrit",
+      "range": {
+        "startLine": 50,
+        "startChar": 36,
+        "endLine": 50,
+        "endChar": 39
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d7365250_3b42e3b1",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Using Gerrit comment",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 20
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bbf84ef5_62169cf3",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "install",
+      "range": {
+        "startLine": 56,
+        "startChar": 70,
+        "endLine": 56,
+        "endChar": 76
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58907233_bb4e5276",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "This is the recommended way to push jobs to the Sandbox system and does not require installation of Jenkins Job Builder locally.\n\nTo do so, ...",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1cacff25_53a80af7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 59,
+        "startChar": 31,
+        "endLine": 59,
+        "endChar": 37
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ccf4ca6d_25e5b47c",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 65,
+        "startChar": 86,
+        "endLine": 65,
+        "endChar": 92
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e9b6bfc0_48020176",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 66,
+        "startChar": 24,
+        "endLine": 66,
+        "endChar": 31
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5ead605_322bced3",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "We should add a `.. note::` to let them know that asterisks work here and but highly recommend against using it and that they should always push the most specific job definition they can as to not push every job to the Sandbox.",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba67d64d_fcbc0829",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Using JJB CLI",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 21
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "13f56729_afa74109",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 77,
+        "startChar": 28,
+        "endLine": 77,
+        "endChar": 34
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "200eb915_4b3b8e57",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "configure the following.",
+      "range": {
+        "startLine": 77,
+        "startChar": 42,
+        "endLine": 77,
+        "endChar": 73
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "902c235e_3db1b019",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Let\u0027s remove this section entirely since we can provide the full example content in the next step.",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 37
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8092456d_0c4ada15",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Create a jenkins.ini with the following contents modifying the relevant data...",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cbea455a_2be0f6ff",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Change this to.\n\n Example::\n\n    \u003cjenkins.ini contents\u003e",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f076f8b4_f5f9cd95",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 102,
+        "startChar": 13,
+        "endLine": 102,
+        "endChar": 28
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d1fa4c1b_78fafbc7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "virtualenv jjb\n\nWe should tell users to use virtualenv wrapper instead which is better for managing virtualenvs.",
+      "range": {
+        "startLine": 127,
+        "startChar": 14,
+        "endLine": 127,
+        "endChar": 26
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "309b7fb3_ab85c194",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 135,
+        "startChar": 39,
+        "endLine": 135,
+        "endChar": 46
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0175b1a3_aee39b30",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "the Sandbox",
+      "range": {
+        "startLine": 139,
+        "startChar": 60,
+        "endLine": 139,
+        "endChar": 67
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ab48cb88_845a980e",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "It is best practice in documentation to not using things like you\u0027d, they\u0027ve, you\u0027ll, etc... and to spell it fully out. This keeps the language clear especially for non-native speakers who might know fully understand these short forms.\n\nSomething like \"If the job you would like ...\"",
+      "range": {
+        "startLine": 152,
+        "startChar": 11,
+        "endLine": 152,
+        "endChar": 16
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "af57ed7a_623b8fcd",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Push\n\nI know jenkins-jobs calls it update but a user reading this doc would be looking for Push as the language for the action they actually want to perform.",
+      "range": {
+        "startLine": 167,
+        "startChar": 5,
+        "endLine": 167,
+        "endChar": 11
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e02b933_e842dae2",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Best to avoid using these short forms like you\u0027ve, you\u0027d, they\u0027ll, etc... in documentation to keep language clear. Spell it out.\n\n Ensure you have configured your....",
+      "range": {
+        "startLine": 169,
+        "startChar": 7,
+        "endLine": 169,
+        "endChar": 13
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58b09c1e_fca55c7d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "I know the jenkins-jobs command calls it update but we should call it push which is the language someone who wants to push the job to the sandbox would be more familiar with.",
+      "range": {
+        "startLine": 171,
+        "startChar": 21,
+        "endLine": 171,
+        "endChar": 27
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0a6ffed1_25615a6f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 171,
+        "startChar": 43,
+        "endLine": 171,
+        "endChar": 58
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "72d83871_7dcfbb7f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "the Sandbox",
+      "range": {
+        "startLine": 185,
+        "startChar": 51,
+        "endLine": 185,
+        "endChar": 58
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c796f1e4_cd1fbfcb",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "the Sandbox.",
+      "range": {
+        "startLine": 197,
+        "startChar": 51,
+        "endLine": 197,
+        "endChar": 66
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80171330_e23e4cfd",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 201,
+        "startChar": 7,
+        "endLine": 201,
+        "endChar": 22
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "74341b73_1a4b6b04",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "This is useful in the case where you might want to test quick tweaks to a job before modifying the YAML.",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "893b5bb5_efec3af2",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "If we make \"To Test a Job\" a proper sub-section of Pushing jobs we can link to it via Sphinx references. Makes it more user-friendly if they can click to go back to where we were referring to.",
+      "range": {
+        "startLine": 205,
+        "startChar": 64,
+        "endLine": 205,
+        "endChar": 77
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c430d758_320a9432",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 206,
+        "startChar": 73,
+        "endLine": 206,
+        "endChar": 79
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad52fdc0_64bbc1b7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Same here make it a subsection so that we can reference it providing a valid link.",
+      "range": {
+        "startLine": 206,
+        "startChar": 4,
+        "endLine": 206,
+        "endChar": 20
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5646847_206448de",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 210,
+        "startChar": 23,
+        "endLine": 210,
+        "endChar": 30
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "06c21eac_b73a43a9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sandbox",
+      "range": {
+        "startLine": 211,
+        "startChar": 66,
+        "endLine": 211,
+        "endChar": 73
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "381ddcb6_65b82478",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "I think this section should not be nested inside of the important note?",
+      "range": {
+        "startLine": 216,
+        "startChar": 11,
+        "endLine": 220,
+        "endChar": 60
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c7239123_e47f773c",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "the Sandbox WebUI",
+      "range": {
+        "startLine": 226,
+        "startChar": 9,
+        "endLine": 226,
+        "endChar": 30
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5badbf98_e754717c",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "Sphinx supports a concept of an ordered list. Let\u0027s take advantage of that formatting.\n\n 1. Login to the Sandbox WebUI\n 2. Click on the job you want to trigger\n 3. Click \"Build with parameters\"\n 4. Click Build\n 5. Verify the Build Executor status bar to check on progress.",
+      "range": {
+        "startLine": 228,
+        "startChar": 0,
+        "endLine": 231,
+        "endChar": 66
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "53672518_6ee56a30",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-11-30T01:57:33Z",
+      "side": 1,
+      "message": "You can click on the build number to view the job details and console output.",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
