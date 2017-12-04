@@ -13,6 +13,7 @@ Guides:
    :maxdepth: 2
 
    best-practices
+   gpg-sign
    gerrit
 
 .. TODO Gerrit (RELENG-509)
