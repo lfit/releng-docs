@@ -53,7 +53,7 @@ recommended to use SSH clones since the remotes for pushing code get configured
 appropriately.
 
 Anonymous HTTP Clone
-----------------
+--------------------
 
 Recommended if the intention is to view code and not make any contributions:
 For example:
@@ -63,7 +63,7 @@ For example:
    git clone https://gerrit.linuxfoundation.org/releng/docs
 
 Authenticated HTTP Clone
-----------
+------------------------
 
 This works everywhere, even behind a proxy or a firewall.
 For example:
