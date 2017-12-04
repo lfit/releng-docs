@@ -1,4 +1,4 @@
-.. _lfreleng-docs-gerrit:
+.. _lfreleng-docs-gpg:
 
 ############
 Gerrit Guide
