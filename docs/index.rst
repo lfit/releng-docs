@@ -14,6 +14,7 @@ Guides:
 
    best-practices
    gerrit
+   gpg
    jenkins
    project-documentation
 
