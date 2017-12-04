@@ -49,7 +49,6 @@ your own and your reviewers' time effectively.
 .. noqa
 https://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html
 
-
 Coala (Generic Linting)
 =======================
 
