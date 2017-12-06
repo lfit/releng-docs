@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e2f159f_034ac586",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 8,
+        "startChar": 43,
+        "endLine": 8,
+        "endChar": 46
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eee54ae2_31060d96",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "an",
+      "range": {
+        "startLine": 36,
+        "startChar": 38,
+        "endLine": 36,
+        "endChar": 39
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa0e5502_2d8adbc2",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "It\u0027s",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 6
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4764de87_5335b261",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "Do we need to get into depth on which one to choose over the other? maybe a recommendation and benefits?",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 44
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a81d6e78_ac1061c3",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "It\u0027s",
+      "range": {
+        "startLine": 84,
+        "startChar": 20,
+        "endLine": 84,
+        "endChar": 23
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f1555273_98299168",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "your",
+      "range": {
+        "startLine": 124,
+        "startChar": 13,
+        "endLine": 124,
+        "endChar": 16
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "266368fa_3d543771",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "set up",
+      "range": {
+        "startLine": 130,
+        "startChar": 7,
+        "endLine": 130,
+        "endChar": 15
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9deb9cd4_3056022b",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "suggest",
+      "range": {
+        "startLine": 250,
+        "startChar": 50,
+        "endLine": 250,
+        "endChar": 58
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ecd4df6_b26b5f7d",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-06T23:00:52Z",
+      "side": 1,
+      "message": "next to the user\u0027s",
+      "range": {
+        "startLine": 250,
+        "startChar": 17,
+        "endLine": 250,
+        "endChar": 27
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
