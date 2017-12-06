@@ -1,0 +1,186 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "08d589e5_5a48a0ea",
+        "filename": "docs/_static/pinentry-Linux.png",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "Please use all lower case in filenames as mixing cases causes issues in case insensitive file systems.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c73ae798_8e954b2d",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "This is too long a name for a book title. We should probably simply call this the \"GPG Guide\".",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d57bc45_29d26a01",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "This needs to be indented by 3 if you want to it be part of list item 1. This comment applies to all list item entries below as well.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80083f11_d9da7354",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "Lower case please.",
+      "range": {
+        "startLine": 182,
+        "startChar": 32,
+        "endLine": 182,
+        "endChar": 37
+      },
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a3ca274_488be0e8",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "This needs to be indented 2 more spaces to be part of list item b, or unintended 1 more space to be part of list item 1.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c30b5f1_7643fc1f",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "Need to check if this note is part of list item 1 or list item b.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e9e9b2b2_22e2a302",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "This statement is only true if you\u0027re using a password protected ssh key or http password.\n\nIt is untrue if you\u0027re using an non-password protected ssh key.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5dc903ae_e0551819",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "Please leave opinions statements like \"annoyingly\" out of documentation.\n\nMore precisely Gerrit does not recognize the addition of a GPG signature as changing source files so if you try to push a patch that does not change any code / commit message then Gerrit will reject the updated patch. A workaround is to modify the commit message in some way.",
+      "range": {
+        "startLine": 212,
+        "startChar": 16,
+        "endLine": 217,
+        "endChar": 17
+      },
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce41ef79_a44e3c07",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "This needs to be indented by 3 to be part of list item 2.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0fa3125a_7a6f0d39",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-06T14:30:30Z",
+      "side": 1,
+      "message": "Would be good to show an example output. Also not that it\u0027s only green if you have a colour enabled console. This is not guaranteed to be true.",
+      "revId": "40cd3055fdd26ced0446dfaa4d25945ad312160f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
