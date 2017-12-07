@@ -336,6 +336,24 @@
     },
     {
       "key": {
+        "uuid": "1007afc9_b96216cb",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e1c4ef2_e9f5046f",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b7af4d31_74aa41cf",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -858,6 +876,24 @@
     },
     {
       "key": {
+        "uuid": "5380251b_a6515017",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5ead605_322bced3",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba67d64d_fcbc0829",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1098,6 +1134,24 @@
     },
     {
       "key": {
+        "uuid": "1c6fdef7_c2603826",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cbea455a_2be0f6ff",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f076f8b4_f5f9cd95",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1156,6 +1210,30 @@
       "writtenOn": "2017-11-30T01:57:33Z",
       "side": 1,
       "message": "virtualenv jjb\n\nWe should tell users to use virtualenv wrapper instead which is better for managing virtualenvs.",
+      "range": {
+        "startLine": 127,
+        "startChar": 14,
+        "endLine": 127,
+        "endChar": 26
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "65bf645c_d1e3787a",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d1fa4c1b_78fafbc7",
       "range": {
         "startLine": 127,
         "startChar": 14,
@@ -1332,6 +1410,30 @@
     },
     {
       "key": {
+        "uuid": "e973f57a_d863c545",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af57ed7a_623b8fcd",
+      "range": {
+        "startLine": 167,
+        "startChar": 5,
+        "endLine": 167,
+        "endChar": 11
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0e02b933_e842dae2",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1418,6 +1520,54 @@
         "startChar": 43,
         "endLine": 171,
         "endChar": 58
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "88e1f520_21b010ba",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a6ffed1_25615a6f",
+      "range": {
+        "startLine": 171,
+        "startChar": 43,
+        "endLine": 171,
+        "endChar": 58
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a05a0f8c_a75af423",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58b09c1e_fca55c7d",
+      "range": {
+        "startLine": 171,
+        "startChar": 21,
+        "endLine": 171,
+        "endChar": 27
       },
       "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
@@ -1583,6 +1733,24 @@
     },
     {
       "key": {
+        "uuid": "2780c074_652dca9d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "74341b73_1a4b6b04",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "893b5bb5_efec3af2",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1594,6 +1762,30 @@
       "writtenOn": "2017-11-30T01:57:33Z",
       "side": 1,
       "message": "If we make \"To Test a Job\" a proper sub-section of Pushing jobs we can link to it via Sphinx references. Makes it more user-friendly if they can click to go back to where we were referring to.",
+      "range": {
+        "startLine": 205,
+        "startChar": 64,
+        "endLine": 205,
+        "endChar": 77
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "69474330_aa20468f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "893b5bb5_efec3af2",
       "range": {
         "startLine": 205,
         "startChar": 64,
@@ -1669,6 +1861,30 @@
         "startChar": 73,
         "endLine": 206,
         "endChar": 79
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3b25a226_c773b064",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T23:32:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad52fdc0_64bbc1b7",
+      "range": {
+        "startLine": 206,
+        "startChar": 4,
+        "endLine": 206,
+        "endChar": 20
       },
       "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
