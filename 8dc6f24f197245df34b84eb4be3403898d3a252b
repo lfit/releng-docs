@@ -1022,6 +1022,30 @@
     },
     {
       "key": {
+        "uuid": "e5ccb0bc_eac44e44",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "902c235e_3db1b019",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 37
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8092456d_0c4ada15",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1214,6 +1238,30 @@
     },
     {
       "key": {
+        "uuid": "b4de7833_d40b3abb",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0175b1a3_aee39b30",
+      "range": {
+        "startLine": 139,
+        "startChar": 60,
+        "endLine": 139,
+        "endChar": 67
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ab48cb88_845a980e",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1225,6 +1273,30 @@
       "writtenOn": "2017-11-30T01:57:33Z",
       "side": 1,
       "message": "It is best practice in documentation to not using things like you\u0027d, they\u0027ve, you\u0027ll, etc... and to spell it fully out. This keeps the language clear especially for non-native speakers who might know fully understand these short forms.\n\nSomething like \"If the job you would like ...\"",
+      "range": {
+        "startLine": 152,
+        "startChar": 11,
+        "endLine": 152,
+        "endChar": 16
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d6529c14_5929a6d6",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab48cb88_845a980e",
       "range": {
         "startLine": 152,
         "startChar": 11,
@@ -1271,6 +1343,30 @@
       "writtenOn": "2017-11-30T01:57:33Z",
       "side": 1,
       "message": "Best to avoid using these short forms like you\u0027ve, you\u0027d, they\u0027ll, etc... in documentation to keep language clear. Spell it out.\n\n Ensure you have configured your....",
+      "range": {
+        "startLine": 169,
+        "startChar": 7,
+        "endLine": 169,
+        "endChar": 13
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eacb6481_de0b0fa7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e02b933_e842dae2",
       "range": {
         "startLine": 169,
         "startChar": 7,
@@ -1352,6 +1448,30 @@
     },
     {
       "key": {
+        "uuid": "f2cc092e_d5af2896",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "72d83871_7dcfbb7f",
+      "range": {
+        "startLine": 185,
+        "startChar": 51,
+        "endLine": 185,
+        "endChar": 58
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c796f1e4_cd1fbfcb",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1363,6 +1483,30 @@
       "writtenOn": "2017-11-30T01:57:33Z",
       "side": 1,
       "message": "the Sandbox.",
+      "range": {
+        "startLine": 197,
+        "startChar": 51,
+        "endLine": 197,
+        "endChar": 66
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6b5dfb0a_535b771d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c796f1e4_cd1fbfcb",
       "range": {
         "startLine": 197,
         "startChar": 51,
@@ -1649,6 +1793,30 @@
     },
     {
       "key": {
+        "uuid": "d5c17b78_9ed8d28b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "381ddcb6_65b82478",
+      "range": {
+        "startLine": 216,
+        "startChar": 11,
+        "endLine": 220,
+        "endChar": 60
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c7239123_e47f773c",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1719,6 +1887,30 @@
     },
     {
       "key": {
+        "uuid": "09568362_07cfa3ab",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5badbf98_e754717c",
+      "range": {
+        "startLine": 228,
+        "startChar": 0,
+        "endLine": 231,
+        "endChar": 66
+      },
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "53672518_6ee56a30",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -1730,6 +1922,24 @@
       "writtenOn": "2017-11-30T01:57:33Z",
       "side": 1,
       "message": "You can click on the build number to view the job details and console output.",
+      "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d834548d_e2ea71db",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-07T22:53:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53672518_6ee56a30",
       "revId": "8dc6f24f197245df34b84eb4be3403898d3a252b",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
