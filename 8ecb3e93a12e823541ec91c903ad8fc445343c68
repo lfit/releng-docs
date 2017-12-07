@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0642d858_3ca694bd",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "41ea7519_d7913372",
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "716b408c_e4f754c0",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 16
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "28439792_94e5c29c",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93aa804e_62a3736b",
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "80ba7a67_2b599ccb",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 16
@@ -64,6 +100,24 @@
       "writtenOn": "2017-12-07T03:09:38Z",
       "side": 1,
       "message": "Every line in this section appears to be a note and out of style with the rest of the list where it describes something and then provides a code example.\n\nTo keep style consistent we should do something like:\n\n c. Push patch to Gerrit\n \n    .. code-block:: bash\n \n       git review",
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f0ddcc8_0f848a05",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80ba7a67_2b599ccb",
       "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
@@ -87,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "2311ae91_f46116b9",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50ba033a_fbed2580",
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c5c57092_e973ee38",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 16
@@ -98,6 +170,30 @@
       "writtenOn": "2017-12-07T03:09:38Z",
       "side": 1,
       "message": "This block needs to be indented 1 more space to be part of the note. Syntax in Sphinx is that you need to start at the first letter of the above derivative so line up with the \"n\" in note.",
+      "range": {
+        "startLine": 217,
+        "startChar": 0,
+        "endLine": 220,
+        "endChar": 63
+      },
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff943061_f1fb038d",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c5c57092_e973ee38",
       "range": {
         "startLine": 217,
         "startChar": 0,
@@ -133,6 +229,30 @@
     },
     {
       "key": {
+        "uuid": "14c1d1ed_1a061860",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69a755fa_46a1dcd9",
+      "range": {
+        "startLine": 224,
+        "startChar": 0,
+        "endLine": 227,
+        "endChar": 57
+      },
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "131a8674_89819f51",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 16
@@ -144,6 +264,24 @@
       "writtenOn": "2017-12-07T03:09:38Z",
       "side": 1,
       "message": "Over-indented by 1. On the other hand I don\u0027t think this note is necessary. The \"gerrit\" alias is configured by `git review -s` so if we\u0027re recommending folks use git-review then they should always have this branch.",
+      "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7382bbfc_700a986c",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 16
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-07T10:13:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "131a8674_89819f51",
       "revId": "8ecb3e93a12e823541ec91c903ad8fc445343c68",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
