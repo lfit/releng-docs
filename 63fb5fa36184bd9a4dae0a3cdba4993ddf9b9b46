@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "d0e1106e_f184bb67",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-08T23:45:22Z",
+      "side": 1,
+      "message": "yes. Let me make it more explicit.",
+      "parentUuid": "6663910f_05d466f2",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 65
+      },
+      "revId": "63fb5fa36184bd9a4dae0a3cdba4993ddf9b9b46",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f45808eb_3248402e",
         "filename": "docs/jenkins.rst",
         "patchSetId": 10
@@ -59,6 +83,30 @@
       "writtenOn": "2017-12-08T19:01:24Z",
       "side": 1,
       "message": "this does not require the user to install",
+      "range": {
+        "startLine": 58,
+        "startChar": 37,
+        "endLine": 58,
+        "endChar": 41
+      },
+      "revId": "63fb5fa36184bd9a4dae0a3cdba4993ddf9b9b46",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "83dc79b8_31a7df5d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-08T23:45:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f45808eb_3248402e",
       "range": {
         "startLine": 58,
         "startChar": 37,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "f0909155_ba9c92e3",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-08T23:45:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a5bed3d_4d5e6a95",
+      "range": {
+        "startLine": 64,
+        "startChar": 3,
+        "endLine": 64,
+        "endChar": 8
+      },
+      "revId": "63fb5fa36184bd9a4dae0a3cdba4993ddf9b9b46",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b207e726_bbb819c0",
         "filename": "docs/jenkins.rst",
         "patchSetId": 10
@@ -105,6 +177,30 @@
       "writtenOn": "2017-12-08T19:01:24Z",
       "side": 1,
       "message": "; \u003cjenkins.ini contents\u003e",
+      "range": {
+        "startLine": 93,
+        "startChar": 3,
+        "endLine": 93,
+        "endChar": 4
+      },
+      "revId": "63fb5fa36184bd9a4dae0a3cdba4993ddf9b9b46",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "072209e2_11fec34b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-08T23:45:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b207e726_bbb819c0",
       "range": {
         "startLine": 93,
         "startChar": 3,
