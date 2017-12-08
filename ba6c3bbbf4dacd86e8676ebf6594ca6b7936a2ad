@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2825c718_a21be852",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e2f159f_034ac586",
+      "range": {
+        "startLine": 8,
+        "startChar": 43,
+        "endLine": 8,
+        "endChar": 46
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "eee54ae2_31060d96",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 13
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "a0e3c3bf_199c8f95",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa0e5502_2d8adbc2",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 6
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4764de87_5335b261",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 13
@@ -82,6 +130,30 @@
       "writtenOn": "2017-12-06T23:00:52Z",
       "side": 1,
       "message": "Do we need to get into depth on which one to choose over the other? maybe a recommendation and benefits?",
+      "range": {
+        "startLine": 37,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 44
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3af1ab60_ce37bd06",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "I actually linked this [1.] instead, since we should stay neutral and not advertise yubikey or another. Its upto the customer to research and decide.  \n\n[1.] https://github.com/mricon/itpol/blob/master/developer-security-hygiene.md",
+      "parentUuid": "4764de87_5335b261",
       "range": {
         "startLine": 37,
         "startChar": 3,
@@ -117,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "6aa03c4f_0f2f0f1a",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a81d6e78_ac1061c3",
+      "range": {
+        "startLine": 84,
+        "startChar": 20,
+        "endLine": 84,
+        "endChar": 23
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f1555273_98299168",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 13
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "f85c7211_f3154428",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1555273_98299168",
+      "range": {
+        "startLine": 124,
+        "startChar": 13,
+        "endLine": 124,
+        "endChar": 16
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "266368fa_3d543771",
         "filename": "docs/gpg-sign.rst",
         "patchSetId": 13
@@ -151,6 +271,30 @@
       "writtenOn": "2017-12-06T23:00:52Z",
       "side": 1,
       "message": "set up",
+      "range": {
+        "startLine": 130,
+        "startChar": 7,
+        "endLine": 130,
+        "endChar": 15
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "32209be0_d9e67fe0",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "266368fa_3d543771",
       "range": {
         "startLine": 130,
         "startChar": 7,
@@ -202,6 +346,54 @@
         "startChar": 17,
         "endLine": 250,
         "endChar": 27
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9320da4d_78ed5d05",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ecd4df6_b26b5f7d",
+      "range": {
+        "startLine": 250,
+        "startChar": 17,
+        "endLine": 250,
+        "endChar": 27
+      },
+      "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b474888b_48507c48",
+        "filename": "docs/gpg-sign.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2017-12-08T00:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9deb9cd4_3056022b",
+      "range": {
+        "startLine": 250,
+        "startChar": 50,
+        "endLine": 250,
+        "endChar": 58
       },
       "revId": "ba6c3bbbf4dacd86e8676ebf6594ca6b7936a2ad",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
