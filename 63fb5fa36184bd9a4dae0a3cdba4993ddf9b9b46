@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02f80f60_5e099778",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-12-08T18:46:27Z",
+      "side": 1,
+      "message": "When you make a bullet point list in your commit message you should actually make it a bullet point list\n\nSections include:\n* ...\n* ...\n* ...",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 30
+      },
+      "revId": "63fb5fa36184bd9a4dae0a3cdba4993ddf9b9b46",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
