@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9915920f_28c0520e",
+        "filename": "docs/git-review.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-12T19:26:39Z",
+      "side": 1,
+      "message": "In other documentation we have been using Gerrit instead of gerrit. Can we use \"Gerrit\" instead?",
+      "range": {
+        "startLine": 7,
+        "startChar": 16,
+        "endLine": 7,
+        "endChar": 22
+      },
+      "revId": "e426e28b4501933dcc823615f6c4368e3b19dd56",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6f969e41_f1db29cf",
+        "filename": "docs/git-review.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-12T19:26:39Z",
+      "side": 1,
+      "message": "Can we also add information on using the full push command?\n\nfor example: git push origin HEAD:refs/for/master",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 25
+      },
+      "revId": "e426e28b4501933dcc823615f6c4368e3b19dd56",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bec9cb7a_8e2113bf",
+        "filename": "docs/git-review.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2017-12-12T19:26:39Z",
+      "side": 1,
+      "message": "Can we post an example?",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 50
+      },
+      "revId": "e426e28b4501933dcc823615f6c4368e3b19dd56",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
