@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e1e4d9a_e73a1a6b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-12T22:15:27Z",
+      "side": 1,
+      "message": "It is",
+      "range": {
+        "startLine": 206,
+        "startChar": 0,
+        "endLine": 206,
+        "endChar": 4
+      },
+      "revId": "0f2a64ab3fa56a0da12be4fbb68c21fcd88487b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2c858ae_0ada783c",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-12T22:15:27Z",
+      "side": 1,
+      "message": "do not",
+      "range": {
+        "startLine": 208,
+        "startChar": 14,
+        "endLine": 208,
+        "endChar": 19
+      },
+      "revId": "0f2a64ab3fa56a0da12be4fbb68c21fcd88487b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b927cb64_ce074de0",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-12T22:15:27Z",
+      "side": 1,
+      "message": "To submit code over HTTPS you will need to have cURL installed.\n\nYou don\u0027t really need to have cURL installed it\u0027s just if you want to install the commit-msg hook.",
+      "revId": "0f2a64ab3fa56a0da12be4fbb68c21fcd88487b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eb781a0b_3a212e0b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-12T22:15:27Z",
+      "side": 1,
+      "message": "I think we don\u0027t need this section since we\u0027re recommending to use git-review anyway. The installation of the commit hook is taken care of by `git-review -s` command in which case they won\u0027t need to know about cURL.",
+      "revId": "0f2a64ab3fa56a0da12be4fbb68c21fcd88487b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3859e7ac_c86c369c",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2017-12-12T22:15:27Z",
+      "side": 1,
+      "message": "git-review",
+      "range": {
+        "startLine": 238,
+        "startChar": 39,
+        "endLine": 238,
+        "endChar": 48
+      },
+      "revId": "0f2a64ab3fa56a0da12be4fbb68c21fcd88487b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
