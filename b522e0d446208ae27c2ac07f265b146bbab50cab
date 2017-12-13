@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "28579c35_93ace7ee",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-12-13T00:27:16Z",
+      "side": 1,
+      "message": "Generating password is only needed in Gerrit \u003c\u003d2.13. Gerrit 2.14 by default uses the login password",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f46fb71_ac3474f1",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-12-13T00:27:16Z",
+      "side": 1,
+      "message": "``gerrit/`` or ``r/``",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
