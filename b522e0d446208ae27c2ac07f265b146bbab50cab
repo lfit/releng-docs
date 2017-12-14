@@ -73,6 +73,24 @@
     },
     {
       "key": {
+        "uuid": "71f73082_9d448aff",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-12-14T19:31:36Z",
+      "side": 1,
+      "message": "It has to be enabled first.",
+      "parentUuid": "7b2230ac_df9e7105",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f46fb71_ac3474f1",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
