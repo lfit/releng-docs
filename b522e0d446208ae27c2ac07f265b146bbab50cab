@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "60dee1d3_76e989fe",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2017-12-14T19:27:56Z",
+      "side": 1,
+      "message": "No... I\u0027m advocating that we use the correct tool here: https://git-scm.com/docs/git-credential-cache but in any case the documentation you have here is going to be obsolete when we\u0027ve got all Gerrit systems on 2.14+",
+      "parentUuid": "89db275d_f798d60e",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f46fb71_ac3474f1",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
