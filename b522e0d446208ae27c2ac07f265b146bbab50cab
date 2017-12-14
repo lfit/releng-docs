@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "89db275d_f798d60e",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-12-14T19:18:48Z",
+      "side": 1,
+      "message": "So you\u0027re advocating users write down their LFID password to a file in cleartext?",
+      "parentUuid": "28579c35_93ace7ee",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f46fb71_ac3474f1",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2017-12-13T00:27:16Z",
       "side": 1,
       "message": "``gerrit/`` or ``r/``",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5f8202b_18ef16e3",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-12-14T19:18:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f46fb71_ac3474f1",
       "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
