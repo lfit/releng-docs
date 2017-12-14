@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "7b2230ac_df9e7105",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2017-12-14T19:31:00Z",
+      "side": 1,
+      "message": "Oh, didn\u0027t realize git cached the credentials.",
+      "parentUuid": "60dee1d3_76e989fe",
+      "revId": "b522e0d446208ae27c2ac07f265b146bbab50cab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3f46fb71_ac3474f1",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
