@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "5f2c55ed_09d0de99",
+        "filename": "docs/git-review.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-01-04T01:21:03Z",
+      "side": 1,
+      "message": "Sure... Let me write this portion and will push it..",
+      "parentUuid": "f1828e26_f1566a8c",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 25
+      },
+      "revId": "e426e28b4501933dcc823615f6c4368e3b19dd56",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bec9cb7a_8e2113bf",
         "filename": "docs/git-review.rst",
         "patchSetId": 6
