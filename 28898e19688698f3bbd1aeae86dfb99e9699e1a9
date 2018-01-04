@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "63c93995_c43ffa08",
+        "filename": "docs/git-review.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-01-04T02:05:35Z",
+      "side": 1,
+      "message": "this portion has a Bear fail with duplicated \"remote\" error.\n\nHow can we bypass it?",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 66
+      },
+      "revId": "28898e19688698f3bbd1aeae86dfb99e9699e1a9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
