@@ -28,6 +28,13 @@ Tools:
 - :ref:`lftools <lfreleng-lftools>`
 - :ref:`global-jjb <lfreleng-global-jjb>`
 
+LF Internal:
+
+.. toctree::
+   :maxdepth: 2
+
+   project-bootstrap
+
 Indices and tables
 ==================
 
