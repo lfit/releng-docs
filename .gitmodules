@@ -1,4 +1,0 @@
-[submodule "docs-conf"]
-	path = docs-conf
-	url = ../docs-conf
-	branch = master
