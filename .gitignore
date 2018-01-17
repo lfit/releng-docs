@@ -3,5 +3,8 @@
 
 # Python
 .tox/
+__pycache__/
 docs/_build/
 MANIFEST
+*.pyc
+
