@@ -25,6 +25,7 @@ Guides:
 
 Tools:
 
+- :ref:`lfdocs-conf <lfdocs-conf>`
 - :ref:`lftools <lfreleng-lftools>`
 - :ref:`global-jjb <lfreleng-global-jjb>`
 
