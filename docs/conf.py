@@ -18,4 +18,4 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 
-from docs_conf import *
+from docs_conf.conf import *
