@@ -15,11 +15,10 @@ ignore_length_regex = Signed-off-by,
     https://
 
 [all.Documentation]
-bears = RSTCheckBear,WriteGoodLintBear
+bears = WriteGoodLintBear
 files = docs/**/*.rst
 
 [all.MarkDown]
 bears = MarkdownBear,SpaceConsistencyBear,WriteGoodLintBear
 files = **.md, **.markdown
 use_spaces = true
-
