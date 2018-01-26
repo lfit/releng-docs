@@ -19,3 +19,8 @@
 #
 
 from docs_conf.conf import *
+
+linkcheck_ignore = [
+    'http.*PROJECT_DOMAIN.*',
+    'https://gerrit.linuxfoundation.org/infra/releng/docs-conf',
+]
