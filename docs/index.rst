@@ -29,6 +29,13 @@ Tools:
 - :ref:`lftools <lfreleng-lftools>`
 - :ref:`global-jjb <lfreleng-global-jjb>`
 
+Help:
+
+.. toctree::
+   :maxdepth: 2
+
+   helpdesk
+
 Indices and tables
 ==================
 
