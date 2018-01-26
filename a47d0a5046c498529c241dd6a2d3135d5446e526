@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "501360ee_b3dbe9ea",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2018-01-26T19:54:06Z",
+      "side": 1,
+      "message": "helpdesk@hyperledger.org",
+      "range": {
+        "startLine": 13,
+        "startChar": 15,
+        "endLine": 13,
+        "endChar": 58
+      },
+      "revId": "a47d0a5046c498529c241dd6a2d3135d5446e526",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
