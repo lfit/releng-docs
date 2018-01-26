@@ -15,6 +15,7 @@ Guides:
    best-practices
    gerrit
    jenkins
+   project-documentation
 
 .. TODO Gerrit (RELENG-509)
 .. TODO Jenkins (RELENG-510)
