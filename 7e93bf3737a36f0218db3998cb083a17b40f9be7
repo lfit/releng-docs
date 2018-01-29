@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a864cb59_898fb0e7",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-01-29T20:23:48Z",
+      "side": 1,
+      "message": "No need for the Zephyr helpdesk. We don\u0027t actively support this project anymore.\n\nAdditionally, Acumos now has a project address (though they don\u0027t have a dedicated RT queue) of helpdesk@acumos.org",
+      "revId": "7e93bf3737a36f0218db3998cb083a17b40f9be7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b4123ba5_ea6497ac",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-01-29T20:23:48Z",
+      "side": 1,
+      "message": "When using this address the project that is having problems needs to be specified in the email.",
+      "revId": "7e93bf3737a36f0218db3998cb083a17b40f9be7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
