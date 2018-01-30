@@ -1,4 +1,4 @@
-.. _lfreleng-docs-helpdesk:
+.. _lfdocs-helpdesk:
 
 ###########
 LF Helpdesk

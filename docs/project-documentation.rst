@@ -48,7 +48,7 @@ Bootstrap your project with documentation by following these steps.
 #. Add project to ReadTheDocs following instructions
    :ref:`here <lfdocs-create-rtd>`
 
-   Open a :ref:`Helpdesk <lfreleng-docs-helpdesk>` ticket if you require
+   Open a :ref:`Helpdesk <lfdocs-helpdesk>` ticket if you require
    assistence here.
 
 #. Add the rtd jobs to your project
@@ -84,7 +84,7 @@ ReadTheDocs know where to pull your docs to build from.
    that LF staff can continue to manage this project even if the project owner
    stops working on the project. If you would like helpdesk to assist with
    creating the project for you then open a
-   :ref:`helpdesk ticket <lfreleng-docs-helpdesk>`.
+   :ref:`helpdesk ticket <lfdocs-helpdesk>`.
 
 #. Login to ReadTheDocs (LFIT can use the lf-rtd account)
 #. Click "Import a Project" on the `dashboard
