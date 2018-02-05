@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "52891e10_f92e6eba",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-02-05T19:24:55Z",
+      "side": 1,
+      "message": "This should be listed as deprecated.",
+      "revId": "61bce52405e8d0771d6a016c4e5fe84ae2e23e01",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
