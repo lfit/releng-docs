@@ -16,6 +16,24 @@
       "revId": "70d52b4fb55a7b6e3965e4606561b8f4ee66854b",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c8cbafd_0b673a10",
+        "filename": "docs/gpg.rst",
+        "patchSetId": 22
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-02-06T22:22:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "67b6004b_df298972",
+      "revId": "70d52b4fb55a7b6e3965e4606561b8f4ee66854b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
