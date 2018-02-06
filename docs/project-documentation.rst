@@ -118,10 +118,17 @@ ReadTheDocs know where to pull your docs to build from.
 #. Ensure lf-rtd is a maintainer of the project
 #. Setup sub-project
 
+   If this project is not the main documentation project then it needs to be
+   setup as a sub-project of the main documentation project. This will create a
+   subproject link for your project under
+   http://docs.PROJECT_DOMAIN/projects/YOUR_PROJECT
+
    .. note::
 
-      If this project is not the main documentation project then it needs to be
-      setup as a sub-project of the main documentation project.
+      Either the main documentation project's committers or LF Staff will
+      need to perform this step. If documentation project committers are not
+      available contact the :ref:`Helpdesk <lfdocs-helpdesk>` to have LF Staff
+      take care of the subproject configuration.
 
    a. Goto the main documentation project's ReadTheDocs admin page
    b. Click Sub-projects
