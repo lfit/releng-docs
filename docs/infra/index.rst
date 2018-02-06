@@ -11,6 +11,7 @@ Infrastructure provided to projects.
    :maxdepth: 2
 
    inventory
+   escalation
    bootstrap
    jenkins
    jira
