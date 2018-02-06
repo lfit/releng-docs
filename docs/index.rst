@@ -15,6 +15,7 @@ Guides:
    best-practices
    gerrit
    jenkins
+   infra/index
    project-documentation
 
 .. TODO Gerrit (RELENG-509)
