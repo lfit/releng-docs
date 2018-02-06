@@ -56,10 +56,16 @@ Bootstrap your project with documentation by following these steps.
    Open up your project.yaml in the ci-management repo and add this section::
 
      - project:
-         name: blah
+         name: PROJECT
          jobs:
            - '{project-name}-rtd-jobs'
-         rtd-project: project
+
+         project-pattern: PROJECT
+         rtd-project: RTD_PROJECT
+
+   :name: Project name in Gerrit converting forward slashes (/) to dashes (-).
+   :project-pattern: Project name as defined in Gerrit.
+   :rtd-project: Project name as defined in ReadTheDocs.
 
    More details on rtd job template configuration and parameters is available
    :ref:`here <lf-global-jjb-rtd-jobs>`.
