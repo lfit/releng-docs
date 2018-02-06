@@ -16,6 +16,24 @@
       "revId": "61bce52405e8d0771d6a016c4e5fe84ae2e23e01",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03a8647c_50a813bb",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-06T00:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "52891e10_f92e6eba",
+      "revId": "61bce52405e8d0771d6a016c4e5fe84ae2e23e01",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
