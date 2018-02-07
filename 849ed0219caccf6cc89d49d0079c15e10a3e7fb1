@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4635838b_69a060ca",
+        "filename": "docs/gpg.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-07T06:31:32Z",
+      "side": 1,
+      "message": "gerrit?",
+      "range": {
+        "startLine": 1,
+        "startChar": 18,
+        "endLine": 1,
+        "endChar": 24
+      },
+      "revId": "849ed0219caccf6cc89d49d0079c15e10a3e7fb1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
