@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "abff07ef_935ea799",
+        "filename": "docs/gpg.rst",
+        "patchSetId": 22
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-07T06:31:32Z",
+      "side": 1,
+      "message": "gerrit?",
+      "revId": "70d52b4fb55a7b6e3965e4606561b8f4ee66854b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "67b6004b_df298972",
         "filename": "docs/gpg.rst",
         "patchSetId": 22
