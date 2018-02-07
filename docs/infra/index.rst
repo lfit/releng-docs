@@ -11,3 +11,4 @@ Infrastructure provided to projects.
    :maxdepth: 2
 
    inventory
+   nexus
