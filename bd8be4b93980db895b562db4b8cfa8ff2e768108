@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "81aad534_3d6f23b6",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 24
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-07T13:38:15Z",
+      "side": 1,
+      "message": "Why was this modified?",
+      "revId": "bd8be4b93980db895b562db4b8cfa8ff2e768108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
