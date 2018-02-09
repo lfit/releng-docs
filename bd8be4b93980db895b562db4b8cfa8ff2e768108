@@ -16,6 +16,24 @@
       "revId": "bd8be4b93980db895b562db4b8cfa8ff2e768108",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4952f2c4_8459bd5c",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 24
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-02-09T06:51:11Z",
+      "side": 1,
+      "message": "sorry that was a typo in wrong file, while trying to submit a late night patch.",
+      "parentUuid": "81aad534_3d6f23b6",
+      "revId": "bd8be4b93980db895b562db4b8cfa8ff2e768108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
