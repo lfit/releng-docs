@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "750d70da_62e3bdd0",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-02-14T15:32:26Z",
+      "side": 1,
+      "message": "Per the Ansible Galaxy about page [0] (create share section) this is the correct way to init a new role:\n\nansible-galaxy init $ROLE --force\n\n[0] https://galaxy.ansible.com/intro",
+      "revId": "0c7004372deb19a28901cfc14758ced48aedd815",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "515092b0_1bb9189a",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-02-14T15:32:26Z",
+      "side": 1,
+      "message": "This is done in the step on line 35 if you use the recommended method of bootstrapping a role.",
+      "revId": "0c7004372deb19a28901cfc14758ced48aedd815",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
