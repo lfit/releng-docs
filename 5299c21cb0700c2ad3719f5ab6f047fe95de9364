@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0144523e_6bdbcbb5",
+        "filename": "docs/infra/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-02-16T21:58:43Z",
+      "side": 1,
+      "message": "To speed up the plugin update you can update the plugins before you do the system update or reboot. As long as Jenkins hasn\u0027t been restarted, the new plugins won\u0027t take effect. They\u0027ll finish the update on a Jenkins restart.",
+      "revId": "5299c21cb0700c2ad3719f5ab6f047fe95de9364",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
