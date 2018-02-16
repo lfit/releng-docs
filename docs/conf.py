@@ -24,4 +24,5 @@ linkcheck_ignore = [
     'http.*PROJECT_DOMAIN.*',
     'https://gerrit.linuxfoundation.org/infra/releng/docs-conf',
     'https://jenkins.acumos.org.*',
+    'https://jenkins.example.org.*',
 ]
