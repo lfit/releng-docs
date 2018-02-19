@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bd25dd7c_dbded2ea",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-19T13:57:34Z",
+      "side": 1,
+      "message": "Can be done in another patch but our docs style is to have \"#. Instruction\" style steps to mark actions a user has to perform. I think keeping a consistent style will make it easier for a reader to have consistent expectations on how to read the docs.",
+      "revId": "17a7175faf7593416e54fca1662e32987c5810e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6fbabf66_4e807274",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-19T13:57:34Z",
+      "side": 1,
+      "message": "Can be done in another patch but I think If we\u0027re gonna use linuxfoundation.org as our example server then we should have a note at the top of the file explaining such and that folks should adjust the hostname based on what project they are working on. Then making all of our examples use linuxfoundation.org.",
+      "range": {
+        "startLine": 218,
+        "startChar": 17,
+        "endLine": 218,
+        "endChar": 36
+      },
+      "revId": "17a7175faf7593416e54fca1662e32987c5810e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
