@@ -81,6 +81,24 @@
       "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fc2bf73c_fa6c32ed",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-02-21T20:28:34Z",
+      "side": 1,
+      "message": "Just thinking that it should be mentioned, especially since the previous step explicitly stated that it should be done outside the repo",
+      "parentUuid": "8ba31258_2699f325",
+      "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
