@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "2ae58225_790652cb",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-21T20:27:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e9029931_11284af5",
+      "range": {
+        "startLine": 20,
+        "startChar": 37,
+        "endLine": 20,
+        "endChar": 38
+      },
+      "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ff79ae9_6ea06a8a",
         "filename": "docs/ansible.rst",
         "patchSetId": 2
@@ -36,6 +60,24 @@
       "writtenOn": "2018-02-21T20:25:20Z",
       "side": 1,
       "message": "Does this happen inside the repo our above it like the previous step?",
+      "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ba31258_2699f325",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-21T20:27:01Z",
+      "side": 1,
+      "message": "Inside the repo.",
+      "parentUuid": "4ff79ae9_6ea06a8a",
       "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
