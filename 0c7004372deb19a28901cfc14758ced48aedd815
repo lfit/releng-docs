@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f48b431e_83d06974",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-21T20:26:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "750d70da_62e3bdd0",
+      "revId": "0c7004372deb19a28901cfc14758ced48aedd815",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "515092b0_1bb9189a",
         "filename": "docs/ansible.rst",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2018-02-14T15:32:26Z",
       "side": 1,
       "message": "This is done in the step on line 35 if you use the recommended method of bootstrapping a role.",
+      "revId": "0c7004372deb19a28901cfc14758ced48aedd815",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fbcf584_73b08491",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-21T20:26:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "515092b0_1bb9189a",
       "revId": "0c7004372deb19a28901cfc14758ced48aedd815",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
