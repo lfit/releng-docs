@@ -99,6 +99,24 @@
       "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4523cf2d_74e2cfd9",
+        "filename": "docs/ansible.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-21T20:29:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc2bf73c_fa6c32ed",
+      "revId": "adb32199b00f1b7aca525982ea287ce9046cd1af",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
