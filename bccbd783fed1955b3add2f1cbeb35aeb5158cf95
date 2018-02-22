@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be5bcfd9_ad181cc0",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Instead telling the user to copy something, tell them what they are doing. You can imply the command below already. So something like:\n\n #. Clone desired repo",
+      "range": {
+        "startLine": 52,
+        "startChar": 3,
+        "endLine": 52,
+        "endChar": 33
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3833e9e_d7c4edf4",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Indent by 3 spaces so it\u0027s part of the bullet item.",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 45
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8f01097d_212394a7",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Click ``General``",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 48
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f75bfe06_457be8d4",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Click ``anonymous http``",
+      "range": {
+        "startLine": 71,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 35
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "22ab578f_db072cd6",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Refer to above comment about instruction.",
+      "range": {
+        "startLine": 73,
+        "startChar": 3,
+        "endLine": 73,
+        "endChar": 33
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a136c9b4_0bfa76f5",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Instead of telling them all this information. Just give them the exact hook command.",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 24
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef164f56_f1f3f52f",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T21:22:10Z",
+      "side": 1,
+      "message": "Moot point if we do the above suggestion.",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 38
+      },
+      "revId": "bccbd783fed1955b3add2f1cbeb35aeb5158cf95",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
