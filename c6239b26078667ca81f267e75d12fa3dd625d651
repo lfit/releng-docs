@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc02ba71_91ff8c2c",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T19:21:21Z",
+      "side": 1,
+      "message": "Needs to be indented 3 spaces so that it appears as part of the list.",
+      "revId": "c6239b26078667ca81f267e75d12fa3dd625d651",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b62a1887_88ab21e2",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T19:21:21Z",
+      "side": 1,
+      "message": "Indent this whole thing by 3 spaces so that it\u0027s formated as part of the list item.",
+      "range": {
+        "startLine": 184,
+        "startChar": 0,
+        "endLine": 193,
+        "endChar": 11
+      },
+      "revId": "c6239b26078667ca81f267e75d12fa3dd625d651",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ebad6586_f8869ebb",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T19:21:21Z",
+      "side": 1,
+      "message": "Same here",
+      "range": {
+        "startLine": 197,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 18
+      },
+      "revId": "c6239b26078667ca81f267e75d12fa3dd625d651",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d3f5bf2_2bbd7d7a",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T19:21:21Z",
+      "side": 1,
+      "message": "Same here",
+      "range": {
+        "startLine": 203,
+        "startChar": 0,
+        "endLine": 205,
+        "endChar": 24
+      },
+      "revId": "c6239b26078667ca81f267e75d12fa3dd625d651",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e15537b8_bb2354fa",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T19:21:21Z",
+      "side": 1,
+      "message": "Same here.",
+      "range": {
+        "startLine": 209,
+        "startChar": 0,
+        "endLine": 212,
+        "endChar": 66
+      },
+      "revId": "c6239b26078667ca81f267e75d12fa3dd625d651",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef3ab0d7_6ae62c71",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-02-22T19:21:21Z",
+      "side": 1,
+      "message": "Same here.",
+      "range": {
+        "startLine": 215,
+        "startChar": 0,
+        "endLine": 222,
+        "endChar": 6
+      },
+      "revId": "c6239b26078667ca81f267e75d12fa3dd625d651",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
