@@ -13,6 +13,7 @@ Guides:
    :maxdepth: 2
 
    best-practices
+   ansible
    gerrit
    gpg
    jenkins
