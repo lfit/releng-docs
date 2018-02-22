@@ -210,6 +210,12 @@ the blocking of high range ports or outgoing SSH.
 
 To submit code to Gerrit over HTTPS follow these steps.
 
+.. note::
+
+   This guide uses the Linux Foundation Gerrit server and the
+   releng/docs project as an example. Differences may vary with other
+   Gerrit servers.
+
 Configure your Machine
 ----------------------
 
@@ -217,8 +223,8 @@ Configure your Machine
 
    .. note::
 
-      Perform this step on Gerrit versions <=2.13. In Gerrit 2.14 and newer
-      you will need to instead use your Linux Foundation ID password.
+      Required when uploading patches to Gerrit servers <= 2.13. In
+      Gerrit 2.14 and newer use your Linux Foundation ID password.
 
    Navigate to `<https://gerrit.linuxfoundation.org/infra/#/settings/http-password>`_
    and click **Generate Password**. Write this to the file **.netrc** in your
@@ -232,19 +238,28 @@ Configure your Machine
 
       git clone https://bramwelt@gerrit.linuxfoundation.org/infra/releng/docs
 
+#. Download the commit-msg git hook
+
+   .. code-block:: shell
+
+      curl -Lo .git/hooks/commit-msg \
+        https://gerrit.linuxfoundation.org/infra/tools/hooks/commit-msg && \
+        chmod +x .git/hooks/commit-msg
+
+   Due to a bug in git-review, you need to download the commit-msg hook
+   manually to the .git/hooks/ directory or ``git-review -s`` will fail.
+
 Configure the Repository
 ------------------------
 
-Because ``git review`` attempts to use SSH by default, you need
+Because ``git-review`` attempts to use SSH by default, you need
 configure the git-review scheme and port through git-config in the
 repository.
 
 .. note::
 
-   When git-review uses HTTPS the project needs to include the full
-   Gerrit path context, ex: ``infra/releng/docs``.
-   The Gerrit path context on the Linux Foundation Gerrit server is
-   ``infra/``, while others may use ``gerrit/`` or ``r/``.
+   The Gerrit context path on the Linux Foundation Gerrit server is
+   ``infra/``. Others Gerrit servers may use ``gerrit/`` or ``r/``.
 
 #. Perform the following commands
 
@@ -259,13 +274,14 @@ repository.
 
      git review -s
 
-   If successful, the command will not print anything to the console,
-   otherwise `git review` will still requests your Gerrit username.
-   You can check the configuration enabled verbose output with::
-
-     git review -v -s
-
-   If the configuration is correct you will be able to submit your patch
-   with::
+   If successful, the command will not print anything to the console, and
+   you will be able to submit code with::
 
      git review
+
+   Otherwise ``git-review`` will still request your Gerrit username,
+   indicating a configuration issue.
+
+   You can check the configuration using verbose output::
+
+     git review -v -s
