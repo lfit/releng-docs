@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "682e14c7_758cb83f",
+        "filename": "docs/_static/commit-hook.example",
+        "patchSetId": 20
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-02-22T23:41:25Z",
+      "side": 1,
+      "message": "It failed verification becuase \"-p -P\" takes it as repeated\n\ndocs/gerrit.rst\n| 121| ······git·clone·ssh://USERNAME@gerrit.linuxfoundation.org:29418/releng/docs·\u0026\u0026·scp·-p·-P·29418\n|    | [NORMAL] WriteGoodLintBear:\n|    | \"-P\" is repeated",
+      "range": {
+        "startLine": 1,
+        "startChar": 83,
+        "endLine": 1,
+        "endChar": 88
+      },
+      "revId": "7fed824a657e01c8dd9e3c7432f7cab456d7d16f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "de75f62a_333d1374",
         "filename": "docs/_static/commit-hook.example",
         "patchSetId": 20
