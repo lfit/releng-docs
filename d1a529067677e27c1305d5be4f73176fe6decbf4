@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae18c929_674e4477",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 10
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-02-22T18:19:03Z",
+      "side": 1,
+      "message": "Remove empty line #13\n\nIssue should be part of the footer",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 52
+      },
+      "revId": "d1a529067677e27c1305d5be4f73176fe6decbf4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
