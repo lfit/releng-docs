@@ -11,4 +11,5 @@ Infrastructure provided to projects.
    :maxdepth: 2
 
    inventory
+   jenkins
    nexus
