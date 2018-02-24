@@ -149,7 +149,9 @@ comprising their work on Gerrit servers using a client tool called
       pip install git-review
 
 #. Flatten all changes to a single git commit.  Once the change is ready
-   for review, commit it locally with the '-s' argument:
+   for review, commit it locally with the '-s' argument to sign the the
+   commit message with your name and email. This is to indicate that you
+   agree to the :ref:`dco`.
 
    .. code-block:: bash
 
@@ -421,3 +423,18 @@ repository.
    You can check the configuration using verbose output::
 
      git review -v -s
+
+Appendix
+========
+
+Developer's Certificate of Origin (DCO)
+---------------------------------------
+
+Code contributions to Linux Foundation projects must be have a sign-off by the
+author of the code which indicates that they have read and agree to the DCO.
+
+.. literalinclude:: _static/dco-1.1.txt
+   :caption: Developer's Certificate of Origin
+   :name: dco
+
+Refer to https://developercertificate.org/ for original text.
