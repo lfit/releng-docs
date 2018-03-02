@@ -433,6 +433,7 @@ Code contributions to Linux Foundation projects must be have a sign-off by the
 author of the code which indicates that they have read and agree to the DCO.
 
 .. literalinclude:: _static/dco-1.1.txt
+   :language: none
    :caption: Developer's Certificate of Origin
    :name: dco
 
