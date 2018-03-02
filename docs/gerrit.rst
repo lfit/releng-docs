@@ -248,6 +248,128 @@ You will receive 2 emails from Gerrit Code Review: the first indicating that a b
 to incorporate your changes has started; and the second indicating the creation of the
 build.
 
+Code Review
+===========
+
+All contributions to Git repositories use Gerrit for code review.
+
+The code review process provides constructive feedback about a proposed change.
+Committers and interested contributors will review the change, give their feedback,
+propose revisions and work with the change author through iterations of the patch until
+it’s ready for merging.
+
+Managing and proviging feedack for the change happens via Gerrit web UI.
+
+.. figure:: _static/gerrit-wide-view.png
+
+   Gerrit wide view.
+
+Pre-review
+----------
+
+Change authors will want to push changes to Gerrit before they are actually
+ready for review. This is an encoraged good practice. It has been the experience
+of Integration/* so far that pushing often tends to reduce the amount of work.
+
+.. note::
+
+    This is not required and in some projects, not encouraged, but the general idea
+    of making sure patches are ready for review when submitted is a good one.
+
+.. note::
+
+    While in draft state, Gerrit triggers, e.g., verify Jenkins jobs, won’t run by
+    default. You can trigger them despite it being a draft by adding "Jenkins CI"
+    (or the corresponding Jenkins automation account) as a reviewer.
+    You may need to do a recheck by replying with a comment containing
+    recheck or reverify (depending on the job configuration) to trigger the jobs
+    after adding the reviewer.
+
+To mark an uploaded change as not ready for attention by committers and interested
+contributors (in order of preference), either mark the Gerrit a draft (by adding
+a ``-D`` to your ``git review`` command), vote -1 on it yourself or edit the commit
+message with "WIP" ("Work in Progress").
+
+Don't add committers to the Reviewers list for a change while it's in the pre-review
+state, as it adds noise to their review queue.
+
+Review
+------
+
+Once an author wants a change reviewed, they need to take some actions to put it on
+the radar of the committers.
+
+If the change it's a draft, you'll need to publish it. Do this from the Gerrit web UI.
+
+.. figure:: _static/gerrit-publish-button.png
+
+   Gerrit Web UI button to publish a draft change.
+
+Remove your -1 vote if you've marked it with one. If you think the patch is ready for
+merge, vote +1. If there isn't an automated job to test your change and vote +1/-1
+for Verified, you'll need to do as much testing yourself as possible and then manually
+vote +1 to Verified. You can also vote +1 for Verified if you've done testing in
+addition to any automated tests. Describing the testing you did or didn't do is
+typically helpful.
+
+.. figure:: _static/gerrit-voting-interface.png
+
+   Gerrit voting interface, exposed by the Reply button.
+
+Once the change gets published and you've voted for merging, add the people who
+need to review/merge the change to the Gerrit Reviewers list. The auto-complete for
+this Gerrit UI field is somewhat flaky, but typing the full name from the start
+typically works.
+
+.. figure:: _static/gerrit-reviewers-interface.png
+
+   Gerrit Reviewers list with Int/Pack committers added
+
+Reviewers will give feedback via Gerrit comments or inline against the diff.
+
+.. figure:: _static/gerrit-inline-feedback.png
+
+   Gerrit inline feedback about a typo
+
+Updated versions of the proposed change get pushed as new patchesets to the same
+Gerrit, either by the original submitter or other contributors. Amending proposed changes
+owned by others while reviewing may be more efficient than documenting the problem, -1ing,
+waiting for the original submitter to make the changes, re-reviewing and merging.
+
+Download changes for local manipulation and re-uploaded updates via git-review.
+
+See `Update an existing patch`_ above. Once you have re-uploaded the patch the Gerrit web
+UI for the proposed change will reflect the new patcheset.
+
+.. figure:: _static/gerrit-patch-update-history.png
+
+   Gerrit history showing a patch update
+
+Reviewers will use the diff between the last time they gave review and the current patchset
+to understand updates, speeding the code review process.
+
+.. figure:: _static/gerrit-diff-menu.png
+
+   Gerrit diff menu
+
+Iterative feedback continues until reaching consensus (typically: all active reviewers +1/+2
+and no -1s nor -2s), at least one committer +2s and a committer merges the change.
+
+.. figure:: _static/gerrit-code-review-votes.png
+
+   Gerrit code review votes
+
+Merge
+-----
+
+Once a patch has gotten a +2 from a committer and they have clicked the submit button the
+project's merge job should run and publish the project's artifacts to Nexus. Once completed,
+other projects will be able to see the results of that patch.
+
+This is important when merging dependent patches across projects. You will need to wait
+for the merge job to run on one patch before any patches in other projects depending on
+it will successful verify.
+
 Setting up Gerrit
 =================
 
