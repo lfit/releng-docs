@@ -25,5 +25,5 @@ linkcheck_ignore = [
     'https://gerrit.linuxfoundation.org/infra/releng/docs-conf',
     'https://gerrit.linuxfoundation.org/infra/#/settings/http-password',
     'https://jenkins.acumos.org.*',
-    'https://jenkins.example.org.*',
+    'https://.*.example.org.*',
 ]
