@@ -22,7 +22,36 @@ Build Minions
 Log Server
 ==========
 
-.. todo:: RELENG-549
+While Jenkins stores the console logs on the Jenkins instance, this is
+short term and typically depending on the job type purged after a week. We
+highly recommend preferring the log server over the Jenkins
+system when viewing console logs as it reduces load on Jenkins and we compress
+logs stored on the log server so downloads are faster.
+
+We store Log server archives for ``6 months``.
+
+At the end of a build the job ships logs to a Nexus logs repo and can be
+conveniently accessed via the https://logs.example.org URL. The Job
+Build Description will contain the specific log server URL for a build log.
+Jobs triggered via Gerrit Trigger will have the URL to the logs left as a post
+build comment.
+
+Example Jenkins Build Description::
+
+    Build logs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/distribution-check-carbon/167
+
+Example Gerrit Comment::
+
+    jenkins-releng                                                  03-05 16:24
+    Patch Set 6: Verified+1
+    Build Successful
+    https://jenkins.opendaylight.org/releng/job/builder-tox-verify-master/1066/ : SUCCESS
+    Logs: https://logs.opendaylight.org/releng/vex-yul-odl-jenkins-1/builder-tox-verify-master/1066
+
+The log path pattern for the logs server is
+``LOG_SERVER_URL/SILO/JENKINS_HOSTNAME/JOB_NAME/BUILD_NUMBER`` typically if you
+know the JOB_NAME and BUILD_NUMBER you can replace the paths before it to
+convert the URL between Jenkins and the Log server.
 
 Log Cleanup Schedule
 ====================
