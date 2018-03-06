@@ -4,6 +4,42 @@
 Jenkins Guide
 #############
 
+Quick Start
+===========
+
+.. todo:: RELENG-546
+
+Jenkins Production & Jenkins Sandbox
+====================================
+
+.. todo:: RELENG-547
+
+Build Minions
+=============
+
+.. todo:: RELENG-548
+
+Log Server
+==========
+
+.. todo:: RELENG-549
+
+Log Cleanup Schedule
+====================
+
+.. todo:: RELENG-550
+
+Jenkins Job Builder
+===================
+
+.. todo:: RELENG-551
+
+Global JJB Templates
+====================
+
+.. todo:: RELENG-552
+
+
 Jenkins Sandbox
 ===============
 
