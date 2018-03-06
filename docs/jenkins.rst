@@ -48,12 +48,23 @@ The requester will receive an invitation to join this group.
 Once accepted, the user can now access the Sandbox same way as the production
 Jenkins.
 
-Pushing jobs to the Sandbox
----------------------------
+Push jobs to the Sandbox
+------------------------
 
-There are 2 supported ways to push jobs to the Sandbox the first one is easier and
-does not require you to install anything to your local system and uses a jjb-deploy
-job in production to push jobs from a Gerrit patch to the Sandbox.
+Push jobs to the Jenkins Sandbox using one of these methods:
+
+1. :ref:`Via Gerrit Comment <jjb-push-gerrit-comment>`
+2. :ref:`Via JJB CLI <jjb-push-cli>`
+
+**Method 1** is easier as it does not require installing anything on your local
+system. This method requires pushing the patch to Gerrit on each test. We
+recommend this method for quick one off edits or if you are testing another
+contributor's patch.
+
+**Method 2** is more convenient for those who work on JJB templates more than
+once or twice.
+
+.. _jjb-push-gerrit-comment:
 
 Using Gerrit comment
 --------------------
@@ -78,6 +89,8 @@ The job pushed into the Sandbox will reflect the changes made in the patch.
 
    You can use * wildcard for job names. This is not a good practice.
    We highly recommended to use specific Jenkins job names instead.
+
+.. _jjb-push-cli:
 
 Using JJB CLI
 -------------
