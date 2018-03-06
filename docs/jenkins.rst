@@ -4,8 +4,11 @@
 Jenkins Guide
 #############
 
+Jenkins Sandbox
+===============
+
 Sandbox Overview
-================
+----------------
 
 The Jenkins Sandbox has similar configuration to the production instance.
 It cannot publish artifacts or vote in Gerrit which makes it a safe environment
@@ -22,7 +25,7 @@ Facts to keep in mind before working on the Sandbox:
 - Jenkins nodes have OpenStack configuration similarly to the production instance
 
 How to get access to the Sandbox
-==============================================
+--------------------------------
 
 The Sandbox provides a testing/experimentation environment used before
 pushing job templates to the production instance.
@@ -46,7 +49,7 @@ Once accepted, the user can now access the Sandbox same way as the production
 Jenkins.
 
 Pushing jobs to the Sandbox
-===========================
+---------------------------
 
 There are 2 supported ways to push jobs to the Sandbox the first one is easier and
 does not require you to install anything to your local system and uses a jjb-deploy
@@ -143,8 +146,8 @@ To work on existing jobs or create new jobs, navigate to the `/jjb` directory
 where you will find all job templates for the project.  Follow the below commands
 to test, push or delete jobs in your Sandbox environment.
 
-To Test a Job
--------------
+Verify JJB
+^^^^^^^^^^
 
 After you edit or create new job templates, test the job in the Sandbox
 environment before you submit this job to production CI environment.
@@ -174,8 +177,8 @@ Execute the following command to pipe-out to a directory:
 
 The output directory will contain files with the XML configurations.
 
-To Push a Job
----------------
+Push a Job
+^^^^^^^^^^
 
 Ensure you have configured your jenkins.ini and verified it by outputting valid
 XML descriptions of Jenkins jobs. Upon successful verification, execute the
@@ -191,8 +194,8 @@ For Example:
 
    jenkins-jobs --conf jenkins.ini update jjb/ ci-management-jjb-merge
 
-To Delete a Job
----------------
+Delete a Job
+^^^^^^^^^^^^
 
 Execute the following command to Delete a job from Sandbox:
 
@@ -208,7 +211,8 @@ For Example:
 
 You can also delete the job from the UI options in Jenkins Sandbox.
 
-**Edit an Existing Job**
+Edit Job via Web UI
+-------------------
 
 In the Sandbox, you can directly edit the job configuration by selecting
 the job name and clicking on the Configure button.
@@ -234,8 +238,8 @@ A successful run of the desired job will look like this:
 
    INFO:jenkins_jobs.builder:Number of jobs generated:  1
 
-Executing jobs in the Sandbox
-=============================
+Execute jobs in the Sandbox
+---------------------------
 
 Once you push the Jenkins job configuration to the Sandbox environment, run the
 job from the Sandbox WebUI. Follow the below process to trigger the build:
