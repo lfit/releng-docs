@@ -205,38 +205,63 @@ web page where peers will then perform the review.  For example:
 Update an existing patch
 ========================
 
-#. On your machine, open a shell and switch to the directory containing the repository. Then
-   download the patch you want to update:
+In a healthy Open Source project code reviews will happen and we will need to
+amend the patches until reviewers are happy with the change. This section will
+walk through the process of updating a patch that is already in
+Gerrit Code Review.
+
+#. Open a shell to the directory containing the project repo
+#. Pull the latest version of the patch from Gerrit
 
    .. code-block:: bash
 
       git review -d ${change_number}
 
-   (Optional) View information on the latest changes made to that patch:
-   To view the edited files, run
+   The change number is in the URL of the Gerrit patch.
+
+   (Optional) View information on the latest changes made to that patch.
+
+   * To view the edited files, run ``git show``.
+   * To view a listing of the edited files and the number of lines in those
+     files, run ``git show --stat``.
+
+#. Rebase the patch before you start working on it
+
+   .. code-block::
+
+      git pull --rebase
+
+   This is to ensure that the patch incorporates the latest version of the
+   repo and is not out of date.
+
+#. Make the necessary changes to the patch with your favorite editor
+#. Check the state of the repo by running ``git status``
+#. Stage the modified files for commit. (Repeat for all files modified)
 
    .. code-block:: bash
 
-      git show
+      git add /path/to/file
 
-#. To view a listing of the edited files and the number of lines in those files, run:
-
-   .. code-block:: bash
-
-      git show --stat
-
-#. Make the necessary changes to the patch’s files and commit your changes using:
+#. Verify the staged files by running ``git status``
+#. Commit the staged files by amending the patch
 
    .. code-block:: bash
 
-      git commit -a --amend
+      git commit --amend
 
 #. Update the current patch description and then save the commit request.
 
-   .. note::
+   If you feel as though you added enough work on the patch, add your name
+   in the footer with a line ``Co-Authored-By: Firstname Lastname <email>``.
 
-      If you feel as though you added enough work on the patch, add your name in
-      the footer with a line like Co-Authored-By: First Last <email>.
+#. Rebase the patch one last time
+
+   .. code-block::
+
+      git pull --rebase
+
+   This is to ensure that the patch incorporates the latest version of the
+   repo and is not out of date.
 
 #. Submit your files for review:
 
@@ -244,9 +269,10 @@ Update an existing patch
 
       git review
 
-You will receive 2 emails from Gerrit Code Review: the first indicating that a build
-to incorporate your changes has started; and the second indicating the creation of the
-build.
+You will receive 2 emails from Gerrit Code Review: the first indicating that
+a build to incorporate your changes has started; and the second indicating
+the whether the build passed or failed. Refer to the console logs if the
+build has failed and amend the patch as necessary.
 
 Code Review
 ===========
