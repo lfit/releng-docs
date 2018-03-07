@@ -137,39 +137,97 @@ be able to post in Gerrit.
 Push patches to Gerrit
 ======================
 
-Linux Foundation Release Engineers manage patches to the source code
-comprising their work on Gerrit servers using a client tool called
-`git-review <https://docs.openstack.org/infra/git-review/>`_.
-
-#. Install this tool either using the local package management system (ie, yum,
-   apt-get, zypper, etc.) or preferably using pip within a virtualenv:
+#. Open a shell to the directory containing the project repo
+#. Checkout the branch you would like to work on
 
    .. code-block:: bash
 
-      pip install git-review
+      git checkout master
 
-#. Flatten all changes to a single git commit.  Once the change is ready
-   for review, commit it locally with the '-s' argument to sign the commit
-   message with your name and email to agree to the :ref:`dco`.
+   Replace *master* with whichever branch you need to contribute to. Typically
+   master is the latest development branch.
+
+#. Resolve any issues reported by ``git status`` as necessary
+
+   The ``git status`` should report the following::
+
+       On branch master
+       Your branch is up to date with 'origin/master'.
+
+       nothing to commit, working tree clean
+
+#. Rebase the branch before you start working on it
+
+   .. code-block:: bash
+
+      git pull --rebase
+
+   This is to ensure that the branch is up to date with the latest version of
+   the repo.
+
+#. Ensure that the repo is in a clean state with ``git status``
+#. Make the modifications you would like to change in the project
+#. Stage the modified files for commit. (Repeat for all files modified)
+
+   .. code-block:: bash
+
+      git add /path/to/file
+
+#. Verify the staged files by running ``git status``
+#. Commit the staged files by amending the patch
 
    .. code-block:: bash
 
       git commit -s
 
+   .. note::
+
+      The '-s' argument signs the commit message with your name and email and
+      is a statement that you agree to the :ref:`dco`.
+
+#. Push the patch to Gerrit using one of the 2 methods documented:
+
+   1. :ref:`gerrit-push-git-review`
+   2. :ref:`gerrit-push-git-push`
+
+.. _gerrit-push-git-review:
+
 Pushing using git review
 ------------------------
 
-#. After making the signed local commit, submit the change to Gerrit for review,
-   optionally specifying a topic with the '-t' argument in the following command:
+We recommend using `git-review <https://docs.openstack.org/infra/git-review/>`_
+if possible as it makes working with Gerrit much easier.
+
+#. Install ``git-review`` via your local package management system
+
+   If your distro does not package git-review or you need a newer version.
+   Install it via PyPi in a
+   :ref:`virtualenv <https://virtualenv.pypa.io/en/stable/>`_ environment:
 
    .. code-block:: bash
 
-      git review -t my_topic
+      virtualenv ~/.virtualenvs/git-review
+      pip install git-review
+
+#. Push the patch to Gerrit
+
+   .. code-block:: bash
+
+      git review
+
+   We can optionally pass the parameter ``-t my_topic`` to set a topic in
+   Gerrit. Useful when we have related patches to organize in one topic.
+
+Once pushed we should see some output in the terminal as described in
+:ref:`Gerrit Push Output <gerrit-push-output>`.
+
+.. _gerrit-push-git-push:
 
 Pushing using git push
 ----------------------
 
-This is a more specific command.
+This method is a useful fallback in situations where we cannot use
+:ref:`git-review <gerrit-push-git-review>`.
 
 #. Use the following command:
 
@@ -177,10 +235,9 @@ This is a more specific command.
 
       git push <remote> HEAD:refs/for/master
 
-.. note::
-
-   Where <remote> is the current branch’s remote (or origin, if no remote
-   configuration exists for the current branch).
+   Where <remote> is the Gerrit location to push the patch to. Typically
+   'origin' but can also be 'gerrit' depending on how we have our local repo
+   setup.
 
 .. note::
 
@@ -193,14 +250,21 @@ This is a more specific command.
 
    More options for this command: `git-push https://git-scm.com/docs/git-push`_.
 
+Once pushed we should see some output in the terminal as described in
+:ref:`Gerrit Push Output <gerrit-push-output>`.
+
+.. _gerrit-push-output:
+
 Push output
 -----------
 
-The output of this command will, when successful, include a link to a
-web page where peers will then perform the review.  For example:
+After pushing a commit to Gerrit we should see the following output:
 
 .. literalinclude:: _static/push-success.example
-    :language: bash
+   :language: bash
+
+This output includes a URL to the patch. The number at the end is the patch's
+change number.
 
 Update an existing patch
 ========================
