@@ -40,6 +40,14 @@ Help:
 
    helpdesk
 
+LF Internal:
+
+.. toctree::
+   :maxdepth: 2
+
+   project-bootstrap
+
+
 Indices and tables
 ==================
 
