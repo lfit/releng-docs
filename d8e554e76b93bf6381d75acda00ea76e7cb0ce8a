@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6cd9ca40_d3da689a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-07T03:57:40Z",
+      "side": 1,
+      "message": "Yes, that will be done with RELENG-513. The purpose of this specific patch though is to document for contributors to use the Jenkins Sandbox as they do not have access to the VPN.",
+      "parentUuid": "550387ac_5a24366f",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 21
+      },
+      "revId": "d8e554e76b93bf6381d75acda00ea76e7cb0ce8a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c80e46ed_b4819246",
         "filename": "docs/jenkins.rst",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "e2e4b985_895930b9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-07T03:57:40Z",
+      "side": 1,
+      "message": "Yes, but that will be handled in RELENG-513 instead. The purpose of this file is to provide details on how to build packer images in Jenkins and Jenkins Sandbox.",
+      "parentUuid": "c80e46ed_b4819246",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 13
+      },
+      "revId": "d8e554e76b93bf6381d75acda00ea76e7cb0ce8a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "75d5c49f_ef7be8c6",
         "filename": "docs/jenkins.rst",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2018-03-07T02:19:31Z",
       "side": 1,
       "message": "(optional) may want to include the UUID lines, which can be used alternatively to the image name.",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 77
+      },
+      "revId": "d8e554e76b93bf6381d75acda00ea76e7cb0ce8a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9c31a4c_90017ad7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-07T03:57:40Z",
+      "side": 1,
+      "message": "While that may be true. It is much more clear to folks which image is being used by the image name. A UUID will cause confusion. This is why we add the timestamp in the images so give it a lower chance of having duplicate images (while it is still possible).",
+      "parentUuid": "75d5c49f_ef7be8c6",
       "range": {
         "startLine": 100,
         "startChar": 0,
