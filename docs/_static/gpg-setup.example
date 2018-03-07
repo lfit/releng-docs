@@ -1,0 +1,23 @@
+      brew install gpg2  # If you don't have homebrew, get that here: http://brew.sh/
+      gpg2 --gen-key
+      # pick 1 for "RSA and RSA"
+      # enter 4096 to creat a 4096-bit key
+      # enter an expiration time, I picked 2y for 2 years
+      # enter y to accept the expiration time
+      # pick O or Q to accept your name/email/comment
+      # enter a pass phrase twice. it seems like backspace doesn't work, so type carefully
+      gpg2 --fingerprint
+      # you'll get something like this:
+      # spectre:~ ckd$ gpg2 --fingerprint
+      # /Users/ckd/.gnupg/pubring.gpg
+      # -----------------------------
+      # pub   4096R/F566C9B1 2015-04-06 [expires: 2017-04-05]
+      #       Key fingerprint = 7C37 02AC D651 1FA7 9209  48D3 5DD5 0C4B F566 C9B1
+      # uid       [ultimate] Colin Dixon <colin at colindixon.com>
+      # sub   4096R/DC1497E1 2015-04-06 [expires: 2017-04-05]
+      # you're looking for the part after 4096R, which is your key ID
+      gpg2 --send-keys $KEY_ID
+      # in the above example, the $KEY_ID would be F566C9B1
+      # you should see output like this:
+      # gpg: sending key F566C9B1 to hkp server keys.gnupg.net
+
