@@ -69,6 +69,70 @@ Global JJB Templates
 .. todo:: RELENG-552
 
 
+.. _lfdocs-packer-images:
+
+Packer Images
+=============
+
+.. todo:: When dedicated packer docs exist reconsider where this doc should go.
+
+The ci-management repo contains a directory called ``packer`` which contains
+scripts for building images used by Jenkins to spawn builders. There are 2
+files  necessary for constructing a new image:
+
+1. packer/templates/BUILDER.json
+2. packer/provision/BUILDER.yaml
+
+Replace BUILDER with the name of your desired builder image type.
+
+The templates file contains packer configuration information for building the
+image. The provision file is a script for running commands inside the
+packer-builder to construct the image. We recommend using the Ansible
+provisioner as that is the standard used by LF packer builds.
+
+While developing a new builder image type, we can use the
+`lfdocs-jenkins-sandbox` to build and deploy the image for testing. Configure a
+Jenkins Job the new image type using the global-jjb
+:ref:`gerrit-packer-merge <gjjb-packer-merge>` job template.
+
+Example job definition:
+
+.. code-block:: yaml
+
+   - project:
+     name: packer-robot-jobs
+     jobs:
+       - gerrit-packer-merge
+
+     project: releng/builder
+     project-name: builder
+     branch: master
+     archive-artifacts: '**/*.log'
+
+     build-node: centos7-builder-2c-1g
+
+     platforms: centos-7
+     templates: robot
+
+The gerrit-packer-merge job creates jobs in the format
+``PROJECT_NAME-packer-merge-PLATFORM-TEMPLATE``. Where PROJECT_NAME is the
+``project-name`` field, PLATFORM is the ``platforms`` field, and TEMPLATES is
+the ``templates`` field in the yaml above. In this example the resultant job is
+``builder-packer-merge-centos-7-robot``.
+
+Follow the instructions in the
+:ref:`Pushing a patch to Gerrit <jenkins-sandbox-push-jobs>` section to push
+this job to the Sandbox.
+
+Once the job is on the Jenkins Sandbox, run the job and it will attempt to
+deploy the new image and make it available. Once the job completes look for a
+line in the logs that look like::
+
+    ==> vexxhost: Creating the image: ZZCI - CentOS 7 - robot - 20180301-1004
+
+This line provides the name of the new image we built.
+
+
 .. _lfdocs-jenkins-sandbox:
 
 Jenkins Sandbox
