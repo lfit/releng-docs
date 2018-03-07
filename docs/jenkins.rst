@@ -86,6 +86,8 @@ The requester will receive an invitation to join this group.
 Once accepted, the user can now access the Sandbox same way as the production
 Jenkins.
 
+.. _jenkins-sandbox-push-jobs:
+
 Push jobs to Jenkins Sandbox
 ----------------------------
 
