@@ -40,6 +40,8 @@ Global JJB Templates
 .. todo:: RELENG-552
 
 
+.. _lfdocs-jenkins-sandbox:
+
 Jenkins Sandbox
 ===============
 
