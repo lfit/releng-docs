@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "550387ac_5a24366f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-03-07T02:19:31Z",
+      "side": 1,
+      "message": "Agreed this should be made into a separate file. Maybe\n`packer-images.rst` or `packer-jobs.rst` or ``packer.rst``",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 21
+      },
+      "revId": "d8e554e76b93bf6381d75acda00ea76e7cb0ce8a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c80e46ed_b4819246",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-03-07T02:19:31Z",
+      "side": 1,
+      "message": "Do you want to include packer commands to build the image manually?",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 13
+      },
+      "revId": "d8e554e76b93bf6381d75acda00ea76e7cb0ce8a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "75d5c49f_ef7be8c6",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-03-07T02:19:31Z",
+      "side": 1,
+      "message": "(optional) may want to include the UUID lines, which can be used alternatively to the image name.",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 77
+      },
+      "revId": "d8e554e76b93bf6381d75acda00ea76e7cb0ce8a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
