@@ -49,8 +49,7 @@ Inventory
 
    * - IoTivity
      - https://gerrit.iotivity.org
-     - https://build.iotivity.org (**deprecated**)
-       https://jenkins.iotivity.org
+     - https://jenkins.iotivity.org
        https://jenkins.iotivity.org/sandbox
      - N/A
      - N/A
