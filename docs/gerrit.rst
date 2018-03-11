@@ -312,6 +312,33 @@ You will receive 2 emails from Gerrit Code Review: the first indicating that a b
 to incorporate your changes has started; and the second indicating the creation of the
 build.
 
+Update a patch with dependent changes
+=====================================
+
+In the case where a patch depends on another in review Gerrit patch, we will
+need to rebase the commit against the latest patchset of the dependent change
+in Gerrit. The best way to do this is to retrieve the latest version of the
+dependent change and then cherry-pick our patch on top of the change.
+
+#. Fetch latest parent patch set
+
+   .. code-block:: bash
+
+      git review -d <parent-gerrit-id>
+
+#. Cherry-pick out patch on top
+
+   .. code-block:: bash
+
+      git review -x <patch-gerrit-id>
+
+#. Push patch back up to Gerrit
+
+   .. code-block:: bash
+
+      git review -R
+
+
 Code Review
 ===========
 
