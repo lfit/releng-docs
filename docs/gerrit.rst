@@ -215,8 +215,10 @@ if possible as it makes working with Gerrit much easier.
 
       git review
 
-   We can optionally pass the parameter ``-t my_topic`` to set a topic in
-   Gerrit. Useful when we have related patches to organize in one topic.
+   We can optionally pass the parameter ``-t my_topic`` to set a
+   :ref:`topic <gerrit-topics>` in
+   Gerrit. Useful when we have related patches to organize in one
+   :ref:`topic <gerrit-topics>`.
 
 Once pushed we should see some output in the terminal as described in
 :ref:`Gerrit Push Output <gerrit-push-output>`.
@@ -650,3 +652,16 @@ author of the code which indicates that they have read and agree to the DCO.
    :name: dco
 
 Refer to https://developercertificate.org/ for original text.
+
+.. _gerrit-topics:
+
+Gerrit Topics
+-------------
+
+Topics are useful as a search criteria in Gerrit. By entering ``topic:foo``
+as a search criteria we can track related commits. Use one of the following
+methods to configure topics:
+
+1. Directly in the Gerrit UI via the Edit Topic button
+2. Via ``git review`` using the ``-t topic`` parameter
+3. Via ``git push`` using the ``-o topic=foo`` parameter
