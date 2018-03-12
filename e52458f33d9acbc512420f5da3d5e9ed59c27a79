@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6be60f21_e14b41b6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T16:33:42Z",
+      "side": 1,
+      "message": "Done. Added a todo at the top of the packer section.",
+      "parentUuid": "5ec5c53d_8279c635",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 21
+      },
+      "revId": "e52458f33d9acbc512420f5da3d5e9ed59c27a79",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e8bace2e_d8eec80f",
         "filename": "docs/jenkins.rst",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2018-03-12T16:21:13Z",
       "side": 1,
       "message": "Let\u0027s use \"job\" rather since we are not capitalizing it in the overall documentation.",
+      "range": {
+        "startLine": 96,
+        "startChar": 8,
+        "endLine": 96,
+        "endChar": 11
+      },
+      "revId": "e52458f33d9acbc512420f5da3d5e9ed59c27a79",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ddb1efae_6aea233f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T16:33:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8bace2e_d8eec80f",
       "range": {
         "startLine": 96,
         "startChar": 8,
