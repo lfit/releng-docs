@@ -1,0 +1,130 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0f31a5f7_1d5a6560",
+        "filename": "docs/_static/gpg-setup.example",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T20:37:32Z",
+      "side": 1,
+      "message": "Should unindent this file.",
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aae1e1cd_f36f8c80",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T20:37:32Z",
+      "side": 1,
+      "message": "It\u0027s better to make explicit links rather than implicit so that if the link name changes it doesn\u0027t break the link here.",
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ccd799c0_ca652494",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T20:37:32Z",
+      "side": 1,
+      "message": "you are collaborating",
+      "range": {
+        "startLine": 585,
+        "startChar": 6,
+        "endLine": 585,
+        "endChar": 26
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e9e79a1_f08eb5b1",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T20:37:32Z",
+      "side": 1,
+      "message": "gpg",
+      "range": {
+        "startLine": 654,
+        "startChar": 46,
+        "endLine": 654,
+        "endChar": 50
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "40ac071d_95011880",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 655,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T20:37:32Z",
+      "side": 1,
+      "message": "is not",
+      "range": {
+        "startLine": 655,
+        "startChar": 27,
+        "endLine": 655,
+        "endChar": 32
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b51c74e7_c0a86c6b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-12T20:37:32Z",
+      "side": 1,
+      "message": "Put this section inside of the appendix below.",
+      "range": {
+        "startLine": 676,
+        "startChar": 0,
+        "endLine": 677,
+        "endChar": 29
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
