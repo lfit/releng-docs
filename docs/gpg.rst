@@ -35,8 +35,8 @@ Prerequisites
 #. If you are using a GPG smartcard refer to `Protecting code integrity with PGP <https://github.com/lfit/itpol/blob/master/protecting-code-integrity.md/>`_
 
 
-How to generate GPG keys
-------------------------
+Generate the GPG keys
+---------------------
 
 #. Generate your GPG key.
 
@@ -125,8 +125,8 @@ How to generate GPG keys
       'Add'.
 
 
-How to setup gpg-agent
-----------------------
+Setup gpg-agent
+---------------
 
 #. Install gpg-agent and pinentry-mac using brew:
 
@@ -184,8 +184,9 @@ How to setup gpg-agent
    .. figure:: _static/passphrase-mac.png
 
 
-How to sign your commit
------------------------
+Sign your commit
+----------------
+
 #. Commit and push a change
 
    a. Change a file and save it with your favorite editor.

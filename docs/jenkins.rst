@@ -155,8 +155,8 @@ Facts to keep in mind before working on the Sandbox:
 - Sandbox jobs cannot vote on Gerrit
 - Jenkins nodes have OpenStack configuration similarly to the production instance
 
-How to get access to the Sandbox
---------------------------------
+Get access to the Sandbox
+-------------------------
 
 The Sandbox provides a testing/experimentation environment used before
 pushing job templates to the production instance.
@@ -199,8 +199,8 @@ once or twice.
 
 .. _jjb-push-gerrit-comment:
 
-Using Gerrit comment
---------------------
+Push jobs via Gerrit comment
+----------------------------
 
 This is the easiest and fastest way to start using the Sandbox. This is the recommended
 default way to use the Sandbox since this does not require the user to install JJB or
@@ -225,8 +225,8 @@ The job pushed into the Sandbox will reflect the changes made in the patch.
 
 .. _jjb-push-cli:
 
-Using JJB CLI
--------------
+Push jobs via JJB CLI
+---------------------
 
 JJB CLI needs configuration first.
 

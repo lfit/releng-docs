@@ -102,7 +102,7 @@ follows.
     # Run the coala command
     coala --help
 
-Setting up Coala a Project
+Set up Coala for a Project
 --------------------------
 
 In some cases we may want to setup coala for a new project that wants to start

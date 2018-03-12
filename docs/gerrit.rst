@@ -15,8 +15,8 @@ occur around the code commits.
 
    Here is more information on `Gerrit <https://code.google.com/p/gerrit/>`_
 
-How to clone code
-=================
+Clone the code
+==============
 
 Cloning the code into a local workspace can happen via HTTP or SSH.
 
@@ -38,7 +38,7 @@ In such case, use HTTPS.
 
    For more information on how to generate the public/private key pair see
    `Generating SSH keys for your system`_ and
-   `Registering your SSH key with Gerrit`_
+   `Register your SSH key with Gerrit`_
 
 .. note::
 
@@ -192,8 +192,8 @@ Push patches to Gerrit
 
 .. _gerrit-push-git-review:
 
-Pushing using git review
-------------------------
+Push using git review
+---------------------
 
 We recommend using `git-review <https://docs.openstack.org/infra/git-review/>`_
 if possible as it makes working with Gerrit much easier.
@@ -223,8 +223,8 @@ Once pushed we should see some output in the terminal as described in
 
 .. _gerrit-push-git-push:
 
-Pushing using git push
-----------------------
+Push using git push
+-------------------
 
 This method is a useful fallback in situations where we cannot use
 :ref:`git-review <gerrit-push-git-review>`.
@@ -460,8 +460,8 @@ This is important when merging dependent patches across projects. You will need 
 for the merge job to run on one patch before any patches in other projects depending on
 it will successful verify.
 
-Setting up Gerrit
-=================
+Set up Gerrit
+=============
 
 Generating SSH keys for your system
 -----------------------------------
@@ -507,8 +507,8 @@ For a system running Ubuntu operating system, follow the steps below:
 Your public key is now available as **.ssh/id\_rsa.pub** in your home
 folder.
 
-Registering your SSH key with Gerrit
-------------------------------------
+Register your SSH key with Gerrit
+---------------------------------
 
 #. Using a Google Chrome or Mozilla Firefox browser, go to
    gerrit.<project>.org
@@ -550,8 +550,8 @@ SSHD port::
     ****    Welcome to Gerrit Code Review    ****
 
 
-Submitting over HTTPS
-=====================
+Submit a patch over HTTPS
+=========================
 
 While we recommend you submit patchsets over SSH some users may need to
 submit patchsets over HTTPS due to corporate network policies such as
