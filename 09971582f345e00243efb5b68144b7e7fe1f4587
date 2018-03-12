@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "23b7d0dd_c86f9eca",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-03-12T14:47:48Z",
+      "side": 1,
+      "message": "packer builder?",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 7
+      },
+      "revId": "09971582f345e00243efb5b68144b7e7fe1f4587",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "efd0d387_cc68afef",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-03-12T14:47:48Z",
+      "side": 1,
+      "message": "image",
+      "range": {
+        "startLine": 91,
+        "startChar": 31,
+        "endLine": 91,
+        "endChar": 36
+      },
+      "revId": "09971582f345e00243efb5b68144b7e7fe1f4587",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a059e3b_33e73eb4",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-03-12T14:47:48Z",
+      "side": 1,
+      "message": "This paragraph should be split, which each sentence moving the respective closer paragraph.",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 24
+      },
+      "revId": "09971582f345e00243efb5b68144b7e7fe1f4587",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "00de227f_fc81caa9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-03-12T14:47:48Z",
+      "side": 1,
+      "message": "uploaded to the sandbox, (comma)",
+      "range": {
+        "startLine": 125,
+        "startChar": 17,
+        "endLine": 125,
+        "endChar": 30
+      },
+      "revId": "09971582f345e00243efb5b68144b7e7fe1f4587",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc75e2bb_0ec1d332",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-03-12T14:47:48Z",
+      "side": 1,
+      "message": "just \u0027name\u0027",
+      "range": {
+        "startLine": 131,
+        "startChar": 23,
+        "endLine": 131,
+        "endChar": 33
+      },
+      "revId": "09971582f345e00243efb5b68144b7e7fe1f4587",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
