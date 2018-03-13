@@ -17,7 +17,6 @@ Guides:
    gerrit
    gpg
    jenkins
-   infra/index
    project-documentation
 
 .. TODO Gerrit (RELENG-509)
@@ -45,6 +44,7 @@ LF Internal:
 .. toctree::
    :maxdepth: 2
 
+   infra/index
    project-bootstrap
 
 
