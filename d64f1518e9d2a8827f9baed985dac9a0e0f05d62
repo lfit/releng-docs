@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "4d4bbfec_f74bea9c",
+        "filename": "docs/_static/gpg-setup.example",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-15T16:43:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0f31a5f7_1d5a6560",
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aae1e1cd_f36f8c80",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
@@ -76,6 +94,30 @@
     },
     {
       "key": {
+        "uuid": "731388ad_14094b70",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 585,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-15T16:43:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ccd799c0_ca652494",
+      "range": {
+        "startLine": 585,
+        "startChar": 6,
+        "endLine": 585,
+        "endChar": 26
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4e9e79a1_f08eb5b1",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
@@ -87,6 +129,30 @@
       "writtenOn": "2018-03-12T20:37:32Z",
       "side": 1,
       "message": "gpg",
+      "range": {
+        "startLine": 654,
+        "startChar": 46,
+        "endLine": 654,
+        "endChar": 50
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "71a6d96c_0a2c9852",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 654,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-15T16:43:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e9e79a1_f08eb5b1",
       "range": {
         "startLine": 654,
         "startChar": 46,
@@ -122,6 +188,30 @@
     },
     {
       "key": {
+        "uuid": "b27c6f2d_d0aeec56",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 655,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-15T16:43:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40ac071d_95011880",
+      "range": {
+        "startLine": 655,
+        "startChar": 27,
+        "endLine": 655,
+        "endChar": 32
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b51c74e7_c0a86c6b",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
@@ -133,6 +223,30 @@
       "writtenOn": "2018-03-12T20:37:32Z",
       "side": 1,
       "message": "Put this section inside of the appendix below.",
+      "range": {
+        "startLine": 676,
+        "startChar": 0,
+        "endLine": 677,
+        "endChar": 29
+      },
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "78d6e2c9_51734e67",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 677,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-15T16:43:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b51c74e7_c0a86c6b",
       "range": {
         "startLine": 676,
         "startChar": 0,
