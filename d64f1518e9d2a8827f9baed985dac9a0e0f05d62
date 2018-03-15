@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "e6c8abe7_89f97427",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-15T19:22:30Z",
+      "side": 1,
+      "message": "to declare a link it\u0027s\n\n .. _name-of-link:\n\nto use a link it\u0027s\n\n :ref:`Some link \u003cname-of-link\u003e`\n\n\nWe use it a lot in this file in fact. If you search for things that start with :ref:\n\n\nhttps://raw.githubusercontent.com/lfit/releng-docs/master/docs/gerrit.rst",
+      "parentUuid": "b88d5859_14c81865",
+      "revId": "d64f1518e9d2a8827f9baed985dac9a0e0f05d62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ccd799c0_ca652494",
         "filename": "docs/gerrit.rst",
         "patchSetId": 5
