@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84b91918_92b8e7ec",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-03-15T15:12:47Z",
+      "side": 1,
+      "message": "There should be a note that git-review by default takes the local branch name (as long as isn\u0027t an upstream branch) as the default topic name",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 221,
+        "endChar": 32
+      },
+      "revId": "62964240a3460dd47416a037abb545499b5f639c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9706613a_b18a4aa2",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-03-15T15:12:47Z",
+      "side": 1,
+      "message": "It should be mentioned that git-review uses the local branch name as the topic if it isn\u0027t the upstream branch.",
+      "revId": "62964240a3460dd47416a037abb545499b5f639c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
