@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b114b2f5_b2ddf84b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-15T15:21:22Z",
+      "side": 1,
+      "message": "Note added to the detailed info in the topics section.",
+      "parentUuid": "84b91918_92b8e7ec",
+      "range": {
+        "startLine": 218,
+        "startChar": 0,
+        "endLine": 221,
+        "endChar": 32
+      },
+      "revId": "62964240a3460dd47416a037abb545499b5f639c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9706613a_b18a4aa2",
         "filename": "docs/gerrit.rst",
         "patchSetId": 3
@@ -36,6 +60,24 @@
       "writtenOn": "2018-03-15T15:12:47Z",
       "side": 1,
       "message": "It should be mentioned that git-review uses the local branch name as the topic if it isn\u0027t the upstream branch.",
+      "revId": "62964240a3460dd47416a037abb545499b5f639c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7ecba70_728a0822",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-15T15:21:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9706613a_b18a4aa2",
       "revId": "62964240a3460dd47416a037abb545499b5f639c",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
