@@ -22,6 +22,30 @@
       "revId": "0cfd06646410d5d16e2e39f964c813a766128592",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4613bf3f_3a452fa8",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 811,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-16T06:06:27Z",
+      "side": 1,
+      "message": "Actually, now that i see the link you provided, i think this section should not be here at all.",
+      "parentUuid": "c5aabf23_735bc484",
+      "range": {
+        "startLine": 770,
+        "startChar": 0,
+        "endLine": 811,
+        "endChar": 39
+      },
+      "revId": "0cfd06646410d5d16e2e39f964c813a766128592",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
