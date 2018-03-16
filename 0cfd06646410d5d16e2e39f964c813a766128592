@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5aabf23_735bc484",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 811,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-03-16T05:55:24Z",
+      "side": 1,
+      "message": "this content is repetative, instead should link the original guide here \"Setup gpg-agent\"\n\nhttp://docs.releng.linuxfoundation.org/en/latest/gpg.html\n\nAlso any updates on the gpg-agent should go into gpg guide.",
+      "range": {
+        "startLine": 770,
+        "startChar": 0,
+        "endLine": 811,
+        "endChar": 39
+      },
+      "revId": "0cfd06646410d5d16e2e39f964c813a766128592",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
