@@ -1,0 +1,147 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "353ba904_3095badf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "I still think the summary could be more specific. Something like:\n\n Add details on signing commits and pushes\n\nThe reason is that if every time we edit this file we use the summary \"Add more Gerrit topics\". Then when you look at `git shortlog` you wouldn\u0027t be able to differentiate between the different commits that all have similar titles.",
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "071ca190_9438db49",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "I think this section was removed?",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 31
+      },
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e6113c0_7c9a3e96",
+        "filename": "docs/_static/pinentry-mac.png",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "Please remove this file since it doesn\u0027t appear to be linked anymore.",
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b17d0188_de0cdd53",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 744,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "I think this shouldn\u0027t be a note. Just leave this as a regular message. Like:\n\n c. ``git review``\n \n    This will result in Git asking you for your passphrase. Enter it to proceed.",
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bed724d1_6c36a6da",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 746,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "Unnecessary comment.",
+      "range": {
+        "startLine": 746,
+        "startChar": 15,
+        "endLine": 746,
+        "endChar": 28
+      },
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8b7aea0_b27ce480",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 747,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "is not*",
+      "range": {
+        "startLine": 747,
+        "startChar": 27,
+        "endLine": 747,
+        "endChar": 32
+      },
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4952dbae_2f0b4f06",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-16T13:33:18Z",
+      "side": 1,
+      "message": "This step is written in a different style then the rest of the steps. To keep consistent maybe soemthing like:\n\n 6. Verify the signature\n \n    To do this navigate to Gerrit and check for a green check next to your name in the patch.\n\nNot necessary in this patch but a picture of a check would be a nice addition too.",
+      "range": {
+        "startLine": 763,
+        "startChar": 3,
+        "endLine": 765,
+        "endChar": 8
+      },
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
