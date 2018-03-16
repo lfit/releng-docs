@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3f5d9d44_c86ebc87",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-16T17:36:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "353ba904_3095badf",
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "071ca190_9438db49",
         "filename": "/COMMIT_MSG",
         "patchSetId": 11
@@ -30,6 +48,30 @@
       "writtenOn": "2018-03-16T13:33:18Z",
       "side": 1,
       "message": "I think this section was removed?",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 31
+      },
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa0e203b_fe1a688b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-16T17:36:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "071ca190_9438db49",
       "range": {
         "startLine": 16,
         "startChar": 2,
@@ -199,6 +241,30 @@
       "writtenOn": "2018-03-16T13:33:18Z",
       "side": 1,
       "message": "This step is written in a different style then the rest of the steps. To keep consistent maybe soemthing like:\n\n 6. Verify the signature\n \n    To do this navigate to Gerrit and check for a green check next to your name in the patch.\n\nNot necessary in this patch but a picture of a check would be a nice addition too.",
+      "range": {
+        "startLine": 763,
+        "startChar": 3,
+        "endLine": 765,
+        "endChar": 8
+      },
+      "revId": "d8f0cbdb6c211e0c5f59bad95aab6d455006e763",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f098eab0_7e3af145",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-03-16T17:36:06Z",
+      "side": 1,
+      "message": "Added the text but I cannot find an example of a check instead of the blue \"?\" Even though i have signed commits before :(",
+      "parentUuid": "4952dbae_2f0b4f06",
       "range": {
         "startLine": 763,
         "startChar": 3,
