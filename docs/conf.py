@@ -26,4 +26,5 @@ linkcheck_ignore = [
     'https://gerrit.linuxfoundation.org/infra/#/settings/http-password',
     'https://jenkins.acumos.org.*',
     'https://.*.example.org.*',
+    'https://git.opendaylight.org/gerrit/#/settings/gpg-keys',
 ]
