@@ -10,7 +10,7 @@ A collection of documentation for Linux Foundation Continuous Integration (LFCI)
 Guides:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    best-practices
    ansible
