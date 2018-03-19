@@ -43,11 +43,10 @@ that they are not hitting any of these):
 - Does the code cause backwards compatibility breakage?
   (If so it needs documentation)
 
-Google posted an interesting blog on effective code review and how to spend both
-your own and your reviewers' time effectively.
+Google posted an interesting blog (`google-blog-code-health`_) on effective
+code review and how to spend both your own and your reviewers' time
+effectively.
 
-.. noqa
-https://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html
 
 
 Coala (Generic Linting)
@@ -133,3 +132,6 @@ Jenkins Job Builder
 ===================
 
 :ref:`Jenkins Job Builder Best Practices <global-jjb-best-practices>`
+
+.. noqa
+.. _google-blog-code-health: https://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html

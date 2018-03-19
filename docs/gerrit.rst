@@ -228,8 +228,8 @@ if possible as it makes working with Gerrit much easier.
 #. Install ``git-review`` via your local package management system
 
    If your distro does not package git-review or you need a newer version.
-   Install it via PyPi in a
-   :ref:`virtualenv <https://virtualenv.pypa.io/en/stable/>`_ environment:
+
+   Install it via PyPi in a virtualenv_ environment:
 
    .. code-block:: bash
 
@@ -277,7 +277,7 @@ This method is a useful fallback in situations where we cannot use
    way of making an update to an exisiting gerrit. In such case, is best to let gerrit handle
    this via Change-Id in the commit text.
 
-   More options for this command: `git-push https://git-scm.com/docs/git-push`_.
+   More options for this command: `git-push <https://git-scm.com/docs/git-push>`_.
 
 Once pushed we should see some output in the terminal as described in
 :ref:`Gerrit Push Output <gerrit-push-output>`.
@@ -320,7 +320,7 @@ Gerrit Code Review.
 
 #. Rebase the patch before you start working on it
 
-   .. code-block::
+   .. code-block:: bash
 
       git pull --rebase
 
@@ -349,7 +349,7 @@ Gerrit Code Review.
 
 #. Rebase the patch one last time
 
-   .. code-block::
+   .. code-block:: bash
 
       git pull --rebase
 
@@ -844,3 +844,6 @@ methods to configure topics:
    Both methods achieve the same result so is up to preference. Further
    documentation available at `Gerrit Topics
    <https://gerrit-review.googlesource.com/Documentation/intro-user.html#topics>`_.
+
+
+.. _virtualenv: https://virtualenv.pypa.io/en/stable/
