@@ -56,7 +56,12 @@ convert the URL between Jenkins and the Log server.
 Log Cleanup Schedule
 ====================
 
-.. todo:: RELENG-550
+The log servers are setup with cron jobs that purge logs during regular
+scheduled intervals.
+
+* Jenkins Production: Delete logs everyday at 08:00 UTC which are older
+  than 180 days.
+* Jenkins Sandbox: Delete logs and jobs every week on Saturday at 08:00 UTC.
 
 Jenkins Job Builder
 ===================
