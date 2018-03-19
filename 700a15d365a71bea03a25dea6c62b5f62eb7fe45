@@ -140,6 +140,30 @@
       "revId": "700a15d365a71bea03a25dea6c62b5f62eb7fe45",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e64680cb_f460eafc",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-19T22:43:53Z",
+      "side": 1,
+      "message": "Are you sure? The paragraph previous also contains the line:\n\n  ... and deletes all logs older than a week on the sandbox \n  environment every Saturday at 08:00 UTC.\n\nBoth of which seem to state \"sandbox\".",
+      "parentUuid": "3e230e04_2e50a2bf",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 29
+      },
+      "revId": "700a15d365a71bea03a25dea6c62b5f62eb7fe45",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
