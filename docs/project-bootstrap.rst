@@ -35,13 +35,17 @@ Steps
 #. Git commit the current files and push to Gerrit
 #. Confirm verify jobs work
 #. Merge the patch and confirm merge job works
-#. Install lf-ansible to GIT_ROOT/lf-ansible::
+#. Install lf-ansible to GIT_ROOT/lf-ansible
 
-   git submodule add https://github.com/lfit/releng-lf-ansible.git lf-ansible
+   .. code-block:: bash
 
-#. Install common-packer to GIT_ROOT/packer/common-packer::
+      git submodule add https://github.com/lfit/releng-lf-ansible.git lf-ansible
 
-   git submodule add https://github.com/lfit/releng-common-packer.git packer/common-packer
+#. Install common-packer to GIT_ROOT/packer/common-packer
+
+   .. code-block:: bash
+
+      git submodule add https://github.com/lfit/releng-common-packer.git packer/common-packer
 
 #. Git commit and merge patch in Gerrit
 #. Create Initial CI Packer job in jjb/ci-management/ci-packer.yaml

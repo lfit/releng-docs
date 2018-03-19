@@ -118,7 +118,7 @@ Generate the GPG keys
 
           gpg --export -a <KEYID-FINGERPRINT>
 
-   b. Open the project's `Gerrit <https://git.opendaylight.org`_ and go to
+   b. Open the project's `Gerrit <https://git.opendaylight.org>`_ and go to
       project settings and gpg-keys.
    c. Click the `Add Key` button.
    d. Copy the output from the above command, paste it into the box, and click

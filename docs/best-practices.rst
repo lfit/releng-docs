@@ -46,7 +46,6 @@ that they are not hitting any of these):
 Google posted an interesting blog on effective code review and how to spend both
 your own and your reviewers' time effectively.
 
-.. noqa
 https://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html
 
 

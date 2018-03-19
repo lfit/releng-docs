@@ -1,4 +1,4 @@
-.. _lfreleng-docs-jenkins:
+.. _jenkins-guide:
 
 #############
 Jenkins Guide
@@ -292,6 +292,8 @@ To work on existing jobs or create new jobs, navigate to the `/jjb` directory
 where you will find all job templates for the project.  Follow the below commands
 to test, push or delete jobs in your Sandbox environment.
 
+.. _verify-jjb:
+
 Verify JJB
 ^^^^^^^^^^
 
@@ -322,6 +324,8 @@ Execute the following command to pipe-out to a directory:
    jenkins-jobs --conf jenkins.ini test jjb/ <job-name> -o target
 
 The output directory will contain files with the XML configurations.
+
+.. _push-job:
 
 Push a Job
 ^^^^^^^^^^
@@ -367,8 +371,9 @@ Click the Apply or Save (to save and exit the configuration) buttons to save the
 This is useful in the case where you might want to test quick tweaks to a job before
 modifying the YAML.
 
-Edit the job in your terminal and follow the described steps in `To Test a Job`_
-and `To Push a Job`_ to push any changes and have them ready to push to Gerrit.
+Edit the job in your terminal and follow the described steps in
+:ref:`Verify JJB <verify-jjb>` and `Push Job <push-job>`
+to push any changes and have them ready to push to Gerrit.
 
 .. important::
 

@@ -1,4 +1,4 @@
-.. _lfreleng-docs-jenkins:
+.. _jenkins-infra:
 
 #######
 Jenkins
