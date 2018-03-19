@@ -164,6 +164,30 @@
       "revId": "700a15d365a71bea03a25dea6c62b5f62eb7fe45",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d7c38b3b_817273d7",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-03-19T22:59:28Z",
+      "side": 1,
+      "message": "yah, sure :) \n\nThe paragraph above states about logs \"... delete all logs ...\" while this line below refers to jobs \"... delete all jobs ...\"",
+      "parentUuid": "e64680cb_f460eafc",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 29
+      },
+      "revId": "700a15d365a71bea03a25dea6c62b5f62eb7fe45",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
