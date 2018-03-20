@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "bff095d9_ec3a2b61",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-03-20T01:13:39Z",
+      "side": 1,
+      "message": "The above suggestion are fixed here in the log server section:\nhttps://gerrit.linuxfoundation.org/infra/9504",
+      "parentUuid": "410332bf_e3c27096",
+      "range": {
+        "startLine": 60,
+        "startChar": 21,
+        "endLine": 61,
+        "endChar": 78
+      },
+      "revId": "700a15d365a71bea03a25dea6c62b5f62eb7fe45",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "39e448c5_6859f5bc",
         "filename": "docs/jenkins.rst",
         "patchSetId": 8
