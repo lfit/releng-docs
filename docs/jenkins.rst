@@ -63,11 +63,28 @@ Jenkins Job Builder
 
 .. todo:: RELENG-551
 
+.. _lfdocs-global-jjb-templates:
+
 Global JJB Templates
 ====================
 
-.. todo:: RELENG-552
+Global-JJB is a library project containing reusable Jenkins Job Builder
+templates. The intention is to save time for projects from having to define
+their own job templates. Documentation is available via
+:doc:`global-jjb documentation <global-jjb:index>` specific sections of
+interest linked here:
 
+* :doc:`CI Job Templates <global-jjb:jjb/lf-ci-jobs>`
+* :doc:`Maven Job Templates <global-jjb:jjb/lf-maven-jobs>`
+* :doc:`NodeJS Job Templates <global-jjb:jjb/lf-node-jobs>`
+* :doc:`Python Job Templates <global-jjb:jjb/lf-python-jobs>`
+* :doc:`ReadTheDocs Job Templates <global-jjb:jjb/lf-rtd-jobs>`
+
+.. note::
+
+   For infra admins, the CI Job Templates contain useful jobs for managing
+   Jenkins and VM Images. We recommend to deploy these jobs to all new infra
+   projects.
 
 .. _lfdocs-packer-images:
 
