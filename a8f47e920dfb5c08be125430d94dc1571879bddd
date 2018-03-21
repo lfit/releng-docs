@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7910bf97_1723c0aa",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-03-21T17:18:26Z",
+      "side": 1,
+      "message": "This would be better as the docs should be written generically as all projects will be using this resource.\n\n * Jenkins Production: https://logs.example.org/production\n * Jenkins Sandbox: https://logs.example.org/sandbox\n\n(ODL is a special case because we call our production silo \"releng\").",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 65
+      },
+      "revId": "a8f47e920dfb5c08be125430d94dc1571879bddd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
