@@ -4,13 +4,125 @@
 Jenkins Guide
 #############
 
+The ``ci-management`` or ``builder`` repos in an LF project consolidates the
+Jenkins jobs from project-specific VMs to a single Jenkins server. Each Git repo in
+every project has a tab for their jobs on the main Jenkins server. The system utilizes
+`Jenkins Job Builder <jjb-docs_>`_ for the creation and management of the
+Jenkins jobs.
+
+.. figure:: _static/jenkins-tabs.png
+
+   Jenkins job tabs view.
+
 Quick Start
 ===========
 
-.. todo:: RELENG-546
+This section attempts to provide details on how to get going as a new project
+with minimal steps. All users in need to create or contribute to new job
+types should read and understand this guide.
+
+As a new project you will be mainly interested in getting your jobs to appear
+in the Jenkins server silo archiving it by creating a <project>.yaml in the
+builder or ci-management project's jjb directory.
+
+Example for builder projects:
+
+.. code-block:: bash
+
+    git clone --recursive https://git.opendaylight.org/gerrit/releng/builder
+    cd builder
+    mkdir jjb/<new-project>
+
+Example for ci-management projects:
+
+.. code-block:: bash
+
+    git clone --recursive https://gerrit.onap.org/gerrit/ci-management
+    cd ci-management
+    mkdir jjb/<new-project>
+
+Where <new-project> should be the same name as your project's Git repo in
+Gerrit. If your project name is "aaa" then create a new jjb/aaa directory.
+In similar matter, if your project name is "aaa/bbb" then create a new
+jjb/aaa-bbb directory by replacing all "/" with "-".
+
+.. note::
+
+    builder/jjb/global-jjb or ci-management/jjb/global-jjb are submodules of builder or
+    ci-management repositories which require a git submodule update --init or using
+    --recursive with git clone to get them fetched.
+
+Next we will create <new-project>.yaml as follows:
+
+.. literalinclude:: _static/project-yaml.example
+    :language: yaml
+
+Replace all instances of <new-project> with the name of your project as explained before.
+
+The template above includes an example on how to add local jobs defined internally
+and how to add jobs from global-jjb.
+
+This section adds jobs defined for the project locally:
+
+.. code-block:: yaml
+
+    - '{project-name}-{stream}-verify-profile-java':
+        mvn-profile: 'with-integration-tests'
+    - '{project-name}-{stream}-merge-profile-java':
+        mvn-profile: 'with-integration-tests'
+
+    In this example, the jobs are specific to the LF projects itself and defined under
+    ci-management/jjb/global-templates-java.yaml for example, or under a similar name
+    depending on how the project defined these files.
+
+This section adds jobs defined under a job group name in global-jjb:
+
+.. code-block:: yaml
+
+    - {project-name}-maven-jobs
+
+    In this case, this is a call to a full group of jobs defined under
+    ci-management/jjb/global-jjb/jjb/lf-maven-jobs.yaml or builder/jjb/global-jjb/jjb/lf-maven-jobs.yaml
+    and includes all jobs defined under that job group name:
+        jobs:
+          - gerrit-maven-clm
+          - gerrit-maven-merge
+          - gerrit-maven-release
+          - gerrit-maven-verify
+          - gerrit-maven-verify-dependencies
+
+This section adds a single job from global-jjb:
+
+.. code-block:: yaml
+
+    - gerrit-maven-sonar
+
+    In this case, a single job gets added from global-jjb defined under that name.
+
+Global-jjb defines groups of jobs recommended for ci, maven, python, node, rtd and more future
+languajes as global-jjb is always under constant improvement. If you'd like to explore more about
+these options available please refer to the `Global JJB Templates`_ section.
+
+The changes to these files get published in Gerrit and reviewed by the builder or
+ci-management teams for the LF project. After approvals, these Gerrits get merged and
+the jobs published in Jenkins.
+
+.. code-block:: bash
+
+    git add jjb/<new-project>
+    git commit -sm "Add <new-project> jobs to Jenkins"
+    git review
+
+This will push the jobs to Gerrit and your jobs will appear in Jenkins once the
+builder or ci-management teams has reviewed and merged your patch.
 
 Jenkins Production & Jenkins Sandbox
 ====================================
+
+The Jenkins server is the home for all project's Jenkins jobs. All
+maintenance and configuration of these jobs happen in JJB through the
+ci-management or builder repos. Project contributors can no longer edit the Jenkins jobs
+directly on the server. Instead, we encourage them to use the Jenkins Sandbox.
 
 .. todo:: RELENG-547
 
@@ -419,3 +531,7 @@ job from the Sandbox WebUI. Follow the below process to trigger the build:
 5. Verify the Build Executor Status bar to check on progress.
 
 You can click on the build number to view the job details and console output.
+
+
+.. _jjb-docs: http://ci.openstack.org/jenkins-job-builder/
+
