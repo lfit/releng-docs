@@ -4,15 +4,114 @@
 Jenkins Guide
 #############
 
+The ``ci-management`` or ``releng`` repos in an LF project consolidates the
+Jenkins jobs from project-specific VMs to a single Jenkins server. Each Git repo in
+every project has a tab for their jobs on the main Jenkins server. The system utilizes
+`Jenkins Job Builder <jjb-docs_>`_ for the creation and management of the
+Jenkins jobs.
+
 Quick Start
 ===========
 
-.. todo:: RELENG-546
+This section attempts to provide details on how to get going as a new project
+quickly with minimal steps. The rest of the guide should be read and understood
+by those who need to create and contribute new job types that is not already
+covered by the existing job templates provided by OpenDaylight's JJB repo.
+
+As a new project you will be mainly interested in getting your jobs to appear
+in the Jenkins server silo and this can be achieved by simply creating a
+<project>.yaml in the releng/builder project's jjb directory.
+
+.. code-block:: bash
+
+    git clone --recursive https://git.opendaylight.org/gerrit/releng/builder
+    cd builder
+    mkdir jjb/<new-project>
+
+.. note::
+
+    releng/global-jjb is a submodule of releng/builder repository which
+    requires a git submodule update --init or using --recursive with git clone.
+
+Where <new-project> should be the same name as your project's git repo in
+Gerrit. If your project is called "aaa" then create a new jjb/aaa directory.
+
+Next we will create <new-project>.yaml as follows:
+
+.. code-block:: yaml
+
+    ---
+    - project:
+        name: <NEW_PROJECT>-carbon
+        jobs:
+          - '{project-name}-clm-{stream}'
+          - '{project-name}-integration-{stream}'
+          - '{project-name}-merge-{stream}'
+          - '{project-name}-verify-{stream}-{maven}-{jdks}'
+
+        project: '<NEW_PROJECT>'
+        project-name: '<NEW_PROJECT>'
+        stream: carbon
+        branch: 'master'
+        jdk: openjdk8
+        jdks:
+          - openjdk8
+        maven:
+          - mvn33:
+              mvn-version: 'mvn33'
+        mvn-settings: '<NEW_PROJECT>-settings'
+        mvn-goals: 'clean install -Dmaven.repo.local=/tmp/r -Dorg.ops4j.pax.url.mvn.localRepository=/tmp/r'
+        mvn-opts: '-Xmx1024m -XX:MaxPermSize=256m'
+        dependencies: 'odlparent-merge-{stream},yangtools-merge-{stream},controller-merge-{stream}'
+        email-upstream: '[<NEW_PROJECT>] [odlparent] [yangtools] [controller]'
+        archive-artifacts: ''
+
+    - project:
+        name: <NEW_PROJECT>-sonar
+        jobs:
+          - '{project-name}-sonar'
+
+        project: '<NEW_PROJECT>'
+        project-name: '<NEW_PROJECT>'
+        branch: 'master'
+        mvn-settings: '<NEW_PROJECT>-settings'
+        mvn-goals: 'clean install -Dmaven.repo.local=/tmp/r -Dorg.ops4j.pax.url.mvn.localRepository=/tmp/r'
+        mvn-opts: '-Xmx1024m -XX:MaxPermSize=256m'
+
+Replace all instances of <new-project> with the name of your project. This will
+create the jobs with the default job types we recommend for Java projects. If
+your project is participating in the simultanious-release and ultimately will
+be included in the final distribution, it is required to add the following job
+types into the job list for the release you are participating.
+
+
+.. code-block:: yaml
+
+    - '{project-name}-distribution-check-{stream}'
+    - '{project-name}-validate-autorelease-{stream}'
+
+If you'd like to explore the additional tweaking options available
+please refer to the `Global JJB Templates`_ section.
+
+Finally we need to push these files to Gerrit for review by the releng/builder
+team to push your jobs to Jenkins.
+
+.. code-block:: bash
+
+    git add jjb/<new-project>
+    git commit -sm "Add <new-project> jobs to Jenkins"
+    git review
+
+This will push the jobs to Gerrit and your jobs will appear in Jenkins once the
+releng/builder team has reviewed and merged your patch.
 
 Jenkins Production & Jenkins Sandbox
 ====================================
 
-.. todo:: RELENG-547
+The Jenkins server is the home for all project's Jenkins jobs. All
+maintenance and configuration of these jobs must be done via JJB through the
+ci-management or releng repo. Project contributors can no longer edit the Jenkins jobs
+directly on the server.
 
 Build Minions
 =============
@@ -419,3 +518,7 @@ job from the Sandbox WebUI. Follow the below process to trigger the build:
 5. Verify the Build Executor Status bar to check on progress.
 
 You can click on the build number to view the job details and console output.
+
+
+.. _jjb-docs: http://ci.openstack.org/jenkins-job-builder/
+
