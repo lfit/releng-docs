@@ -1,0 +1,30 @@
+---
+
+- project:
+    name: <new-project>
+    jobs:
+      - {project-name}-maven-jobs
+      - '{project-name}-{stream}-verify-profile-java':
+          mvn-profile: 'with-integration-tests'
+      - '{project-name}-{stream}-merge-profile-java':
+          mvn-profile: 'with-integration-tests'
+    project-name: '<new-project>'
+    project: '<new-project>'
+    stream:
+      - 'master':
+          branch: 'master'
+    mvn-settings: '<new-project>-settings'
+    files: '**'
+    archive-artifacts: ''
+    build-node: ubuntu1604-builder-4c-4g
+- project:
+    name: <new-project>-sonar
+    jobs:
+      - gerrit-maven-sonar
+    build-node: ubuntu1604-builder-4c-4g
+    project: '<new-project>'
+    project-name: '<new-project>'
+    branch: 'master'
+    mvn-settings: '<new-project>-settings'
+    mvn-goals: 'clean install'
+    mvn-opts: '-Xmx1024m -XX:MaxPermSize=256m'
