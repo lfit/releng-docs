@@ -1,0 +1,25 @@
+---
+
+- project:
+    name: <new-project>
+    project-name: <new-project>
+    project: <new-project>
+    mvn-settings: <new-project>-settings
+    jobs:
+    - gerrit-maven-clm
+    - gerrit-maven-merge
+    - gerrit-maven-release
+    - gerrit-maven-verify
+    - gerrit-maven-verify-dependencies
+
+    stream: master
+
+- project:
+    name: <new-project>-sonar
+    jobs:
+      - gerrit-maven-sonar
+    build-node: centos7-builder-4c-4g
+    project: <new-project>
+    project-name: <new-project>
+    branch: master
+    mvn-settings: <new-project>-settings
