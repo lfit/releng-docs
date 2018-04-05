@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "dcd73ad2_d2cbe416",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7fae095_ecd680f0",
+      "range": {
+        "startLine": 11,
+        "startChar": 18,
+        "endLine": 11,
+        "endChar": 33
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fee558d2_287daa6a",
         "filename": "docs/_static/project-yaml.example",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2018-04-05T02:11:07Z",
       "side": 1,
       "message": "No need for single quotes here",
+      "range": {
+        "startLine": 12,
+        "startChar": 13,
+        "endLine": 12,
+        "endChar": 28
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e4f2bc1_3ded18b7",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fee558d2_287daa6a",
       "range": {
         "startLine": 12,
         "startChar": 13,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "2cd8e6ac_e30f65ec",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b35bfba1_57779b85",
+      "range": {
+        "startLine": 14,
+        "startChar": 9,
+        "endLine": 14,
+        "endChar": 15
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8a4bda3_a0b96cf4",
         "filename": "docs/_static/project-yaml.example",
         "patchSetId": 6
@@ -82,6 +154,30 @@
       "writtenOn": "2018-04-05T02:11:07Z",
       "side": 1,
       "message": "No need for single quotes here",
+      "range": {
+        "startLine": 16,
+        "startChar": 18,
+        "endLine": 16,
+        "endChar": 42
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "523c5931_c69ef362",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8a4bda3_a0b96cf4",
       "range": {
         "startLine": 16,
         "startChar": 18,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "599fcbf2_d06931ed",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "029d9658_16cd678d",
+      "range": {
+        "startLine": 17,
+        "startChar": 11,
+        "endLine": 17,
+        "endChar": 15
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0462532a_70c8dd8a",
         "filename": "docs/_static/project-yaml.example",
         "patchSetId": 6
@@ -128,6 +248,30 @@
       "writtenOn": "2018-04-05T02:11:07Z",
       "side": 1,
       "message": "Leave a blank line above line 20 (- project).",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 10
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a256f13f_6e7494d0",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0462532a_70c8dd8a",
       "range": {
         "startLine": 20,
         "startChar": 0,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "f49ea6b6_1e321938",
+        "filename": "docs/_static/project-yaml.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2bd2fb83_e1a77b5a",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 30
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d7f02fbe_cd297d78",
         "filename": "docs/jenkins.rst",
         "patchSetId": 6
@@ -174,6 +342,30 @@
       "writtenOn": "2018-04-05T02:11:07Z",
       "side": 1,
       "message": "Are you referring to views here? Then is more consistent to call them views instead of tabs.",
+      "range": {
+        "startLine": 9,
+        "startChar": 20,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a48dc04d_49daa5ef",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d7f02fbe_cd297d78",
       "range": {
         "startLine": 9,
         "startChar": 20,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "6c57a64b_8fa6d55d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d6954ab_3924771c",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 19
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "14d03034_e04e7004",
         "filename": "docs/jenkins.rst",
         "patchSetId": 6
@@ -220,6 +436,30 @@
       "writtenOn": "2018-04-05T02:11:07Z",
       "side": 1,
       "message": "releng/builder",
+      "range": {
+        "startLine": 28,
+        "startChar": 12,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2dde12af_fa4271e4",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "14d03034_e04e7004",
       "range": {
         "startLine": 28,
         "startChar": 12,
@@ -255,6 +495,30 @@
     },
     {
       "key": {
+        "uuid": "1b5b6604_6529d05d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a21052d9_682858ce",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 52
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4cb436f0_dcecfae4",
         "filename": "docs/jenkins.rst",
         "patchSetId": 6
@@ -266,6 +530,30 @@
       "writtenOn": "2018-04-05T02:11:07Z",
       "side": 1,
       "message": "Rename the file _static/new-project-yaml.example",
+      "range": {
+        "startLine": 57,
+        "startChar": 28,
+        "endLine": 57,
+        "endChar": 48
+      },
+      "revId": "ee5d0f5a53c297f950d2bcfaee028983dc38d86c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a0612005_7224523a",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-05T19:55:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4cb436f0_dcecfae4",
       "range": {
         "startLine": 57,
         "startChar": 28,
