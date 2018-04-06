@@ -53,6 +53,14 @@ The log path pattern for the logs server is
 know the JOB_NAME and BUILD_NUMBER you can replace the paths before it to
 convert the URL between Jenkins and the Log server.
 
+We compress and store individual log files in gzip (.gz) format on the
+Nexus log repository. You can access these files through the URL.
+
+* Jenkins Production:
+  ``https://logs.example.org/production``
+* Jenkins Sandbox:
+  ``https://logs.example.org/sandbox``
+
 Log Cleanup Schedule
 ====================
 
