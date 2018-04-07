@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b359271d_c7e182fe",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "These are not jobs available in global-jjb?",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 47
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "30674d51_226e283e",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "Personally stacking streams like this is a practice I don\u0027t recommend. Folks have this feeling that it is convenient but in some cases having separate project declarations per stream is more useful. For example if between streams you have different mvn-opts and mvn-goals.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 24
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "91867381_4193fafd",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 8
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "We should default to centos machines as they are the machines we recommend most to our users.",
+      "range": {
+        "startLine": 19,
+        "startChar": 16,
+        "endLine": 19,
+        "endChar": 40
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1be5d7_5f538003",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "centos7",
+      "range": {
+        "startLine": 25,
+        "startChar": 16,
+        "endLine": 25,
+        "endChar": 26
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2782d7e8_9cce517a",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 8
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "If I recall mvn-goals is also optional so leave it out by default.",
+      "range": {
+        "startLine": 30,
+        "startChar": 4,
+        "endLine": 30,
+        "endChar": 28
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "68b93a52_42e6db12",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 8
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "Leave mvn-opts out as it is an optional setting that only needs to be set if the project has a good reason to.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 46
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f4776579_a97684e8",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "surround it with double ``\n\n``git submodule update --init``",
+      "range": {
+        "startLine": 55,
+        "startChar": 47,
+        "endLine": 55,
+        "endChar": 74
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52db4b83_0172d983",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "These are all ONAP jobs and none of them exist in global-jjb.",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 45
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "34f94f8f_d47213ed",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "Job groups in global-jjb are deprecated and we plan to remove them in the future as job-groups have too high a precedence that prevents projects from overriding values in job-templates. We should suggest projects use a local job-group for their project or declare each job they need in a list.\n\nWe should recommend maven projects at minimal setup the following jobs:\n\n- clm\n- merge\n- sonar\n- release\n- verify\n\nThe remaining jobs are optional imo.",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 87,
+        "endChar": 31
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fc25bd4a_89880fca",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-07T15:18:10Z",
+      "side": 1,
+      "message": "\"you would\"",
+      "range": {
+        "startLine": 111,
+        "startChar": 65,
+        "endLine": 111,
+        "endChar": 71
+      },
+      "revId": "daa6ba92c92876bfd1fed2f907d34393ac817df5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
