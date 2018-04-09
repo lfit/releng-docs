@@ -136,8 +136,8 @@ Clone with commit-msg hook
 --------------------------
 
 Both SSH and HTTP clone options have a clone with commit-msg hook which adds
-a hook for adding a new Change-Id as part of the footer of any new commit to
-be able to post in Gerrit.
+a hook to handle the Change-Id_ field in the footer of the
+commit message.
 
 #. Browse for the project and click ``General``.
 
@@ -148,17 +148,17 @@ be able to post in Gerrit.
 
    .. note::
 
-      The hook implementation is intelligent at inserting the Change-Id line before
+      The hook implementation is intelligent at inserting the Change-Id_ line before
       any Signed-off-by or Acked-by lines placed at the end of the commit message by
       the author, but if no lines are present then it will insert a blank line, and
-      add the Change-Id at the bottom of the message.
+      add the Change-Id_ at the bottom of the message.
 
-      If a Change-Id line is already present in the message footer, the script will do
-      nothing, leaving the existing Change-Id unmodified. This permits amending an existing
-      commit, or allows the user to insert the Change-Id manually after copying it from
+      If a Change-Id_ line is already present in the message footer, the script will do
+      nothing, leaving the existing Change-Id_ unmodified. This permits amending an existing
+      commit, or allows the user to insert the Change-Id_ manually after copying it from
       an existing change viewed on the web.
 
-#. (Optional). To prevent the Change-Id addition, set gerrit.createChangeId to false in the
+#. (Optional). To prevent the Change-Id_ addition, set gerrit.createChangeId to false in the
    git config.
 
 Push patches to Gerrit
@@ -275,7 +275,7 @@ This method is a useful fallback in situations where we cannot use
    Gerrit which can come in handy for some isolated cases (when having force push rights).
    Another variable commonly used is "refs/changes/<gerrit-number>" which is an explicit
    way of making an update to an exisiting gerrit. In such case, is best to let gerrit handle
-   this via Change-Id in the commit text.
+   this via Change-Id_ in the commit text.
 
    More options for this command: `git-push <https://git-scm.com/docs/git-push>`_.
 
@@ -846,4 +846,5 @@ methods to configure topics:
    <https://gerrit-review.googlesource.com/Documentation/intro-user.html#topics>`_.
 
 
+.. _Change-Id: https://gerrit.linuxfoundation.org/infra/Documentation/user-changeid.html
 .. _virtualenv: https://virtualenv.pypa.io/en/stable/
