@@ -22,3 +22,31 @@ of inodes such as XFS for the logs storage.
 
    OpenDaylight ran out of inodes before due to logs. Issue documented in Jira
    https://jira.linuxfoundation.org/browse/RELENG-773
+
+Troubleshooting
+===============
+
+SSL certificate does not match due to SNI
+-----------------------------------------
+
+When using the nexus-staging-maven-plugin and the build fails with the message
+below. This is due to Nexus 2 not supporting
+`SNI <https://en.wikipedia.org/wiki/Server_Name_Indication>`_ and
+prevents the staging plugin from uploading artifacts to Nexus.
+
+The workaround for this is to use another method to upload to Nexus such as
+cURL which is capable of ignoring the failure.
+
+.. error::
+
+   | [ERROR] Failed to execute goal
+     org.sonatype.plugins:nexus-staging-maven-plugin:1.6.8:deploy-staged-repository
+     (default-cli) on project standalone-pom: Execution default-cli of goal
+     org.sonatype.plugins:nexus-staging-maven-plugin:1.6.8:deploy-staged-repository
+     failed: Nexus connection problem to URL [https://nexus.opendaylight.org ]:
+     com.sun.jersey.api.client.ClientHandlerException:
+     javax.net.ssl.SSLException: hostname in certificate didn't match:
+     <nexus.opendaylight.org> != <logs.opendaylight.org> OR <logs.opendaylight.org>
+     -> [Help 1]
+
+Refer to https://jira.linuxfoundation.org/browse/RELENG-21 for further details.
