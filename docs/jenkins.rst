@@ -74,7 +74,116 @@ scheduled intervals.
 Jenkins Job Builder
 ===================
 
-.. todo:: RELENG-551
+Jenkins Job Builder takes simple descriptions of Jenkins jobs in YAML format
+and uses them to configure Jenkins.
+
+* `Jenkins Job Builder (JJB) documentation <http://ci.openstack.org/jenkins-job-builder>`_
+
+JJB Overview
+------------
+
+Jenkins Job Builder translates YAML code to job configuration suitable
+for consumption by Jenkins. When testing new Jenkins Jobs in the
+`Jenkins Sandbox`_, you will need to use the `jenkins-jobs` executable to
+translate a set of jobs into their XML descriptions and upload them to the
+Jenkins Sandbox server.
+
+Install JJB
+-----------
+
+You can install JJB and its dependencies with `pip <Install JJB using pip_>`_
+using Python `Virtual Environments`_.
+
+You can lock a specific version of JJB in `jjb/requirements.txt`
+as a workaround for any known issues with the latest version. The documentation
+is available in `pip-assisted <Install JJB using pip_>`_ install.
+
+Virtual Environments
+--------------------
+
+For `pip-assisted <Install JJB using pip_>`_, we recommend using
+`Python Virtual Environments <https://virtualenv.readthedocs.org/en/latest/>`__
+to manage JJB and it's Python dependencies.
+
+The documentation for is available for `installing virtual environments <https://virtualenvwrapper.readthedocs.org/en/latest/>`_.
+On Linux systems with pip:
+
+.. code-block:: bash
+
+    pip install --user virtualenvwrapper
+
+A virtual environment is a directory that you install Python programs
+into and update the shell's $PATH, which allows the version installed in the
+virtual environment to take precedence over any system-wide versions available.
+
+Create a new virtual environment for JJB.
+
+.. code-block:: bash
+
+    # Make a new virtual environment
+    virtualenv jjb
+
+With in your virtual environment active, you can install JJB which is
+visible when the virtual environment that is active.
+
+To activate your virtual environment.
+
+.. code-block:: bash
+
+    source ./jjb/bin/activate
+    # or
+    workon jjb
+
+
+To deactivate your virtual environment.
+
+.. code-block:: bash
+
+    deactivate
+
+Install JJB using pip
+---------------------
+
+To install JJB and its dependencies, make sure you have created and activated
+a `virtual environment <Virtual Environments_>`_ for JJB.
+
+#. Set a virtualenv
+
+   .. code-block:: bash
+
+       virtualenv jjb
+       source jjb/bin/activate
+
+
+#. Install JJB
+
+   .. code-block:: bash
+
+       pip install jenkins-job-builder==2.0.5
+
+   .. note::
+
+       If a requirements.txt exists in the repository with the recommended JJB
+       version then, use the requirements file to install JJB by calling.
+
+       .. code-block:: bash
+
+           # From the root of the ci-management or builder directory
+           pip install -r jjb/requirements.txt
+
+   To change the version of JJB specified by `jjb/requirements.txt` to install
+   from the latest commit to the master branch of JJB's Git repository:
+
+   .. code-block:: bash
+
+       cat jjb/requirements.txt
+       -e git+https://git.openstack.org/openstack-infra/jenkins-job-builder#egg=jenkins-job-builder
+
+#. Check JJB installation:
+
+   .. code-block:: bash
+
+       (jjb)$ jenkins-jobs --version
 
 .. _lfdocs-global-jjb-templates:
 
@@ -316,7 +425,7 @@ Execute the following commands to install JJB on your machine:
 
 .. note::
 
-   More information on `Python Virtual Environments <https://virtualenv.readthedocs.io/en/latest/>`_
+   More information on `Python Virtual Environments <https://virtualenv.readthedocs.io/en/latest/>`__
 
 To work on existing jobs or create new jobs, navigate to the `/jjb` directory
 where you will find all job templates for the project.  Follow the below commands
