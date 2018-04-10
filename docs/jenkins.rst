@@ -74,7 +74,196 @@ scheduled intervals.
 Jenkins Job Builder
 ===================
 
-.. todo:: RELENG-551
+Jenkins Job Builder takes simple descriptions of Jenkins jobs in YAML format
+and uses them to configure Jenkins.
+
+* `Jenkins Job Builder (JJB) documentation <http://ci.openstack.org/jenkins-job-builder>`_
+* `RelEng/Builder Gerrit <https://git.opendaylight.org/gerrit/#/admin/projects/releng/builder>`_
+* `RelEng/Builder Git repository <https://git.opendaylight.org/gerrit/gitweb?p=releng%2Fbuilder.git;a=summary>`_
+
+Getting Jenkins Job Builder
+---------------------------
+
+OpenDaylight uses Jenkins Job Builder to translate our in-repo YAML job
+configuration into job descriptions suitable for consumption by Jenkins.
+When testing new Jenkins Jobs in the `Jenkins Sandbox`_, you'll
+need to use the `jenkins-jobs` executable to translate a set of jobs into
+their XML descriptions and upload them to the sandbox Jenkins server.
+
+We document `installing <Installing Jenkins Job Builder_>`_ `jenkins-jobs`
+below.
+
+Installing Jenkins Job Builder
+------------------------------
+
+We recommend using `pip <Installing JJB using pip_>`_ to assist with JJB
+installs, but we also document `installing from a git repository manually
+<Installing JJB Manually_>`_. For both, we recommend using Python
+`Virtual Environments`_ to isolate JJB and its dependencies.
+
+The `builder/jjb/requirements.txt <https://git.opendaylight.org/gerrit/gitweb?p=releng/builder.git;a=blob;f=jjb/requirements.txt>`_
+file contains the currently recommended JJB version. Because JJB is fairly
+unstable, it may be necessary to debug things by installing different versions.
+This is documented for both `pip-assisted <Installing JJB using pip_>`_ and `manual
+<Installing JJB Manually_>`_ installs.
+
+Virtual Environments
+--------------------
+
+For both `pip-assisted <Installing JJB using pip_>`_ and `manual
+<Installing JJB Manually_>`_ JJB
+installs, we recommend using `Python Virtual Environments <https://virtualenv.readthedocs.org/en/latest/>`_
+to manage JJB and its
+Python dependencies. The `https://virtualenvwrapper.readthedocs.org/en/latest/`_ tool can help you do so.
+
+Documentation is available for installing `https://virtualenvwrapper.readthedocs.org/en/latest/`_. On Linux
+systems with pip (typical), they amount to:
+
+.. code-block:: bash
+
+    sudo pip install virtualenvwrapper
+
+A virtual environment is simply a directory that you install Python programs
+into and then append to the front of your path, causing those copies to be
+found before any system-wide versions.
+
+Create a new virtual environment for JJB.
+
+.. code-block:: bash
+
+    # Virtaulenvwrapper uses this dir for virtual environments
+    $ echo $WORKON_HOME
+    /home/abelur/.virtualenvs
+    # Make a new virtual environment
+    $ mkvirtualenv jjb
+    # A new venv dir was created
+    (jjb)$ ls -rc $WORKON_HOME | tail -n 1
+    jjb
+    # The new venv was added to the front of this shell's path
+    (jjb)$ echo $PATH
+    /home/abelur/.virtualenvs/jjb/bin:<my normal path>
+    # Software installed to venv, like pip, is found before system-wide copies
+    (jjb)$ command -v pip
+    /home/abelur/.virtualenvs/jjb/bin/pip
+
+With your virtual environment active, you should install JJB. Your install will
+be isolated to that virtual environment's directory and only visible when the
+virtual environment is active.
+
+You can easily leave and return to your venv. Make sure you activate it before
+each use of JJB.
+
+.. code-block:: bash
+
+    (jjb)$ deactivate
+    $ command -v jenkins-jobs
+    # No jenkins-jobs executable found
+    $ workon jjb
+    (jjb)$ command -v jenkins-jobs
+    $WORKON_HOME/jjb/bin/jenkins-jobs
+
+Installing JJB using pip
+------------------------
+
+The recommended way to install JJB is via pip.
+
+First, clone the latest version of the `https://git.opendaylight.org/gerrit/gitweb?p=releng%2Fbuilder.git;a=summary`_.
+
+.. code-block:: bash
+
+    $ git clone --recursive https://git.opendaylight.org/gerrit/p/releng/builder.git
+
+Before actually installing JJB and its dependencies, make sure you've `created
+and activated <Virtual Environments_>`_ a virtual environment for JJB.
+
+.. code-block:: bash
+
+    $ virtualenv jjb
+
+The recommended version of JJB to install is the version specified in the
+`builder/jjb/requirements.txt <https://git.opendaylight.org/gerrit/gitweb?p=releng/builder.git;a=blob;f=jjb/requirements.txt>`_ file.
+
+.. code-block:: bash
+
+    # From the root of the releng/builder repo
+    (jjb)$ pip install -r jjb/requirements.txt
+
+To validate that JJB was successfully installed you can run this command:
+
+.. code-block:: bash
+
+    (jjb)$ jenkins-jobs --version
+
+TODO: Explain that only the currently merged jjb/requirements.txt is supported,
+other options described below are for troubleshooting only.
+
+To change the version of JJB specified by `builder/jjb/requirements.txt
+<https://git.opendaylight.org/gerrit/gitweb?p=releng/builder.git;a=blob;f=jjb/requirements.txt>`_
+to install from the latest commit to the master branch of JJB's git repository:
+
+.. code-block:: bash
+
+    $ cat jjb/requirements.txt
+    -e git+https://git.openstack.org/openstack-infra/jenkins-job-builder#egg=jenkins-job-builder
+
+To install from a tag, like 1.4.0:
+
+.. code-block:: bash
+
+    $ cat jjb/requirements.txt
+    -e git+https://git.openstack.org/openstack-infra/jenkins-job-builder@1.4.0#egg=jenkins-job-builder
+
+Installing JJB Manually
+-----------------------
+
+This section documents installing JJB from its manually cloned repository.
+
+Note that `installing via pip <Installing JJB using pip_>`_ is typically simpler.
+
+Checkout the version of JJB's source you'd like to build.
+
+For example, using master:
+
+.. code-block:: bash
+
+    $ git clone https://git.openstack.org/openstack-infra/jenkins-job-builder
+
+Using a tag, like 1.4.0:
+
+.. code-block:: bash
+
+    $ git clone https://git.openstack.org/openstack-infra/jenkins-job-builder
+    $ cd jenkins-job-builder
+    $ git checkout tags/1.4.0
+
+Before actually installing JJB and its dependencies, make sure you've `created
+and activated <Virtual Environments_>`_ a virtual environment for JJB.
+
+.. code-block:: bash
+
+    $ mkvirtualenv jjb
+
+You can then use JJB's `requirements.txt <https://git.opendaylight.org/gerrit/gitweb?p=releng/builder.git;a=blob;f=jjb/requirements.txt>`_ file to
+install its
+dependencies. Note that we're not using `sudo` to install as root, since we want
+to make use of the venv we've configured for our current user.
+
+.. code-block:: bash
+
+    # In the cloned JJB repo, with the desired version of the code checked out
+    (jjb)$ pip install -r requirements.txt
+
+Then install JJB from the repo with:
+
+.. code-block:: bash
+
+    (jjb)$ pip install .
+
+To validate that JJB was successfully installed you can run this command:
+
+.. code-block:: bash
+
+    (jjb)$ jenkins-jobs --version
 
 .. _lfdocs-global-jjb-templates:
 
