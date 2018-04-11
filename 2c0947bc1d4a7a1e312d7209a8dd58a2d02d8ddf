@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "bf94e465_491140b9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-11T20:59:56Z",
+      "side": 1,
+      "message": "Cool image but it\u0027s hard to read. Can we have a higher quality version and then we can used width and height to make it fit on the screen?\n\nThis way if someone clicks the image they can read the contents.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 37
+      },
+      "revId": "2c0947bc1d4a7a1e312d7209a8dd58a2d02d8ddf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c7bff36c_da5c6321",
         "filename": "docs/jenkins.rst",
         "patchSetId": 9
