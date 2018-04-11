@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3e081b23_e65c113b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-11T13:52:59Z",
+      "side": 1,
+      "message": "People working on ONAP for example should never be required to git clone OpenDaylight\u0027s ci-management repo.",
+      "range": {
+        "startLine": 165,
+        "startChar": 0,
+        "endLine": 165,
+        "endChar": 110
+      },
+      "revId": "566560b96db868a31dcfcc28cce863082624b8b5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5234d9e0_698d4b37",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-11T13:52:59Z",
+      "side": 1,
+      "message": "This should be written in a cross project supported way. The only project that maintains a requirements.txt is OpenDaylight\u0027s releng/builder repo.\n\nAdditionally the majority of our projects call their repo ci-management so we should write it as if the repo was ci-management repo.",
+      "range": {
+        "startLine": 179,
+        "startChar": 1,
+        "endLine": 179,
+        "endChar": 29
+      },
+      "revId": "566560b96db868a31dcfcc28cce863082624b8b5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
