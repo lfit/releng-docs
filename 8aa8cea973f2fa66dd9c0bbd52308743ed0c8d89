@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8121f7c2_974f13d7",
+        "filename": "docs/_static/jenkins-views.png",
+        "patchSetId": 11
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-12T00:58:11Z",
+      "side": 1,
+      "message": "Rename the file to jenkins-ui.png. could get confused with actual Jenkins `views`.",
+      "revId": "8aa8cea973f2fa66dd9c0bbd52308743ed0c8d89",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f7af4277_6e117092",
+        "filename": "docs/_static/new-project-yaml.example",
+        "patchSetId": 11
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-12T00:58:11Z",
+      "side": 1,
+      "message": "minor nit: blank line not required",
+      "revId": "8aa8cea973f2fa66dd9c0bbd52308743ed0c8d89",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b410ca85_788076bd",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-12T00:58:11Z",
+      "side": 1,
+      "message": "rename to jenkins-ui.png, diff from `views`",
+      "range": {
+        "startLine": 13,
+        "startChar": 11,
+        "endLine": 13,
+        "endChar": 36
+      },
+      "revId": "8aa8cea973f2fa66dd9c0bbd52308743ed0c8d89",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
