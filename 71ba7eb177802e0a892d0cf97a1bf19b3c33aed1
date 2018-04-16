@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "87426dfe_853c4886",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-16T14:08:29Z",
+      "side": 1,
+      "message": "Sudo and pip should never been seen together on the same line. This breaks distro level package managers in a bad way. Perhaps instead we can recommend PEP370:\n\n pip install --user virtualenvwrapper",
+      "range": {
+        "startLine": 115,
+        "startChar": 4,
+        "endLine": 115,
+        "endChar": 38
+      },
+      "revId": "71ba7eb177802e0a892d0cf97a1bf19b3c33aed1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
