@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "252dda36_f35c094b",
+        "filename": "check-bad-practices.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-16T23:49:14Z",
+      "side": 1,
+      "message": "Missing license header.",
+      "revId": "9a838a97364ff3dd855f925a8a0498fa4c401c80",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
