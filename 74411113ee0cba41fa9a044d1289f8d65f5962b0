@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7d7ade4d_17edf845",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 14
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-20T01:44:06Z",
+      "side": 1,
+      "message": "Can we mention the subtopics covered in this documentation in a list?\n\nGeneral topic\n- subtopic 1\n- subtopic 2\n- subtopic 3",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 64
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
