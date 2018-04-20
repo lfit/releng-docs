@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "14bc51cb_cc6f57db",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6d1526b_1cc5bab7",
+      "range": {
+        "startLine": 87,
+        "startChar": 20,
+        "endLine": 87,
+        "endChar": 26
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a419cdda_6ea122dc",
         "filename": "docs/jenkins.rst",
         "patchSetId": 14
@@ -59,6 +83,30 @@
       "writtenOn": "2018-04-20T01:50:45Z",
       "side": 1,
       "message": "This documentation needs to be less about OpenDaylight\u0027s releng/builder project and more generalized so that non-opendaylight projects can follow it.\n\nWe should not be expecting an ONAP user developer to clone opendaylight\u0027s releng/builder project. (OpenDaylight\u0027s the only project that has a requirements.txt in their jjb directory).",
+      "range": {
+        "startLine": 98,
+        "startChar": 42,
+        "endLine": 98,
+        "endChar": 71
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a3e1d45_35e8d3e9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a419cdda_6ea122dc",
       "range": {
         "startLine": 98,
         "startChar": 42,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "749135ee_a5b104e0",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab961bb1_d8a2d266",
+      "range": {
+        "startLine": 158,
+        "startChar": 24,
+        "endLine": 158,
+        "endChar": 30
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d0bf793b_7f141845",
         "filename": "docs/jenkins.rst",
         "patchSetId": 14
@@ -105,6 +177,30 @@
       "writtenOn": "2018-04-20T02:12:01Z",
       "side": 1,
       "message": "Can we describe this procedure in the form of numbered steps like we have in the Gerrit documentation. \n\nNumbered steps helps visualize the procedure better and reference it faster",
+      "range": {
+        "startLine": 195,
+        "startChar": 0,
+        "endLine": 195,
+        "endChar": 23
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc63d684_d6df4979",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d0bf793b_7f141845",
       "range": {
         "startLine": 195,
         "startChar": 0,
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "74929dee_594914d3",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3cd47355_6d680375",
+      "range": {
+        "startLine": 204,
+        "startChar": 37,
+        "endLine": 204,
+        "endChar": 42
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9f7a52e1_d1c0ec52",
         "filename": "docs/jenkins.rst",
         "patchSetId": 14
@@ -151,6 +271,30 @@
       "writtenOn": "2018-04-20T02:12:01Z",
       "side": 1,
       "message": "you have",
+      "range": {
+        "startLine": 220,
+        "startChar": 63,
+        "endLine": 220,
+        "endChar": 69
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86f7b7be_7e3b4ee6",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f7a52e1_d1c0ec52",
       "range": {
         "startLine": 220,
         "startChar": 63,
@@ -186,6 +330,30 @@
     },
     {
       "key": {
+        "uuid": "f3f924d0_10fe441b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9a18bc7_db91e06d",
+      "range": {
+        "startLine": 228,
+        "startChar": 36,
+        "endLine": 228,
+        "endChar": 41
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0419f586_826ceceb",
         "filename": "docs/jenkins.rst",
         "patchSetId": 14
@@ -197,6 +365,30 @@
       "writtenOn": "2018-04-20T02:12:01Z",
       "side": 1,
       "message": "you have",
+      "range": {
+        "startLine": 229,
+        "startChar": 38,
+        "endLine": 229,
+        "endChar": 43
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15dd4077_e353a6a0",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-20T09:47:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0419f586_826ceceb",
       "range": {
         "startLine": 229,
         "startChar": 38,
