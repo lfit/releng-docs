@@ -22,6 +22,29 @@
       "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a419cdda_6ea122dc",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-20T01:50:45Z",
+      "side": 1,
+      "message": "This documentation needs to be less about OpenDaylight\u0027s releng/builder project and more generalized so that non-opendaylight projects can follow it.\n\nWe should not be expecting an ONAP user developer to clone opendaylight\u0027s releng/builder project. (OpenDaylight\u0027s the only project that has a requirements.txt in their jjb directory).",
+      "range": {
+        "startLine": 98,
+        "startChar": 42,
+        "endLine": 98,
+        "endChar": 71
+      },
+      "revId": "74411113ee0cba41fa9a044d1289f8d65f5962b0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
