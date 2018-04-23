@@ -692,8 +692,8 @@ repository.
 
      git review -v -s
 
-Signing Gerrit Commits
-======================
+Sign Gerrit Commits
+===================
 
 1. Generate your GPG key.
 
