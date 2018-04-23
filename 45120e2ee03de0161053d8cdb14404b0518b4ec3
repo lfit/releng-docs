@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "3c11d830_7e848db2",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-23T20:40:58Z",
+      "side": 1,
+      "message": "We need to make the title imperative mode like other documentations:\n\n\"Get Jenkins Job Builder\"",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 82,
+        "endChar": 27
+      },
+      "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4aa450b1_b89dd368",
         "filename": "docs/jenkins.rst",
         "patchSetId": 19
@@ -41,6 +64,52 @@
         "startChar": 0,
         "endLine": 89,
         "endChar": 15
+      },
+      "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1701e1b3_e9c8065d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-23T20:40:58Z",
+      "side": 1,
+      "message": "We need to make the title imperative mode like other documentations:\n\n\"Install Jenkins Job Builder\"",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 30
+      },
+      "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "18a9c4d4_7fb1a2f9",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-23T20:40:58Z",
+      "side": 1,
+      "message": "We need to make the title imperative mode like other documentations:\n\n\"Install JJB using pip\"",
+      "range": {
+        "startLine": 154,
+        "startChar": 0,
+        "endLine": 154,
+        "endChar": 24
       },
       "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
@@ -117,6 +186,29 @@
     },
     {
       "key": {
+        "uuid": "d15eb327_55a6d9bf",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-23T20:40:58Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 176,
+        "startChar": 67,
+        "endLine": 176,
+        "endChar": 70
+      },
+      "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "92b1a38b_78bb2b9c",
         "filename": "docs/jenkins.rst",
         "patchSetId": 19
@@ -156,6 +248,29 @@
         "startChar": 30,
         "endLine": 191,
         "endChar": 47
+      },
+      "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d95f85f1_577ae13d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-23T20:40:58Z",
+      "side": 1,
+      "message": "We need to make the title imperative mode like other documentations:\n\n\"Install JJB manually\" (No need to capitalize the M)",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 198,
+        "endChar": 23
       },
       "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
