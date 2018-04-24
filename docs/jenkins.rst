@@ -99,16 +99,6 @@ the jobs published in Jenkins.
 This will push the jobs to Gerrit and your jobs will appear in Jenkins once the
 releng/builder or ci-management teams has reviewed and merged your patch.
 
-Jenkins Production & Jenkins Sandbox
-====================================
-
-The Jenkins server is the home for all project's Jenkins jobs. All
-maintenance and configuration of these jobs happen in JJB through the
-ci-management or releng/builder repos. Project contributors can no longer edit the Jenkins jobs
-directly on the server. Instead, we encourage them to use the Jenkins Sandbox.
-
-.. todo:: RELENG-547
-
 Build Minions
 =============
 
@@ -257,19 +247,53 @@ line in the logs that look like::
 
 This line provides the name of the new image we built.
 
-
 .. _lfdocs-jenkins-sandbox:
+
+Jenkins Production & Jenkins Sandbox
+====================================
+
+The Jenkins server is the home for all project's Jenkins jobs. All
+maintenance and configuration of these jobs happen in JJB through the
+ci-management or releng/builder repos.
+
+To access the Jenkins Production URL for any project use:
+https://jenkins.PROJECT_DOMAIN
+
+Similarily, the project's corresponding Jenkins Sandbox URL would be:
+https://jenkins.PROJECT_DOMAIN/sandbox
+
+Any users with an LFID can access the Jenkins Production site, but for Jenkins
+Sandbox please request an access. To do so, refer to the section 
+:ref:`Get access to the Jenkins Sandbox <get-sandbox-access>`
+
+Project contributors do not edit the Jenkins jobs directly on the Jenkins production
+server. Instead, we encourage them to use the Jenkins Sandbox.
+
+The Jenkins Sandbox has similar configuration to the production instance.
+It cannot publish artifacts in Nexus or Nexus3 or vote in Gerrit which makes it a
+safe environment to test the jobs. Users can edit and trigger the jobs directly to
+test the behaviour.
+
+The Jenkins Sandbox can contain dummy configuration files and dummy credentials in
+case it helps take the test further and not fail on the first steps due to the configuration
+not being present. Any attempt to actually use the configuration files in order
+to make any server comunications will fail. To add dummy configuration files, please
+create a new `LF Helpdesk <mailto:helpdesk@rt.linuxfoundation.org>`_ ticket
+(for the related project).
+
+In such case, merge jobs, push, CLM, docker or Sonar jobs get tested to some extent due
+to this limitation. Once the job template gets merged and becomes available in Jenkins Production,
+we can confirm the jobs are actually making server comunications as expected with Nexus-IQ,
+Sonar, Gerrit or Nexus.
+
+The Sandbox has limited amount of Virtual Machine nodes instances
+to test compared to production Jenkns.
 
 Jenkins Sandbox
 ===============
 
 Sandbox Overview
 ----------------
-
-The Jenkins Sandbox has similar configuration to the production instance.
-It cannot publish artifacts or vote in Gerrit which makes it a safe environment
-to test the jobs. The Sandbox has limited amount of Virtual Machine nodes instances
-to test compared to production Jenkns.
 
 Facts to keep in mind before working on the Sandbox:
 
@@ -280,8 +304,10 @@ Facts to keep in mind before working on the Sandbox:
 - Sandbox jobs cannot vote on Gerrit
 - Jenkins nodes have OpenStack configuration similarly to the production instance
 
-Get access to the Sandbox
--------------------------
+.. _get-sandbox-access:
+
+Get access to the Jenkins Sandbox
+---------------------------------
 
 The Sandbox provides a testing/experimentation environment used before
 pushing job templates to the production instance.
