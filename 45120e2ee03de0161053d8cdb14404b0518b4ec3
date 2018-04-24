@@ -378,6 +378,30 @@
     },
     {
       "key": {
+        "uuid": "29858ecc_ffebd18d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 19
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-04-24T13:59:20Z",
+      "side": 1,
+      "message": "ODL is the only project that has a requirements.txt to install JJB. None of the other projects have requirements.txt files and it is not necessary to use it to install JJB. A user can always just `pip install \u003cpkg\u003e`.",
+      "parentUuid": "be359c0c_9eda557b",
+      "range": {
+        "startLine": 165,
+        "startChar": 3,
+        "endLine": 167,
+        "endChar": 14
+      },
+      "revId": "45120e2ee03de0161053d8cdb14404b0518b4ec3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d15eb327_55a6d9bf",
         "filename": "docs/jenkins.rst",
         "patchSetId": 19
