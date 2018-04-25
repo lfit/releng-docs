@@ -35,12 +35,6 @@ Steps
 #. Git commit the current files and push to Gerrit
 #. Confirm verify jobs work
 #. Merge the patch and confirm merge job works
-#. Install lf-ansible to GIT_ROOT/lf-ansible
-
-   .. code-block:: bash
-
-      git submodule add https://github.com/lfit/releng-lf-ansible.git lf-ansible
-
 #. Install common-packer to GIT_ROOT/packer/common-packer
 
    .. code-block:: bash
