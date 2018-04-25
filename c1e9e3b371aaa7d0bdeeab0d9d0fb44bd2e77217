@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fb232a98_78a6259f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-25T22:16:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c5100377_1d8b5d57",
+      "range": {
+        "startLine": 253,
+        "startChar": 63,
+        "endLine": 255,
+        "endChar": 38
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "42cc2eb6_0d2bb56b",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -36,6 +60,30 @@
       "writtenOn": "2018-04-25T05:51:29Z",
       "side": 1,
       "message": "``https://jenkins.PROJECT_DOMAIN`` ??",
+      "range": {
+        "startLine": 258,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 30
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c607f55e_a9dd520e",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-25T22:16:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42cc2eb6_0d2bb56b",
       "range": {
         "startLine": 258,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "e8634676_f991b61b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-25T22:16:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "849f3c40_de49bf7c",
+      "range": {
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 261,
+        "endChar": 38
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0d2a1807_ec3cd0c0",
         "filename": "docs/jenkins.rst",
         "patchSetId": 5
@@ -82,6 +154,30 @@
       "writtenOn": "2018-04-25T05:51:29Z",
       "side": 1,
       "message": "Jenkins Sandbox does not",
+      "range": {
+        "startLine": 271,
+        "startChar": 0,
+        "endLine": 271,
+        "endChar": 10
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7769b363_1117cee3",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-25T22:16:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d2a1807_ec3cd0c0",
       "range": {
         "startLine": 271,
         "startChar": 0,
@@ -128,6 +224,30 @@
       "writtenOn": "2018-04-25T05:51:29Z",
       "side": 1,
       "message": "Docker",
+      "range": {
+        "startLine": 282,
+        "startChar": 37,
+        "endLine": 282,
+        "endChar": 43
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "043d5cee_35e8c024",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-25T22:16:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b66ae575_c6bb845d",
       "range": {
         "startLine": 282,
         "startChar": 37,
