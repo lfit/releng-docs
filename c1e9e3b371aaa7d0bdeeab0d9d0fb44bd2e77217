@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5100377_1d8b5d57",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-25T05:51:29Z",
+      "side": 1,
+      "message": "This is not 100% correct since project config such as creds, settings files, is not managed through JJB. Maybe we could rewrite this as follows?  \n\n\"Most of the job configuration is managed through code using JJB through the ci-management or releng/builder repos.\"",
+      "range": {
+        "startLine": 253,
+        "startChar": 63,
+        "endLine": 255,
+        "endChar": 38
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "42cc2eb6_0d2bb56b",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-25T05:51:29Z",
+      "side": 1,
+      "message": "``https://jenkins.PROJECT_DOMAIN`` ??",
+      "range": {
+        "startLine": 258,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 30
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "849f3c40_de49bf7c",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-25T05:51:29Z",
+      "side": 1,
+      "message": "same as above",
+      "range": {
+        "startLine": 261,
+        "startChar": 0,
+        "endLine": 261,
+        "endChar": 38
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0d2a1807_ec3cd0c0",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-25T05:51:29Z",
+      "side": 1,
+      "message": "Jenkins Sandbox does not",
+      "range": {
+        "startLine": 271,
+        "startChar": 0,
+        "endLine": 271,
+        "endChar": 10
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c82d95d6_ceae3d96",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-25T05:51:29Z",
+      "side": 1,
+      "message": "Link to the section where users can raise project-specific helpdesk tickets.",
+      "range": {
+        "startLine": 278,
+        "startChar": 44,
+        "endLine": 280,
+        "endChar": 26
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b66ae575_c6bb845d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 282,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-04-25T05:51:29Z",
+      "side": 1,
+      "message": "Docker",
+      "range": {
+        "startLine": 282,
+        "startChar": 37,
+        "endLine": 282,
+        "endChar": 43
+      },
+      "revId": "c1e9e3b371aaa7d0bdeeab0d9d0fb44bd2e77217",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
