@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4e1d6ab_9b936a70",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 26
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-04-25T22:20:07Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be indented with the note?",
+      "range": {
+        "startLine": 264,
+        "startChar": 3,
+        "endLine": 270,
+        "endChar": 99
+      },
+      "revId": "bdf991503605da0882b6440a995c0b2bab5ae63c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
