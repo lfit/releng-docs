@@ -123,7 +123,7 @@ the tox.ini file the interesting bits are under [testenv:coala].
 Jenkins Job Builder
 ===================
 
-:ref:`Jenkins Job Builder Best Practices <global-jjb-best-practices>`
+:ref:`Jenkins Job Builder Best Practices <global-jjb:global-jjb-best-practices>`
 
 .. noqa
 .. _google-blog-code-health: https://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html

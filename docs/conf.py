@@ -21,6 +21,7 @@
 from docs_conf.conf import *
 
 intersphinx_mapping['ansible'] = ('https://docs.ansible.com/ansible/latest/', None)
+intersphinx_mapping['sphinx'] = ('https://www.sphinx-doc.org/en/master', None)
 
 linkcheck_ignore = [
     'https://gerrit.linuxfoundation.org/infra/releng/docs-conf',

@@ -23,6 +23,7 @@ Guides:
    nexus2
    nexus3
    meetbot
+   style-guide
 
 .. TODO Jenkins (RELENG-510)
 .. TODO Release Workflow (RELENG-511)
