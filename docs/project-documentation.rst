@@ -51,6 +51,12 @@ Bootstrap your project with documentation by following these steps.
    Open a :ref:`Helpdesk <lfdocs-helpdesk>` ticket if you require
    assistence here.
 
+#. Create RTD Generic Webhook
+
+   Follow the steps described in the `rtd-jobs documentation
+   <http://global-jjb.releng.linuxfoundation.org/en/latest/jjb/lf-rtd-jobs.html#readthedocs-merge>`_
+   then record the ``rtd-build-url`` and ``rtd-token`` for the next step.
+
 #. Add the rtd jobs to your project
 
    Open up your project.yaml in the ci-management repo and add this section::
@@ -61,11 +67,17 @@ Bootstrap your project with documentation by following these steps.
            - '{project-name}-rtd-jobs'
 
          project-pattern: PROJECT
-         rtd-project: RTD_PROJECT
+         rtd-build-url: RTD_BUILD_URL
+         rtd-token: RTD_TOKEN
 
    :name: Project name in Gerrit converting forward slashes (/) to dashes (-).
    :project-pattern: Project name as defined in Gerrit.
-   :rtd-project: Project name as defined in ReadTheDocs.
+   :rtd-build-url: This is the generic webhook url from readthedocs.org. Refer
+       to the above instructions to generate one. (Check Admin > Integrations >
+       Generic API incoming webhook)
+   :rtd-token: The unique token for the project Generic webhook. Refer to the
+       above instructions to generate one. (Check Admin > Integrations >
+       Generic API incoming webhook)
 
    More details on rtd job template configuration and parameters is available
    :ref:`here <lf-global-jjb-rtd-jobs>`.
