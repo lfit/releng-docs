@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b7aacc59_4b019f2c",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-04-27T17:27:14Z",
+      "side": 1,
+      "message": "These 2 variables look truncated in the final documentation. Do you know if we can make them not truncated?",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 80,
+        "endChar": 36
+      },
+      "revId": "409a846a3d76542a1eb7281f1a875090f46561fc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
