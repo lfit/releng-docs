@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "34c3a08d_545dfa33",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "I think this should be swapped to \u0027Generic Linting (Coala)\u0027 \n\nMaybe later we could add a bit to the section about general linting/keeping technical debt low.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 23
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c21dd4fe_05d1a8a8",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "virtualenv should always be written lower-case. :)",
+      "range": {
+        "startLine": 62,
+        "startChar": 58,
+        "endLine": 62,
+        "endChar": 68
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "21ede5f1_ae86034a",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "virtualenvwrapper should also be in lower-case",
+      "range": {
+        "startLine": 63,
+        "startChar": 4,
+        "endLine": 63,
+        "endChar": 21
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4c09ce4e_4e1f4e37",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "We should add a link here to the upstream projects:\n https://virtualenv.pypa.io/en/stable/\n https://virtualenvwrapper.readthedocs.io/en/latest/index.html",
+      "range": {
+        "startLine": 70,
+        "startChar": 9,
+        "endLine": 70,
+        "endChar": 26
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96c1afae_dad1fa0c",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "virtualenvwrapper",
+      "range": {
+        "startLine": 81,
+        "startChar": 27,
+        "endLine": 81,
+        "endChar": 44
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "36c28470_c1813804",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "virtualenv",
+      "range": {
+        "startLine": 81,
+        "startChar": 6,
+        "endLine": 81,
+        "endChar": 16
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39e45882_bf1a9838",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "virtualenv",
+      "range": {
+        "startLine": 89,
+        "startChar": 32,
+        "endLine": 89,
+        "endChar": 42
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "25cd7148_fbab2130",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T21:31:45Z",
+      "side": 1,
+      "message": "virtualenv",
+      "range": {
+        "startLine": 93,
+        "startChar": 24,
+        "endLine": 93,
+        "endChar": 34
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
