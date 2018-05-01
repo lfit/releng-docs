@@ -118,6 +118,30 @@
     },
     {
       "key": {
+        "uuid": "233edcb0_f36b7bd9",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-05-01T22:07:06Z",
+      "side": 1,
+      "message": "Yep! Those are the preferred casings of the names.",
+      "parentUuid": "99975eee_79535ac2",
+      "range": {
+        "startLine": 70,
+        "startChar": 9,
+        "endLine": 70,
+        "endChar": 26
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "96c1afae_dad1fa0c",
         "filename": "docs/best-practices.rst",
         "patchSetId": 3
