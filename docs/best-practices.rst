@@ -11,8 +11,8 @@ Code Review
 
 All patches that go into a project repo need to be code reviewed by someone
 other than the original author. Code review is a great way to both learn from
-others as well as improve code quality and we highly recommend everyone code
-review patches regardless of if you are an active committer on a project or not.
+others as well as improve code quality. Contribution to code review is highly
+recommended regardless of activity as a committer.
 
 Below provides a simple checklist of common items that code reviewers should
 look out for (Patch submitters can use this to self-review as well to ensure
@@ -26,6 +26,7 @@ that they are not hitting any of these):
   in the subject line or body?
 - Are there any typos?
 - Are all code review comments addressed?
+- Is the code rebased onto the latest HEAD of the branch?
 - Does the code pull in any dependencies that might have license conflicts
   with this project's license?
 
@@ -43,27 +44,23 @@ that they are not hitting any of these):
 - Does the code cause backwards compatibility breakage?
   (If so it needs documentation)
 
-Google posted an interesting blog (`google-blog-code-health`_) on effective
-code review and how to spend both your own and your reviewers' time
-effectively.
+.. note::
 
-
+    Refer to Google's blog (`google-blog-code-health`_) on effective code review.
 
 Coala (Generic Linting)
 =======================
 
-Coala is a great tool for linting all languages. We use it for linting in
-lftools. The easiest way to run coala is with python-tox and requires Python 3
-installed on the system.
+Coala is a great tool for linting all languages. The easiest way to run Coala
+is with python-tox and requires Python 3 installed on the system:
 
 .. code-block:: bash
 
     tox -ecoala
 
-Sometimes running Coala without tox such as for running in interactive mode
-could be handy. In this case install Coala. The recommended
-way to setup Coala is to use a Python VirtualEnv. We recommend using a script
-called virtualenvwrapper as it makes it simple to manage local virtualenvs.
+Running Coala without Tox can come in handy for executing Coala in
+interactive mode. In this case, install Coala in a Python VirtualEnv.
+Use VirtualEnvWrapper as it makes it simple to manage local virtual environments.
 
 Requirements
 ------------
@@ -81,9 +78,7 @@ Install Coala
     this package with python-coala which is an entirely different piece of
     software.
 
-Using virtualenv is the way this guide recommends setting up on a local system
-and will assume VirtualEnvWrapper is available. To install Coala run the
-following commands.
+Using VirtualEnv (assuming VirtualEnvWrapper is available), install Coala:
 
 .. code-block:: bash
 
@@ -91,12 +86,11 @@ following commands.
     pip install coala coala-bears
     coala --help
 
-In future runs in a new shell you can activate the existing coala virtualenv as
-follows.
+For future usage of an existing VirtualEnv, activate as follows:
 
 .. code-block:: bash
 
-    # Re-activate coala virtualenv
+    # Re-activate Coala VirtualEnv
     workon coala
     # Run the coala command
     coala --help
@@ -104,9 +98,7 @@ follows.
 Set up Coala for a Project
 --------------------------
 
-In some cases we may want to setup coala for a new project that wants to start
-linting their project. We recommend using python-tox to manage a Coala setup
-for any projects.
+Use python-tox to manage a Coala setup for any projects that require linting.
 
 **Requirements**
 
@@ -114,8 +106,8 @@ for any projects.
 * Python VirtualEnv
 * Python Tox
 
-With requirements installed configure the project with a tox.ini and a .coafile
-file. Below are examples of .coafile and tox.ini as defined by lftools. Inside
+Configure the project with a tox.ini and a .coafile file.
+Below are examples of .coafile and tox.ini as defined by lftools. Inside
 the tox.ini file the interesting bits are under [testenv:coala].
 
 **.coafile**
