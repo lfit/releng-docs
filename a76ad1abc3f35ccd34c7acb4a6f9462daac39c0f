@@ -94,6 +94,30 @@
     },
     {
       "key": {
+        "uuid": "99975eee_79535ac2",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-05-01T22:03:12Z",
+      "side": 1,
+      "message": "Trevor, does these ones also need to be written in small caps?\n\nthanks!",
+      "parentUuid": "4c09ce4e_4e1f4e37",
+      "range": {
+        "startLine": 70,
+        "startChar": 9,
+        "endLine": 70,
+        "endChar": 26
+      },
+      "revId": "a76ad1abc3f35ccd34c7acb4a6f9462daac39c0f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "96c1afae_dad1fa0c",
         "filename": "docs/best-practices.rst",
         "patchSetId": 3
