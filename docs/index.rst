@@ -28,6 +28,7 @@ Guides:
 
 Tools:
 
+- :doc:`common-packer <common-packer:index>`
 - :doc:`lfdocs-conf <lfdocs-conf:index>`
 - :doc:`lftools <lftools:index>`
 - :doc:`global-jjb <global-jjb:index>`
