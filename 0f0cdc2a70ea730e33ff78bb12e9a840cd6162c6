@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02be3ecb_5eee26ad",
+        "filename": "docs/infra/openstack.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-02T20:46:00Z",
+      "side": 1,
+      "message": "Needs to be attached, but will cause the doc to fail because this link won\u0027t work until a new version of lfdocs-conf is released with the patch Icd4e36cc1391c881e3cbb083afc611792a9a4595\n\nIf we cannot wait for a new lfdocs-conf release then the alternative is to put the full explicit link.",
+      "range": {
+        "startLine": 15,
+        "startChar": 64,
+        "endLine": 15,
+        "endChar": 65
+      },
+      "revId": "0f0cdc2a70ea730e33ff78bb12e9a840cd6162c6",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "064c6499_2b14eeec",
+        "filename": "docs/infra/openstack.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-02T20:46:00Z",
+      "side": 1,
+      "message": "explicit links need to end with a _ to render properly eg:\n\n `Link Name \u003clink\u003e`_",
+      "range": {
+        "startLine": 21,
+        "startChar": 81,
+        "endLine": 21,
+        "endChar": 82
+      },
+      "revId": "0f0cdc2a70ea730e33ff78bb12e9a840cd6162c6",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ce40cc6_cbb35eb6",
+        "filename": "docs/infra/openstack.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-02T20:46:00Z",
+      "side": 1,
+      "message": "Unnecessary text. Something like:\n\n Get the image ID\n \n .. code-block:: bash\n \n    ...\n \n Where ``$NAME`` is the full name of the source image.",
+      "range": {
+        "startLine": 32,
+        "startChar": 3,
+        "endLine": 32,
+        "endChar": 11
+      },
+      "revId": "0f0cdc2a70ea730e33ff78bb12e9a840cd6162c6",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "22778107_551d1d1e",
+        "filename": "docs/infra/openstack.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-02T20:46:00Z",
+      "side": 1,
+      "message": "Text is too long imo. Maybe something like:\n\n 5. Accept the image share from the target tenant\n \n    The image will not be visible until the target tenant accepts the image. This is required for Jenkins to be able to see and use it.\n \n    .. code-block:: bash\n \n       ...",
+      "range": {
+        "startLine": 52,
+        "startChar": 3,
+        "endLine": 53,
+        "endChar": 50
+      },
+      "revId": "0f0cdc2a70ea730e33ff78bb12e9a840cd6162c6",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
