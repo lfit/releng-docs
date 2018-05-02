@@ -19,9 +19,7 @@ Guides:
    jenkins
    project-documentation
 
-.. TODO Gerrit (RELENG-509)
 .. TODO Jenkins (RELENG-510)
-.. TODO Bootstrap a ReadTheDocs / Sphinx project (RELENG-512)
 .. TODO Release Workflow (RELENG-511)
 .. TODO Packer (RELENG-513)
 .. TODO Javadoc (RELENG-515)
