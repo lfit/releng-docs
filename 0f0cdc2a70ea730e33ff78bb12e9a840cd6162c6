@@ -187,6 +187,30 @@
       "revId": "0f0cdc2a70ea730e33ff78bb12e9a840cd6162c6",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "acfac05d_6597dff9",
+        "filename": "docs/infra/openstack.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-03T00:13:20Z",
+      "side": 1,
+      "message": "Ah, I meant to say the first line of the text. I think it\u0027s good practice to follow the same rules we follow for git commit messages when listing bullet list items.\n\nThat way you can read the item for a quick idea of what it is, and then the body of the item for more context.",
+      "parentUuid": "2a776a29_99218a66",
+      "range": {
+        "startLine": 52,
+        "startChar": 3,
+        "endLine": 53,
+        "endChar": 50
+      },
+      "revId": "0f0cdc2a70ea730e33ff78bb12e9a840cd6162c6",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
