@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba28378c_39ad3a87",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-03T00:22:42Z",
+      "side": 0,
+      "message": "RELENG-510 is (at the time of my checking) not complete",
+      "revId": "f8712a04556be19ee6692d2dca0318bdb6600b58",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
