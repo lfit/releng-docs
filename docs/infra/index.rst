@@ -13,3 +13,4 @@ Infrastructure provided to projects.
    inventory
    jenkins
    nexus
+   openstack
