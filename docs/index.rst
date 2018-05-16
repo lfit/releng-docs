@@ -18,6 +18,7 @@ Guides:
    gpg
    jenkins
    project-documentation
+   nexus2
 
 .. TODO Jenkins (RELENG-510)
 .. TODO Release Workflow (RELENG-511)
