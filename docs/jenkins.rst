@@ -99,10 +99,86 @@ the jobs published in Jenkins.
 This will push the jobs to Gerrit and your jobs will appear in Jenkins once the
 releng/builder or ci-management teams has reviewed and merged your patch.
 
-Build Minions
+Build minions
 =============
 
-.. todo:: RELENG-548
+Jenkins jobs run on build minions (executors) created on demand and deleted when the job
+terminates. Jenkins supports different types of dynamic build nodes and developers must
+know the flavors available to run their custom jobs.
+
+Jenkins uses the OpenStack Cloud plugin to administer node templates and configuration
+for the node instances. For more information on the template:
+``https://wiki.jenkins.io/display/JENKINS/Openstack+Cloud+Plugin``
+
+Projects requiring a specific build configuration can submit a change to the ``ci-management``
+or ``releng`` repos.
+
+Refer to the :ref:`Jenkins Configuration Merge <lf-global-jjb-jenkins-cfg-merge>`
+section to understand how the configuration changes get merged.
+
+.. note::
+
+   Here is an example from OpenDaylight:
+   https://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex
+
+For details on how to build an image for a particular build flavor, refer to the
+:ref: `Packer Images <lfdocs-packer-images>` section.
+
+Cloud configuration (Global Configuration)
+------------------------------------------
+
+This information will help developers (who do not have administer permissions) understand how
+LFIT configures a cloud and build minions via OpenStack Cloud plugin:
+
+#. Log in into Jenkins and click on ``Manage Jenkins``
+
+   .. image:: _static/minions-manage-jenkins.png
+
+#. Scroll to the ``Cloud`` section
+
+#. Click ``Add a new cloud``, ``Cloud (OpenStack)``
+
+   .. image:: _static/minions-add-cloud.png
+
+#. Fill the require information for Cloud provider, URL, credentials and region
+
+   .. note::
+
+      Click ``Test Connection`` to make sure the parameters provided establishes a connection.
+
+   .. image:: _static/minions-test.png
+
+#. Configure ``Default slave options...``
+
+   .. note::
+
+      The ``Default slave options`` can be overwritten for a particular node flavor
+      using the ``Template Advanced`` options
+
+   .. image:: _static/minions-defaults.png
+
+#. Click ``Add template`` and provide a node ``Name`` and ``Labels``
+
+   .. image:: _static/minions-template.png
+
+#. Specify a ``build-node`` in a project's yaml file:
+
+   .. code-block:: bash
+
+      build-node: ubuntu1604-builder-4c-4g
+
+   .. note::
+
+      The value should match an available ``Label`` for the node template.
+
+Build minion flavors
+--------------------
+
+This section points to each LF project's build minions availability and flavors.
+
+* OpenDaylight: https://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex
+
+.. todo:: Add more LF projects build minions links
 
 Log Server
 ==========
