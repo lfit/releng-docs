@@ -102,7 +102,71 @@ releng/builder or ci-management teams has reviewed and merged your patch.
 Build Minions
 =============
 
-.. todo:: RELENG-548
+Jenkins jobs run on build minions (executors) created on demand basis and deleted after
+a job terminates. Jenkins supports different types of dynamic build nodes and developers must
+know the flavors available to run their custom jobs.
+
+Openstack Cloud Jenkins plugin helps administer node templates with the needed
+configuration that they will use to run. For more information on the template:
+``https://wiki.jenkins.io/display/JENKINS/Openstack+Cloud+Plugin``
+
+Projects needing a particular build configuration need to submit a :ref:`helpdesk ticket <lfdocs-helpdesk>`.
+For details on how to build an image for a particular build flavor, refer to the
+:ref: `Packer Images <lfdocs-packer-images>` section.
+
+Cloud configuration (Global Configuration)
+------------------------------------------
+
+This information will help developres (who do not have administer permissions) undestand how
+LFIT configures a cloud and build minions via Openstack Cloud plugin:
+
+#. Log in into Jenkins and click on ``Manage Jenkins``
+
+   .. image:: _static/minions-manage-jenkins.png
+
+#. Scroll to the ``Cloud`` section
+
+#. Click ``Add a new cloud``, ``Cloud (OpenStack)``
+
+   .. image:: _static/minions-add-cloud.png
+
+#. Fill the require information for Cloud provider, URL, credentials and region
+
+   .. note::
+
+      Click ``Test Connection`` to make sure the parameters provided establishes a connection.
+
+   .. image:: _static/minions-test.png
+
+#. Configure ``Default slave options...``
+
+   .. note::
+
+      The ``Default slave options`` can be overwritten for a particular node flavor
+      using the ``Template Advanced`` options
+
+   .. image:: _static/minions-defaults.png
+
+#. Click ``Add template`` and provide a node ``Name`` and ``Labels``
+
+   .. image:: _static/minions-template.png
+
+#. Specify a ``build-node`` in a project's yaml file:
+
+   .. code-block:: bash
+
+      build-node: ubuntu1604-builder-4c-4g
+
+      .. note::
+
+         The value should match an available ``Label`` for the node template.
+
+LF projects Build Minions
+-------------------------
+
+This section points to each LF project's build minions availability and flavors.
+
+.. todo:: Add LF projects build minions links
 
 Log Server
 ==========
