@@ -102,7 +102,63 @@ releng/builder or ci-management teams has reviewed and merged your patch.
 Build Minions
 =============
 
-.. todo:: RELENG-548
+LF projects use the Openstack Cloud plugin to configure node templates with the needed
+configuration that they will use to run. For more information on the template:
+``https://wiki.jenkins.io/display/JENKINS/Openstack+Cloud+Plugin``
+
+For details on how to build an image for a particular build flavor, refer to the
+:ref: `Packer Images <lfdocs-packer-images>` section.
+
+Cloud configuration (Global Configuration)
+------------------------------------------
+
+To configue node templates using the Openstack Cloud plugin:
+
+#. Log in into Jenkins and click on ``Manage Jenkins``
+
+   .. image:: _static/minions-manage-jenkins.png
+   :alt: Manage Jenkins option in Jenkins.
+
+#. Scroll to the ``Cloud`` section
+
+#. Click ``Add a new cloud``, ``Cloud (OpenStack)``
+
+   .. image:: _static/minions-add-cloud.png
+   :alt: Add a new cloud.
+
+#. Fill the require information for Cloud provider, URL, credentials and region
+
+   .. note::
+
+      Click ``Test Connection`` to make sure the parameters provided establishes a connection.
+
+   .. image:: _static/minions-test.png
+   :alt: Cloud connection test.
+
+#. Configure ``Default slave options...``
+
+   .. note::
+
+      The ``Default slave options`` can be overwritten for a particular node flavor
+      using the ``Template Advanced`` options
+
+   .. image:: _static/minions-defaults.png
+   :alt: Slaves defaults configuration.
+
+#. Click ``Add template`` and provide a node ``Name`` and ``Labels``
+
+   .. image:: _static/minions-template.png
+   :alt: Cloud template.
+
+#. Specify a ``build-node`` in a project's yaml file:
+
+   .. code-block:: bash
+
+      build-node: ubuntu1604-builder-4c-4g
+
+      .. note::
+
+         The value should match an available ``Label`` for the node template.
 
 Log Server
 ==========
