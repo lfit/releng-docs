@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1e13a349_8c2ecf57",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "unnecessary word.\n\n\"created on demand\" is a complete phrase.",
+      "range": {
+        "startLine": 105,
+        "startChar": 64,
+        "endLine": 105,
+        "endChar": 69
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d577d600_edf1fd6f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "and deleted when the job terminates.",
+      "range": {
+        "startLine": 105,
+        "startChar": 82,
+        "endLine": 106,
+        "endChar": 16
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "caa1c8c1_ff047d51",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "Jenkins uses the OpenStack Cloud plugin to administer node templates and configuration for the node instances.",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 39
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3d7215e3_f773b0e8",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "Helpdesk ticket is not needed with the use of the jenkins-cfg job.\n\nhttp://docs.releng.linuxfoundation.org/projects/global-jjb/en/latest/jjb/lf-ci-jobs.html#jenkins-configuration-merge\n\nThey can submit a patch directly to the ci-management repo instead. For example OpenDaylight:\n\nhttps://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex",
+      "range": {
+        "startLine": 113,
+        "startChar": 73,
+        "endLine": 113,
+        "endChar": 88
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0062e189_7a1e1b3f",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "understand",
+      "range": {
+        "startLine": 120,
+        "startChar": 79,
+        "endLine": 120,
+        "endChar": 88
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e499f51_af041d83",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "developers",
+      "range": {
+        "startLine": 120,
+        "startChar": 27,
+        "endLine": 120,
+        "endChar": 37
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b56e303e_6bc8ae20",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-25T07:35:42Z",
+      "side": 1,
+      "message": "OpenStack",
+      "range": {
+        "startLine": 121,
+        "startChar": 46,
+        "endLine": 121,
+        "endChar": 55
+      },
+      "revId": "10fee4017151e2288a33445cdb7c2152713b373f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
