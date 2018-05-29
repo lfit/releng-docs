@@ -10,7 +10,7 @@ It helps organizing dependencies and releases.
 .. note::
 
    More information in the Sonatype webpage:
-   https://books.sonatype.com/nexus-book/
+   https://www.sonatype.com/nexus-repository-sonatype
 
    And Nexus Repository Manager 2 specifics:
    https://help.sonatype.com/repomanager2
