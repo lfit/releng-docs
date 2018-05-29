@@ -16,6 +16,24 @@
       "revId": "bc920ed0795526de92e4d25660bef18c3d766eef",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be80b3fa_7538e0ff",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-29T18:08:57Z",
+      "side": 1,
+      "message": "Nexus 2: https://help.sonatype.com/repomanager2\nNexus 3: https://help.sonatype.com/repomanager3",
+      "parentUuid": "a9bcd425_9eed8de6",
+      "revId": "bc920ed0795526de92e4d25660bef18c3d766eef",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
