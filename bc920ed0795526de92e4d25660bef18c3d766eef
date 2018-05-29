@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a9bcd425_9eed8de6",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-29T18:08:07Z",
+      "side": 1,
+      "message": "we should link to the documentation, not the project commercial page.",
+      "revId": "bc920ed0795526de92e4d25660bef18c3d766eef",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
