@@ -34,6 +34,24 @@
       "revId": "bc920ed0795526de92e4d25660bef18c3d766eef",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "66131562_cee47a7d",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-05-29T18:16:16Z",
+      "side": 1,
+      "message": "Done\n\nNexus 3 link i will add it in the Nexus3 docs",
+      "parentUuid": "be80b3fa_7538e0ff",
+      "revId": "bc920ed0795526de92e4d25660bef18c3d766eef",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
