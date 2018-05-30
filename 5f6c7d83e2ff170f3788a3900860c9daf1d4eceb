@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "eb64d08d_52b58501",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-30T23:03:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aeebf2e_63f9273a",
+      "range": {
+        "startLine": 12,
+        "startChar": 78,
+        "endLine": 13,
+        "endChar": 11
+      },
+      "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "98aea8bd_70a57422",
         "filename": "docs/environment-overview.rst",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "3f948687_fdf91246",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-30T23:03:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "98aea8bd_70a57422",
+      "range": {
+        "startLine": 52,
+        "startChar": 32,
+        "endLine": 52,
+        "endChar": 37
+      },
+      "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2ab7c23f_fd9c8699",
         "filename": "docs/environment-overview.rst",
         "patchSetId": 2
@@ -59,6 +107,30 @@
       "writtenOn": "2018-05-30T22:59:32Z",
       "side": 1,
       "message": "Gerrit",
+      "range": {
+        "startLine": 53,
+        "startChar": 2,
+        "endLine": 53,
+        "endChar": 8
+      },
+      "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e51e5a2d_74dc501a",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-30T23:03:31Z",
+      "side": 1,
+      "message": "No, in this case it\u0027s lower case on purpose. I would but the group formula in here (I had it originally) but Coala does not like the work \u0027early\u0027 even if it\u0027s part of a concatenated word.\n\nSee v1 of the patch for the particular wording that was used here.",
+      "parentUuid": "2ab7c23f_fd9c8699",
       "range": {
         "startLine": 53,
         "startChar": 2,
@@ -110,6 +182,30 @@
         "startChar": 21,
         "endLine": 96,
         "endChar": 48
+      },
+      "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "24775f12_c1339628",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-30T23:03:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "834caed6_03d1d04a",
+      "range": {
+        "startLine": 96,
+        "startChar": 64,
+        "endLine": 96,
+        "endChar": 70
       },
       "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
