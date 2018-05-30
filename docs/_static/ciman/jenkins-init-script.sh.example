@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone https://gerrit.example.org/r/ci-management.git /ci-management
+/ci-management/jenkins-scripts/jenkins-init-script.sh
+rm -rf /ci-management
