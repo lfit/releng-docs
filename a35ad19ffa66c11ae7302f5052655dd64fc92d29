@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "764ba321_2048c1f6",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-05-30T07:57:06Z",
+      "side": 1,
+      "message": "Build minions",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 13
+      },
+      "revId": "a35ad19ffa66c11ae7302f5052655dd64fc92d29",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "de13c433_398aecbc",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-05-30T07:57:06Z",
+      "side": 1,
+      "message": "Projects requiring a specific build configuration can submit a change to the ``ci-management`` or ``releng`` repo.",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 37
+      },
+      "revId": "a35ad19ffa66c11ae7302f5052655dd64fc92d29",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "68ad349f_a3107428",
         "filename": "docs/jenkins.rst",
         "patchSetId": 8
@@ -18,6 +64,29 @@
         "startChar": 6,
         "endLine": 172,
         "endChar": 77
+      },
+      "revId": "a35ad19ffa66c11ae7302f5052655dd64fc92d29",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b26e5a1c_a1c98944",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-05-30T07:57:06Z",
+      "side": 1,
+      "message": "May want to call this \"Build minion flavors or specs\"",
+      "range": {
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 174,
+        "endChar": 25
       },
       "revId": "a35ad19ffa66c11ae7302f5052655dd64fc92d29",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
