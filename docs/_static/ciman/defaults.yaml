@@ -1,0 +1,7 @@
+- defaults:
+    name: global
+
+    gerrit-server-name: Primary
+    git-url: 'ssh://jenkins-$SILO@gerrit.example.org:29418'
+    jenkins-ssh-credential: jenkins-ssh
+    lftools-version: '<1.0.0'
