@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "68ad349f_a3107428",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-30T02:09:49Z",
+      "side": 1,
+      "message": "can\u0027t have a note inside a code block. This needs to be dedented by 3 spaces.",
+      "range": {
+        "startLine": 170,
+        "startChar": 6,
+        "endLine": 172,
+        "endChar": 77
+      },
+      "revId": "a35ad19ffa66c11ae7302f5052655dd64fc92d29",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
