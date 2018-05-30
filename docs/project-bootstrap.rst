@@ -30,10 +30,51 @@ Steps
 
 .. todo:: First bootstrap a builder so that we can bootstrap ci-management
 
-#. Create ci-management repo in Gerrit
+#. Create ci-management repo in the project SCM system
 #. Create a README.md file explaining the purpose of the repo
-#. Setup tox/coala linting for jjb/ and packer directories
+
+   ::
+
+      # ci-management
+
+      This repo contains configuration files for Jenkins jobs for the _________
+      project.
+
+#. Setup tox/coala linting for ``jjb/`` and ``packer/`` directories
+
+   **.yamllint.conf**
+
+   .. literalinclude:: _static/ciman/yamllint.conf.example
+      :language: ini
+
+   **.coafile**
+
+   .. literalinclude:: _static/ciman/coafile.example
+      :language: ini
+
+   **tox.ini**
+
+   .. literalinclude:: _static/ciman/tox.ini.example
+      :language: ini
+
+#. Setup .gitignore
+
+   .. code-block:: bash
+
+      .tox/
+      archives/
+      jenkins.ini
+
 #. Install global-jjb to GIT_ROOT/jjb/global-jjb
+
+   .. code-block:: bash
+
+      git clone https://github.com/lfit/releng-global-jjb.git jjb/global-jjb
+
+#. Setup ``jjb/defaults.yaml``
+
+   .. literalinclude:: _static/ciman/defaults.yaml
+
 #. Create the CI Jobs in jjb/ci-management/ci-jobs.yaml
 
    .. code-block:: yaml
