@@ -12,6 +12,7 @@ Guides:
 .. toctree::
    :maxdepth: 1
 
+   environment-overview
    best-practices
    ansible
    gerrit
