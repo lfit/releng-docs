@@ -35,14 +35,134 @@ ci-management repo
 
 Once Jenkins is available we can initialize a new ci-management repo.
 
-Steps
-
 .. todo:: First bootstrap a builder so that we can bootstrap ci-management
 
-#. Create ci-management repo in Gerrit
+Setup administrative files
+--------------------------
+
+#. Create ci-management repo in the project SCM system
 #. Create a README.md file explaining the purpose of the repo
-#. Setup tox/coala linting for jjb/ and packer directories
+
+   ::
+
+      # ci-management
+
+      This repo contains configuration files for Jenkins jobs for the _________
+      project.
+
+#. Setup tox/coala linting for ``jjb/`` and ``packer/`` directories
+
+   **.yamllint.conf**
+
+   .. literalinclude:: _static/ciman/yamllint.conf.example
+      :language: ini
+
+   **.coafile**
+
+   .. literalinclude:: _static/ciman/coafile.example
+      :language: ini
+
+   **tox.ini**
+
+   .. literalinclude:: _static/ciman/tox.ini.example
+      :language: ini
+
+#. Setup .gitignore
+
+   .. code-block:: bash
+
+      .tox/
+      archives/
+      jenkins.ini
+
+      # Packer
+      .galaxy/
+      *.retry
+      cloud-env.json
+
+#. ``git commit -asm "Setup repo administrative files"``
+#. ``git push`` files to the repository
+#. Run ``tox``
+
+   .. note::
+
+      The ``jjb`` tox env will fail as the required ``jjb/`` directory does not
+      yet exist. This is fine and simply proves that tox is working before
+      we continue in the next step.
+
+Bootstrap common-packer and initial builder
+-------------------------------------------
+
+.. note::
+
+   This section assumes the usage of an OpenStack cloud provider for Jenkins
+   build nodes. Adjust as necessary if not using an OpenStack cloud.
+
+#. Install common-packer to GIT_ROOT/packer/common-packer
+
+   .. code-block:: bash
+
+      git submodule add https://github.com/lfit/releng-common-packer.git packer/common-packer
+
+#. Follow common-packer doc to :ref:`setup a template <common-packer:setup-template>`
+#. ``git commit -asm "Setup common-packer and initial builder"
+#. ``git push`` files to repository
+#. Upload a CentOS 7 cloudimg to use as a base for packer builds
+
+   When uploading the cloudimg ensure it's name matches the ``base_image``
+   name in ``common-packer/vars/centos-7.json``.
+
+#. Run ``packer-io build -var-file=cloud-env.json -var-file=common-packer/vars/centos-7.json templates/builder.json``
+
+#. Navigate to ``https://jenkins.motionpicturesoftwarefoundation.org/credentials/store/system/domain/_/newCredentials``
+#. Configure the credential as follows:
+
+   .. code-block:: none
+
+      Kind: OpenStack auth v3
+      Project Domain: Default
+      Project Name: OPENSTACK_TENANT_ID
+      User Domain: Default
+      User Name: OPENSTACK_USERNAME
+      Password: OPENSTACK_PASSWORD
+      ID: openstack-cloud-credential
+      Description: openstack-cloud-credential
+
+  .. note::
+
+     Replace all caps instances with your Cattle account credential.
+
+
+#. Navigate to ``https://jenkins.example.org/configure``
+#. Click ``Add a new cloud`` > ``Cloud (OpenStack)``
+#. Configure the cloud
+
+   .. code-block:: none
+      :caption: example
+
+      Cloud Name: cattle
+      End Point URL: https://auth.vexxhost.net/v3/
+      Ignore unverified SSL certificates: false
+      Credential: openstack-cloud-credential
+      Region: ca-ymq-1
+
+   .. note::
+
+      The configuration here is temporary just to bootstrap
+
+Setup global-jjb and ci-jobs
+----------------------------
+
 #. Install global-jjb to GIT_ROOT/jjb/global-jjb
+
+   .. code-block:: bash
+
+      git submodule add https://github.com/lfit/releng-global-jjb.git jjb/global-jjb
+
+#. Setup ``jjb/defaults.yaml``
+
+   .. literalinclude:: _static/ciman/defaults.yaml
+
 #. Create the CI Jobs in jjb/ci-management/ci-jobs.yaml
 
    .. code-block:: yaml
@@ -61,13 +181,9 @@ Steps
 #. Git commit the current files and push to Gerrit
 #. Confirm verify jobs work
 #. Merge the patch and confirm merge job works
-#. Install common-packer to GIT_ROOT/packer/common-packer
 
-   .. code-block:: bash
 
-      git submodule add https://github.com/lfit/releng-common-packer.git packer/common-packer
 
-#. Git commit and merge patch in Gerrit
 #. Create Initial CI Packer job in jjb/ci-management/ci-packer.yaml
 
    .. code-block:: yaml
@@ -91,6 +207,4 @@ Steps
 #. Merge patch and confirm merge job works
 #. Update and Create appropriate builders in Jenkins using the newly created image
 
-.. todo:: provide example README text
-.. todo:: provide example tox.ini and .coafile
 .. todo:: we need to make sure the ci-jobs macro includes the tox job for linting
