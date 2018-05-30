@@ -210,6 +210,30 @@
       "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "261dfe81_8e19e4c7",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-05-30T23:12:32Z",
+      "side": 1,
+      "message": "This comment of mine is not valid... read the previous word as \"exists\" instead of \"exits\"",
+      "parentUuid": "0ab6d113_e53a9d12",
+      "range": {
+        "startLine": 96,
+        "startChar": 21,
+        "endLine": 96,
+        "endChar": 48
+      },
+      "revId": "5f6c7d83e2ff170f3788a3900860c9daf1d4eceb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
