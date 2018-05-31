@@ -12,7 +12,7 @@ Sharing instance images
 =======================
 
 We can share CI images between projects. This is useful when it comes to
-bootstrapping a new project or when migrating a project to :doc: `common-packer
+bootstrapping a new project or when migrating a project to :doc:`common-packer
 <common-packer:index>`.
 
 This process requires two different tenants to work with. The source tenant and
