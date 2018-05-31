@@ -1,8 +1,36 @@
-.. _lfreleng-docs-bootstrap:
+.. _infra-bootstrap:
 
 ###################
 New Infra Bootstrap
 ###################
+
+This document is written such that all domains are ``example.org``. Please
+replace to point to the intended systems for your project.
+
+.. _infra-bootstrap-jenkins:
+
+Jenkins
+=======
+
+Steps
+
+#. Login to Jenkins at https://jenkins.example.org
+#. Navigate to https://jenkins.example.org/pluginManager/
+#. Update all plugins
+#. Install required plugins as documented in :ref:`global-jjb install guide
+   <global-jjb:jenkins-install-plugins>`
+
+#. Setup Jenkins global environment variables as described in the
+   :ref:`global-jjb install guide <global-jjb:jenkins-envvars>`
+
+   .. note::
+
+      Skip the ci-management step in as we will be discussing that in the
+      next section.
+
+#. Setup global-jjb required `Jenkins Files <global-jjb:jenkins-files>`_
+
+.. _infra-bootstrap-ci-management:
 
 ci-management repo
 ==================
