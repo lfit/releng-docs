@@ -4,6 +4,23 @@
 New Project Bootstrap
 #####################
 
+This document is written such that all domains are listed as ``example.org``.
+Please replace as required to point to the intended systems for your project.
+
+Jenkins
+=======
+
+Steps
+
+#. Login to Jenkins at https://jenkins.example.org
+#. Navigate to https://jenkins.example.org/pluginManager/
+#. Update all plugins
+#. Install required plugins as documented in `global-jjb
+   <https://github.com/lfit/releng-global-jjb/blob/master/README.md>`_
+
+   .. todo:: Re-work global-jjb doc README into RST so that it is available
+             in ReadTheDocs.
+
 ci-management repo
 ==================
 
