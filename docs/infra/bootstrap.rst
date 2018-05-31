@@ -1,8 +1,91 @@
-.. _lfreleng-docs-bootstrap:
+.. _infra-bootstrap:
 
 ###################
 New Infra Bootstrap
 ###################
+
+This document uses ``example.org`` as the domain for all examples. Please
+change to point to the intended systems for your project.
+
+.. _infra-bootstrap-jenkins:
+
+Jenkins
+=======
+
+Steps
+
+#. Login to Jenkins at https://jenkins.example.org
+#. Navigate to https://jenkins.example.org/pluginManager/
+#. Update all plugins
+#. Install required plugins as documented in :ref:`global-jjb install guide
+   <global-jjb:jenkins-install-plugins>`
+#. Install the following plugins:
+
+   * `Build Timeout plugin
+     <https://plugins.jenkins.io/build-timeout>`_
+   * `Extended Read Permission plugin
+     <https://plugins.jenkins.io/extended-read-permission>`_
+
+#. Navigate to https://jenkins.example.org/configure
+#. Configure Jenkins as follows:
+
+   .. code-block:: none
+
+      # of executors: 0
+      Jenkins URL: https://jenkins.example.org
+      System Admin e-mail address: Jenkins <jenkins-dontreply@example.org>
+      Global Config user.name value: jenkins
+      Global Config user.email value: jenkins@example.org
+
+   If using the Message Injector plugin set ``Message to inject`` to
+   ``Logs: https://logs.example.org/SILO/HOSTNAME/$JOB_NAME/$BUILD_NUMBER`` and
+   replace ``SILO`` and ``HOSTNAME`` as appropriate.
+#. Click ``Save``
+
+#. Configure Jenkins security as described in `Jenkins Security <jenkins-security>`
+
+#. Navigate to https://jenkins.example.org/configureSecurity/
+#. Configure the following permissions for ``Anonymous Users``
+
+   .. include:: ../_static/ciman/anonymous-user-permissions.example
+
+   .. note::
+
+      If the project is not yet public, hold off on these permissions or adjust
+      as necessary for the project's case.
+
+#. Setup Jenkins global environment variables as described in the
+   :ref:`global-jjb install guide <global-jjb:jenkins-envvars>`
+
+   .. note::
+
+      Skip the ci-management step in as we will be discussing that in the
+      next section.
+
+#. Setup a :ref:`jobbuilder account <setup-jobbuilder-account>`
+#. Setup global-jjb required `Jenkins Files <global-jjb:jenkins-files>`_
+
+.. _setup-jobbuilder-account:
+
+Setup JobBuilder account
+------------------------
+
+The ci-jobs in global-jjb require a jobbuilder account which has permissions
+to login to Jenkins.
+
+#. Navigate to and create an account for jobbuilder https://identity.linuxfoundation.org/
+
+   .. note::
+
+      This step mainly applies to LF projects. Use the relevant identity system
+      as it applies to your local configuration.
+
+#. Navigate to https://jenkins.example.org/configureSecurity and
+   configure permissions for the jobbuilder account as follows:
+
+   .. include:: ../_static/ciman/jobbuilder-user-permissions.example
+
+.. _infra-bootstrap-ci-management:
 
 ci-management repo
 ==================
