@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e5f3863d_92fc8056",
+        "filename": "docs/infra/openstack.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-31T17:41:46Z",
+      "side": 1,
+      "message": "We should fix this space (when lfdocs-conf is released). It currently is a broken link.",
+      "range": {
+        "startLine": 15,
+        "startChar": 64,
+        "endLine": 15,
+        "endChar": 65
+      },
+      "revId": "d9799f83827b041bdfd19c9da7c9d1e56b993e35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
