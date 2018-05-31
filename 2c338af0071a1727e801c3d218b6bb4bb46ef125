@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c135a5a3_c3b26eb1",
+        "filename": "docs/project-bootstrap.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-31T00:27:56Z",
+      "side": 1,
+      "message": "I might just tackle this now so that we can get a proper link asap.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 28
+      },
+      "revId": "2c338af0071a1727e801c3d218b6bb4bb46ef125",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
