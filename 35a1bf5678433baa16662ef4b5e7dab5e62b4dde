@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1b1fa415_58239941",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-31T00:27:12Z",
+      "side": 1,
+      "message": "OpenDaylight",
+      "range": {
+        "startLine": 179,
+        "startChar": 2,
+        "endLine": 179,
+        "endChar": 5
+      },
+      "revId": "35a1bf5678433baa16662ef4b5e7dab5e62b4dde",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
