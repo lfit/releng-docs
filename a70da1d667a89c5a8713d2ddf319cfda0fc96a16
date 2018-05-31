@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "edb301ce_3a821679",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-31T20:39:19Z",
+      "side": 1,
+      "message": "no need for this doc reference as we can use \":doc:`path-to-file`\" instead.",
+      "revId": "a70da1d667a89c5a8713d2ddf319cfda0fc96a16",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8bb129a1_7dd58b21",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-31T20:39:19Z",
+      "side": 1,
+      "message": "Better to use :doc:`here \u003cjenkins-sandbox\u003e` instead for linking.",
+      "range": {
+        "startLine": 400,
+        "startChar": 0,
+        "endLine": 400,
+        "endChar": 37
+      },
+      "revId": "a70da1d667a89c5a8713d2ddf319cfda0fc96a16",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
