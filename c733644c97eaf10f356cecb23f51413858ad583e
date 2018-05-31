@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "001109d5_a5cba778",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-31T19:39:48Z",
+      "side": 1,
+      "message": "This is really a start on what should be a holistic \"environment\" overview and links / pointers to how to build out the environment.",
+      "parentUuid": "7915eaa8_69c61b81",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 11
+      },
+      "revId": "c733644c97eaf10f356cecb23f51413858ad583e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e6750ab7_645b5eb6",
         "filename": "docs/environment-overview.rst",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "313ce45a_722645b6",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-31T19:39:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6750ab7_645b5eb6",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 38
+      },
+      "revId": "c733644c97eaf10f356cecb23f51413858ad583e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0cd5f1cb_e04a5b12",
         "filename": "docs/environment-overview.rst",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2018-05-31T01:24:25Z",
       "side": 1,
       "message": "Is there a link to IPR page or fossology we can provide here or whom to contact if its project specific?",
+      "range": {
+        "startLine": 69,
+        "startChar": 35,
+        "endLine": 69,
+        "endChar": 68
+      },
+      "revId": "c733644c97eaf10f356cecb23f51413858ad583e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfee4011_222d09ec",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-05-31T19:39:48Z",
+      "side": 1,
+      "message": "Not that I\u0027m aware of. Each project has slightly different IPR requirements and I don\u0027t even know what the contact point would be related to them. It should mostly be documented any charters.",
+      "parentUuid": "0cd5f1cb_e04a5b12",
       "range": {
         "startLine": 69,
         "startChar": 35,
