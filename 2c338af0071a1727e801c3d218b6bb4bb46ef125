@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "73afd231_37dae9da",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-05-31T00:28:50Z",
+      "side": 1,
+      "message": "Issue: RELENG-981",
+      "revId": "2c338af0071a1727e801c3d218b6bb4bb46ef125",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c135a5a3_c3b26eb1",
         "filename": "docs/project-bootstrap.rst",
         "patchSetId": 1
