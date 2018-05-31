@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "7915eaa8_69c61b81",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-05-31T01:24:25Z",
+      "side": 1,
+      "message": "the content refers to architecture and processes. Maybe a different title would be better? maybe \"architecture overview\"",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 11
+      },
+      "revId": "c733644c97eaf10f356cecb23f51413858ad583e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e6750ab7_645b5eb6",
         "filename": "docs/environment-overview.rst",
         "patchSetId": 3
@@ -18,6 +41,29 @@
         "startChar": 0,
         "endLine": 26,
         "endChar": 38
+      },
+      "revId": "c733644c97eaf10f356cecb23f51413858ad583e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0cd5f1cb_e04a5b12",
+        "filename": "docs/environment-overview.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-05-31T01:24:25Z",
+      "side": 1,
+      "message": "Is there a link to IPR page or fossology we can provide here or whom to contact if its project specific?",
+      "range": {
+        "startLine": 69,
+        "startChar": 35,
+        "endLine": 69,
+        "endChar": 68
       },
       "revId": "c733644c97eaf10f356cecb23f51413858ad583e",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
