@@ -152,3 +152,99 @@ ReadTheDocs know where to pull your docs to build from.
 
          Typically the repo name. Forward slashes are not allowed so convert
          them to hyphens.
+
+Appendix
+========
+
+Intersphinx Linking
+-------------------
+
+This is supplemental documentation for upstream Sphinx docs on intersphinx_
+linking and Sphinx linking in general. Please refer to the upstream docs here:
+
+* intersphinx_
+* linking_
+
+When working with related projects that generate separate Sphinx documentation
+that have docs that need to be cross referenced, intersphinx_ linking_ is the
+recommended way to link.
+
+As a refresher refer to the Sphinx documentation on linking_ and review the
+upstream docs for the ``:doc:`` and ``:ref:`` link types, ``:any:`` is useful
+helper function to let Sphinx guess if a link is a ``:doc:`` or a ``:ref:`` link.
+
+In most cases folks use these link references to link to local documentation,
+we can use these for intersphinx_ linking_ to another project's
+public docs as well via a ``namespace`` and configuration in ``conf.py``.
+
+The configuration is a dictionary containing a ``key`` which we will refer to
+as a doc ``namespace`` and a tuple with a link to the project's public
+documentation. This ``namespace`` is locally significant and is a free form
+word so set it to anything, then within the local project use it to reference
+an external doc.
+
+:Example:
+
+    .. code-block:: python
+
+       intersphinx_mapping = {
+           'python': ('https://docs.python.org/3', None),
+       }
+
+conf.py configuration
+^^^^^^^^^^^^^^^^^^^^^
+
+The ``lfdocs-conf`` project already provides common
+`LF docs related intersphinx links
+<https://github.com/lfit/releng-docs-conf/blob/master/docs_conf/conf.py>`_ in
+for projects using ``lfdocs-conf``.
+
+To add to the intersphinx link dictionary define ``intersphinx_mapping``
+in the local ``conf.py`` file, refer to the example above. This overrides the
+``intersphinx_mapping`` variable. If using ``lfdocs-conf`` we recommend
+appending to the list instead by setting the following:
+
+.. code-block:: python
+
+   intersphinx_mapping['key'] = ('https://example.org/url/to/link', None)
+   intersphinx_mapping['netvirt'] = ('http://docs.opendaylight.org/projects/netvirt/en/latest/', None)
+
+Since lfdocs-conf defines the intersphinx_mapping dictionary the code
+above will append to it using a key-value pair. More examples of intersphinx
+mapping can available in the `OpenDaylight conf.py
+<https://github.com/opendaylight/docs/blob/master/docs/conf.py>`_.
+
+Link to External docs
+^^^^^^^^^^^^^^^^^^^^^
+
+Using the ``namespace`` we can refer to ``docs`` and ``labels`` in external
+project documentation in the same way we can refer to local documentation.
+
+:Example:
+
+    .. code-block:: ReST
+
+       * :doc:`Global JJB <global-jjb:index>`
+       * :ref:`CI Jobs <global-jjb:lf-global-jjb-jenkins-cfg-merge>`
+
+:Demo:
+
+    * :doc:`Global JJB <global-jjb:index>`
+    * :ref:`CI Jobs <global-jjb:lf-global-jjb-jenkins-cfg-merge>`
+
+As you can see we insert the global-jjb docs namespace as deliminated by the
+colon ``:`` symbol inside of link reference to tell Sphinx to point the link
+to the global-jjb project docs.
+
+.. tip::
+
+   The above example highlights a bad practice in some LF Docs projects where
+   we were namespacing label definitions using code such as
+   ``.. _lf-global-jjb-jenkins-cfg-merge``. This is redundant and unnecessary
+   as the project is already namespaced by the ``intersphinx_mapping``
+   configuration. When defining labels define them as locally significant names
+   and allow ``intersphinx_mapping`` to handle the namespace.
+
+
+.. _intersphinx: http://www.sphinx-doc.org/en/master/ext/intersphinx.html
+.. _linking: http://www.sphinx-doc.org/en/stable/markup/inline.html
