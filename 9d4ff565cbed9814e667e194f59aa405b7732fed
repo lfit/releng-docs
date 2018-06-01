@@ -260,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "c40461c8_27daab35",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-01T21:38:32Z",
+      "side": 1,
+      "message": "yes.. that sounds better. Thank you!",
+      "parentUuid": "dffd42ca_97dbca02",
+      "range": {
+        "startLine": 194,
+        "startChar": 0,
+        "endLine": 194,
+        "endChar": 21
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b81797ae_93a3520f",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -436,6 +460,30 @@
       "side": 1,
       "message": "It\u0027s not a tag, it\u0027s just a namespace.",
       "parentUuid": "9cabd61a_f23528b8",
+      "range": {
+        "startLine": 220,
+        "startChar": 6,
+        "endLine": 220,
+        "endChar": 26
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffe12fa3_6bf1554c",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-01T21:38:32Z",
+      "side": 1,
+      "message": "Got it..",
+      "parentUuid": "b59beff4_7fca5aa6",
       "range": {
         "startLine": 220,
         "startChar": 6,
