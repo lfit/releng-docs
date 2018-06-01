@@ -1,0 +1,51 @@
+std:doc
+     ansible                                  Ansible Guide                           : ansible.html
+     best-practices                           Best Practices                          : best-practices.html
+     gerrit                                   Gerrit Guide                            : gerrit.html
+     gpg                                      GPG2 (GnuGP 2) Guide                    : gpg.html
+     helpdesk                                 LF Helpdesk                             : helpdesk.html
+     index                                    Linux Foundation Releng Documentation   : index.html
+     infra/index                              Infrastructure Guide                    : infra/index.html
+     infra/inventory                          Inventory                               : infra/inventory.html
+     infra/jenkins                            Jenkins                                 : infra/jenkins.html
+     infra/nexus                              Nexus                                   : infra/nexus.html
+     infra/openstack                          OpenStack Management                    : infra/openstack.html
+     jenkins                                  Jenkins Guide                           : jenkins.html
+     nexus2                                   Nexus 2 Guide                           : nexus2.html
+     project-bootstrap                        New Project Bootstrap                   : project-bootstrap.html
+     project-documentation                    Project Documentation Guide             : project-documentation.html
+std:label
+     dco                                      Developer’s Certificate of Origin       : gerrit.html#dco
+     genindex                                 Index                                   : genindex.html
+     gerrit-push-git-push                     Push using git push                     : gerrit.html#gerrit-push-git-push
+     gerrit-push-git-review                   Push using git review                   : gerrit.html#gerrit-push-git-review
+     gerrit-push-output                       Push output                             : gerrit.html#gerrit-push-output
+     gerrit-topics                            Gerrit Topics                           : gerrit.html#gerrit-topics
+     get-sandbox-access                       Get access to the Jenkins Sandbox       : jenkins.html#get-sandbox-access
+     jenkins-guide                            Jenkins Guide                           : jenkins.html#jenkins-guide
+     jenkins-infra                            Jenkins                                 : infra/jenkins.html#jenkins-infra
+     jenkins-sandbox-push-jobs                Push jobs to Jenkins Sandbox            : jenkins.html#jenkins-sandbox-push-jobs
+     jjb-push-cli                             Push jobs via JJB CLI                   : jenkins.html#jjb-push-cli
+     jjb-push-gerrit-comment                  Push jobs via Gerrit comment            : jenkins.html#jjb-push-gerrit-comment
+     lfdocs-create-rtd                        Add a project to ReadTheDocs            : project-documentation.html#lfdocs-create-rtd
+     lfdocs-global-jjb-templates              Global JJB Templates                    : jenkins.html#lfdocs-global-jjb-templates
+     lfdocs-helpdesk                          LF Helpdesk                             : helpdesk.html#lfdocs-helpdesk
+     lfdocs-jenkins-sandbox                   Jenkins Sandbox                         : jenkins.html#lfdocs-jenkins-sandbox
+     lfdocs-packer-images                     Packer Images                           : jenkins.html#lfdocs-packer-images
+     lfdocs-proj-docs                         Project Documentation Guide             : project-documentation.html#lfdocs-proj-docs
+     lfreleng-docs                            Linux Foundation Releng Documentation   : index.html#lfreleng-docs
+     lfreleng-docs-ansible                    Ansible Guide                           : ansible.html#lfreleng-docs-ansible
+     lfreleng-docs-best-practices             Best Practices                          : best-practices.html#lfreleng-docs-best-practices
+     lfreleng-docs-bootstrap                  New Project Bootstrap                   : project-bootstrap.html#lfreleng-docs-bootstrap
+     lfreleng-docs-gerrit                     Gerrit Guide                            : gerrit.html#lfreleng-docs-gerrit
+     lfreleng-docs-gpg                        GPG2 (GnuGP 2) Guide                    : gpg.html#lfreleng-docs-gpg
+     lfreleng-infra                           Infrastructure Guide                    : infra/index.html#lfreleng-infra
+     lfreleng-infra-inventory                 Inventory                               : infra/inventory.html#lfreleng-infra-inventory
+     lfreleng-infra-nexus                     Nexus                                   : infra/nexus.html#lfreleng-infra-nexus
+     lfreleng-infra-openstack                 OpenStack Management                    : infra/openstack.html#lfreleng-infra-openstack
+     modindex                                 Module Index                            : py-modindex.html
+     nexus2-guide                             Nexus 2 Guide                           : nexus2.html#nexus2-guide
+     push-job                                 Push a Job                              : jenkins.html#push-job
+     register-key-gerrit                      Register your SSH key with Gerrit       : gerrit.html#register-key-gerrit
+     search                                   Search Page                             : search.html
+     verify-jjb                               Verify JJB                              : jenkins.html#verify-jjb
