@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "df62f663_77159f92",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4466de5d_ecafb645",
+      "range": {
+        "startLine": 168,
+        "startChar": 0,
+        "endLine": 169,
+        "endChar": 47
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8503441_df167988",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "ea6acff8_58ad909e",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8503441_df167988",
+      "range": {
+        "startLine": 170,
+        "startChar": 18,
+        "endLine": 170,
+        "endChar": 24
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e6cf6977_ca49cd32",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2018-06-01T02:16:11Z",
       "side": 1,
       "message": "refresher, refer",
+      "range": {
+        "startLine": 172,
+        "startChar": 5,
+        "endLine": 172,
+        "endChar": 20
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "196be8f7_69d39766",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6cf6977_ca49cd32",
       "range": {
         "startLine": 172,
         "startChar": 5,
@@ -117,6 +189,30 @@
     },
     {
       "key": {
+        "uuid": "7b4b1244_72cf44c8",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f86108d_3bbd3810",
+      "range": {
+        "startLine": 173,
+        "startChar": 68,
+        "endLine": 173,
+        "endChar": 77
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3c161151_f3e4a682",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -128,6 +224,30 @@
       "writtenOn": "2018-06-01T02:16:11Z",
       "side": 1,
       "message": "\"Configure conf.py\"\n\nTo match the next subtitle \"Link to External docs\"",
+      "range": {
+        "startLine": 194,
+        "startChar": 0,
+        "endLine": 194,
+        "endChar": 21
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dffd42ca_97dbca02",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Configure makes it sound like you have to do this, but you don\u0027t. Intersphinx works without you having to modify conf.py, it\u0027s only if you want to add additional ones.\n\nI can change the other section to say \"Cross-Reference External docs\" or something... if that makes it sound better?",
+      "parentUuid": "3c161151_f3e4a682",
       "range": {
         "startLine": 194,
         "startChar": 0,
@@ -163,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "ac271b37_bd3e15f1",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b81797ae_93a3520f",
+      "range": {
+        "startLine": 204,
+        "startChar": 43,
+        "endLine": 204,
+        "endChar": 61
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "652971a2_f138ae9e",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -174,6 +318,30 @@
       "writtenOn": "2018-06-01T02:16:11Z",
       "side": 1,
       "message": "dictionary, the",
+      "range": {
+        "startLine": 212,
+        "startChar": 50,
+        "endLine": 212,
+        "endChar": 64
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d60784a5_27d04516",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "652971a2_f138ae9e",
       "range": {
         "startLine": 212,
         "startChar": 50,
@@ -209,6 +377,30 @@
     },
     {
       "key": {
+        "uuid": "36eac332_a6c1d035",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6e9ba412_9c00c0fe",
+      "range": {
+        "startLine": 214,
+        "startChar": 8,
+        "endLine": 214,
+        "endChar": 21
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9cabd61a_f23528b8",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -220,6 +412,30 @@
       "writtenOn": "2018-06-01T02:16:11Z",
       "side": 1,
       "message": "the ``namespace`` tag we",
+      "range": {
+        "startLine": 220,
+        "startChar": 6,
+        "endLine": 220,
+        "endChar": 26
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b59beff4_7fca5aa6",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "It\u0027s not a tag, it\u0027s just a namespace.",
+      "parentUuid": "9cabd61a_f23528b8",
       "range": {
         "startLine": 220,
         "startChar": 6,
@@ -255,6 +471,30 @@
     },
     {
       "key": {
+        "uuid": "bbc2bfe2_1ada0999",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1a1a3c0_bf86e83e",
+      "range": {
+        "startLine": 235,
+        "startChar": 0,
+        "endLine": 235,
+        "endChar": 14
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e8c25f6c_4dad179e",
         "filename": "docs/project-documentation.rst",
         "patchSetId": 1
@@ -266,6 +506,30 @@
       "writtenOn": "2018-06-01T02:16:11Z",
       "side": 1,
       "message": "to point Sphinx to the global-jjb project docs link.",
+      "range": {
+        "startLine": 236,
+        "startChar": 44,
+        "endLine": 237,
+        "endChar": 31
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d9c53bba_741fa9e9",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8c25f6c_4dad179e",
       "range": {
         "startLine": 236,
         "startChar": 44,
@@ -317,6 +581,30 @@
         "startChar": 32,
         "endLine": 245,
         "endChar": 45
+      },
+      "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c752e6bb_389e95ca",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-01T02:29:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa812b82_0fa42bbe",
+      "range": {
+        "startLine": 245,
+        "startChar": 46,
+        "endLine": 245,
+        "endChar": 79
       },
       "revId": "9d4ff565cbed9814e667e194f59aa405b7732fed",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
