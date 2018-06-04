@@ -46,7 +46,6 @@ LF Internal:
    :maxdepth: 2
 
    infra/index
-   project-bootstrap
 
 
 Indices and tables

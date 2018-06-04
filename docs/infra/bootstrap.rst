@@ -1,8 +1,8 @@
 .. _lfreleng-docs-bootstrap:
 
-#####################
-New Project Bootstrap
-#####################
+###################
+New Infra Bootstrap
+###################
 
 ci-management repo
 ==================
