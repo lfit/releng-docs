@@ -15,3 +15,4 @@ Infrastructure provided to projects.
    jenkins
    nexus
    openstack
+   meetbot
