@@ -20,6 +20,7 @@ Guides:
    jenkins
    project-documentation
    nexus2
+   meetbot
 
 .. TODO Jenkins (RELENG-510)
 .. TODO Release Workflow (RELENG-511)
