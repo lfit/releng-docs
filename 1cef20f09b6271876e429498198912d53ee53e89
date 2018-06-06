@@ -16,6 +16,24 @@
       "revId": "1cef20f09b6271876e429498198912d53ee53e89",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "207dd1f8_de09a56f",
+        "filename": "docs/_static/objects.inv.example",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-06T04:08:22Z",
+      "side": 1,
+      "message": "This is the literal the output of objects.inv when inspected using the sphinx tool `python -m sphinx.ext.intersphinx path/to/objects.inv`. If we modify the output then we will be providing manipulated output of the tool rather than the actual tool output as this example is intended to show.",
+      "parentUuid": "907f5121_2e449ee7",
+      "revId": "1cef20f09b6271876e429498198912d53ee53e89",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
