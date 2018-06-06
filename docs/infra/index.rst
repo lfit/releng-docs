@@ -16,3 +16,4 @@ Infrastructure provided to projects.
    nexus
    openstack
    github
+   meetbot
