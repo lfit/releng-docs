@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "907f5121_2e449ee7",
+        "filename": "docs/_static/objects.inv.example",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-06T04:04:21Z",
+      "side": 1,
+      "message": "blank line before this would be good, not sure if its necessary.",
+      "revId": "1cef20f09b6271876e429498198912d53ee53e89",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
