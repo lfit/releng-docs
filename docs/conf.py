@@ -29,4 +29,5 @@ linkcheck_ignore = [
     'https://jenkins.acumos.org.*',
     'https://.*.example.org.*',
     'https://git.opendaylight.org/gerrit/#/settings/gpg-keys',
+    'https://wiki.debian.org/MeetBot',  # SNI link needs Python 2.7.9+
 ]
