@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3e2a976b_c28a2096",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-07T20:17:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "44fb97c2_01bb9817",
+      "range": {
+        "startLine": 101,
+        "startChar": 70,
+        "endLine": 101,
+        "endChar": 79
+      },
+      "revId": "8e3fc6e640be8a678e100856c3b64dcdb6b62bfe",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ca801d83_b2bbb2e0",
         "filename": "docs/infra/bootstrap.rst",
         "patchSetId": 13
@@ -36,6 +60,30 @@
       "writtenOn": "2018-06-07T19:42:34Z",
       "side": 1,
       "message": "example",
+      "range": {
+        "startLine": 172,
+        "startChar": 33,
+        "endLine": 172,
+        "endChar": 64
+      },
+      "revId": "8e3fc6e640be8a678e100856c3b64dcdb6b62bfe",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a55bad30_1f0f639e",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-07T20:17:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca801d83_b2bbb2e0",
       "range": {
         "startLine": 172,
         "startChar": 33,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "eba4c4b9_0d315338",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-07T20:17:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e183cefd_e4561b45",
+      "range": {
+        "startLine": 198,
+        "startChar": 36,
+        "endLine": 198,
+        "endChar": 67
+      },
+      "revId": "8e3fc6e640be8a678e100856c3b64dcdb6b62bfe",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b9c6e22c_a1225965",
         "filename": "docs/infra/bootstrap.rst",
         "patchSetId": 13
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "2a724509_039c47f8",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-07T20:17:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9c6e22c_a1225965",
+      "range": {
+        "startLine": 217,
+        "startChar": 33,
+        "endLine": 217,
+        "endChar": 64
+      },
+      "revId": "8e3fc6e640be8a678e100856c3b64dcdb6b62bfe",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f0c88085_5ce3dbe7",
         "filename": "docs/infra/bootstrap.rst",
         "patchSetId": 13
@@ -105,6 +201,30 @@
       "writtenOn": "2018-06-07T19:42:34Z",
       "side": 1,
       "message": "example",
+      "range": {
+        "startLine": 289,
+        "startChar": 24,
+        "endLine": 289,
+        "endChar": 55
+      },
+      "revId": "8e3fc6e640be8a678e100856c3b64dcdb6b62bfe",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e5b94c03_5189ac0b",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-07T20:17:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f0c88085_5ce3dbe7",
       "range": {
         "startLine": 289,
         "startChar": 24,
