@@ -46,6 +46,47 @@
       "revId": "709ef2bb1f6a182cd319466d24cd82a225b6d243",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b09c25cf_92816faa",
+        "filename": "docs/_static/ciman/jobbuilder-user-permissions.example",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-06-08T20:08:23Z",
+      "side": 1,
+      "message": "Ok, I can see that.",
+      "parentUuid": "23166e33_9f8121b9",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 12
+      },
+      "revId": "709ef2bb1f6a182cd319466d24cd82a225b6d243",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d2f3fbf_b4176901",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-06-08T20:08:23Z",
+      "side": 1,
+      "message": "We need something that goes over additional security settings.\n\nIn particular the following needs to be set (I wish we had some idempotent startup groovy to just make this happen with options to enable certain features if needed)\n\n* Turn on CSRF protection with the default breadcrumb\n* Enable Agent -\u003e Master Access Control\n* Disable all but JNLP4 in the protocol configuration\n* Disable the JNLP TCP port\n* Make sure that the markup formatter is safe HTML",
+      "revId": "709ef2bb1f6a182cd319466d24cd82a225b6d243",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
