@@ -409,4 +409,13 @@ Setup packer jobs
 #. Confirm packer verify job passes
 #. Merge patch and confirm merge job works
 
-.. todo:: Create a post-bootstrap doc for recommendations on where to go next
+Post bootstrap
+==============
+
+With infrastructure bootstrapped, here is a list of tasks to consider that may
+be useful to setup.
+
+GitHub
+------
+
+* :ref:`Setup DCO <github-dco>`
