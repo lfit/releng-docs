@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2df92433_edbee2c7",
+        "filename": "docs/_static/ciman/jobbuilder-user-permissions.example",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-06-08T19:44:21Z",
+      "side": 1,
+      "message": "\u0027Overall: Administrator\u0027 automatically gives all other permissions, there is no reason to explicitly grant them. Additionally, any permission that \u0027Anonymous Users\u0027 has is automatically given to any other user.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 12
+      },
+      "revId": "709ef2bb1f6a182cd319466d24cd82a225b6d243",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
