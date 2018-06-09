@@ -21,7 +21,7 @@ names as defined in the `clouds.yaml
 <https://docs.openstack.org/python-openstackclient/pike/configuration/index.html>`_
 file for the source and target tenants.
 
-1. Get the project_id for the target tenant
+#. Get the project_id for the target tenant
 
    .. code-block:: bash
 
@@ -29,7 +29,7 @@ file for the source and target tenants.
 
    ``$TARGET_ID`` is different from the actual tenant name.
 
-2. Get the image ID
+#. Get the image ID
 
    .. code-block:: bash
 
@@ -38,19 +38,19 @@ file for the source and target tenants.
 
    Where ``$NAME`` is the full name of the source image.
 
-3. Set the image visibility to shared (the default is private)
+#. Set the image visibility to shared (the default is private)
 
    .. code-block:: bash
 
       openstack image set --shared ${IMAGE_ID} --os-cloud ${SOURCE}
 
-4. Share the image to target tenant
+#. Share the image to target tenant
 
    .. code-block:: bash
 
       openstack image add project ${IMAGE_ID} ${TARGET_ID} --os-cloud ${SOURCE}
 
-5. Accept the image share in the target tenant
+#. Accept the image share in the target tenant
 
    The image will not be visible until the target tenant accepts the image.
    Jenkins requires this to be able to see and use the image.
@@ -80,14 +80,14 @@ to re-enable downstream targets to consume the image.
 The target can also stop accepting the image. There are two methods for doing
 this:
 
-1. Reject the share (thereby making it unavailable at all)
+#. Reject the share (thereby making it unavailable at all)
 
    .. code-block:: bash
 
       openstack image set --reject ${IMAGE_ID} --os-cloud ${TARGET}
 
-2. Reset the share to a pending state, making it available if explicitly called,
-but invisible to the image listings (making it unavailable to Jenkins directly)
+#. Reset the share to a pending state, making it available if explicitly called,
+   but invisible to the image listings (making it unavailable to Jenkins directly)
 
    .. code-block:: bash
 
@@ -98,4 +98,3 @@ Remove access grants to tenants by doing the following:
 .. code-block:: bash
 
    openstack image remove project ${IMAGE_ID} ${TARGET_ID} --os-cloud ${SOURCE}
-
