@@ -65,3 +65,21 @@ Jenkins requires admin level configuration to work with GitHub.
       GitHub client cache size (MB): 20
 
 #. Click ``Re-register hooks for all jobs``
+
+.. _jenkins-security:
+
+Security Configuration
+======================
+
+Security recommendations for Jenkins.
+
+#. Install the `OWASP Markup Formater Plugin
+   <http://wiki.jenkins-ci.org/display/JENKINS/OWASP+Markup+Formatter+Plugin>`_
+#. Navigate to `https://jenkins.example.org/configureSecurity/`
+#. Configure the following:
+
+   * Enable ``CSRF Protection`` with ``Default Crumb Issuer``
+   * Enable ``Agent -> Master Access Control``
+   * Disable ``JNLP Protocol 1 - 3``
+   * Enable ``JNLP Protocol 4``
+   * Set ``Markup Formatter`` to ``Safe HTML``
