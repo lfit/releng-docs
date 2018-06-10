@@ -1,0 +1,17 @@
+{# Import the theme's layout. #}
+{% extends "!layout.html" %}
+
+{# Ribbon #}
+{% block content %}
+  <div class="ribbon">
+    <a href="https://jira.linuxfoundation.org/secure/CreateIssueDetails!init.jspa
+?pid=11415
+&issuetype=10001
+&components=10801
+&priority=2
+&description=page:+{{pagename}}">
+      Report Issue
+    </a>
+  </div>
+  {{ super() }}
+{% endblock %}
