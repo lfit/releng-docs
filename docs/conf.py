@@ -20,6 +20,8 @@
 
 from docs_conf.conf import *
 
+intersphinx_mapping['ansible'] = ('https://docs.ansible.com/ansible/latest/', None)
+
 linkcheck_ignore = [
     'http.*PROJECT_DOMAIN.*',
     'https://gerrit.linuxfoundation.org/infra/releng/docs-conf',

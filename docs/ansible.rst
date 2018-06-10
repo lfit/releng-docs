@@ -1,4 +1,4 @@
-.. _lfreleng-docs-ansible:
+.. _ansible:
 
 #############
 Ansible Guide
@@ -6,13 +6,19 @@ Ansible Guide
 
 This guide documents the process to setup and manage a new ansible role.
 
+.. _ansible-roles:
+
 Ansible Roles
 =============
 
 Ansible roles are a collection of Ansible vars_files, tasks, and handlers
 packaged into a single package for easy distribution and reuse.
 
-Refer to `ansible-role`_ for documentation on Ansible roles.
+Refer to the upstream
+:doc:`Ansible Roles <ansible:user_guide/playbooks_reuse_roles>` documentation
+for details.
+
+.. _ansible-galaxy:
 
 Ansible Galaxy
 ==============
@@ -20,11 +26,15 @@ Ansible Galaxy
 Ansible galaxy is an online hub for finding, reusing and sharing Ansible
 Content. We use it to share and pull down Ansible roles.
 
+.. _molecule:
+
 Molecule
 ========
 
 Molecule is a test framework for testing Ansible roles. We use it to ensure
 the role supports all supported distros.
+
+.. _ansible-reqs:
 
 Requirements
 ============
@@ -34,6 +44,8 @@ In a virtualenv install.
 .. code-block:: bash
 
    pip install ansible docker-py molecule
+
+.. _ansible-role-setup:
 
 Set up an Ansible Role
 ======================
@@ -106,5 +118,3 @@ Set up an Ansible Role
 
      git add .
      git commit -sm "Add role ROLE_NAME"
-
-.. _ansible-role: https://docs.ansible.com/ansible/latest/playbooks_reuse_roles.html
