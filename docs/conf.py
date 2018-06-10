@@ -30,3 +30,6 @@ linkcheck_ignore = [
     'https://.*.example.org.*',
     'https://git.opendaylight.org/gerrit/#/settings/gpg-keys',
 ]
+
+def setup(app):
+    app.add_stylesheet("css/ribbon.css")
