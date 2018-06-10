@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-by: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-at: Sun, 10 Jun 2018 04:24:57 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/11154
+Project: releng/docs
+Branch: refs/heads/master
