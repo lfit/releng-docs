@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b9a75fea_9a4788d7",
+        "filename": "docs/infra/meetbot.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-11T04:42:34Z",
+      "side": 1,
+      "message": "This is not infrastructure docs. Please move it out of the infrastructure guide.",
+      "revId": "426033c748bb003be6d5c90acde9abbe5df59006",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
