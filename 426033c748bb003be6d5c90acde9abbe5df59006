@@ -16,6 +16,24 @@
       "revId": "426033c748bb003be6d5c90acde9abbe5df59006",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "18a5d1ea_cb4b7025",
+        "filename": "docs/infra/meetbot.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-11T09:27:08Z",
+      "side": 1,
+      "message": "Sure, which sub-section should this go into? Just under \"Guides\" ok?",
+      "parentUuid": "b9a75fea_9a4788d7",
+      "revId": "426033c748bb003be6d5c90acde9abbe5df59006",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
