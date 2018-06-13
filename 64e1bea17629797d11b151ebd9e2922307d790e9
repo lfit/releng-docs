@@ -1,0 +1,428 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4903232e_692406e7",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "the lfreleng-docs- is bad practice that is being copied around as mentioned in the intersphinx docs:\n\nhttps://docs.releng.linuxfoundation.org/en/latest/project-documentation.html?highlight\u003dintersphinx#intersphinx-linking\n\nWe really need to stop propagating this bad practice.\n\nI\u0027d recommed this link simply be:\n\n .. _meetbot:\n\nHowever technically we don\u0027t need one here as a link to :doc:`meetbot` is already implied.",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e13e9229_391e0444",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "Above this line:\n\n .. _meetbot-start-end-meeting:",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "41b6211c_49e90650",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#startmeeting \u003cname\u003e`` to start a meeting",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "48690776_a00338ed",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#chair \u003cusername\u003e`` to assign additional meeting chairs\n \n   Meeting chairs have the ability to moderate the meeting and allows them to use commands such as ``#startmeeting``, ``#endmeeting``, ``#topic``, ``#startvote``, ``#endvote``.",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 61
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59f6ed38_b2d89d62",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#endmeeting`` to end the meeting\n \n   This frees up MeetBot to run other meetings in the channel and posts the links to the HTML and raw minutes to the channel.",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 14
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "682b37a8_c780c442",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "Unnecessary as we have the command in the bullet summary.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98e211ee_70be4fb4",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "above this line:\n\n .. _meetbot-taking-notes:",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a04e1523_0e1d7d5b",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#topic`` to set a discussion topic\n \n   This command automatically changes the topic and closes the previous discussion item.",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 31
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39e7e4ba_01a58814",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "#topic Review Action Items",
+      "range": {
+        "startLine": 57,
+        "startChar": 5,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "589e2514_5687c258",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#info`` to record a note\n \n   .. code-block:: none\n \n      #info dneary suggested using MeetBot for meeting minutes",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 63
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "71b64ff4_ab3a54e6",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#agree \u003cagreement\u003e`` to record agreements to document consensus",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 72
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6930b999_695f7c81",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "Remove the \u003c \u003e as this is an example.",
+      "range": {
+        "startLine": 73,
+        "startChar": 13,
+        "endLine": 73,
+        "endChar": 59
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "484baac9_d81f47ab",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#link`` to link to external resources in the minutes",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1718a41a_3258ff2c",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#action`` to record action items\n \n  This creates a summary section at the end of the meeting summarising the action items by assignee. An assignee can be marked by including their username in the action.",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 36
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0fd81264_05c0e278",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "Remove this code block.",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 12
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80b31a47_8e9d02a6",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "I\u0027d probably combine these 2 sections as they are related.\n\n # Use ``#startvote \u003cvote\u003e`` and ``#endvote`` to start/end voting\n \n   .. code-block:: none\n \n      #startvote Do you approve a 15 minute coffee break? (+1, 0, -1)\n \n   Voters will use ``#vote \u003coption\u003e`` to vote. Typically +1 is for approval, 0 abstain, and -1 non-approval.",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 44
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "05ac367a_0e078097",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "considering the bullet item already has the full command no point code-blocking it. Doubling the back-ticks above will turn it into a code-block anyway.",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 13
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6850ba6b_515489d3",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "* Use ``#undo`` to remove the last addition to the minutes\n \n   This command undoes the last command in the stack. (eg. #idea, #info, #action, #topic, etc...)",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 80
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4aa847fb_b3ca0f1f",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "Remove this.",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 10
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "53294247_763dbc5b",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-13T14:15:36Z",
+      "side": 1,
+      "message": "above this line:\n\n .. _meetbot-post-meeting:",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
