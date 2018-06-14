@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "f3d9bc17_35f6c921",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-14T15:24:14Z",
+      "side": 1,
+      "message": "I\u0027m inclined to keep it lowercase because when we create the user account it\u0027s all lowercase. For example onap-jobbuilder",
+      "parentUuid": "686b9661_0a15faf9",
+      "range": {
+        "startLine": 73,
+        "startChar": 36,
+        "endLine": 73,
+        "endChar": 46
+      },
+      "revId": "24a5cee5424c625b94023c00be51f08daa5a95fb",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "820aba9e_2a3fa829",
         "filename": "docs/infra/bootstrap.rst",
         "patchSetId": 12
