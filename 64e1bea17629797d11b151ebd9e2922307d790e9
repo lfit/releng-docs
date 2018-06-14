@@ -88,6 +88,30 @@
     },
     {
       "key": {
+        "uuid": "d1fac372_0fdd81a9",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-14T15:42:51Z",
+      "side": 1,
+      "message": "This should just be MeetBot Guide\n\nIt\u0027s not actually tips at all.",
+      "parentUuid": "a8a2bd84_7f69ef85",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 7
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e40d6e56_4ea11d63",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
