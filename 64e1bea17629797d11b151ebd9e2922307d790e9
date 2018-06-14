@@ -19,6 +19,75 @@
     },
     {
       "key": {
+        "uuid": "a8a2bd84_7f69ef85",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-14T02:05:34Z",
+      "side": 1,
+      "message": "MeetBot",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 7
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e40d6e56_4ea11d63",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-14T02:05:34Z",
+      "side": 1,
+      "message": "MeetBot",
+      "range": {
+        "startLine": 7,
+        "startChar": 28,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86f0064a_08612690",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-14T02:05:34Z",
+      "side": 1,
+      "message": "MeetBot",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 8
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e13e9229_391e0444",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -133,6 +202,29 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "above this line:\n\n .. _meetbot-taking-notes:",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b230b0f8_5299d046",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-14T02:05:34Z",
+      "side": 1,
+      "message": "Take",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 6
+      },
       "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
