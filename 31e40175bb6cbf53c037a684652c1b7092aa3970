@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ccead14_222f554f",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-15T20:08:42Z",
+      "side": 1,
+      "message": "This is a field-list pattern so we should write this as follows:\n\n :Releases: (hosted) Official repository for released artifacts.\n :Snapshots: (hosted) Used to publish Maven SNAPSHOT builds.\n\nSpecial repo namespaces:\n\n :Public: (group) A meta-url containing all release repos in a combined view.\n :Staging: (group) A meta-url containing all staging repos in a combined view. Beware: oldest staging repo artifacts take precedence in cases where 2 staging repos contain the same version artifact.\n :Proxy: Repositories that proxy artifacts from an upstream repository.\n \n\nMultiline field lists can continue on the next line via 4 space indent.",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 52
+      },
+      "revId": "31e40175bb6cbf53c037a684652c1b7092aa3970",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
