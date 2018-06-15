@@ -37,3 +37,72 @@ Alternately, users can access the repositories outside the GUI using the URL:
 Nexus 2 communicates with Jenkins server which is the interface used to make
 the artifacts publications on a scheduled or by demand basis (depending on the Jenkins JJB
 configuration for the particuar job).
+
+Nexus 2 Repositories
+====================
+
+Nexus 2 allows users to manage different types of repositories. To learn more about
+how to manage them, please refer to `Sonatype's official documentation
+<https://help.sonatype.com/repomanager2/configuration/managing-repositories/>`_.
+
+Most LF projects manage their Maven artifacts using the following repos:
+
+:Releases: (hosted) Official repository for released artifacts. Releases has a Disabled
+    Redeployment policy to avoid overwriting released versions.
+
+:Snapshots: (hosted) Used to publish Maven SNAPSHOT builds. In the project's pom.xml
+    these versions have a `-SNAPSHOT` suffix.
+
+Special repo namespaces:
+
+:Public Repositories: (group) A meta-url containing all release repos in a combined view.
+
+:Staging Repositories: (group) A meta-url containing all staging repos in a combined view.
+    Beware: oldest staging repo artifacts take precedence in cases where 2 staging repos
+    contain the same version artifact.
+
+:Proxy: Repositories that proxy artifacts from an upstream repository.
+
+Each repository is accessible via URL `https://nexus.example.org/content/repositories/<repo name>`.
+
+For continuos integration builds, Jenkins has one settings file for each Gerrit repository.
+Each settings file contains an entry for each accessible Nexus2 repository (ServerId).
+
+.. image:: _static/jenkins-settings-files.png
+   :alt: Jenkins settings files.
+   :align: center
+
+In the Gerrit repository's pom.xml, include the ServerIds in the following manner:
+
+.. code-block:: bash
+
+   <repositories>
+       <repository>
+           <id>releases</id>
+           <name>Release Repository</name>
+           <url>${project.nexus.url}/content/repositories/releases/</url>
+       </repository>
+       <repository>
+           <id>staging</id>
+           <name>Staging Repository</name>
+           <url>${project.nexus.url}/content/repositories/staging/</url>
+       </repository>
+       <repository>
+           <id>snapshots</id>
+           <name>Snapshot Repository</name>
+           <url>${project.nexus.url}/content/repositories/snapshots/</url>
+       </repository>
+   </repositories>
+
+.. note::
+
+   More information on access configuration for each Gerrit repository in
+   :ref:`Create Nexus2 repos with lftools <create-repos-lftools>`.
+
+.. _create-repos-lftools:
+
+Create Nexus2 repos with lftools
+================================
+
+.. TODO: Creating Nexus2 repos using lftools (RELENG-954)
+
