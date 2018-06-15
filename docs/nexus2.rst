@@ -101,6 +101,48 @@ In the Gerrit repository's pom.xml, include the ServerIds in the following manne
 
 .. _create-repos-lftools:
 
+Users and Roles and Privileges
+==============================
+
+Official information on creating users and linking roles and privileges to those users in
+Sonatype's official documentation for `users
+<https://help.sonatype.com/repomanager2/configuration/managing-users/>`_, and `roles
+<https://help.sonatype.com/repomanager2/configuration/managing-roles/>`_.
+
+For LF projects, a user per Gerrit repo exists matching the repo name.
+
+.. image:: _static/nexus-users.png
+   :alt: Nexus users.
+   :align: center
+
+Similarly, roles and privileges match the name of the repo. Each repo has the following
+privileges:
+
+:Repo: All Repositories (Read)
+:<project-name>: (create)
+:<project-name>: (delete)
+:<project-name>: (read)
+:<project-name>: (update)
+
+.. image:: _static/nexus-roles.png
+   :alt: Nexus roles.
+   :align: center
+
+Users get the following roles:
+
+:<project-name>: Which groups the privileges mentioned above.
+:Nexus Deployment Role: To deploy into the Snapshots and Releases repositories.
+:Staging: Deployer (autorelease) For publishing staging images using the Staging Profile.
+
+.. image:: _static/nexus-privileges.png
+   :alt: Nexus privileges.
+   :align: center
+
+.. note::
+
+   More information on users, roles and privileges configuration using lftools along with the
+   repos in :ref: `Create Nexus2 repos with lftools <create-repos-lftools>`.
+
 Create Nexus2 repos with lftools
 ================================
 
