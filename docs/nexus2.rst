@@ -13,7 +13,7 @@ It helps organizing dependencies and releases.
    https://help.sonatype.com/repomanager2
 
 To access Nexus 2 for a particular project, use URL:
-``https://nexus.PROJECT_DOMAIN``
+``https://nexus.example.org``
 
 .. image:: _static/nexus2-ui.png
    :alt: Nexus Repository Manager 2 main view.
@@ -28,7 +28,7 @@ Other users can browse the repositories and proxies anonymously.
    :align: center
 
 Alternately, users can access the repositories outside the GUI using the URL:
-``https://nexus.PROJECT_DOMAIN/content/repositories/``
+``https://nexus.example.org/content/repositories/``
 
 .. image:: _static/nexus2-content.png
    :alt: Nexus Repository Manager 2 content view.

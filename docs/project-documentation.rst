@@ -31,10 +31,10 @@ Framework
 Typically every project like ONAP, OpenDaylight, OPNFV, etc... have a
 "documentation" project. This project provides a gateway to all documentation
 for the project and typically is the index page of any project's
-http://docs.PROJECT_DOMAIN url.
+https://docs.example.org url.
 
 Project-specific documentation will configure as subprojects in ReadTheDocs and
-are available at http://docs.PROJECT_DOMAIN/projects/PROJECT
+are available at https://docs.example.org/projects/PROJECT
 
 Linking between projects are possible via intersphinx linking.
 
@@ -133,7 +133,7 @@ ReadTheDocs know where to pull your docs to build from.
    If this project is not the main documentation project then it needs to be
    setup as a sub-project of the main documentation project. This will create a
    subproject link for your project under
-   http://docs.PROJECT_DOMAIN/projects/YOUR_PROJECT
+   https://docs.example.org/projects/YOUR_PROJECT
 
    .. note::
 

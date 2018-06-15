@@ -441,10 +441,10 @@ configuration gets managed through code using JJB through the ci-management or
 releng/builder repos.
 
 To access the Jenkins Production URL for any project use:
-``https://jenkins.PROJECT_DOMAIN``
+``https://jenkins.example.org``
 
 Similarily, the project's corresponding Jenkins Sandbox URL would be:
-``https://jenkins.PROJECT_DOMAIN/sandbox``
+``https://jenkins.example.org/sandbox``
 
 Any users with an LFID can access the Jenkins Production site, but for Jenkins
 Sandbox please request an access. To do so, refer to the section
