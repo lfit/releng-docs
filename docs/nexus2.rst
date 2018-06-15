@@ -99,6 +99,57 @@ In the Gerrit repository's pom.xml, include the ServerIds in the following manne
    More information on access configuration for each Gerrit repository in
    :ref:`Create Nexus2 repos with lftools <create-repos-lftools>`.
 
+.. _nexus-users-roles:
+
+Users, Roles and Privileges
+===========================
+
+Users, roles and privileges are key to manage and restrict access into Nexus
+repositories. Anonymous users have read permissions whethers limited users
+(administration teams and CI accounts) have write and delete permissions.
+
+Sonatype's documentation on creating users, roles and privileges found in:
+https://help.sonatype.com/repomanager2/configuration/managing-users/, and 
+https://help.sonatype.com/repomanager2/configuration/managing-roles/.
+
+For LF projects, a user per Gerrit repository exists matching the repository name.
+
+.. image:: _static/nexus-users.png
+   :alt: Nexus users.
+   :align: center
+
+Similarly, roles and privileges match the name of the Gerrit repository. The following
+privileges exist:
+
+* Repo All Repositories (Read)
+* <project-name> (create)
+* <project-name> (delete)
+* <project-name> (read)
+* <project-name> (update)
+
+.. note::
+
+   Where "<project-name>" matches the Gerrit name of the repository.
+
+.. image:: _static/nexus-roles.png
+   :alt: Nexus roles.
+   :align: center
+
+Add roles required for Nexus users:
+
+:<project-name>: Which groups the privileges mentioned above.
+:Nexus Deployment Role: To deploy into the Snapshots and Releases repositories.
+:Staging: Deployer (autorelease) For publishing staging images using the Staging Profile.
+
+.. image:: _static/nexus-privileges.png
+   :alt: Nexus privileges.
+   :align: center
+
+.. note::
+
+   More information on users, roles and privileges configuration using lftools along with the
+   repos in :ref:`Create Nexus2 repos with lftools <create-repos-lftools>`.
+
 .. _create-repos-lftools:
 
 Create Nexus2 repos with lftools
