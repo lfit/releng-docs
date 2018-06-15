@@ -22,6 +22,30 @@
       "revId": "26d7e8f892f182edbe1d190b6dbdc8b1024ab5a3",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a7a97cf2_5e7290fa",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-15T20:28:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "675cee17_bbf8761b",
+      "range": {
+        "startLine": 68,
+        "startChar": 4,
+        "endLine": 68,
+        "endChar": 13
+      },
+      "revId": "26d7e8f892f182edbe1d190b6dbdc8b1024ab5a3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
