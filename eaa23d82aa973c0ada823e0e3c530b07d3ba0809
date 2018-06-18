@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e57a658_cad887e5",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-18T16:28:35Z",
+      "side": 1,
+      "message": "This link needs to be above the create LFTOOLS section below.",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 25
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "729571ea_0312caaf",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-18T16:28:35Z",
+      "side": 1,
+      "message": "This needs a label definition above for this section to link to.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 30
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eeaae761_065171a8",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-18T16:28:35Z",
+      "side": 1,
+      "message": "If this is meant to be a field list then this needs to be indented by 4 spaces.\n\nI think a list of permissions would be better though than a field list in this case.",
+      "range": {
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 25
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a36e3a85_be850f32",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-18T16:28:35Z",
+      "side": 1,
+      "message": "Accidental space here?",
+      "range": {
+        "startLine": 144,
+        "startChar": 17,
+        "endLine": 144,
+        "endChar": 18
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
