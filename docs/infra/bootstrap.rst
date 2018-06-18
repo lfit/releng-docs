@@ -409,6 +409,74 @@ Setup packer jobs
 #. Confirm packer verify job passes
 #. Merge patch and confirm merge job works
 
+Nexus 2
+=======
+
+Setup Server Config
+-------------------
+
+#. Navigate to https://nexus.example.org/#nexus-config
+#. SMTP Settings
+
+   .. code-block:: none
+
+      Hostname: localhost
+      Port: 25
+      Username:
+      Password:
+      Connection: Use plain SMTP
+      System Email: noreply@example.org
+
+#. Application Server Settings
+
+   .. code-block:: none
+
+      Base URL: https://nexus.example.org/
+      Force base URL: true
+      UI Timeout: 120
+
+#. PGP Key Server Information
+
+   .. code-block:: none
+
+      Server 1: http://pool.sks-keyservers.net:11371
+      Server 2: http://pgp.mit.edu:11371
+
+Setup LDAP
+----------
+
+#. Navigate to https://nexus.example.org/#enterprise-ldap
+#. Click ``Add`` at the top menu bar
+#. Configure the LDAP connection as follows
+
+   .. code-block:: none
+
+      Name: ldaps://ldap.example.org:636
+      Protocol: ldaps
+      Hostname: ldap.example.org
+      Port: 636
+      Search Base: dc=example,dc=org
+
+      Authentication: Anonymous Authentication
+
+#. Click on the ``User & Group Settings`` tab
+#. Configure the ``User & Group Settings`` as follows:
+
+   .. code-block:: none
+
+      Base DN: ou=Users
+      Object Class: inetOrgPerson
+      User ID Attribute: uid
+      Real Name Attribute: cn
+      E-Mail Attribute: mail
+
+      Group Type: Static Groups
+      Base DN: ou=groups
+      Object Class: groupOfNames
+      Group ID Attribute: cn
+      Group Member Attribute: member
+      Group Member Format: ${dn}
+
 Post bootstrap
 ==============
 
