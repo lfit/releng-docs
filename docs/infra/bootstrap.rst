@@ -409,11 +409,170 @@ Setup packer jobs
 #. Confirm packer verify job passes
 #. Merge patch and confirm merge job works
 
+.. _bootstrap-nexus:
+
+Nexus 2
+=======
+
+.. _nexus-setup-server-config:
+
+Setup Server Config
+-------------------
+
+#. Navigate to https://nexus.example.org/#nexus-config
+#. SMTP Settings
+
+   .. code-block:: none
+
+      Hostname: localhost
+      Port: 25
+      Username:
+      Password:
+      Connection: Use plain SMTP
+      System Email: noreply@example.org
+
+#. Application Server Settings
+
+   .. code-block:: none
+
+      Base URL: https://nexus.example.org/
+      Force base URL: true
+      UI Timeout: 120
+
+#. PGP Key Server Information
+
+   .. code-block:: none
+
+      Server 1: http://pool.sks-keyservers.net:11371
+      Server 2: http://pgp.mit.edu:11371
+
+.. _nexus-setup-ldap:
+
+Setup LDAP
+----------
+
+#. Navigate to https://nexus.example.org/#enterprise-ldap
+#. Click ``Add`` at the top menu bar
+#. Configure the LDAP connection as follows:
+
+   .. code-block:: none
+
+      Name: ldaps://ldap.example.org:636
+      Protocol: ldaps
+      Hostname: ldap.example.org
+      Port: 636
+      Search Base: dc=example,dc=org
+
+      Authentication: Anonymous Authentication
+
+#. Click on the ``User & Group Settings`` tab
+#. Configure the ``User & Group Settings`` as follows:
+
+   .. code-block:: none
+
+      Base DN: ou=Users
+      Object Class: inetOrgPerson
+      User ID Attribute: uid
+      Real Name Attribute: cn
+      E-Mail Attribute: mail
+
+      Group Type: Static Groups
+      Base DN: ou=groups
+      Object Class: groupOfNames
+      Group ID Attribute: cn
+      Group Member Attribute: member
+      Group Member Format: ${dn}
+
+.. _nexus-setup-admin-role:
+
+Setup Admin role
+----------------
+
+#. Navigate to https://nexus.example.org/#security-roles
+#. Click ``Add > External Role Mapping``
+#. Configure mapping as follows:
+
+   .. code-block:: none
+
+      Realm: LDAP
+      Role: lf-collab-admins
+
+   .. note::
+
+      If not an LF project replace ``lf-collab-admins`` with the relevant admin
+      group for your case.
+
+#. Click ``Add`` and add the ``Nexus Administrator Role``
+
+From this point you should be able to login using your own account to
+administrate the server. Do that and then setup admin user email and
+deactivate the default deployment account as we will create separate
+project deployment accounts for each individual project.
+
+#. Navigate to https://nexus.example.org/#security-users
+#. Configure the admin user email to ``collab-it+PROJECT@linuxfoundation.org``
+
+   .. note::
+
+      Replace email as necessary for your org.
+
+#. Set the default deployment user account *Status* to ``Disabled``
+
+.. _nexus-setup-custom-deploy-role:
+
+Setup custom deployment role
+----------------------------
+
+LF projects use Nexus 2 as a server to host logs and requires the
+``Nexus Unpack`` plugin configured. Since the default ``Nexus Deployment Role``
+is not configurable, we will have to create our own custom one to ensure Unpack
+is available.
+
+#. Navigate to https://nexus.example.org/#security-roles
+#. Click ``Add > Nexus Role``
+#. Configure the following settings:
+
+   .. code-block:: none
+
+      Role Id: lf-deployment
+      Name: LF Deployment Role
+      Description: LF modified deployment role
+
+#. Click ``Add`` and add the following roles:
+
+   * Nexus Deployment Role
+   * Unpack
+
+.. _nexus-setup-routing:
+
+Setup routing
+-------------
+
+#. Navigate to https://nexus.example.org/#routes-config
+#. Clear all existing routes
+#. Click ``Add`` to add a new route
+#. Configure the route as follows:
+
+   .. code-block:: none
+
+      URL Pattern: ^/org/example/.*
+      Rule Type: Inclusive
+      Repository Group: All Repository Groups
+
+      Ordered Route Repositories:
+
+        * Releases
+        * Snapshots
+
+.. _post-bootstrap:
+
 Post bootstrap
 ==============
 
 With infrastructure bootstrapped, here is a list of tasks to consider that may
 be useful to setup.
+
+.. _post-github:
 
 GitHub
 ------
