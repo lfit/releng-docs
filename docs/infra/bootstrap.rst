@@ -578,3 +578,10 @@ GitHub
 ------
 
 * :ref:`Setup DCO <github-dco>`
+
+.. _post-nexus:
+
+Nexus
+-----
+
+* :ref:`Setup Log server <nexus-log>`
