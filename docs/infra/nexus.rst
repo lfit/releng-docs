@@ -7,6 +7,8 @@ Nexus
 Nexus is an antifact repository typically used in Java / Maven projects.
 Stores Project artifacts, Javadocs, and Jenkins job logs.
 
+.. _nexus-file-system:
+
 File system layout
 ==================
 
@@ -23,8 +25,149 @@ of inodes such as XFS for the logs storage.
    OpenDaylight ran out of inodes before due to logs. Issue documented in Jira
    https://jira.linuxfoundation.org/browse/RELENG-773
 
+.. _nexus-log-server:
+
+Use Nexus as a log server
+===========================
+
+One use for a Nexus server is to be a log server for Jenkins. This is useful to
+offload logs from Jenkins and allow Nexus to store the longer term storage of
+the logs.
+
+We suggest following advice from the `File system layout <nexus-file-system>`
+section before configuring the log server directory here.
+
+.. _nexus-log-repo:
+
+Create log repository
+---------------------
+
+#. Navigate to https://nexus.example.org/#view-repositories
+#. Click ``Add > Hosted Repository``
+#. Configure the repository as follows:
+
+   .. code-block:: none
+
+      Repository ID: logs
+      Repository Name: logs
+      Repository Type: hosted
+      Provider: Site
+      Format: site
+      Repository Policy: Mixed
+
+      Deployment Policy: Allow Redeploy
+      Allow File Browsing: True
+      Include in Search: False
+      Publish URL: True
+
+.. _nexus-log-privilege:
+
+#. Navigate to https://nexus.example.org/#security-privileges
+#. Click ``Add > Repository Target Privilege``
+#. Configure the privilege as follows:
+
+   .. code-block:: none
+
+      Name: logs
+      Description: logs
+      Repository: All Repositories
+      Repository Target: All (site)
+
+.. _nexus-log-role:
+
+Create log role
+---------------
+
+#. Navigate to https://nexus.example.org/#security-roles
+#. Click ``Add > Nexus Role``
+#. Configure the role as follows:
+
+   .. code-block:: none
+
+      Role Id: All logs repo
+      Name: All logs repo
+      Description:
+
+#. Click ``Add`` and add the following privileges:
+
+   * logs - (create)
+   * logs - (delete)
+   * logs - (read)
+   * logs - (update)
+   * logs - (view)
+
+   .. note::
+
+      Be careful not to include the "Logs - (read)" (the one with the
+      capitalized first letter) this one is for granting access to Nexus' own
+      logs.
+
+#. Click ``Save``
+
+.. _nexus-log-user:
+
+Create log user
+---------------
+
+#. Navigate to https://nexus.example.org/#security-users
+#. Click ``Add > Nexus User``
+#. Configure the user as follows:
+
+   .. code-block:: none
+
+      User ID: logs
+      First Name: logs
+      Last Name: user
+      Email: jenkins@example.org
+      Status: Active
+
+#. Click ``Add`` and add the following roles:
+
+   * All logs repo
+   * LF Deployment Role
+
+Configure log credential in Jenkins
+-----------------------------------
+
+#. Navigate to https://jenkins.example.org/credentials/store/system/domain/_/newCredentials
+#. Configure the credential as follows:
+
+   .. code-block:: none
+
+      Kind: Username with password
+      Scope: Global
+      Username: logs
+      Passowrd: <password>
+      ID: jenkins-log-archives
+      Description: jenkins-log-archives
+
+#. Navigate to https://jenkins.example.org/configfiles/editConfig?id=jenkins-log-archives-settings
+#. Click ``Add`` to add a new Server Credential
+#. Configure the credential as follows:
+
+   .. code-block:: none
+
+      ServerId: logs
+      Credentials: jenkins-log-archives
+
+#. Click ``Submit``
+
+Configure global-var in ci-management
+-------------------------------------
+
+#. Edit the file ``jenkins-config/global-vars-production.sh``
+#. Add ``LOGS_SERVER=https://logs.example.org`` as a new global-var
+#. Repeat for all ``global-vars`` files as necessary
+
+Refer to :ref:`Jenkins CFG Global Variables <global-jjb:jenkins-cfg-envvar>`
+for details on global-vars configuration.
+
+.. _nexus-troubleshooting:
+
 Troubleshooting
 ===============
+
+.. _nexus-ssl-cert-unmatched-sni:
 
 SSL certificate does not match due to SNI
 -----------------------------------------
