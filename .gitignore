@@ -8,3 +8,7 @@ docs/_build/
 MANIFEST
 *.pyc
 
+# npm / nodejs
+_cacache/
+anonymous-cli-metrics.json
+
