@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c70987b9_3f84f2d4",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-18T21:42:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e57a658_cad887e5",
+      "range": {
+        "startLine": 102,
+        "startChar": 0,
+        "endLine": 102,
+        "endChar": 25
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "729571ea_0312caaf",
         "filename": "docs/nexus2.rst",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2018-06-18T16:28:35Z",
       "side": 1,
       "message": "This needs a label definition above for this section to link to.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 30
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2ee263d_55ddf96c",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-18T21:42:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "729571ea_0312caaf",
       "range": {
         "startLine": 104,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "7bd63a49_4105304c",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-18T21:42:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eeaae761_065171a8",
+      "range": {
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 25
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a36e3a85_be850f32",
         "filename": "docs/nexus2.rst",
         "patchSetId": 3
@@ -82,6 +154,30 @@
       "writtenOn": "2018-06-18T16:28:35Z",
       "side": 1,
       "message": "Accidental space here?",
+      "range": {
+        "startLine": 144,
+        "startChar": 17,
+        "endLine": 144,
+        "endChar": 18
+      },
+      "revId": "eaa23d82aa973c0ada823e0e3c530b07d3ba0809",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3b245885_a3cf219f",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-18T21:42:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a36e3a85_be850f32",
       "range": {
         "startLine": 144,
         "startChar": 17,
