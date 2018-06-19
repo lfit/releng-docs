@@ -48,6 +48,54 @@
     },
     {
       "key": {
+        "uuid": "30f7cdfa_481d5a04",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "14ad4bf6_74fb5d17",
+      "range": {
+        "startLine": 7,
+        "startChar": 24,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6702d4d_644c6622",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5348bad5_c296ecee",
+      "range": {
+        "startLine": 7,
+        "startChar": 16,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4903232e_692406e7",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -59,6 +107,24 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "the lfreleng-docs- is bad practice that is being copied around as mentioned in the intersphinx docs:\n\nhttps://docs.releng.linuxfoundation.org/en/latest/project-documentation.html?highlight\u003dintersphinx#intersphinx-linking\n\nWe really need to stop propagating this bad practice.\n\nI\u0027d recommed this link simply be:\n\n .. _meetbot:\n\nHowever technically we don\u0027t need one here as a link to :doc:`meetbot` is already implied.",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e0b0045b_1e460581",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4903232e_692406e7",
       "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
@@ -112,6 +178,30 @@
     },
     {
       "key": {
+        "uuid": "3f2d31a9_b3ec468d",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d1fac372_0fdd81a9",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 7
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e40d6e56_4ea11d63",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -123,6 +213,30 @@
       "writtenOn": "2018-06-14T02:05:34Z",
       "side": 1,
       "message": "MeetBot",
+      "range": {
+        "startLine": 7,
+        "startChar": 28,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "759dc287_04d19dbb",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e40d6e56_4ea11d63",
       "range": {
         "startLine": 7,
         "startChar": 28,
@@ -158,6 +272,30 @@
     },
     {
       "key": {
+        "uuid": "f8e55ede_d1aa5a89",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86f0064a_08612690",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 8
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e13e9229_391e0444",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -169,6 +307,24 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "Above this line:\n\n .. _meetbot-start-end-meeting:",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4c66f58_61d157c0",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e13e9229_391e0444",
       "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
@@ -192,6 +348,24 @@
     },
     {
       "key": {
+        "uuid": "78d63608_9fbb1d67",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "41b6211c_49e90650",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "48690776_a00338ed",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -203,6 +377,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "* Use ``#chair \u003cusername\u003e`` to assign additional meeting chairs\n \n   Meeting chairs have the ability to moderate the meeting and allows them to use commands such as ``#startmeeting``, ``#endmeeting``, ``#topic``, ``#startvote``, ``#endvote``.",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 61
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2abf44f3_98099aa3",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "48690776_a00338ed",
       "range": {
         "startLine": 29,
         "startChar": 0,
@@ -238,6 +436,30 @@
     },
     {
       "key": {
+        "uuid": "edd78437_6e730d89",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "59f6ed38_b2d89d62",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 14
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "682b37a8_c780c442",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -249,6 +471,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "Unnecessary as we have the command in the bullet summary.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "478e25c2_49cb9f9c",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "682b37a8_c780c442",
       "range": {
         "startLine": 45,
         "startChar": 0,
@@ -301,6 +547,48 @@
     },
     {
       "key": {
+        "uuid": "8b79e113_8bfd69a9",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "98e211ee_70be4fb4",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d0f73069_28e31915",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b230b0f8_5299d046",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 6
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a04e1523_0e1d7d5b",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -312,6 +600,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "* Use ``#topic`` to set a discussion topic\n \n   This command automatically changes the topic and closes the previous discussion item.",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 31
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "76a897eb_4b12d848",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a04e1523_0e1d7d5b",
       "range": {
         "startLine": 52,
         "startChar": 0,
@@ -347,6 +659,30 @@
     },
     {
       "key": {
+        "uuid": "d6decea4_f99cd6d6",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39e7e4ba_01a58814",
+      "range": {
+        "startLine": 57,
+        "startChar": 5,
+        "endLine": 57,
+        "endChar": 33
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "589e2514_5687c258",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -358,6 +694,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "* Use ``#info`` to record a note\n \n   .. code-block:: none\n \n      #info dneary suggested using MeetBot for meeting minutes",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 63
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e02c507_3a1c8cc8",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "589e2514_5687c258",
       "range": {
         "startLine": 63,
         "startChar": 0,
@@ -393,6 +753,30 @@
     },
     {
       "key": {
+        "uuid": "4e4eb723_d52b7897",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71b64ff4_ab3a54e6",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 72
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6930b999_695f7c81",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -404,6 +788,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "Remove the \u003c \u003e as this is an example.",
+      "range": {
+        "startLine": 73,
+        "startChar": 13,
+        "endLine": 73,
+        "endChar": 59
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba02890c_be2bddf1",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6930b999_695f7c81",
       "range": {
         "startLine": 73,
         "startChar": 13,
@@ -433,6 +841,24 @@
     },
     {
       "key": {
+        "uuid": "d2bc2e45_ad4910e7",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "484baac9_d81f47ab",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1718a41a_3258ff2c",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -444,6 +870,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "* Use ``#action`` to record action items\n \n  This creates a summary section at the end of the meeting summarising the action items by assignee. An assignee can be marked by including their username in the action.",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 86,
+        "endChar": 36
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f7320ce_f4eec6b6",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1718a41a_3258ff2c",
       "range": {
         "startLine": 85,
         "startChar": 0,
@@ -479,6 +929,30 @@
     },
     {
       "key": {
+        "uuid": "f87fcf71_93d97184",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0fd81264_05c0e278",
+      "range": {
+        "startLine": 88,
+        "startChar": 0,
+        "endLine": 90,
+        "endChar": 12
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "80b31a47_8e9d02a6",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -490,6 +964,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "I\u0027d probably combine these 2 sections as they are related.\n\n # Use ``#startvote \u003cvote\u003e`` and ``#endvote`` to start/end voting\n \n   .. code-block:: none\n \n      #startvote Do you approve a 15 minute coffee break? (+1, 0, -1)\n \n   Voters will use ``#vote \u003coption\u003e`` to vote. Typically +1 is for approval, 0 abstain, and -1 non-approval.",
+      "range": {
+        "startLine": 92,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 44
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "045674d3_f0899324",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "80b31a47_8e9d02a6",
       "range": {
         "startLine": 92,
         "startChar": 0,
@@ -525,6 +1023,30 @@
     },
     {
       "key": {
+        "uuid": "99a90d41_2aae095b",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05ac367a_0e078097",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 13
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6850ba6b_515489d3",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -536,6 +1058,30 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "* Use ``#undo`` to remove the last addition to the minutes\n \n   This command undoes the last command in the stack. (eg. #idea, #info, #action, #topic, etc...)",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 80
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "95bcc5a7_03f8ee41",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6850ba6b_515489d3",
       "range": {
         "startLine": 109,
         "startChar": 0,
@@ -571,6 +1117,30 @@
     },
     {
       "key": {
+        "uuid": "1eceb8e8_07362186",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4aa847fb_b3ca0f1f",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 10
+      },
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "53294247_763dbc5b",
         "filename": "docs/meetbot.rst",
         "patchSetId": 18
@@ -582,6 +1152,24 @@
       "writtenOn": "2018-06-13T14:15:36Z",
       "side": 1,
       "message": "above this line:\n\n .. _meetbot-post-meeting:",
+      "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "838fb3b9_8d6bdb36",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T02:08:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53294247_763dbc5b",
       "revId": "64e1bea17629797d11b151ebd9e2922307d790e9",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
