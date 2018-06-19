@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "efb92e0d_1a2f5422",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "MeetBot",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 8
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "774de6fd_79de47ba",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "To start a meeting",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8afa1013_22615e88",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "meeting.",
+      "range": {
+        "startLine": 34,
+        "startChar": 33,
+        "endLine": 34,
+        "endChar": 40
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5dfbb0b4_1279eff9",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "topic.",
+      "range": {
+        "startLine": 44,
+        "startChar": 37,
+        "endLine": 44,
+        "endChar": 42
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "409d7fcc_206ebccc",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "note.",
+      "range": {
+        "startLine": 57,
+        "startChar": 28,
+        "endLine": 57,
+        "endChar": 32
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ca9abdfe_2aaa3311",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "voting.",
+      "range": {
+        "startLine": 85,
+        "startChar": 58,
+        "endLine": 85,
+        "endChar": 64
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "47ec509b_3da0ef03",
+        "filename": "docs/meetbot.rst",
+        "patchSetId": 23
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T05:04:52Z",
+      "side": 1,
+      "message": "minutes.",
+      "range": {
+        "startLine": 94,
+        "startChar": 51,
+        "endLine": 94,
+        "endChar": 58
+      },
+      "revId": "94559940bd5f880a09bc86489b2ba73da31cfbd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
