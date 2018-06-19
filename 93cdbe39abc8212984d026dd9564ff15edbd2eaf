@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc3ce9b7_af4a6fc0",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "Users, Roles and Privileges",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 30
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da729e5e_8d704fbc",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "A line why we need users, roles and privileges may help. (optional).",
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1919b257_86810d8c",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "Sonatype\u0027s documentation on creating users, roles and privileges.",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 20
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb27f298_b4412d07",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "repository",
+      "range": {
+        "startLine": 112,
+        "startChar": 60,
+        "endLine": 112,
+        "endChar": 64
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "51bc30be_b5f80589",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "repository",
+      "range": {
+        "startLine": 112,
+        "startChar": 35,
+        "endLine": 112,
+        "endChar": 39
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b2b3ba81_c8962d36",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "repository",
+      "range": {
+        "startLine": 118,
+        "startChar": 65,
+        "endLine": 118,
+        "endChar": 69
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5813434d_ed02f9c7",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "repository",
+      "range": {
+        "startLine": 129,
+        "startChar": 57,
+        "endLine": 129,
+        "endChar": 61
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a308a743_31bff2ff",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-19T04:05:11Z",
+      "side": 1,
+      "message": "add roles required for Nexus users:",
+      "range": {
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 135,
+        "endChar": 30
+      },
+      "revId": "93cdbe39abc8212984d026dd9564ff15edbd2eaf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
