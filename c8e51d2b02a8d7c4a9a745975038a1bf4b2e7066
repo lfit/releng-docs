@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "63ac5f11_3f9c8662",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T21:19:28Z",
+      "side": 1,
+      "message": "Exactly! Let me correct my English ;)",
+      "parentUuid": "cfe0a476_add8fad8",
+      "range": {
+        "startLine": 108,
+        "startChar": 52,
+        "endLine": 108,
+        "endChar": 74
+      },
+      "revId": "c8e51d2b02a8d7c4a9a745975038a1bf4b2e7066",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "132d157d_90ee7f57",
         "filename": "docs/nexus2.rst",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2018-06-19T16:12:45Z",
       "side": 1,
       "message": "Just saw the screenshot and realized we\u0027re using the Nexus Deployment Role.\n\nWe should instead be using the LF Deployment Role which itself contains 2 roles:\n\n* Nexus Deployment Role\n* Unpack\n\nThe reason is several global-jjb scripts require the Unpack permission to successfully upload artifacts using cURL. We should not be using the default Nexus Deployment Role by itself.",
+      "range": {
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 141,
+        "endChar": 79
+      },
+      "revId": "c8e51d2b02a8d7c4a9a745975038a1bf4b2e7066",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "27956e51_c17764ce",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-19T21:19:28Z",
+      "side": 1,
+      "message": "Thanks for the clarification. Changed the text let me change the picture.",
+      "parentUuid": "132d157d_90ee7f57",
       "range": {
         "startLine": 141,
         "startChar": 0,
