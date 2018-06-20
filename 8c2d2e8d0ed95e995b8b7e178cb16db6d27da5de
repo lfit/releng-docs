@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a7953be7_b35e5606",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-20T14:59:57Z",
+      "side": 1,
+      "message": "The new image is missing the Staging roles, but htat\u0027s because aaa is not configured to be allowed to create it\u0027s own staging repos. I think a better project to reference is odlparent for the screenshot.",
+      "range": {
+        "startLine": 144,
+        "startChar": 0,
+        "endLine": 146,
+        "endChar": 17
+      },
+      "revId": "8c2d2e8d0ed95e995b8b7e178cb16db6d27da5de",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
