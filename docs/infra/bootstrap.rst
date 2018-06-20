@@ -564,6 +564,70 @@ Setup routing
         * Releases
         * Snapshots
 
+.. _bootstrap-nexus3:
+
+Nexus 3
+=======
+
+.. _nexus-setup-server-config:
+
+Setup Server Config
+-------------------
+
+#. Navigate to https://nexus3.example.org/#admin/system/emailserver
+#. SMTP Settings
+
+   .. code-block:: none
+
+      Enabled: true
+      Hostname: localhost
+      Port: 25
+      Username:
+      Password:
+      From address: noreply@example.org
+      Subject prefix:
+
+.. _nexus3-setup-ldap:
+
+Setup LDAP
+----------
+
+#. Navigate to https://nexus3.example.org/#admin/security/ldap
+#. Click ``Create connection``
+#. Configure the LDAP connection as follows
+
+   .. code-block:: none
+
+      Name: ldaps://ldap.example.org:636
+      Protocol: ldaps
+      Hostname: ldap.example.org
+      Port: 636
+      Search base: dc=example,dc=org
+      Authentication method: Anonymous Authentication
+
+#. Click ``Verify connection`` and check that it works
+#. Click ``Next``
+#. Configure the ``User & Group Settings`` as follows:
+
+   .. code-block:: none
+
+      Base DN: ou=Users
+      Object Class: inetOrgPerson
+      User ID Attribute: uid
+      Real Name Attribute: cn
+      E-Mail Attribute: mail
+      Map LDAP groups as roles: true
+
+      Group Type: Static Groups
+      Base DN: ou=groups
+      Object Class: groupOfNames
+      Group ID Attribute: cn
+      Group Member Attribute: member
+      Group Member Format: ${dn}
+
+#. Click ``Verify user mapping`` and confirm it works
+#. Click ``Create``
+
 .. _post-bootstrap:
 
 Post bootstrap
