@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c40aed44_7bc23ea7",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-20T23:22:26Z",
+      "side": 1,
+      "message": "follows:",
+      "range": {
+        "startLine": 456,
+        "startChar": 36,
+        "endLine": 456,
+        "endChar": 43
+      },
+      "revId": "65c038321fad72494f1cde5d4717923d9c1880aa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1eee2ddf_832f8296",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 526,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-20T23:22:26Z",
+      "side": 1,
+      "message": "Nexus 2",
+      "range": {
+        "startLine": 526,
+        "startChar": 16,
+        "endLine": 526,
+        "endChar": 21
+      },
+      "revId": "65c038321fad72494f1cde5d4717923d9c1880aa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "924f85ce_5a44f416",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 528,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-06-20T23:22:26Z",
+      "side": 1,
+      "message": "configurable,",
+      "range": {
+        "startLine": 528,
+        "startChar": 7,
+        "endLine": 528,
+        "endChar": 19
+      },
+      "revId": "65c038321fad72494f1cde5d4717923d9c1880aa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
