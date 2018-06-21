@@ -221,7 +221,7 @@ Bootstrap common-packer and initial builder
       provider account with the keypair name ``jenkins``
 
 #. Navigate to ``https://jenkins.example.org/configfiles/selectProvider``
-#. Create a ``jenkins-init-system`` file with the following specs:
+#. Create a ``OpenStack User Data`` file with the following specs:
 
    .. code-block:: none
 
