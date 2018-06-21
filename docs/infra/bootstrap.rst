@@ -67,8 +67,8 @@ Steps
 
 .. _setup-jobbuilder-account:
 
-Setup JobBuilder account
-------------------------
+Setup Job Builder account
+-------------------------
 
 The ci-jobs in global-jjb require a jobbuilder account which has permissions
 to login to Jenkins.
