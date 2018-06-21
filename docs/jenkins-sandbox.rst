@@ -108,6 +108,7 @@ Example::
    ignore_cache=True
    keep_descriptions=False
    recursive=True
+   retain_anchors=True
 
    [jenkins]
    user-id=<Provide your Jenkins Sandbox user-id (LFID)>
