@@ -278,6 +278,10 @@ Bootstrap common-packer and initial builder
 
    #. Run global-jjb jenkins-cfg script to update Jenkins cloud config
 
+      .. note::
+
+         This step requires ``crudini`` tool, install if necessary.
+
       Set ``jenkins_silos`` to match the config section name in the
       previous step.
 
