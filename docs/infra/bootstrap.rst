@@ -351,6 +351,56 @@ Setup global-jjb and ci-jobs
           project-name: ci-management
           build-node: centos7-builder-2c-1g
 
+#. Create an empty ``npmrc`` file with the following specs:
+
+   .. code-block:: none
+
+      Type: Custom file
+      ID: npmrc
+      Name: npmrc
+
+#. Create an empty ``pipconf`` file with the following specs:
+
+   .. code-block:: none
+
+      Type: Custom file
+      ID: pipconf
+      Name: pipconf
+
+#. Create a ``jjbini`` file with the following specs:
+
+   .. code-block:: bash
+      :caption: Jenkins Job Builder ini file
+
+      Type: Custom file
+      ID: jjbini
+      Name: jjbini
+      Content:
+
+      [job_builder]
+      ignore_cache=True
+      keep_descriptions=False
+      include_path=.:scripts:~/git/
+      recursive=True
+      retain_anchors=True
+
+      [jenkins]
+      user=JOB_BUILDER_ID
+      password=JOB_BUILDER_API_KEY
+      url=https://jenkins.example.org/
+      query_plugins_info=False
+
+      [production]
+      user=JOB_BUILDER_ID
+      password=JOB_BUILDER_API_KEY
+      url=https://jenkins.example.org/
+      query_plugins_info=False
+
+   Replace JOB_BUILDER_ID with the username of your job builder account in Jenkins
+
+   Replace JOB_BUILDER_API_KEY with the Jenkins API key for the account (this is
+   the same account used in step 2 of ref:`setup-jobbuilder-account`
+
 #. Manually push the initial ci-management jobs to Jenkins
 
    .. code-block:: bash
