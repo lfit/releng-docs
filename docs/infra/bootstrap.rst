@@ -211,7 +211,7 @@ Bootstrap common-packer and initial builder
          Username: jenkins
          Private Key: Enter directly
          Passphrase:
-         ID: jenkins
+         ID: jenkins-ssh
          Description: jenkins-ssh
 
       Copy the contents of ``/tmp/jenkins`` into the Key field.
