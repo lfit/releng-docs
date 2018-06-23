@@ -63,7 +63,7 @@ Steps
       next section.
 
 #. Setup a :ref:`jobbuilder account <setup-jobbuilder-account>`
-#. Setup global-jjb required `Jenkins Files <global-jjb:jenkins-files>`_
+#. Setup global-jjb required :ref:`Jenkins Files <global-jjb:jenkins-files>`
 
 .. _setup-jobbuilder-account:
 
