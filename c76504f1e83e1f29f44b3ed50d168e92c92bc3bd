@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "96287ce5_81a9e660",
+        "filename": "docs/infra/escalation.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-06-25T14:27:29Z",
+      "side": 1,
+      "message": "It\u0027s very possible for folks to interpret this as any code builds failing. Not builds failing because of infrastructure.\n\nWe need to be very clear that builds failing because of bad code is not an emergency.\n\nSoftware releases are also never an emergency as those are supposed to be planned and Release Engineering should have an idea of when they are coming.",
+      "range": {
+        "startLine": 14,
+        "startChar": 57,
+        "endLine": 14,
+        "endChar": 68
+      },
+      "revId": "c76504f1e83e1f29f44b3ed50d168e92c92bc3bd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4543e0c6_50e50722",
+        "filename": "docs/infra/escalation.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-06-25T14:27:29Z",
+      "side": 1,
+      "message": "Need to make sure that we detail the following information in the email:\n\nWhat project\nWhat service",
+      "revId": "c76504f1e83e1f29f44b3ed50d168e92c92bc3bd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
