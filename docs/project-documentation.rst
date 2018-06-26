@@ -267,5 +267,5 @@ links listed as ``std:label`` refer to the ``:ref:`` syntax.
 .. literalinclude:: _static/objects.inv.example
    :caption: Example lf-docs objects.inv
 
-.. _intersphinx: http://www.sphinx-doc.org/en/master/ext/intersphinx.html
+.. _intersphinx: http://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html
 .. _linking: http://www.sphinx-doc.org/en/stable/markup/inline.html
