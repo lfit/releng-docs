@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "32fb5685_106954ab",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-26T20:37:57Z",
+      "side": 1,
+      "message": "Use intersphinx linking to link to our own stuff!",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 160,
+        "endChar": 71
+      },
+      "revId": "2dcb5163e5b3e85329e4eeb5a4e10568c4a066aa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
