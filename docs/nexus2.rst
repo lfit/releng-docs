@@ -155,5 +155,66 @@ Add roles required for Nexus users:
 Create Nexus2 repos with lftools
 ================================
 
-.. TODO: Creating Nexus2 repos using lftools (RELENG-954)
+Lftools provides an interface to Nexus 2 for creating resources or reordering staging repositories.
+More information on how to use the commands:
+http://lftools.releng.linuxfoundation.org/en/stable/commands/nexus.html
 
+The ``lftools nexus create repo`` command needs two files as parameters:
+
+* `-c, --config` Configuration file containing the repos and their tree structure.
+
+  .. code-block:: yaml
+
+     # Using ONAP as example
+
+     base_groupId: 'org.onap'
+     repositories:
+      appc:
+        password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
+        extra_privs:
+          - 'LF Deployment Role'
+          - 'Staging: Deployer (autorelease)'
+        repositories:
+          cdt:
+            password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
+            extra_privs:
+              - 'LF Deployment Role'
+              - 'Staging: Deployer (autorelease)'
+      aaf:
+        password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
+        extra_privs:
+          - 'LF Deployment Role'
+          - 'Staging: Deployer (autorelease)'
+        repositories:
+          sms:
+            password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
+            extra_privs:
+              - 'LF Deployment Role'
+              - 'Staging: Deployer (autorelease)'
+
+.. note::
+
+   In the above example, appc is the parent for cdt and aaf is the parent of sms.
+   The projects created will be: appc, appc-cdt, aaf and aaf-sms.
+
+.. note::
+
+   extra_privs could have a different name between LF projects.
+
+* `-s, --settings` Configuration file with all the admin settings
+
+  .. code-block:: bash
+
+     # Using ONAP as example
+
+     nexus: 'https://nexus.onap.org'
+
+     user: 'admin'
+     password: 'admin123'
+
+     email_domain: 'onap.org'
+
+After running `lftools nexus create repo -c <the_repo_config> -s <your_settings_config>`,
+the script will create all repos, users, roles and privileges. Also, the `Repository Targets`
+is set with the patterns to set restrictions for projects and the location where they
+should post artifacts. These patterns should match the GroupId in the project's pom.xml.
