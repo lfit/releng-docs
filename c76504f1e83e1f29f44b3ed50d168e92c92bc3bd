@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "acb490e4_f1ae9dde",
+        "filename": "docs/infra/escalation.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-06-26T07:18:36Z",
+      "side": 1,
+      "message": "I also recommend that process might require adding notification alerts strings (such as \u0027lf-releng\u0027/\u0027releng\u0027) to our IRC client alert preferences. Then then community can ping the channel \"ex: ping lf-releng\" rather than \"ping xyz\" and wait for a response. Sometimes user \u0027xyz\u0027 may not available during the nights/OOO during that time the messages may remain unattended.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 40
+      },
+      "revId": "c76504f1e83e1f29f44b3ed50d168e92c92bc3bd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4543e0c6_50e50722",
         "filename": "docs/infra/escalation.rst",
         "patchSetId": 3
