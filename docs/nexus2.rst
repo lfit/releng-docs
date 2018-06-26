@@ -149,11 +149,3 @@ Add roles required for Nexus users:
 
    More information on users, roles and privileges configuration using lftools along with the
    repos in :ref:`Create Nexus2 repos with lftools <create-repos-lftools>`.
-
-.. _create-repos-lftools:
-
-Create Nexus2 repos with lftools
-================================
-
-.. TODO: Creating Nexus2 repos using lftools (RELENG-954)
-
