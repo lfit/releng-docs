@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "59910f18_aaf66f66",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-28T17:18:54Z",
+      "side": 1,
+      "message": "I think lftools should be written in one of:\n\n1. LF Tools\n2. lftools\n\nMethod 2 always when referring to it as a command.",
+      "range": {
+        "startLine": 158,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 7
+      },
+      "revId": "bc68a7142e068ccf5157904d15b1c74ebb9c98b2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "853bae62_bd0a3429",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-28T17:18:54Z",
+      "side": 1,
+      "message": "See comment above.",
+      "range": {
+        "startLine": 160,
+        "startChar": 6,
+        "endLine": 160,
+        "endChar": 13
+      },
+      "revId": "bc68a7142e068ccf5157904d15b1c74ebb9c98b2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ba511f4_3ce47d24",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-06-28T17:18:54Z",
+      "side": 1,
+      "message": "I think stylistically back to back notes is kinda odd.\n\nMaybe we make the 1st note, a non-note since you don\u0027t have to have everything as a note and it explains the above example so I wouldn\u0027t consider that a note. In which case you can write it like so:\n\n* `-c, --config` ...\n \n  .. code-block:: yaml\n \n     Example ...\n\n  appc is the parent for cdt, and aaf is the parent of sms.\n  The projects created will be: appc, appc-cdt, aaf and aaf-sms.\n \n  .. note::\n \n     ``extra_privs`` could have different role names between LF projects.",
+      "range": {
+        "startLine": 195,
+        "startChar": 0,
+        "endLine": 202,
+        "endChar": 63
+      },
+      "revId": "bc68a7142e068ccf5157904d15b1c74ebb9c98b2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
