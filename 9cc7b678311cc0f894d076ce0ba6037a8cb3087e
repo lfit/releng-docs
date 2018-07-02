@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab10f0a_7d6435ab",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-07-02T20:18:52Z",
+      "side": 0,
+      "message": "I\u0027m confused about this part, and I think it should probably be removed.\n\nThe info is already in docs/infra/nexus2.rst, and the label, is a duplicate from that file...",
+      "range": {
+        "startLine": 153,
+        "startChar": 0,
+        "endLine": 158,
+        "endChar": 57
+      },
+      "revId": "9cc7b678311cc0f894d076ce0ba6037a8cb3087e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
