@@ -141,7 +141,7 @@ Execute the following commands to install JJB on your machine:
 .. code-block:: bash
 
    cd ci-management (or cd builder)
-   sudo pip install virtualenvwrapper
+   pip install --user virtualenvwrapper
    mkvirtualenv jjb
    pip install jenkins-job-builder
    jenkins-jobs --version
