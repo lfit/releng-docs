@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "986c6921_b9093cee",
+        "filename": "check-best-practices.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-07-11T16:20:29Z",
+      "side": 1,
+      "message": "While we only have one check in here right now, shouldn\u0027t we still plan for the future and return an exit code to the call to eventually exit with? That way we can output all potential errors in a single run instead of having to run it multiple times as we clear each one.",
+      "range": {
+        "startLine": 33,
+        "startChar": 12,
+        "endLine": 33,
+        "endChar": 23
+      },
+      "revId": "e0e69a6c81e2c422eb54482671fddaa3e7d6e5c9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
