@@ -42,6 +42,69 @@
     },
     {
       "key": {
+        "uuid": "837357ad_f9d4fcc3",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 1,
+      "message": "This really needs to appear after the jenkins.ini as jenkins.ini configuration affects the output of the test command.",
+      "range": {
+        "startLine": 115,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 109
+      },
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96d92f2c_7effb7b9",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 1,
+      "message": "JJB is not a virtual environment.\n\nPython Virtual Envs and JJB are 2 entirely different concepts and tools.",
+      "range": {
+        "startLine": 161,
+        "startChar": 11,
+        "endLine": 161,
+        "endChar": 30
+      },
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c9d85fb8_8e431ea5",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 1,
+      "message": "`.. code-block:: bash` sections are for bash commands that users can copy paste. If we want to provide example input/output I\u0027d recommend creating another code block below the bash one for example:\n\n .. code-block:: none\n \n    (jjb) \u003d\u003d\u003e jenkins-jobs ...",
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "21797f5c_b65f292e",
         "filename": "docs/jenkins-sandbox.rst",
         "patchSetId": 1
@@ -58,6 +121,69 @@
         "startChar": 12,
         "endLine": 228,
         "endChar": 13
+      },
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f0d4fcf5_548695dd",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 1,
+      "message": "See above comment.",
+      "range": {
+        "startLine": 228,
+        "startChar": 12,
+        "endLine": 228,
+        "endChar": 13
+      },
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6bd30d48_316cbcd1",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 1,
+      "message": "See above comment.",
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c635f11e_5a4f3aff",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 1,
+      "message": "We\u0027ve agreed to using example.org in all of our example URLs.",
+      "range": {
+        "startLine": 285,
+        "startChar": 57,
+        "endLine": 285,
+        "endChar": 73
       },
       "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",

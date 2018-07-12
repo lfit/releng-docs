@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7103c55f_1bf5c0aa",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-12T18:20:58Z",
+      "side": 0,
+      "message": "virtualenvwrapper is an extremely useful wrapper script. We should keep using it.",
+      "revId": "3759ab468fe5e9a6be1a0fc24ea539cc7cc56f03",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
