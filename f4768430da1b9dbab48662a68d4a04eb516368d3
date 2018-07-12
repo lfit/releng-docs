@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ac414f5c_61821b38",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-07-12T18:18:44Z",
+      "side": 1,
+      "message": "See best practices on Git commit messages:\n\nhttps://docs.releng.linuxfoundation.org/en/latest/best-practices.html\n\nIn particular the first article linked.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 33
+      },
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6516dec_39700f8a",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-07-12T18:18:44Z",
+      "side": 1,
+      "message": "Line wrapping. We should be properly wrapping at 80 characters.\n\nPlease consider the folks that actually read changes via email, even if they review it through the UI. For those reviewing through the UI they shouldn\u0027t have to expand their browser to full screen to do a review!",
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "21797f5c_b65f292e",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-07-12T18:18:44Z",
+      "side": 1,
+      "message": "Dangling whitespace",
+      "range": {
+        "startLine": 228,
+        "startChar": 12,
+        "endLine": 228,
+        "endChar": 13
+      },
+      "revId": "f4768430da1b9dbab48662a68d4a04eb516368d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
