@@ -20,14 +20,14 @@ Facts to keep in mind before working on the Sandbox:
 Get access to the Jenkins Sandbox
 ---------------------------------
 
-The Sandbox provides a testing/experimentation environment used before
+the Sandbox provides a testing/experimentation environment used before
 pushing job templates to the production instance.
 
 To access the Sandbox use: jenkins.<project-domain>/sandbox
 
 The access to the Sandbox uses the same LFID used in the production Jenkins
 instance, but in this case a new `LF Helpdesk <mailto:helpdesk@rt.linuxfoundation.org>`_ ticket
-(for the related project) needs creation to request the sanbox access.
+(for the related project) needs creation to request the sandbox access.
 
 .. todo:: Link to Opening Helpdesk ticket docs
 
@@ -90,19 +90,48 @@ The job pushed into the Sandbox will reflect the changes made in the patch.
 Push jobs via JJB CLI
 ---------------------
 
-JJB CLI needs configuration first.
+The sections below will show you how to initialize a Python Virtual Environment for pushing jobs via the JJB CLI.
 
-.. note::
+.. _configure-jjb-virtual-environment:
 
-   Use this configuration if you prefer to use the JJB tool locally on your system.
+Configure JJB Virtual Environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After getting access to the Sanbox group, configure the following.
+Execute the following commands to install the JJB Virtual Environment for Python 3 on your machine.
+This installs the python3-virtualenv globally on you machine and jenkins-job-builder locally within the Virtual Environment.
+The jenkins-jobs command is for validation.
 
-Create a jenkins.ini with the following contents modifying the relevant data:
+.. code-block:: bash
 
-Example::
+   sudo apt install python3-virtualenv
+   python3 -m venv jjb
+   source jjb/bin/activate
+   pip install jenkins-job-builder
+   jenkins-jobs --version
 
-   ;<jenkins.ini contents>
+The jenkins-jobs command is for validation.
+Once you have sourced the activate script, your prompt should contain the name of the Virtual Environment.
+
+We must create a clone of ci-management or releng/builder (in case of ODL) repo for the project.
+You will also need initialize the submodules in the ci-managment repo.
+
+.. code-block:: bash
+
+   git clone ssh://<LFID>@gerrit.<project-domain>:29418/ci-management
+   cd ci-management
+   git submodule update --init
+   jenkins-jobs test --recursive jjb
+
+The 'jenkins-jobs test' command is for validation.
+A successful test will output the XML description of the Jenkins job described by the specified JJB job name.
+
+After getting access to the Sandbox group, configure the following.
+
+Create a jenkins.ini (at the top of the ci-management repo) with the following contents modifying the relevant data:
+
+.. code-block:: text
+
+   ; <jenkins.ini contents>
 
    [job_builder]
    ignore_cache=True
@@ -111,54 +140,26 @@ Example::
    retain_anchors=True
 
    [jenkins]
-   user-id=<Provide your Jenkins Sandbox user-id (LFID)>
+   user=<Provide your Jenkins Sandbox user-id (LFID)>
    password= <Refer below steps to get API token>
    url=https://jenkins.<project-domain>/sandbox
-   ignore_cache=True
 
 How to retrieve API token?
-Login to the Jenkins Sandbox using your LFID, go to the user page by clicking on
-your username. Click Configure and then click Show API Token.
-
-To start using the Sandbox, we must do a clone of ci-management or releng/builder
-(in case of ODL) repo for the project.
-For example:
-
-.. code-block:: bash
-
-   git clone ssh://<LFID>@gerrit.<project-domain>:29418/ci-management
-
-Make sure you sync global-jjb also using:
-
-.. code-block:: bash
-
-   git submodule update --init
-
-Install JJB (Jenkins Job Builder).
-
-Execute the following commands to install JJB on your machine:
-
-.. code-block:: bash
-
-   cd ci-management (or cd builder)
-   pip install --user virtualenvwrapper
-   mkvirtualenv jjb
-   pip install jenkins-job-builder
-   jenkins-jobs --version
-   jenkins-jobs test --recursive jjb/
+Login to the Jenkins Sandbox using your LFID, go to the user page by clicking on your username.
+Click Configure and then click Show API Token.
 
 .. note::
 
    More information on `Python Virtual Environments <https://virtualenv.readthedocs.io/en/latest/>`__
 
-To work on existing jobs or create new jobs, navigate to the `/jjb` directory
-where you will find all job templates for the project.  Follow the below commands
+To work on existing jobs or create new jobs, navigate your `.../jjb` directory, where you will find all job templates for the project.
+You will need to source the activate script (jjb/bin/activate) and follow the below commands
 to test, push or delete jobs in your Sandbox environment.
 
-.. _verify-jjb:
+.. _verify-jjb-virtual-environment:
 
-Verify JJB
-^^^^^^^^^^
+Verify JJB Virtual Environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After you edit or create new job templates, test the job in the Sandbox
 environment before you submit this job to production CI environment.
@@ -180,13 +181,24 @@ must be manually expanded before use. For example, the commonly used template
 A successful test will output the XML description of the Jenkins job described
 by the specified JJB job name.
 
-Execute the following command to pipe-out to a directory:
+Execute the following command to pipe the results to a directory:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini test jjb/ <job-name> -o target
+   jenkins-jobs --conf jenkins.ini test jjb/ <job-name> -o target --config-xml
 
-The output directory will contain files with the XML configurations.
+For example:
+
+.. code-block:: bash
+
+   (jjb) ==> jenkins-jobs --conf jenkins.ini test jjb/ ci-management-jjb-merge -o target --config-xml
+   .
+   .
+   INFO:jenkins_jobs.builder:Number of jobs generated:  1
+   INFO:jenkins_jobs.builder:Number of views generated:  0
+   (jjb) ==>
+
+Upon successful completion the output directory (target) will contain files containing the XML configurations.
 
 .. _push-job:
 
@@ -201,11 +213,19 @@ following command to push the job to the Sandbox:
 
    jenkins-jobs --conf jenkins.ini update jjb/ <job-name>
 
-For Example:
+For example:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini update jjb/ ci-management-jjb-merge
+   (jjb) ==> jenkins-jobs --conf jenkins.ini update jjb/ ci-management-jjb-merge
+   .
+   .
+   INFO:jenkins_jobs.builder:Number of jobs generated:  1
+   INFO:jenkins_jobs.builder:Creating jenkins job ci-management-jjb-merge
+   INFO:jenkins_jobs.cli.subcommand.update:Number of jobs updated: 1
+   INFO:jenkins_jobs.builder:Number of views generated:  0
+   INFO:jenkins_jobs.cli.subcommand.update:Number of views updated: 0
+   (jjb) ==>
 
 Delete a Job
 ^^^^^^^^^^^^
@@ -216,11 +236,15 @@ Execute the following command to Delete a job from Sandbox:
 
    jenkins-jobs --conf jenkins.ini delete jjb/ <job-name>
 
-For Example:
+For example:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini delete jjb/ ci-management-jjb-merge
+   (jjb) ==> jenkins-jobs --conf jenkins.ini delete jjb/ ci-management-jjb-merge
+   INFO:jenkins_jobs.builder:Removing jenkins job(s): jjb/, ci-management-jjb-merge
+   INFO:jenkins_jobs.builder:Deleting jenkins job ci-management-jjb-merge
+   INFO:jenkins_jobs.builder:Removing jenkins view(s): jjb/, ci-management-jjb-merge
+   (jjb) ==>
 
 You can also delete the job from the UI options in Jenkins Sandbox.
 
@@ -258,7 +282,7 @@ Execute jobs in the Sandbox
 Once you push the Jenkins job configuration to the Sandbox environment, run the
 job from the Sandbox WebUI. Follow the below process to trigger the build:
 
-1. Login into the Jenkins Sandbox WebUI
+1. Login into the 'Jenkins Sandbox WebUI (``https://jenkins.<project-domain>/sandbox>``)
 2. Click on the job which you want to trigger
 3. Click "Build with parameters"
 4. Click Build
