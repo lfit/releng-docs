@@ -13,6 +13,7 @@ Infrastructure provided to projects.
    inventory
    bootstrap
    jenkins
+   jira
    nexus
    openstack
    github
