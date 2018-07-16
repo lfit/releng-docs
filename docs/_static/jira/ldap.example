@@ -1,0 +1,24 @@
+Name: Delegated LDAP Authentication
+Directory Type: OpenLDAP
+Hostname: ldap.example.org
+Port: 636
+Use SSL: True
+
+Copy User on Login: True
+Default Group Membership: jira-software-users
+Synchronize Group Memberships: True
+
+Base DN: dc=example,dc=org
+User Name Attribute: uid
+Additional User DN: ou=Users
+
+User Display Name Attribute: cn
+
+# Group Schema Settings
+Additional Group DN: ou=Groups
+Group Object Class: groupOfNames
+Group Object Filter: (&(objectclass=groupOfNames)(|(cn=PROJECT-*)(cn=lf-collab-admins)(cn=lf-helpdesk)))
+
+# Membership Schema Settings
+Group Members Attribute: member
+User Membership Attribute: memberOf
