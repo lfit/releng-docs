@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8e35250_44e2873b",
+        "filename": ".gitignore",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-19T16:18:04Z",
+      "side": 1,
+      "message": "Please split this change off to a separate change.",
+      "revId": "f108261355c7ef100bbdec1820b751cc746924fd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "13af6bab_e60343e6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-19T16:18:04Z",
+      "side": 1,
+      "message": "Can you add some details to the commit message one why we want to do this?\n\nUsing virtualenv wrapper is a pretty useful tool and I feel like we\u0027re getting into a discussion of opinions here.",
+      "range": {
+        "startLine": 7,
+        "startChar": 16,
+        "endLine": 7,
+        "endChar": 44
+      },
+      "revId": "f108261355c7ef100bbdec1820b751cc746924fd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80d78a6c_29a9d18b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-19T16:18:04Z",
+      "side": 1,
+      "message": "We do we need Python 3 specifically? since we\u0027re using virtualenv it doesn\u0027t actually matter what your base python version is as virtualenv can do both 2 and 3.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 40
+      },
+      "revId": "f108261355c7ef100bbdec1820b751cc746924fd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad882d8_5823fbdd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-19T16:18:04Z",
+      "side": 1,
+      "message": "Can we break the cleanup and reordering to a separate patch?\n\nI\u0027d like to keep this patch about why we\u0027re removing VirtualEnv Wrapper.",
+      "range": {
+        "startLine": 9,
+        "startChar": 42,
+        "endLine": 10,
+        "endChar": 8
+      },
+      "revId": "f108261355c7ef100bbdec1820b751cc746924fd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
