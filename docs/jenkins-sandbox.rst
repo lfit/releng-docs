@@ -96,7 +96,24 @@ JJB CLI needs configuration first.
 
    Use this configuration if you prefer to use the JJB tool locally on your system.
 
-After getting access to the Sanbox group, configure the following.
+After getting access to the Sandbox group, configure the following.
+
+Create a Python3 Virtual Environment (PVE). If you have not already done
+so, you will need to install python3-virtualenv package on your
+system. The example is for installation on Ubuntu. Next, you will install
+jenkins-job-builder in your PVE.
+
+.. code-block:: bash
+
+   sudo apt install python3-virtualenv
+   python3 -m venv jjb
+   source jjb/bin/activate
+   pip install jenkins-job-builder
+   jenkins-jobs --version
+
+The jenkins-jobs command is for validation. Once you have sourced the
+activate script, your prompt should contain the name of the PVE (jjb).
+
 
 Create a jenkins.ini with the following contents modifying the relevant data:
 
@@ -128,24 +145,18 @@ For example:
 
    git clone ssh://<LFID>@gerrit.<project-domain>:29418/ci-management
 
-Make sure you sync global-jjb also using:
+Configue JJB (Jenkins Job Builder).
 
-.. code-block:: bash
-
-   git submodule update --init
-
-Install JJB (Jenkins Job Builder).
-
-Execute the following commands to install JJB on your machine:
+Execute the following commands to configure your repo to run JJB.
 
 .. code-block:: bash
 
    cd ci-management (or cd builder)
-   pip install --user virtualenvwrapper
-   mkvirtualenv jjb
-   pip install jenkins-job-builder
-   jenkins-jobs --version
+   git submodule update --init
+   mv ../jenkins.ini .
    jenkins-jobs test --recursive jjb/
+
+The 'jenkins-jobs test' command is for validation.
 
 .. note::
 
