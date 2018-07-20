@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2a4986_771f4b3b",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 1,
+      "message": "2 points here.\n\n1. Not everyone uses Debian/Ubuntu. If we really want to start listing distro specific install instructions then we shouldn\u0027t make any assumptions that everyone is on Ubuntu. Adding another section like this might be better:\n\n Install Python virtualenv for your relevant distro:\n \n Arch: ``pacman -S python-virtualenv``\n Debian/Ubuntu: ``apt install python-virtualenv``\n Fedora/RedHat: ``yum install python-virtualenv``\n OpenSUSE: ``zypper install python-virtualenv``\n\n2. We are required to support both Python 2 and Python 3 so should not favor one or the other\n\nWe need to support CentOS which doesn\u0027t always have the latest and greatest and some distros have Python3 as their default python-virtualenv package while others like Ubuntu have Python2. So I think the better instruction is to stick with the distro default as JJB supports both anyway.\n\nThe \"virtualenv\" command exists for both regardless of if it\u0027s virtualenv2 or virtualenv3.",
+      "range": {
+        "startLine": 108,
+        "startChar": 3,
+        "endLine": 108,
+        "endChar": 38
+      },
+      "revId": "62384df0fbb5a73deda9b0f62e0201d093cac4cc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59c903d0_45a54c8e",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 1,
+      "message": "I think it\u0027s better to use \"virtualenv\" here as it works regardless of python3 or python2 as the distro default.",
+      "range": {
+        "startLine": 109,
+        "startChar": 3,
+        "endLine": 109,
+        "endChar": 22
+      },
+      "revId": "62384df0fbb5a73deda9b0f62e0201d093cac4cc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c40f0c5c_f7fdb4d3",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 1,
+      "message": "This is not completely correct here. The jenkins-jobs command is a tool for managing Jenkins Jobs via YAML configuration. It does more than just validation, you can use it to push jobs to Jenkins or even create a full configuration stack locally with the --output parameter.",
+      "range": {
+        "startLine": 114,
+        "startChar": 0,
+        "endLine": 114,
+        "endChar": 42
+      },
+      "revId": "62384df0fbb5a73deda9b0f62e0201d093cac4cc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f851cbcf_7f876ed2",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 1,
+      "message": "Since we\u0027re updating this anyway the correct path for jenkins.ini is actually:\n\n ~/.config/jenkins_jobs/jenkins_jobs.ini\n\nIf the file is placed here you will not have to pass ``--conf jenkins.ini`` to all of your jenkins-jobs calls.",
+      "range": {
+        "startLine": 118,
+        "startChar": 9,
+        "endLine": 118,
+        "endChar": 20
+      },
+      "revId": "62384df0fbb5a73deda9b0f62e0201d093cac4cc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f169b635_a6f8b96f",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 1,
+      "message": "As mentioned in the above comment the best path for this file is actually ~/.config/jenkins_jobs/jenkins_jobs.ini\n\nIf we tell people to just create that file directly there we don\u0027t have to move it or pass --conf explicitly.",
+      "range": {
+        "startLine": 156,
+        "startChar": 3,
+        "endLine": 156,
+        "endChar": 22
+      },
+      "revId": "62384df0fbb5a73deda9b0f62e0201d093cac4cc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4390944c_c122cba8",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 1,
+      "message": "Maybe it\u0027s just me but I feel it\u0027s pretty obvious that the \"test\" command is to validate the JJB.",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 49
+      },
+      "revId": "62384df0fbb5a73deda9b0f62e0201d093cac4cc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "61e9be5d_d48f378a",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-20T04:58:55Z",
+      "side": 0,
+      "message": "To be honest this is probably the 4th time we\u0027ve added and removed virtualenvwrapper. How about we just end this debate and provide instructions for both methods as I\u0027m sure someone else will come along in the future and redo all this again. I don\u0027t like that we keep flip flopping on pure virtualenv vs virtualenvwrapper in our docs so many times. Plus the users of our docs probably will get confused that we cannot seem to make up our minds on which method to use.",
+      "range": {
+        "startLine": 144,
+        "startChar": 3,
+        "endLine": 144,
+        "endChar": 39
+      },
+      "revId": "301ac20dad46a4600a3fce444f728b04563a6801",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
