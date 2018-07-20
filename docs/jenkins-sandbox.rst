@@ -27,7 +27,7 @@ To access the Sandbox use: jenkins.<project-domain>/sandbox
 
 The access to the Sandbox uses the same LFID used in the production Jenkins
 instance, but in this case a new `LF Helpdesk <mailto:helpdesk@rt.linuxfoundation.org>`_ ticket
-(for the related project) needs creation to request the sanbox access.
+(for the related project) needs creation to request the sandbox access.
 
 .. todo:: Link to Opening Helpdesk ticket docs
 
@@ -96,7 +96,7 @@ JJB CLI needs configuration first.
 
    Use this configuration if you prefer to use the JJB tool locally on your system.
 
-After getting access to the Sanbox group, configure the following.
+After getting access to the Sandbox group, configure the following.
 
 Create a jenkins.ini with the following contents modifying the relevant data:
 
