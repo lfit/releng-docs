@@ -544,6 +544,7 @@ is available.
 
 #. Click ``Add`` and add the following roles:
 
+   * Artifact Upload
    * Nexus Deployment Role
    * Unpack
 
