@@ -38,6 +38,12 @@ Nexus 2 communicates with Jenkins server which is the interface used to make
 the artifacts publications on a scheduled or by demand basis (depending on the Jenkins JJB
 configuration for the particuar job).
 
+Jenkins jobs for Nexus 2
+========================
+
+Global JJB provides templates for building and releasing Maven artifacts. More information
+on these templates can be found in: :doc:`Maven Job Templates <global-jjb:jjb/lf-maven-jobs>`
+
 Nexus 2 Repositories
 ====================
 
