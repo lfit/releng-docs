@@ -96,11 +96,11 @@ JJB CLI needs configuration first.
 
    Use this configuration if you prefer to use the JJB tool locally on your system.
 
-After getting access to the Sandbox group, configure the following.
-
-Create a jenkins.ini with the following contents modifying the relevant data:
-
-Example::
+If you have a global jenkins.ini file it will used any time you run
+'jenkins-jobs'. The locaton of the global jenkins.ini is:
+~/.config/jenkins_jobs/jenkin.ini. If the file does not already exist, you can
+create it, otherwise you will have to add/merge in the changes below. Note you
+must modify the relevant data.
 
    ;<jenkins.ini contents>
 
@@ -111,14 +111,16 @@ Example::
    retain_anchors=True
 
    [jenkins]
-   user-id=<Provide your Jenkins Sandbox user-id (LFID)>
+   user=<Provide your Jenkins Sandbox user-id (LFID)>
    password= <Refer below steps to get API token>
    url=https://jenkins.<project-domain>/sandbox
-   ignore_cache=True
 
 How to retrieve API token?
 Login to the Jenkins Sandbox using your LFID, go to the user page by clicking on
 your username. Click Configure and then click Show API Token.
+
+
+After getting access to the Sandbox group, configure the following.
 
 To start using the Sandbox, we must do a clone of ci-management or releng/builder
 (in case of ODL) repo for the project.
@@ -165,13 +167,13 @@ environment before you submit this job to production CI environment.
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini test jjb/ <job-name>
+   jenkins-jobs test jjb/ <job-name>
 
 For Example:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini test jjb/ ci-management-jjb-merge
+   jenkins-jobs test jjb/ ci-management-jjb-merge
 
 If the job you would like to test is a template with variables in its name, it
 must be manually expanded before use. For example, the commonly used template
@@ -199,13 +201,13 @@ following command to push the job to the Sandbox:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini update jjb/ <job-name>
+   jenkins-jobs update jjb/ <job-name>
 
 For Example:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini update jjb/ ci-management-jjb-merge
+   jenkins-jobs update jjb/ ci-management-jjb-merge
 
 Delete a Job
 ^^^^^^^^^^^^
@@ -214,13 +216,13 @@ Execute the following command to Delete a job from Sandbox:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini delete jjb/ <job-name>
+   jenkins-jobs delete jjb/ <job-name>
 
 For Example:
 
 .. code-block:: bash
 
-   jenkins-jobs --conf jenkins.ini delete jjb/ ci-management-jjb-merge
+   jenkins-jobs delete jjb/ ci-management-jjb-merge
 
 You can also delete the job from the UI options in Jenkins Sandbox.
 
