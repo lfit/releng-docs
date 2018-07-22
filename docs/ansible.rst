@@ -4,7 +4,7 @@
 Ansible Guide
 #############
 
-This guide documents the process to setup and manage a new ansible role.
+This guide documents the process to setup and manage a new Ansible role.
 
 .. _ansible-roles:
 

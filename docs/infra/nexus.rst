@@ -4,7 +4,7 @@
 Nexus
 #####
 
-Nexus is an antifact repository typically used in Java / Maven projects.
+Nexus is an artifact repository typically used in Java / Maven projects.
 Stores Project artifacts, Javadocs, and Jenkins job logs.
 
 .. _nexus-file-system:

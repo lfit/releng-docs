@@ -443,7 +443,7 @@ releng/builder repos.
 To access the Jenkins Production URL for any project use:
 ``https://jenkins.example.org``
 
-Similarily, the project's corresponding Jenkins Sandbox URL would be:
+Similarly, the project's corresponding Jenkins Sandbox URL would be:
 ``https://jenkins.example.org/sandbox``
 
 Any users with an LFID can access the Jenkins Production site, but for Jenkins
@@ -454,19 +454,19 @@ Project contributors do not edit the Jenkins jobs directly on the Jenkins produc
 server. Instead, we encourage them to use the Jenkins Sandbox.
 
 The Jenkins Sandbox has similar configuration to the production instance.
-Jenkins Sandbos does not publish artifacts in Nexus or Nexus3 or vote in Gerrit which
+Jenkins Sandbox does not publish artifacts in Nexus or Nexus3 or vote in Gerrit which
 makes it a safe environment to test the jobs. Users can edit and trigger the jobs
-directly to test the behaviour.
+directly to test the behavior.
 
 The Jenkins Sandbox can contain dummy configuration files and dummy credentials in
 case it helps take the test further and not fail on the first steps due to the configuration
 not being present. Any attempt to actually use the configuration files in order
-to make any server comunications will fail. To add dummy configuration files, please
+to make any server communications will fail. To add dummy configuration files, please
 create a new ticket to :ref:`Helpdesk <lfdocs-helpdesk>`.
 
 In such case, merge jobs, push, CLM, Docker or Sonar jobs get tested to some extent due
 to this limitation. Once the job template gets merged and becomes available in Jenkins Production,
-we can confirm the jobs are actually making server comunications as expected with Nexus-IQ,
+we can confirm the jobs are actually making server communications as expected with Nexus-IQ,
 Sonar, Gerrit or Nexus.
 
 The Sandbox has limited amount of Virtual Machine nodes instances

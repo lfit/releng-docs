@@ -4,7 +4,7 @@
 Environment Overview
 ####################
 
-Projects coming to The Linux Foundation (LF) for Continuous Integregration (CI)
+Projects coming to The Linux Foundation (LF) for Continuous Integration (CI)
 services are generally given a similar infrastructure to the rest of our other
 projects unless there is a good reason to deviate from this configuration.
 
@@ -57,7 +57,7 @@ granted via this same group.
 Long term storage of CI logs is not complete during this phase as the log
 shipping mechanisms that we use for capturing the console logs require that the
 CI infrastructure be open to the public. To improve the log storage, as well as
-avoid potential issues with licensing for JIRA and Confluence the recomendation
+avoid potential issues with licensing for JIRA and Confluence the recommendation
 for projects is stay in pre-formation for as short a time as possible or if
 possible, skip a restricted formation phased altogether.
 
@@ -66,7 +66,7 @@ Preparation for code seeds
 
 Code contributed to a project as seed needs to meet the following criteria:
 
-#. The code must pass any required Intelectual Property Review (IPR) that is
+#. The code must pass any required Intellectual Property Review (IPR) that is
    in use by the project
 
 #. The code must pass any licensing requirements related to the licensing used
@@ -88,7 +88,7 @@ Code contributed to a project as seed needs to meet the following criteria:
    LF does not presently have, nor is it aware of, tooling that will allow us
    to properly scan incoming repository histories to verify that they meet
    this.  Requiring a squash commit of seed code is the way that we can
-   definitevly enforce this.
+   definitively enforce this.
 
 Post-formation
 ==============
