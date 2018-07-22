@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ffcff6c_a6d552ad",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-22T13:33:38Z",
+      "side": 1,
+      "message": "I\u0027m not sure how this fits in this section. Basically any jobs can push to Nexus 2, it doesn\u0027t even have to be a Maven job. For example we have some projects that push C++ binaries to Nexus 2 using lftools.\n\nEvery job pushes logs and archives go to Nexus 2.\n\nI wonder if it would be more useful to instead document how to push to Nexus 2 using the mvn cli or lftools or cURL ( which is what lftools uses) instead (or just link to other docs that explain that).",
+      "revId": "47e3f55f132155d01240668ab98b6d087f298fd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
