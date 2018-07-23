@@ -23,7 +23,7 @@ Get access to the Jenkins Sandbox
 The Sandbox provides a testing/experimentation environment used before
 pushing job templates to the production instance.
 
-To access the Sandbox use: jenkins.<project-domain>/sandbox
+To access the Sandbox use: jenkins.example.org/sandbox
 
 The access to the Sandbox uses the same LFID used in the production Jenkins
 instance, but in this case a new `LF Helpdesk <mailto:helpdesk@rt.linuxfoundation.org>`_ ticket
@@ -133,7 +133,7 @@ For example:
 
 .. code-block:: bash
 
-   git clone ssh://<LFID>@gerrit.<project-domain>:29418/ci-management
+   git clone ssh://<LFID>@gerrit.example.org:29418/ci-management
 
 Make sure you sync global-jjb also using:
 
