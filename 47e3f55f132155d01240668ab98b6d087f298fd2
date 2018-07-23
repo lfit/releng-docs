@@ -16,6 +16,24 @@
       "revId": "47e3f55f132155d01240668ab98b6d087f298fd2",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1837fba0_5ef24dc4",
+        "filename": "docs/nexus2.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-07-23T03:36:43Z",
+      "side": 1,
+      "message": "I agree with Thanh, the description in the commit is not clear to me. If we are writing about jobs which push thirdparty repos, should be moved to lftools sections, not just limited to mvn jobs.",
+      "parentUuid": "0ffcff6c_a6d552ad",
+      "revId": "47e3f55f132155d01240668ab98b6d087f298fd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
