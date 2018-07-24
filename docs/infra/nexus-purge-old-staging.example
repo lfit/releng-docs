@@ -1,0 +1,8 @@
+Name: LF Purge old staging
+Task Type: Drop Inactive Staging Repositories
+Inactivity duration (days): 30
+Scan open repositories: True
+Scan closed repositories: True
+Scan promoted repositories: True
+Scan released repositories: True
+Recurrence: Daily

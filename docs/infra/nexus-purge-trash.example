@@ -1,0 +1,4 @@
+Name: LF Purge trash
+Task Type: Empty Trash
+Repository/Group: All Repositories
+Recurrence: Daily

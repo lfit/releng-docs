@@ -1,0 +1,9 @@
+Name: LF Purge week old SNAPSHOTs
+Task Type: Remove Snapshots From Repository
+Repository/Group: Snapshots (Repo)
+Minimum snapshot count: 1
+Snapshot retention (days): 7
+Remove if released: True
+Grace period after release (days): 21
+Delete immediately: True
+Recurrence: Daily
