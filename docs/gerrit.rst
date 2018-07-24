@@ -274,7 +274,7 @@ This method is a useful fallback in situations where we cannot use
    Using "heads" instead, will attempt to make the a push into the repository bypassing
    Gerrit which can come in handy for some isolated cases (when having force push rights).
    Another variable commonly used is "refs/changes/<gerrit-number>" which is an explicit
-   way of making an update to an exisiting gerrit. In such case, is best to let gerrit handle
+   way of making an update to an existing gerrit. In such case, is best to let gerrit handle
    this via Change-Id_ in the commit text.
 
    More options for this command: `git-push <https://git-scm.com/docs/git-push>`_.

@@ -176,7 +176,7 @@ Bootstrap common-packer and initial builder
 #. Note down the image name from the packer build as we will need it later
 
 #. Navigate to ``https://jenkins.example.org/credentials/store/system/domain/_/newCredentials``
-#. Configure the openstack cloud credential as follows:
+#. Configure the OpenStack cloud credential as follows:
 
    .. code-block:: none
 

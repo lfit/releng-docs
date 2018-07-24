@@ -6,7 +6,7 @@ OpenStack Management
 
 We use OpenStack as our primary underlying cloud for CI. With the majority of
 the projects all hosted with the same vendor we can adopt common management
-pratices across them.
+practices across them.
 
 Sharing instance images
 =======================
