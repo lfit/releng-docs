@@ -25,6 +25,91 @@ of inodes such as XFS for the logs storage.
    OpenDaylight ran out of inodes before due to logs. Issue documented in Jira
    https://jira.linuxfoundation.org/browse/RELENG-773
 
+.. _nexus-scheduled-tasks:
+
+Scheduled Tasks
+===============
+
+We recommend configuring Nexus to regularly clear out old SNAPSHOT artifacts
+as well as old Staging repositories. Some projects may have specific policies
+set by the TSC on how long artifacts need to stick around but below make a good
+starting point.
+
+Purge old SNAPSHOTs
+-------------------
+
+For purging SNAPSHOTs we should setup 2 jobs.
+
+The first job to purge week old artifacts but keeping a minimum of 1 SNAPSHOT
+around just in case the project has a broken build.
+
+The second job to purge 3 week old artifacts even if it is the only SNAPSHOT
+remaining. The reason this is necessary is to ensure that if a project removes
+a module from their build that downstream projects will notice by fact of their
+builds failing to find this artifact.
+
+1. LF: Purge week old SNAPSHOTs
+
+   .. code-block:: none
+
+      Name: LF Purge week old SNAPSHOTs
+      Task Type: Remove Snapshots From Repository
+      Repository/Group: Snapshots (Repo)
+      Minimum snapshot count: 1
+      Snapshot retention (days): 7
+      Remove if released: True
+      Grace period after release (days): 21
+      Delete immediately: True
+      Recurrence: Daily
+
+2. LF: Purge 3 week old SNAPSHOTs
+
+   .. code-block:: none
+
+      Name: LF Purge 3 week old SNAPSHOTs
+      Task Type: Remove Snapshots From Repository
+      Repository/Group: Snapshots (Repo)
+      Minimum snapshot count: 0
+      Snapshot retention (days): 21
+      Remove if released: True
+      Grace period after release (days): 21
+      Delete immediately: True
+      Recurrence: Daily
+
+Purge old staging
+-----------------
+
+.. code-block:: none
+
+   Name: LF Purge old staging
+   Task Type: Drop Inactive Staging Repositories
+   Inactivity duration (days): 30
+   Scan open repositories: True
+   Scan closed repositories: True
+   Scan promoted repositories: True
+   Scan released repositories: True
+   Recurrence: Daily
+
+Purge trash
+-----------
+
+.. code-block:: none
+
+   Name: LF Purge trash
+   Task Type: Empty Trash
+   Repository/Group: All Repositories
+   Recurrence: Daily
+
+Rebuild metadata
+----------------
+
+.. code-block:: none
+
+   Name: LF Rebuild metadata
+   Task Type: Rebuild Maven Metadata Files
+   Repository/Group: All Repositories
+   Recurrence: Daily
+
 .. _nexus-log-server:
 
 Use Nexus as a log server
