@@ -165,34 +165,17 @@ Push patches to Gerrit
 ======================
 
 #. Open a shell to the directory containing the project repo
-#. Checkout the branch you would like to work on
+#. Create a local working branch, based on the branch you would like to make
+   changes to.
 
    .. code-block:: bash
 
-      git checkout master
+      git fetch origin
+      git checkout -b new_feature_branch origin/master
 
-   Replace *master* with whichever branch you need to contribute to. Typically
-   master is the latest development branch.
+   Replace *origin/master* with whichever remote/branch you need to contribute
+   to. Typically master is the latest development branch.
 
-#. Resolve any issues reported by ``git status`` as necessary
-
-   The ``git status`` should report the following::
-
-       On branch master
-       Your branch is up to date with 'origin/master'.
-
-       nothing to commit, working tree clean
-
-#. Rebase the branch before you start working on it
-
-   .. code-block:: bash
-
-      git pull --rebase
-
-   This is to ensure that the branch is up to date with the latest version of
-   the repo.
-
-#. Ensure that the repo is in a clean state with ``git status``
 #. Make the modifications you would like to change in the project
 #. Stage the modified files for commit. (Repeat for all files modified)
 
@@ -214,8 +197,8 @@ Push patches to Gerrit
 
 #. Push the patch to Gerrit using one of the 2 methods documented:
 
-   1. :ref:`gerrit-push-git-review`
-   2. :ref:`gerrit-push-git-push`
+   #. :ref:`gerrit-push-git-review`
+   #. :ref:`gerrit-push-git-push`
 
 .. _gerrit-push-git-review:
 
