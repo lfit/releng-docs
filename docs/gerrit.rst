@@ -193,6 +193,12 @@ Push patches to Gerrit
    the repo.
 
 #. Ensure that the repo is in a clean state with ``git status``
+#. Checkout a local branch to work on
+
+   .. code-block:: bash
+
+      git checkout -b my-local-patch
+
 #. Make the modifications you would like to change in the project
 #. Stage the modified files for commit. (Repeat for all files modified)
 
