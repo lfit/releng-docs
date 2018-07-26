@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "89852283_db6b8e58",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-07-26T01:05:16Z",
+      "side": 1,
+      "message": "I think we can make this entire thing less wordy. Here\u0027s the steps we can use to make things accurate without having to figure out if the user\u0027s local branch is dirty.\n\n git fetch origin\n git checkout -b new_feature origin/master\n (replace origin/master with the origin/branch you want to work on)\n\nThese 4 steps now become just 2 steps. Fetch latest origin. make a new feature branch based on latest origin/branch and immediately start working.\n\nNo need to `git status` or `git pull --rebase`",
+      "range": {
+        "startLine": 168,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 36
+      },
+      "revId": "5789c3f63f535a90af9b32cc4cd2d765ff1610d6",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
