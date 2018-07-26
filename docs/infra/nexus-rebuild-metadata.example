@@ -1,0 +1,4 @@
+Name: LF Rebuild metadata
+Task Type: Rebuild Maven Metadata Files
+Repository/Group: All Repositories
+Recurrence: Daily

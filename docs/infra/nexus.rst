@@ -25,6 +25,52 @@ of inodes such as XFS for the logs storage.
    OpenDaylight ran out of inodes before due to logs. Issue documented in Jira
    https://jira.linuxfoundation.org/browse/RELENG-773
 
+.. _nexus-scheduled-tasks:
+
+Scheduled Tasks
+===============
+
+We recommend configuring Nexus to clear out old SNAPSHOT artifacts as well as
+old Staging repositories. Some projects may have specific policies set by the
+TSC on how long artifacts need to stick around but below make a good starting
+point.
+
+Purge old SNAPSHOTs
+-------------------
+
+For purging SNAPSHOTs we should setup 2 jobs.
+
+The first job to purge week old artifacts but keep 1 SNAPSHOT around in
+case the project has a broken merge job.
+
+The second job to purge all 3 week old artifacts. This is necessary is to
+ensure that if a project removes a module from their build that downstream
+projects will notice by fact of their builds failing to find this artifact.
+
+1. LF: Purge week old SNAPSHOTs
+
+   .. literalinclude:: nexus-purge-old-snapshots.example
+
+2. LF: Purge 3 week old SNAPSHOTs
+
+   .. literalinclude:: nexus-purge-3-week-old-snapshots.example
+
+
+Purge old staging
+-----------------
+
+.. literalinclude:: nexus-purge-old-staging.example
+
+Purge trash
+-----------
+
+.. literalinclude:: nexus-purge-trash.example
+
+Rebuild metadata
+----------------
+
+.. literalinclude:: nexus-rebuild-metadata.example
+
 .. _nexus-log-server:
 
 Use Nexus as a log server

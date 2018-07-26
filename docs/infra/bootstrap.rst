@@ -683,3 +683,4 @@ Nexus
 -----
 
 * :ref:`Setup Log server <nexus-log-server>`
+* :ref:`Setup Scheduled Tasks <nexus-scheduled-tasks>`
