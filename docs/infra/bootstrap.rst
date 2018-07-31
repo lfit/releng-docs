@@ -234,6 +234,19 @@ Bootstrap common-packer and initial builder
 
    .. literalinclude:: ../_static/ciman/jenkins-init-script.sh.example
 
+   For Windows:
+
+   .. code-block:: none
+
+      Type: OpenStack User Data
+      ID: jenkins-init-script-windows
+      Name: jenkins-init-script-windows
+      Comment: jenkins-init-script-windows
+
+   With the contents (change the git clone URL as necessary for the project):
+
+   .. literalinclude:: ../_static/ciman/jenkins-init-script-windows.sh.example
+
 #. Configure ``cattle`` cloud
 
    #. Create cloud config directory ``mkdir -p jenkins-config/clouds/openstack/cattle``
