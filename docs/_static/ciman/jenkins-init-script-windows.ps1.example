@@ -1,0 +1,11 @@
+<powershell>
+  # Resize first partition of first disk to maximum size
+  Get-Partition -DiskNumber 0 -PartitionNumber 1
+  $size = (Get-PartitionSupportedSize -DiskNumber 0 -PartitionNumber 1)
+  Resize-Partition -DiskNumber 0 -PartitionNumber 1 -Size $size.SizeMax
+
+  mkdir -Force "${SLAVE_JENKINS_HOME}"
+  (new-object System.Net.WebClient).DownloadFile('${SLAVE_JAR_URL}','${SLAVE_JENKINS_HOME}\slave.jar')
+  cd "${SLAVE_JENKINS_HOME}"
+  java ${SLAVE_JVM_OPTIONS} -jar "slave.jar" -jnlpUrl "${SLAVE_JNLP_URL}" -secret "${SLAVE_JNLP_SECRET}"
+</powershell>
