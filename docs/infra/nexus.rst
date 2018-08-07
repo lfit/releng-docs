@@ -208,6 +208,24 @@ Configure global-var in ci-management
 Refer to :ref:`Jenkins CFG Global Variables <global-jjb:jenkins-cfg-envvar>`
 for details on global-vars configuration.
 
+Setup cron to cleanup old logs
+------------------------------
+
+We highly recommend setting up cron jobs to cleanup old logs periodically.
+
+1. Job to clean up files 6 months old on production path every day
+2. Job to clean up empty directories in the logs path every day
+3. Job to clean up all sandbox logs every week
+
+The following example shows the puppet-cron configuration used by LF to manage
+logs following the Jenkins Sandbox rules defined in the
+:ref:`Jenkins Sandbox Overview <jenkins-sandbox-overview>`.
+
+.. literalinclude:: nexus-puppet-cron.example
+   :language: yaml
+   :caption: puppet-cron example
+
+
 .. _create-repos-lftools:
 
 Create Nexus2 repos with lftools

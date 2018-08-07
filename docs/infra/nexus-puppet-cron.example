@@ -1,0 +1,18 @@
+cron::daily:
+  purge-logs-production:
+    hour: 8
+    user: 'nexus'
+    # yamllint disable-line rule:line-length
+    command: '/usr/bin/yes | /usr/bin/find /srv/sonatype-work/nexus/storage/logs/production -mtime +183 -delete 2>/dev/null'
+  purge-empty-dirs:
+    hour: 9
+    user: 'nexus'
+    # yamllint disable-line rule:line-length
+    command: '/usr/bin/yes | /usr/bin/find /srv/sonatype-work/nexus/storage/logs -type d -empty -delete 2>/dev/null'
+cron::weekly:
+  purge-logs-sandbox:
+    hour: 8
+    weekday: 6
+    user: 'nexus'
+    # yamllint disable-line rule:line-length
+    command: '/bin/rm -rf /srv/sonatype-work/nexus/storage/logs/sandbox/*'
