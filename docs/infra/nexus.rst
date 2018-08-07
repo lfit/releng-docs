@@ -208,6 +208,41 @@ Configure global-var in ci-management
 Refer to :ref:`Jenkins CFG Global Variables <global-jjb:jenkins-cfg-envvar>`
 for details on global-vars configuration.
 
+Setup cron to cleanup old logs
+------------------------------
+
+We highly recommend setting up cron jobs to cleanup old logs regularly.
+
+1. Daily job that cleans up files 6 months old logs on production path
+2. Daily job that cleans up empty directories in the logs path
+3. Weekly job that cleans up all sandbox logs
+
+The following example shows the puppet-cron configuration used by LF to manage
+logs following the Jenkins Sandbox rules defined in the
+:ref:`Jenkins Sandbox Overview <jenkins-sandbox-overview>`.
+
+.. code-block:: yaml
+   :caption: puppet-cron example
+
+   cron::daily:
+     purge-logs-production:
+       hour: 8
+       user: 'nexus'
+       # yamllint disable-line rule:line-length
+       command: '/usr/bin/yes | /usr/bin/find /srv/sonatype-work/nexus/storage/logs/production -mtime +183 -delete 2>/dev/null'
+     purge-empty-dirs:
+       hour: 9
+       user: 'nexus'
+       # yamllint disable-line rule:line-length
+       command: '/usr/bin/yes | /usr/bin/find /srv/sonatype-work/nexus/storage/logs -type d -empty -delete 2>/dev/null'
+   cron::weekly:
+     purge-logs-sandbox:
+       hour: 8
+       weekday: 6
+       user: 'nexus'
+       # yamllint disable-line rule:line-length
+       command: '/bin/rm -rf /srv/sonatype-work/nexus/storage/logs/sandbox/*'
+
 .. _create-repos-lftools:
 
 Create Nexus2 repos with lftools
