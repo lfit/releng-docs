@@ -1,0 +1,1 @@
+      curl -Lo .git/hooks/commit-msg http://USERNAME@gerrit.linuxfoundation.org/infra/tools/hooks/commit-msg
