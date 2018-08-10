@@ -146,6 +146,11 @@ commit message.
    .. literalinclude:: _static/commit-hook.example
        :language: bash
 
+   OR
+	
+   .. literalinclude:: _static/commit-hook2.example
+       :language: bash
+	
    .. note::
 
       The hook implementation is intelligent at inserting the Change-Id_ line before
