@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "8e4492b4_15ac59ba",
+        "filename": "docs/_static/commit-hook2.example",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-10T17:52:41Z",
+      "side": 1,
+      "message": "Rename this file to commit-hook-curl.example.",
+      "revId": "d2a38cf2935208b512805a98d554bc3468225275",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0391454f_b70832c3",
         "filename": "docs/gerrit.rst",
         "patchSetId": 1
