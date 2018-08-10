@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0391454f_b70832c3",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-08-10T17:13:31Z",
+      "side": 1,
+      "message": "PS rm white spaces/tabs",
+      "range": {
+        "startLine": 150,
+        "startChar": 0,
+        "endLine": 150,
+        "endChar": 1
+      },
+      "revId": "d2a38cf2935208b512805a98d554bc3468225275",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "07080970_ad7e98ab",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-08-10T17:13:31Z",
+      "side": 1,
+      "message": "PS rm white spaces/tabs",
+      "range": {
+        "startLine": 153,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 1
+      },
+      "revId": "d2a38cf2935208b512805a98d554bc3468225275",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
