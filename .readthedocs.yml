@@ -5,4 +5,3 @@ requirements_file: requirements.txt
 
 build:
    image: latest
-
