@@ -20,6 +20,7 @@ Guides:
    jenkins
    project-documentation
    nexus2
+   nexus3
    meetbot
 
 .. TODO Jenkins (RELENG-510)
