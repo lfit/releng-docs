@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "83e4464b_dd6af00d",
+        "filename": "docs/nexus3.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-08-15T02:03:21Z",
+      "side": 1,
+      "message": "Good point! Fixed",
+      "parentUuid": "e6ae2589_0b096fa8",
+      "range": {
+        "startLine": 12,
+        "startChar": 3,
+        "endLine": 12,
+        "endChar": 7
+      },
+      "revId": "da1ee7814566e5371f8b288e53b4ef50ad0e04b5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9bb2fdee_9c3f03f2",
         "filename": "docs/nexus3.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2018-08-15T00:02:39Z",
       "side": 1,
       "message": "Typos on \"engineers\" and \"administrator\".",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 50
+      },
+      "revId": "da1ee7814566e5371f8b288e53b4ef50ad0e04b5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e2cfb165_a56d3904",
+        "filename": "docs/nexus3.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-08-15T02:03:21Z",
+      "side": 1,
+      "message": "OOPS! thanks!",
+      "parentUuid": "9bb2fdee_9c3f03f2",
       "range": {
         "startLine": 23,
         "startChar": 0,
