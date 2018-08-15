@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "07959c9b_4b9dab26",
+        "filename": "docs/_static/nexus3-browse.png",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-08-15T14:45:50Z",
+      "side": 1,
+      "message": "I missed this during the first review, but this image doesn\u0027t actually seem to show Nexus3. All other changes look good though!",
+      "revId": "7571609a5bb9d42682744b95ccd365641bbb9ea8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
