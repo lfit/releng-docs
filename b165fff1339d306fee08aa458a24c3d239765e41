@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "adece7fb_73826817",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-08-16T17:05:19Z",
+      "side": 1,
+      "message": "Freenode has already globally enabled +R for all users.\n\n09:28 [Freenode] -freenode-connect(frigg@freenode/utility-bot/frigg)- Due to the persistent ongoing spam, all new connections are being set +R (block messages from unidentified users) and will be scanned for vulnerabilities. This will not harm your computer, and vulnerable hosts will be notified.",
+      "parentUuid": "451adc40_7fd493ae",
+      "range": {
+        "startLine": 14,
+        "startChar": 13,
+        "endLine": 14,
+        "endChar": 47
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4e73143a_857bcf71",
         "filename": "docs/freenode.rst",
         "patchSetId": 5
@@ -36,6 +60,30 @@
       "writtenOn": "2018-08-16T04:11:13Z",
       "side": 1,
       "message": "NickServ",
+      "range": {
+        "startLine": 46,
+        "startChar": 17,
+        "endLine": 46,
+        "endChar": 25
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "79b63961_23b4dc19",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-08-16T17:05:19Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "4e73143a_857bcf71",
       "range": {
         "startLine": 46,
         "startChar": 17,
