@@ -189,6 +189,30 @@
       "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fb20017_02ea48fa",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-08-16T17:31:35Z",
+      "side": 1,
+      "message": "I think that may depend on your client. Pidgin\u0027s IRC handler doesn\u0027t understand those slash commands.",
+      "parentUuid": "2e862c73_345c1fbf",
+      "range": {
+        "startLine": 46,
+        "startChar": 17,
+        "endLine": 46,
+        "endChar": 25
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
