@@ -22,6 +22,29 @@
       "revId": "80a15f002a599a9360685bc08eadd77cf37970e5",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be7b7dea_52b253ef",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-08-16T19:56:23Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 6
+      },
+      "revId": "80a15f002a599a9360685bc08eadd77cf37970e5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
