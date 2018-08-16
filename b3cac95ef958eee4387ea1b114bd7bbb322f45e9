@@ -39,6 +39,29 @@
       "revId": "b3cac95ef958eee4387ea1b114bd7bbb322f45e9",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80a9f1b5_9319bd6d",
+        "filename": "docs/index.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-08-16T17:17:55Z",
+      "side": 1,
+      "message": "Related to Andy\u0027s comment this should be IRC",
+      "range": {
+        "startLine": 43,
+        "startChar": 3,
+        "endLine": 43,
+        "endChar": 11
+      },
+      "revId": "b3cac95ef958eee4387ea1b114bd7bbb322f45e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
