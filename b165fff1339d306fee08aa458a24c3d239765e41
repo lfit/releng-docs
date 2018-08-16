@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "74ed7633_9a9ffdc6",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-08-16T17:17:55Z",
+      "side": 1,
+      "message": "I think we should still write this down for existing users, as I\u0027ve talked to a few who didn\u0027t have this mode set as they\u0027ve been registered for a while.",
+      "parentUuid": "adece7fb_73826817",
+      "range": {
+        "startLine": 14,
+        "startChar": 13,
+        "endLine": 14,
+        "endChar": 47
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4e73143a_857bcf71",
         "filename": "docs/freenode.rst",
         "patchSetId": 5
