@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2fd5f5f9_0294929c",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-08-16T17:13:40Z",
+      "side": 1,
+      "message": "IRC",
+      "range": {
+        "startLine": 48,
+        "startChar": 5,
+        "endLine": 48,
+        "endChar": 8
+      },
+      "revId": "b3cac95ef958eee4387ea1b114bd7bbb322f45e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
