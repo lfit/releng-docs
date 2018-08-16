@@ -41,6 +41,7 @@ Help:
    :maxdepth: 2
 
    helpdesk
+   freenode
 
 LF Internal:
 
