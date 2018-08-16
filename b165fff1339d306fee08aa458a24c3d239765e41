@@ -213,6 +213,30 @@
       "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0207f4b1_84389986",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-16T17:32:45Z",
+      "side": 1,
+      "message": "ah ok. let\u0027s leave it out then and power users can be more secure.",
+      "parentUuid": "3fb20017_02ea48fa",
+      "range": {
+        "startLine": 46,
+        "startChar": 17,
+        "endLine": 46,
+        "endChar": 25
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
