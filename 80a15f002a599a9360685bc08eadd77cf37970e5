@@ -45,6 +45,54 @@
       "revId": "80a15f002a599a9360685bc08eadd77cf37970e5",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e22438c_048587fe",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-16T20:09:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "be7b7dea_52b253ef",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 6
+      },
+      "revId": "80a15f002a599a9360685bc08eadd77cf37970e5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d4e5126_b5103933",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-16T20:09:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1fdd77c7_ef879242",
+      "range": {
+        "startLine": 9,
+        "startChar": 19,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "80a15f002a599a9360685bc08eadd77cf37970e5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
