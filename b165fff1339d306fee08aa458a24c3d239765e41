@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "451adc40_7fd493ae",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-08-16T04:11:13Z",
+      "side": 1,
+      "message": "I think we should address both points below:\n\n1. unregistered accounts (done here)\n2. set mode to +R (/mode \u003cuid\u003e +R), to avoid users receiving private spam messages from unregistered users. Users can set this as start up cmd in the IRC client.",
+      "range": {
+        "startLine": 14,
+        "startChar": 13,
+        "endLine": 14,
+        "endChar": 47
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e73143a_857bcf71",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-08-16T04:11:13Z",
+      "side": 1,
+      "message": "NickServ",
+      "range": {
+        "startLine": 46,
+        "startChar": 17,
+        "endLine": 46,
+        "endChar": 25
+      },
+      "revId": "b165fff1339d306fee08aa458a24c3d239765e41",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
