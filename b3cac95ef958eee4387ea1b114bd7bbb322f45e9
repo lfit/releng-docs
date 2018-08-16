@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "8f0c7ada_6a47652d",
+        "filename": "docs/freenode.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-08-16T17:14:12Z",
+      "side": 1,
+      "message": "I think this should be Freenode IRC, not just Freenode.\n\nMany people may not know what Freenode is.",
+      "revId": "b3cac95ef958eee4387ea1b114bd7bbb322f45e9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2fd5f5f9_0294929c",
         "filename": "docs/freenode.rst",
         "patchSetId": 6
