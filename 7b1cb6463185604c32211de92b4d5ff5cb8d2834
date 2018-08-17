@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e8e458ef_cbfe6115",
+        "filename": "docs/_static/jira/ldap.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "Since this is editable, how about \"Linux Foundation ID\"?",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4a6b98ca_e29f54e8",
+        "filename": "docs/_static/jira/ldap.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "should be including the actual hostname? (may vary... e.g. on-prem vs AWS ... @jme probably knows what the correct hostname is for AWS)",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "374aba1d_6fb33b5a",
+        "filename": "docs/_static/jira/ldap.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "shouldn\u0027t we include the actual DN?\ndc\u003dfreestandards,dc\u003dorg",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6285bdfa_24a05714",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "I saw some chatter in the channel about needing SES credentials for AWS Atlassian apps? unless that gets done at the system postfix level.",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dd8855b5_14913b82",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "add:\nEnsure that the Internal directory has a higher precedence than the OpenLDAP directory.",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "79015e87_c6e32a6c",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "should be helpdesk@rt.linuxfoundation.org",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b70ecdfa_1b9473f8",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2018-08-17T20:07:19Z",
+      "side": 1,
+      "message": "How about:\n\n\"This is a notification that a new JIRA is online at https://jira.example.org and ready for you to take on license management and renewals.\"\n\n(that\u0027s the only thing I\u0027m aware of our team taking on additional accountability for)\n\nI haven\u0027t done this before, so I\u0027m not sure whether there is already a trial license on the instance at this point or not. I think we should make that clear, by adding\n\n\"Please install the initial trial license.\"\n\n*IF* there is not one at this point.",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
