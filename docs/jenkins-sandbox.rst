@@ -3,6 +3,8 @@
 Jenkins Sandbox
 ===============
 
+.. _jenkins-sandbox-overview:
+
 Sandbox Overview
 ----------------
 
