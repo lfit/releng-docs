@@ -18,10 +18,18 @@ Inventory
    * - Acumos
      - https://gerrit.acumos.org
      - https://jenkins.acumos.org
-       https://jenkins.acumos.org/sandbox
+     - https://jenkins.acumos.org/sandbox
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
      - https://sonar.acumos.org
+
+   * - AGL
+     - https://gerrit.automotivelinux.org
+     - https://build.automotivelinux.org
+     - https://build.automotivelinux.org/sandbox
+     - N/A
+     - N/A
+     - N/A
 
    * - EdgeX
      - https://github.com/edgexfoundry
