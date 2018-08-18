@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d2ca4e9b_21c7eb44",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T05:12:06Z",
+      "side": 1,
+      "message": "This should not be changed.",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 7
+      },
+      "revId": "a75c07dd74f030fd0c14876794bd6610850f8b62",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
