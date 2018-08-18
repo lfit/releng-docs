@@ -80,3 +80,51 @@ Channel          Details
                  jjb / lftools / packer / etc...
 #lf-unregistered Redirect channel for unauthenicated users.
 ================ ==============================================================
+
+.. _irc-best-practices:
+
+IRC Best Practices
+==================
+
+For users
+---------
+
+Skip the formalities and ask your question
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Avoid the unnecessary 3-way handshake when asking a question. Eg.
+
+    user1> Hi, I have a question.
+    user2> Hello user1, what is your question?
+    user1> My question is...
+
+Asking the question upfront allows everyone watching the channel to respond
+to the question. People may be away from their terminals and not see the
+question when you ask, and hours later you may no longer be around to respond
+with the question causing an unnecessary feedback loop.
+
+Be patient
+^^^^^^^^^^
+
+People who might know the answer to your question may not be available but may
+see it later on. If you are not in the channel when someone who can answer is
+around then they will not be able to answer.
+
+Try the mailing list
+^^^^^^^^^^^^^^^^^^^^
+
+If you cannot stick around in the channel for a response try leaving your
+question on the project's mailing list. Most projects have one at
+lists.example.org where example.org is the domain of the project.
+
+
+For channel moderators
+----------------------
+
+DO NOT use ops unless necessary
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Setting yourself as ops targets you to the top of the channel list, making you
+the obvious choice to direct questions to. Have everyone in the channel deopped
+and then use ``/msg chanserv`` commands to administrate the channel. This
+ensures anonymity when running commands in the channel.
