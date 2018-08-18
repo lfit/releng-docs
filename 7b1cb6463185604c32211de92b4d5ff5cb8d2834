@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "b8ee348a_3788f89b",
+        "filename": "docs/_static/jira/ldap.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "This document is meant to be generic so that other organizations can also use it. Internally we can definitely name this.",
+      "parentUuid": "e8e458ef_cbfe6115",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4a6b98ca_e29f54e8",
         "filename": "docs/_static/jira/ldap.example",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2018-08-17T20:07:19Z",
       "side": 1,
       "message": "should be including the actual hostname? (may vary... e.g. on-prem vs AWS ... @jme probably knows what the correct hostname is for AWS)",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba43b6cb_b01ae777",
+        "filename": "docs/_static/jira/ldap.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "As mentioned above this document is meant to be generic so that other organizations can also use it so I\u0027d rather keep specific hostnames out.",
+      "parentUuid": "4a6b98ca_e29f54e8",
       "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "e8551e9d_911e3c49",
+        "filename": "docs/_static/jira/ldap.example",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "As mentioned above this document is meant to be generic so that other organizations can also use it so I\u0027d rather keep specific hostnames out.",
+      "parentUuid": "374aba1d_6fb33b5a",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6285bdfa_24a05714",
         "filename": "docs/infra/jira.rst",
         "patchSetId": 6
@@ -64,6 +118,24 @@
       "writtenOn": "2018-08-17T20:07:19Z",
       "side": 1,
       "message": "I saw some chatter in the channel about needing SES credentials for AWS Atlassian apps? unless that gets done at the system postfix level.",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dea19656_c1632ba9",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "I\u0027m not sure, but as far as I can tell the currently deploy Jiras all use localhost. Is this something we want to start using moving forward?",
+      "parentUuid": "6285bdfa_24a05714",
       "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "a252a676_2abce055",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd8855b5_14913b82",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "79015e87_c6e32a6c",
         "filename": "docs/infra/jira.rst",
         "patchSetId": 6
@@ -104,6 +194,24 @@
     },
     {
       "key": {
+        "uuid": "13ef9758_40482b46",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "79015e87_c6e32a6c",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b70ecdfa_1b9473f8",
         "filename": "docs/infra/jira.rst",
         "patchSetId": 6
@@ -115,6 +223,24 @@
       "writtenOn": "2018-08-17T20:07:19Z",
       "side": 1,
       "message": "How about:\n\n\"This is a notification that a new JIRA is online at https://jira.example.org and ready for you to take on license management and renewals.\"\n\n(that\u0027s the only thing I\u0027m aware of our team taking on additional accountability for)\n\nI haven\u0027t done this before, so I\u0027m not sure whether there is already a trial license on the instance at this point or not. I think we should make that clear, by adding\n\n\"Please install the initial trial license.\"\n\n*IF* there is not one at this point.",
+      "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b103cde9_b2797d1c",
+        "filename": "docs/infra/jira.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-08-18T15:24:33Z",
+      "side": 1,
+      "message": "Done. There is no licenses at this point other than the default.",
+      "parentUuid": "b70ecdfa_1b9473f8",
       "revId": "7b1cb6463185604c32211de92b4d5ff5cb8d2834",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
