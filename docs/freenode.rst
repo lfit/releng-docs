@@ -62,6 +62,49 @@ For further details on the Freenode registration process,
 please see https://freenode.net/kb/answer/registration
 
 
+Channel management
+==================
+
+Use the **ChanServ** service to manage IRC Channels. Use the command
+``/msg chanserv help`` to get detailed documentation of **ChanServ** commands
+and more specific help by adding specific sections
+``/msg chanserv help [section] ...`` to the end of the command.
+
+The first person who joins a channel creates the channel and becomes OPs as
+marked by the ``@`` symbol next to their name. This person can choose to
+register the channel, in which case they become the Founder of the channel. The
+channel Founder will have full permissions to manage the channel.
+
+We recommend registering any channels that the project plans to use for an
+extended period of time.
+
+Register a channel
+------------------
+
+New projects can register their project specific channel by using the REGISTER
+command and passing the channel name they'd like to register.
+
+.. code-block:: none
+
+   /msg chanserv register <channel>
+
+After registering the channel we recommend providing Founder permissions to one
+of the following LF Staff to ensure that the channel is managable by LF Staff
+should the original founder move on from the project. Provide the flags
+``+F`` to one of:
+
+* aricg
+* bramwelt
+* tykeal
+* zxiiro
+
+.. code-block:: none
+
+   /msg chanserv flags <channel> <nick> +F
+
+Once done notify LF Staff about the new channel registration.
+
+
 .. _freenode-lf-channels:
 
 Linux Foundation Channels
