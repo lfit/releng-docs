@@ -9,6 +9,7 @@ that require LFIT staff to respond to. To open a helpdesk ticket email one of
 these addresses depending on which project helpdesk you wish to reach:
 
 * Acumos: helpdesk@acumos.org
+* AGL: helpdesk@automotivelinux.org
 * EdgeX: helpdesk@edgexfoundry.org
 * FDio: helpdesk@fd.io
 * Hyperledger: helpdesk@hyperledger.org
