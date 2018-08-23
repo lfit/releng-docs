@@ -31,6 +31,14 @@ Inventory
      - N/A
      - N/A
 
+   * - Akraino
+     - https://gerrit.akraino.org
+     - https://jenkins.akraino.org
+       https://jenkins.akraino.org/sandbox
+     - https://nexus.akraino.org
+     - https://nexus3.akraino.org
+     - https://sonar.akraino.org
+
    * - EdgeX
      - https://github.com/edgexfoundry
      - https://jenkins.edgexfoundry.org
