@@ -39,6 +39,14 @@ Inventory
      - https://nexus3.akraino.org
      - https://sonar.akraino.org
 
+   * - ASWF
+     - https://github.com/AcademySoftwareFoundation
+     - https://jenkins.aswf.io
+       https://jenkins.aswf.io/sandbox
+     - https://nexus.aswf.io
+     - https://nexus3.aswf.io
+     - N/A
+
    * - EdgeX
      - https://github.com/edgexfoundry
      - https://jenkins.edgexfoundry.org

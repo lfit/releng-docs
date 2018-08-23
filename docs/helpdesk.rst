@@ -11,6 +11,7 @@ these addresses depending on which project helpdesk you wish to reach:
 * Acumos: helpdesk@acumos.org
 * AGL: helpdesk@automotivelinux.org
 * Akraino: helpdesk@akraino.org
+* ASWF: helpdesk@aswf.io
 * EdgeX: helpdesk@edgexfoundry.org
 * FDio: helpdesk@fd.io
 * Hyperledger: helpdesk@hyperledger.org
