@@ -1,0 +1,9 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+1: Eric Searcy <eric@linuxfoundation.org>
+Code-Review+2: Jessica Wagantall <jwagantall@linuxfoundation.org>
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Submitted-by: Anil Belur <abelur@linuxfoundation.org>
+Submitted-at: Tue, 28 Aug 2018 12:18:09 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/11794
+Project: releng/docs
+Branch: refs/heads/master
