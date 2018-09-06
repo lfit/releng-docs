@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "daf4d085_500a132c",
+        "filename": "docs/infra/escalation.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-09-06T15:24:01Z",
+      "side": 1,
+      "message": "While I understand this is basically for RE staff, we\u0027ve got a problem that folks may go looking for #it-infra on freenode and get annoyed that we aren\u0027t responding. This needs to be specifically highlighted that this is an internal LF channel.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 81
+      },
+      "revId": "7a7aa50e061dcc6dad2973979a9204ca67fd2176",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
