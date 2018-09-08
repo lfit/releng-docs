@@ -299,9 +299,10 @@ Gerrit Code Review.
       git review -d ${change_number}
 
    The change number is in the URL of the Gerrit patch.
-
+   For example if the URL is https://git.opendaylight.org/gerrit/75307 
+   then run ``git review -d 75307`` to pull the corresponding changes.
    (Optional) View information on the latest changes made to that patch.
-
+   
    * To view the edited files, run ``git show``.
    * To view a listing of the edited files and the number of lines in those
      files, run ``git show --stat``.
