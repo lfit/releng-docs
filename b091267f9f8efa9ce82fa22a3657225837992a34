@@ -16,6 +16,24 @@
       "revId": "b091267f9f8efa9ce82fa22a3657225837992a34",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "72d4742a_46b28234",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-09T02:32:36Z",
+      "side": 1,
+      "message": "If you run in this repo: tox -e check-hooks\n\nIt will install a commit hook that will automatically remove trailing whitespace for you too.",
+      "parentUuid": "03fe13a5_4f8cf5dd",
+      "revId": "b091267f9f8efa9ce82fa22a3657225837992a34",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
