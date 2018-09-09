@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a5812668_117da1c5",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-09T02:18:21Z",
+      "side": 1,
+      "message": "Please word wrap at 79 characters. The URL will be shorter if you remove the unneeded \u0027#/c/\u0027 pattern in the middle.\n\nEg. https://git.opendaylight.org/gerrit/75307\n\nI think this wording would be more straight to the point and less verbose.\n\n For example if the URL is https://git.opendaylight.org/gerrit/75307\n then run ``git review -d 75307`` to pull the corresponding changes.",
+      "revId": "a9d98bb41899751bfafafd83925edfd34ded2ef0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
