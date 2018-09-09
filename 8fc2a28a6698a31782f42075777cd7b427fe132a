@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2fd40ef8_45966ec1",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-09T02:28:20Z",
+      "side": 0,
+      "message": "Why was this statement removed? Please keep it as it explains what the change_number is.",
+      "range": {
+        "startLine": 301,
+        "startChar": 3,
+        "endLine": 301,
+        "endChar": 55
+      },
+      "revId": "8fc2a28a6698a31782f42075777cd7b427fe132a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
