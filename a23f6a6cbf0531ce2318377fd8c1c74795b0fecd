@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b70e1b9_17763b11",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-09T05:38:08Z",
+      "side": 1,
+      "message": "Need a new line after this line so that the next line starting with (Optional) does not appear as part of the same paragraph as this.",
+      "revId": "a23f6a6cbf0531ce2318377fd8c1c74795b0fecd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
