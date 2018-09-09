@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da22a8c1_46d2e16b",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-09T02:38:44Z",
+      "side": 1,
+      "message": "Need a new line before the (Optional) line below otherwise sphinx will consider then as part of the same paragraph.",
+      "revId": "8052a89cf83ff7a87c85974b0ceac1f445d71638",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b6334bc9_40480327",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-09T02:38:44Z",
+      "side": 1,
+      "message": "To be clear the red here is indicating trailing whitespace. Jenkins will keep failing your patch until you remove these trailing whitespace.\n\nTrailing whitespace is for example when you have spaces at the end of the line. If you imagine inside these quotes \u0027hello.   \u0027 there is 3 spaces after the hello.\n\nWe do not allow these as it is pointless whitespace being added to a line.",
+      "revId": "8052a89cf83ff7a87c85974b0ceac1f445d71638",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
