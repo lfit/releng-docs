@@ -42,7 +42,7 @@ Steps
    replace ``SILO`` and ``HOSTNAME`` as appropriate.
 #. Click ``Save``
 
-#. Configure Jenkins security as described in `Jenkins Security <jenkins-security>`
+#. Configure Jenkins security as described in :ref:`Jenkins Security <jenkins-security>`
 
 #. Navigate to https://jenkins.example.org/configureSecurity/
 #. Configure the following permissions for ``Anonymous Users``
