@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "698845d0_f3ad1fc1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "Let\u0027s avoid using JIRA references in the title. \nHyperledger uses this format and they have refused to correct it, but the best way to do this is to add the following line in the footer section:\n\n\"Issue: RELENG-1114\"\n\nThe title should describe what we are doing with the documentation. In this case \"Add Github mirrors documentation\" gives better information.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 40
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dd048229_20f6e6ce",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "GitHub",
+      "range": {
+        "startLine": 7,
+        "startChar": 12,
+        "endLine": 7,
+        "endChar": 18
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "27a6c6c1_cd3eed54",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "\"lfreleng-infra-gerrit\" would make this more specific",
+      "range": {
+        "startLine": 1,
+        "startChar": 4,
+        "endLine": 1,
+        "endChar": 18
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2906b757_962a4f5f",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "The example described in this step should be added to a code-block to give better formatting:\n\n#. Hiera configuration::\n\n   .. code-block:: bash\n\n      gerrit::extra_configs:\n        replication_config:\n          config_file: \u0027/opt/gerrit/etc/replication.config\u0027\n          mode: \u00270644\u0027\n         options:\n           \u0027remote.github\u0027:\n             # ORG \u003d\u003d the Org on GitHub\n             # ${name} is literal and should exist in that format\n             url: \u0027git@github.com/ORG/${name}.git\u0027\n             push:\n               - \u0027+refs/heads/*:refs/heads/*\u0027\n               - \u0027+refs/heads/*:refs/tags/*\u0027\n             timeout: \u00275\u0027\n             threads: \u00275\u0027\n             authGroup: \u0027GitHub Replication\u0027\n             remoteNameStyle: \u0027dash",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 36
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a6e6254a_ff77f9ef",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "Add a blank line between steps, for this case and the following ones",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 70
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3073698_6d319833",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 38,
+        "startChar": 35,
+        "endLine": 38,
+        "endChar": 41
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b67efc92_2faf01b1",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "This also needs to be set in code-block",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 30
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "93b966c3_ac09bfee",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-21T23:54:16Z",
+      "side": 1,
+      "message": "Add a blank line to separate these steps",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 34
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
