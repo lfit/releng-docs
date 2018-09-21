@@ -13,6 +13,7 @@ Infrastructure provided to projects.
    inventory
    escalation
    bootstrap
+   gerrit
    jenkins
    jira
    nexus
