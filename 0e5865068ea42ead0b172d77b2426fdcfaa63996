@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "cdcdafb8_18b233b6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-22T00:27:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "698845d0_f3ad1fc1",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 40
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "27a6c6c1_cd3eed54",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 1
@@ -71,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "c03f3d1b_2c2e46c4",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-22T00:27:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "27a6c6c1_cd3eed54",
+      "range": {
+        "startLine": 1,
+        "startChar": 4,
+        "endLine": 1,
+        "endChar": 18
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2906b757_962a4f5f",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 1
@@ -82,6 +130,30 @@
       "writtenOn": "2018-09-21T23:54:16Z",
       "side": 1,
       "message": "The example described in this step should be added to a code-block to give better formatting:\n\n#. Hiera configuration::\n\n   .. code-block:: bash\n\n      gerrit::extra_configs:\n        replication_config:\n          config_file: \u0027/opt/gerrit/etc/replication.config\u0027\n          mode: \u00270644\u0027\n         options:\n           \u0027remote.github\u0027:\n             # ORG \u003d\u003d the Org on GitHub\n             # ${name} is literal and should exist in that format\n             url: \u0027git@github.com/ORG/${name}.git\u0027\n             push:\n               - \u0027+refs/heads/*:refs/heads/*\u0027\n               - \u0027+refs/heads/*:refs/tags/*\u0027\n             timeout: \u00275\u0027\n             threads: \u00275\u0027\n             authGroup: \u0027GitHub Replication\u0027\n             remoteNameStyle: \u0027dash",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 36
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d49b1349_f9f6863d",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-22T00:27:44Z",
+      "side": 1,
+      "message": "The trailing \u0027::\u0027 on the previous line makes this a \u0027literal block\u0027. If you look at the HTML it looks pretty much the same as a code-block. This was new for me also.",
+      "parentUuid": "2906b757_962a4f5f",
       "range": {
         "startLine": 15,
         "startChar": 0,
@@ -140,6 +212,30 @@
     },
     {
       "key": {
+        "uuid": "1bb5c695_2d01198b",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-22T00:27:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b3073698_6d319833",
+      "range": {
+        "startLine": 38,
+        "startChar": 35,
+        "endLine": 38,
+        "endChar": 41
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b67efc92_2faf01b1",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 1
@@ -163,6 +259,30 @@
     },
     {
       "key": {
+        "uuid": "990dc865_fb775fb9",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-22T00:27:44Z",
+      "side": 1,
+      "message": "Same as above.",
+      "parentUuid": "b67efc92_2faf01b1",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 30
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "93b966c3_ac09bfee",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 1
@@ -174,6 +294,30 @@
       "writtenOn": "2018-09-21T23:54:16Z",
       "side": 1,
       "message": "Add a blank line to separate these steps",
+      "range": {
+        "startLine": 82,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 34
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "23f6d8d9_aa2de478",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-22T00:27:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93b966c3_ac09bfee",
       "range": {
         "startLine": 82,
         "startChar": 0,
