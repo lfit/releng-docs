@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0653f06f_076cd6b8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": "I\u0027d add a reference to the doc where the content is actually taken from here.",
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52059f90_721c2619",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": ".. code-block:: yaml ??",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 33
+      },
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5791029f_ff38d6ec",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": "Missing period at EOL.",
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5cf8bba0_5c76a972",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": "SSH public key.\n\nPeriod at EOL.",
+      "range": {
+        "startLine": 39,
+        "startChar": 12,
+        "endLine": 39,
+        "endChar": 26
+      },
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "832a82f1_995eaf31",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": ".. code-block:: bash",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 30
+      },
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ea3a0158_9b5a36ab",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": ".. code-block:: bash",
+      "range": {
+        "startLine": 99,
+        "startChar": 3,
+        "endLine": 99,
+        "endChar": 23
+      },
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a51f0faf_5f94d895",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": "Just providing the repo name also works here.\n\nssh -p 29418 ${youruid}@${project_gerrit} replication start --wait --url ${the_repo}\n\nor \n\nssh -p 29418 ${youruid}@${project_gerrit} replication start --wait ${repo_name}",
+      "range": {
+        "startLine": 101,
+        "startChar": 6,
+        "endLine": 101,
+        "endChar": 90
+      },
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef46f862_aac4a4bb",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T02:24:04Z",
+      "side": 1,
+      "message": "Also an admin could monitor the replication through `gerrit stream-events`, with an example:\n\n$ ssh -p 29418 askb@git.opendaylight.org gerrit stream-events \n{\"project\":\"archetypes\",\"ref\":\"..all..\",\"targetNode\":\"github.com\",\"type\":\"ref-replication-scheduled\",\"eventCreatedOn\":1537582524}\n{\"project\":\"archetypes\",\"ref\":\"..all..\",\"targetNode\":\"devvexx.opendaylight.org\",\"type\":\"ref-replication-scheduled\",\"eventCreatedOn\":1537582524}",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 111,
+        "endChar": 55
+      },
+      "revId": "f10e5dcd4d0e050e44bcfdfc71d563edf42213b9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
