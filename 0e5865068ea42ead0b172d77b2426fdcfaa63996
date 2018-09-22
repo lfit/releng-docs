@@ -166,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "72acb280_b5aa2ce2",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-22T00:33:39Z",
+      "side": 1,
+      "message": "It\u0027s better to use `.. code-block:: bash` when it\u0027s code to get syntax highlighting. \"::\" is a literal block for raw text so gets no syntax highlighting.",
+      "parentUuid": "d49b1349_f9f6863d",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 36
+      },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a6e6254a_ff77f9ef",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 1
@@ -324,6 +348,23 @@
         "endLine": 83,
         "endChar": 34
       },
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c70ba5e0_6c61b71d",
+        "filename": "docs/infra/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-22T00:33:39Z",
+      "side": 1,
+      "message": "Do we need to link this again in our infra docs? This is already linked in the general docs at the top level.",
       "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
