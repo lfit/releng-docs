@@ -368,6 +368,24 @@
       "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "299f8748_a88f4d17",
+        "filename": "docs/infra/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-09-22T00:34:24Z",
+      "side": 1,
+      "message": "Just realized this is a new \"gerrit\" doc. nevermind the comment",
+      "parentUuid": "c70ba5e0_6c61b71d",
+      "revId": "0e5865068ea42ead0b172d77b2426fdcfaa63996",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
