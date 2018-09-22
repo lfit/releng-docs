@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b3681636_d6adf7b8",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-22T18:38:04Z",
+      "side": 1,
+      "message": "Actually this is seldom bash script, and instead should be \n\n .. code-block:: none \n\nor \n\n .. code-block:: yaml",
+      "range": {
+        "startLine": 17,
+        "startChar": 1,
+        "endLine": 17,
+        "endChar": 23
+      },
+      "revId": "657df036a8b97f2de3520fcaeb4fb5a3d52e7056",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
