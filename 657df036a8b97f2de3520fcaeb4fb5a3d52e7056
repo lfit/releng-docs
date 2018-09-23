@@ -22,6 +22,30 @@
       "revId": "657df036a8b97f2de3520fcaeb4fb5a3d52e7056",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d34b749_45e7c5d6",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-23T16:20:06Z",
+      "side": 1,
+      "message": "the problem with \u0027none\u0027 is that you get no \u0027highlighting\u0027. The \u0027yaml\u0027 directive seems to work just fine.",
+      "parentUuid": "b3681636_d6adf7b8",
+      "range": {
+        "startLine": 17,
+        "startChar": 1,
+        "endLine": 17,
+        "endChar": 23
+      },
+      "revId": "657df036a8b97f2de3520fcaeb4fb5a3d52e7056",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
