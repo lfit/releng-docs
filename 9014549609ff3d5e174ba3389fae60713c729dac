@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "92aecb47_ab6f7d72",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-09-24T17:14:20Z",
+      "side": 1,
+      "message": "This needs to be moved down one line to be part of the commit message footer, not part of the body",
+      "revId": "9014549609ff3d5e174ba3389fae60713c729dac",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
