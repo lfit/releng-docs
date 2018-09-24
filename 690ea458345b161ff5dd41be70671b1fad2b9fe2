@@ -22,6 +22,30 @@
       "revId": "690ea458345b161ff5dd41be70671b1fad2b9fe2",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ba7cf9b_3fa9a830",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-24T17:07:03Z",
+      "side": 1,
+      "message": "Agreed",
+      "parentUuid": "3deb65ab_079f06e7",
+      "range": {
+        "startLine": 50,
+        "startChar": 6,
+        "endLine": 50,
+        "endChar": 20
+      },
+      "revId": "690ea458345b161ff5dd41be70671b1fad2b9fe2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
