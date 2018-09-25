@@ -22,6 +22,30 @@
       "revId": "7392f55c4194d66a2ad3e904d829e04cf8924ee2",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3a2c03f_b2ac0d4d",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-25T15:04:23Z",
+      "side": 1,
+      "message": "It will be in next patch set.",
+      "parentUuid": "9d41cd4e_0556f18b",
+      "range": {
+        "startLine": 105,
+        "startChar": 81,
+        "endLine": 105,
+        "endChar": 89
+      },
+      "revId": "7392f55c4194d66a2ad3e904d829e04cf8924ee2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
