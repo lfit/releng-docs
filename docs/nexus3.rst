@@ -37,3 +37,74 @@ For example:
 Nexus 3 communicates with Jenkins server which is the interface used to make
 the docker image publications on a scheduled or by demand basis (depending on the Jenkins JJB
 configuration for the particular job).
+
+Nexus 3 Repositories
+====================
+
+Nexus 3 allows users to manage different types of repositories. To learn more about
+how to manage them, please refer to `Sonatype's official documentation
+<https://help.sonatype.com/repomanager3/configuration/repository-management/>`_.
+
+Most LF projects manage their Docker images using the following repos:
+
+:docker.release: (hosted/HTTP port 10002) Official repository for released images.
+    Releases repositories have a Disable re-deployment policy to avoid overwriting
+    released versions.
+
+:docker.snapshot: (hosted/HTTP port 10003) Used to publish docker snapshot images.
+
+Special repo namespaces:
+
+:docker.public: (group/HTTP port 10001) A meta-url containing all release repos in
+    a combined view.
+
+:docker.staging: (hosted/HTTP port 10004) Used to publish docker images produced
+    by the scheduled jobs.
+
+:docker.io: Repositories that proxy artifacts from https://registry-1.docker.io.
+
+For continuous integration builds, Jenkins has one settings file for each Gerrit repository.
+Each settings file contains an entry for each accessible Nexus3 repository (ServerId).
+
+.. image:: _static/jenkins-settings-files-docker.png
+   :alt: Jenkins settings files.
+   :align: center
+
+Fabric8.io plugin usage
+-----------------------
+
+Projects using fabric8.io maven plugin for managing their docker images should make
+sure to define the docker registries. For example:
+
+.. code-block:: xml
+
+   <docker.pull.registry>nexus3.onap.org:10001</docker.pull.registry>
+   <docker.push.registry>nexus3.onap.org:10003</docker.push.registry>
+
+   <groupId>io.fabric8</groupId>
+   <artifactId>docker-maven-plugin</artifactId>
+   <version>0.19.1</version>
+   <configuration>
+       <verbose>true</verbose>
+       <apiVersion>1.23</apiVersion>
+       <pullRegistry>${docker.pull.registry}</pullRegistry>
+       <pushRegistry>${docker.push.registry}</pushRegistry>
+       <images>
+           <image>
+               <name>onap/vvp/jenkins</name>
+               <alias>vvp-jenkins</alias>
+               <build>
+                   <cleanup>true</cleanup>
+                   <tags>
+                       <tag>${docker.tag}</tag>
+                       <tag>${docker.latest.tag}</tag>
+                   </tags>
+                   <dockerFileDir>${project.basedir}</dockerFileDir>
+               </build>
+           </image>
+       </images>
+   </configuration>
+
+.. note::
+
+   More information in https://dmp.fabric8.io
