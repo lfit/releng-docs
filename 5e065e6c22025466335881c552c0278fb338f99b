@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d57bbfcb_bf357705",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-25T22:56:13Z",
+      "side": 1,
+      "message": "this got merged before, I could get to it. \n\nWe are stating that required version in requirement.txt is ~1.7.9 so this should be.\nhttp://www.sphinx-doc.org/en/1.7/markup/inline.html",
+      "range": {
+        "startLine": 271,
+        "startChar": 41,
+        "endLine": 271,
+        "endChar": 45
+      },
+      "revId": "5e065e6c22025466335881c552c0278fb338f99b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
