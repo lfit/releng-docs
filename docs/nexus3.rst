@@ -36,4 +36,4 @@ For example:
 
 Nexus 3 communicates with Jenkins server which is the interface used to make
 the docker image publications on a scheduled or by demand basis (depending on the Jenkins JJB
-configuration for the particuar job).
+configuration for the particular job).
