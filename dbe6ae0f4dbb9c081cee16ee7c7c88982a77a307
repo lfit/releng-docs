@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a441f8f_7074d037",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-27T17:38:44Z",
+      "side": 1,
+      "message": "Propbably need at list a minimal .gitconfig file. I think\n    git config user.name \"FIRST_NAME LAST_NAME\"\n    git config user.email \"MY_NAME@example.com\"\nwould do the trick",
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9112cafa_661593cc",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-27T17:38:44Z",
+      "side": 1,
+      "message": "What about \u0027commit-msg\u0027 hook ?",
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
