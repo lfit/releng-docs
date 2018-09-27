@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "18e9f7f1_5219499d",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-09-27T18:10:27Z",
+      "side": 1,
+      "message": "should we add a block here explaining why we need this.\n\"warning: if github replication is allowed for a repository in gerrit and does not have a corresponding github repository gerrit will leak resources and eventually crash\" If this bug could be fixed it would simplify our setup.\"",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 55
+      },
+      "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "849e42ab_c1712b74",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-09-27T18:10:27Z",
+      "side": 1,
+      "message": "rather than write this command twice with variations, perhaps just explain. -wait --url ${repo_url} for a single repo or start --all --wait for multiple repos.",
+      "range": {
+        "startLine": 106,
+        "startChar": 3,
+        "endLine": 106,
+        "endChar": 90
+      },
+      "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
