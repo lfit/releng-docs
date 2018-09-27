@@ -2,6 +2,75 @@
   "comments": [
     {
       "key": {
+        "uuid": "632f1de9_2cb8b749",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-27T17:46:14Z",
+      "side": 1,
+      "message": "GitHub",
+      "range": {
+        "startLine": 14,
+        "startChar": 15,
+        "endLine": 14,
+        "endChar": 21
+      },
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d5958805_6d4e398f",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-27T17:46:14Z",
+      "side": 1,
+      "message": "Git:",
+      "range": {
+        "startLine": 41,
+        "startChar": 70,
+        "endLine": 41,
+        "endChar": 73
+      },
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f91f5fd9_10755d5a",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-27T17:46:14Z",
+      "side": 1,
+      "message": "systems, install",
+      "range": {
+        "startLine": 41,
+        "startChar": 13,
+        "endLine": 41,
+        "endChar": 28
+      },
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a441f8f_7074d037",
         "filename": "docs/git.rst",
         "patchSetId": 3
@@ -30,6 +99,52 @@
       "writtenOn": "2018-09-27T17:38:44Z",
       "side": 1,
       "message": "What about \u0027commit-msg\u0027 hook ?",
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0010a7be_1b198356",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-27T17:46:14Z",
+      "side": 1,
+      "message": "lets use \"example.org\" like in other docs",
+      "range": {
+        "startLine": 54,
+        "startChar": 34,
+        "endLine": 54,
+        "endChar": 51
+      },
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c1c98173_feefb9a2",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2018-09-27T17:46:14Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 58,
+        "startChar": 65,
+        "endLine": 58,
+        "endChar": 68
+      },
       "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
