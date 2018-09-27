@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a964a7b5_51676f7c",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-09-27T14:05:19Z",
+      "side": 1,
+      "message": "Newer versions of ssh grab the ecdsa or ed25519 version of the server key from GitHub with this and Gerrit (at least the version we currently have running) doesn\u0027t support this, only rsa or dsa keys. This section should be changed to:\n\nssh-keyscan -t rsa github.com \u003e\u003e ~/.ssh/known_hosts\n\nThis grabs the correct type of key and writes it in the proper format (with the github.com prepend) to the known_hosts file",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 10
+      },
+      "revId": "dac099690f9710553bdab14d4a4a12f18bd81a63",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
