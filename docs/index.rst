@@ -15,6 +15,7 @@ Guides:
    environment-overview
    best-practices
    ansible
+   git
    gerrit
    gpg
    jenkins
