@@ -45,6 +45,29 @@
       "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fd53f08b_947fb35a",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-09-27T18:29:34Z",
+      "side": 1,
+      "message": "From past experience, enabling replication without the initial code drop on Gerrit causes replication errors. So its imperative to add a note here which says to run this step after the initial code drop is merged.",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 90
+      },
+      "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
