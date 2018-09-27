@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "cd7b2a49_934d8847",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-27T19:01:57Z",
+      "side": 1,
+      "message": "Not being the author of the content, I am not sure how to detail your concern.",
+      "parentUuid": "18e9f7f1_5219499d",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 55
+      },
+      "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "849e42ab_c1712b74",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 9
@@ -59,6 +83,54 @@
       "writtenOn": "2018-09-27T18:29:34Z",
       "side": 1,
       "message": "From past experience, enabling replication without the initial code drop on Gerrit causes replication errors. So its imperative to add a note here which says to run this step after the initial code drop is merged.",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 90
+      },
+      "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fdceb8c_92156b1b",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-27T19:01:57Z",
+      "side": 1,
+      "message": "I am not the author of the content. Take a look after I get this change uploaded.",
+      "parentUuid": "849e42ab_c1712b74",
+      "range": {
+        "startLine": 106,
+        "startChar": 3,
+        "endLine": 106,
+        "endChar": 90
+      },
+      "revId": "a41f5796f83fcb6dfe5d521eeba3122b5089aa7d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "12fe8702_4ac8c995",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-27T19:01:57Z",
+      "side": 1,
+      "message": "Please review change in next patch. Validate I covered what is needed.",
+      "parentUuid": "fd53f08b_947fb35a",
       "range": {
         "startLine": 105,
         "startChar": 0,
