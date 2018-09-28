@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "667a4fd6_ee25a215",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2018-09-28T01:59:30Z",
+      "side": 1,
+      "message": "Line 51 is not needed with lines 52 \u0026 53 now",
+      "revId": "710dcb0bce75096054466e88ad3a022df9a7c5d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
