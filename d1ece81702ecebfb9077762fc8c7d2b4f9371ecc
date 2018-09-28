@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fc7886c_62e9e32e",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "The \u0027-a\u0027 can be dangerous for new users, you detailed \u0027git add\u0027 that should be enough",
+      "revId": "d1ece81702ecebfb9077762fc8c7d2b4f9371ecc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9db398f1_df32fe87",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "Move note from \u0027Amend a change\u0027 section here. It is a very useful.",
+      "revId": "d1ece81702ecebfb9077762fc8c7d2b4f9371ecc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e9bc231_0726dde2",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "Remove --signoff --gpg-sign they are ingnored for --ammend",
+      "revId": "d1ece81702ecebfb9077762fc8c7d2b4f9371ecc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "46ebd5dc_5e0d63bf",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "Move note to \u0027Commit a change\u0027 section above.",
+      "revId": "d1ece81702ecebfb9077762fc8c7d2b4f9371ecc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb1033c4_2c2de83a",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "I think \u0027git stash pop\u0027 is a probably simpler for new users.",
+      "revId": "d1ece81702ecebfb9077762fc8c7d2b4f9371ecc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e335594_ce26022d",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "To eliminate the need to provide --gpg-sign when committing:\ngit config --global gpg.program gpg2",
+      "revId": "d1ece81702ecebfb9077762fc8c7d2b4f9371ecc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
