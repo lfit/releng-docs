@@ -304,6 +304,23 @@
       "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8845a177_14dd086e",
+        "filename": "docs/git.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T18:03:42Z",
+      "side": 1,
+      "message": "The --signoff --gpg are not needed. Leaving them off makes it more clear to the reader what the --amend is doing: editing current commit content, no changes to Change-Id: or Signed-off-by:",
+      "revId": "dbe6ae0f4dbb9c081cee16ee7c7c88982a77a307",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
