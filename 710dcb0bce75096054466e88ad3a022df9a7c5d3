@@ -16,6 +16,24 @@
       "revId": "710dcb0bce75096054466e88ad3a022df9a7c5d3",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b65d6dfd_2979f0c9",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-09-28T15:28:05Z",
+      "side": 1,
+      "message": "Sure nuf.\nWaiting for a contribution from abelur (line 83)",
+      "parentUuid": "667a4fd6_ee25a215",
+      "revId": "710dcb0bce75096054466e88ad3a022df9a7c5d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
