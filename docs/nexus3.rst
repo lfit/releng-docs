@@ -108,3 +108,36 @@ sure to define the docker registries. For example:
 .. note::
 
    More information in https://dmp.fabric8.io
+
+Users, Roles and Privileges
+===========================
+
+Users, roles and privileges are key to manage and restrict access into Nexus
+repositories. Anonymous users have read permissions, while administration
+teams and CI accounts have write and delete permissions.
+
+For LF projects, we have created roles to help with the administration of Docker
+images, NPM/Pypi/Helm repositories and administrative tasks.
+
+.. image:: _static/nexus3-roles.png
+   :alt: Nexus 3 roles.
+   :align: center
+
+Nexus 3 does not require to define patterns for Repository Targets to allow a
+specific directory structure name to exist.
+
+Like Nexus 2, we require to have one user entry per repo in Nexus 3.
+
+Provide the following parameters for every user:
+
+:ID: Should match the Gerrit repository name. For example "aai-aai-common"
+
+:First name: Same as ID
+
+:Last name: We use a generic last name for users, for example "Deployment"
+
+:Email: Repo name + "deploy@example.org". For example "aai-aai-common-deploy@onap.org"
+
+:Status: Active. Can be "Disabled" if the Gerrit repo is no longer in use
+
+:Roles: docker. This role will allow the user to administer Docker images
