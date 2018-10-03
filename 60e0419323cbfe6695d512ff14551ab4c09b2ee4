@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9d863b3b_256b9d30",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-10-03T17:11:27Z",
+      "side": 1,
+      "message": "These two links are showing up on the same line. Also, it might be good to add some small explanation for the links (e.g. a line that says \"More detailed documentation can be found at:\").",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 66
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4e3af2ba_ac832bed",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-10-03T17:11:27Z",
+      "side": 1,
+      "message": "dnf is still Fedora only (at least by default). RHEL and CentOS 7 still use yum.",
+      "range": {
+        "startLine": 38,
+        "startChar": 11,
+        "endLine": 38,
+        "endChar": 14
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2817d713_5be73c25",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-10-03T17:11:27Z",
+      "side": 1,
+      "message": "This note is inside the code-block, so the \".. note::\" declaration is visible as text.",
+      "range": {
+        "startLine": 56,
+        "startChar": 3,
+        "endLine": 56,
+        "endChar": 12
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "16a1ec4c_556796cd",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-10-03T17:11:27Z",
+      "side": 1,
+      "message": "\"to a one\" should be \"to one\".",
+      "range": {
+        "startLine": 190,
+        "startChar": 21,
+        "endLine": 190,
+        "endChar": 23
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
