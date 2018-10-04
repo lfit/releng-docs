@@ -71,6 +71,52 @@
     },
     {
       "key": {
+        "uuid": "40ace932_5bd21da4",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-10-04T20:36:14Z",
+      "side": 1,
+      "message": "if you are amending an already signed commit this is unnecessary",
+      "range": {
+        "startLine": 139,
+        "startChar": 14,
+        "endLine": 139,
+        "endChar": 35
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "40e702bc_c48a2f04",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-10-04T20:36:14Z",
+      "side": 1,
+      "message": "discard changes introduced in the last commit.",
+      "range": {
+        "startLine": 149,
+        "startChar": 3,
+        "endLine": 149,
+        "endChar": 34
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "16a1ec4c_556796cd",
         "filename": "docs/git.rst",
         "patchSetId": 7
@@ -87,6 +133,29 @@
         "startChar": 21,
         "endLine": 190,
         "endChar": 23
+      },
+      "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f4e2bf4_62d97400",
+        "filename": "docs/git.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2018-10-04T20:36:14Z",
+      "side": 1,
+      "message": "these should be at the top",
+      "range": {
+        "startLine": 200,
+        "startChar": 1,
+        "endLine": 252,
+        "endChar": 29
       },
       "revId": "60e0419323cbfe6695d512ff14551ab4c09b2ee4",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
