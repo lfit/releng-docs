@@ -22,6 +22,30 @@
       "revId": "19d611496086da2c2930f0bd76be88e13fef7e98",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ca3025a5_b00abc40",
+        "filename": "docs/git.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-05T22:20:54Z",
+      "side": 1,
+      "message": "Missed the comment, and technically you\u0027re right. ;)\n\nMaybe worth adding a separate note for each platform.\ndnf is available on EL7 repos (CentOS7/RHEL7) and SuSE for all rpm based systems (excluding SuSE). I\u0027d prefer using \u0027dnf\u0027 over yum (or zypher) here because it has a smaller memory footprint with faster dep resolution.",
+      "parentUuid": "a57cc49c_09bf09ca",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 14
+      },
+      "revId": "19d611496086da2c2930f0bd76be88e13fef7e98",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
