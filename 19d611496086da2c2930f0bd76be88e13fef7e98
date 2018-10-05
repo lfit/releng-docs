@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a57cc49c_09bf09ca",
+        "filename": "docs/git.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-10-05T20:40:50Z",
+      "side": 1,
+      "message": "This is still an issue for \"rpm based systems\". dnf is only for Fedora. RHEL and CentOS use yum, and OpenSUSE (which also uses rpms) uses zypper.",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 14
+      },
+      "revId": "19d611496086da2c2930f0bd76be88e13fef7e98",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
