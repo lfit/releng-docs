@@ -17,7 +17,7 @@ User Display Name Attribute: cn
 # Group Schema Settings
 Additional Group DN: ou=Groups
 Group Object Class: groupOfNames
-Group Object Filter: (&(objectclass=groupOfNames)(|(cn=PROJECT-*)(cn=lf-collab-admins)(cn=lf-helpdesk)))
+Group Object Filter: (&(objectclass=groupOfNames)(|(cn=PROJECT-*)(cn=lf-releng)(cn=lf-sysops)(cn=lf-helpdesk)))
 
 # Membership Schema Settings
 Group Members Attribute: member
