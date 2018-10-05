@@ -46,6 +46,30 @@
       "revId": "19d611496086da2c2930f0bd76be88e13fef7e98",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "af3a5f0e_972231cd",
+        "filename": "docs/git.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-10-05T23:51:46Z",
+      "side": 1,
+      "message": "You also missed \u0027snap\u0027 (gag) for Ubuntu and doesn\u0027t ArchLinux have something else? I am not so sure that you just need apt, brew \u0026 dnf (maybe yum), the covers the \u0027well beaten path\u0027 (80-90%).",
+      "parentUuid": "ca3025a5_b00abc40",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 14
+      },
+      "revId": "19d611496086da2c2930f0bd76be88e13fef7e98",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
