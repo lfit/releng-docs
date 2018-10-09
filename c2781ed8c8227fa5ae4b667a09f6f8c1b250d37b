@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3dfa871_d1e7dc9a",
+        "filename": "docs/git.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-10-09T20:07:56Z",
+      "side": 1,
+      "message": "Just figured out what the \u0027_\u0027 is doing. I think you want the \u0027_\u0027 outside the \u0027...brew.sh\u003e\u0027_",
+      "revId": "c2781ed8c8227fa5ae4b667a09f6f8c1b250d37b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
