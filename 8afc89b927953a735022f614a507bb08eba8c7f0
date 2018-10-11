@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc87f15b_9b425c12",
+        "filename": "docs/git.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 182
+      },
+      "writtenOn": "2018-10-11T15:31:53Z",
+      "side": 1,
+      "message": "It might be nice to have one[alias] example, say \u0027co \u003d checkout\u0027.",
+      "revId": "8afc89b927953a735022f614a507bb08eba8c7f0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
