@@ -117,7 +117,7 @@ To clone a Git repository.
 
 .. note::
 
-  Use the ``--recursive-submodule`` option if repository has Git submodules.
+   Use the ``--recursive-submodule`` option if repository has Git submodules.
 
 Auto Generate Change IDs
 ========================
