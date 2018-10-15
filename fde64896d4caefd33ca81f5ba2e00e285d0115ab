@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "12060f7a_812a6cd2",
+        "filename": "docs/git.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-15T02:36:50Z",
+      "side": 1,
+      "message": "this is test question for bengt.",
+      "range": {
+        "startLine": 120,
+        "startChar": 3,
+        "endLine": 120,
+        "endChar": 77
+      },
+      "revId": "fde64896d4caefd33ca81f5ba2e00e285d0115ab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
