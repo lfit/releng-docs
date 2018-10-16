@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a7696282_44942090",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-10-16T20:05:36Z",
+      "side": 1,
+      "message": "No need for this prefix because intersphinx handles namespacing. This is a bad habit that I started and seems to continue to propagate :( Sorry about this.",
+      "range": {
+        "startLine": 1,
+        "startChar": 4,
+        "endLine": 1,
+        "endChar": 12
+      },
+      "revId": "7a6672963b56a0ecda086585d032ffdda80ee661",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bafba3e0_1a482091",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-10-16T20:05:36Z",
+      "side": 1,
+      "message": "I believe that bullet text should not be a long paragraph. It should be written similar to a commit message imo.\n\n1st line, short and sweet tell me what this point is about.\n\n3rd line and onwards, detailed description if necessary.",
+      "range": {
+        "startLine": 36,
+        "startChar": 3,
+        "endLine": 39,
+        "endChar": 48
+      },
+      "revId": "7a6672963b56a0ecda086585d032ffdda80ee661",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "505ebbb8_4d01cbf4",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-10-16T20:05:36Z",
+      "side": 1,
+      "message": "I believe that bullet text should not be a long paragraph. It should be written similar to a commit message imo.\n\n1st line, short and sweet tell me what this point is about.\n\n3rd line and onwards, detailed description if necessary.",
+      "range": {
+        "startLine": 87,
+        "startChar": 3,
+        "endLine": 89,
+        "endChar": 23
+      },
+      "revId": "7a6672963b56a0ecda086585d032ffdda80ee661",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
