@@ -34,6 +34,29 @@
       "revId": "5ed66db84307a060cf5f67f37ce9e0307e0aaafd",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "75f59102_163b0998",
+        "filename": "docs/gerrit.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-16T21:48:33Z",
+      "side": 1,
+      "message": "looks like you have two extra spaces here which need to removed. PS note, Sphinx is strictly formatted.",
+      "range": {
+        "startLine": 41,
+        "startChar": 2,
+        "endLine": 41,
+        "endChar": 4
+      },
+      "revId": "5ed66db84307a060cf5f67f37ce9e0307e0aaafd",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
