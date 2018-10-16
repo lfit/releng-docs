@@ -122,7 +122,7 @@ To clone a Git repository.
 Auto Generate Change IDs
 ========================
 
-To generate change-id's automatically.
+To generate a change-id automatically for each patch:
 
 .. literalinclude:: _static/commit-hook.example
     :language: bash
@@ -154,7 +154,16 @@ To create a local branch from master.
 
 .. code-block:: bash
 
-   git branch -b <branch-name> origin/master
+   git checkout -b <branch-name> origin/master
+
+List branches
+=============
+
+To see the available list of branches
+
+.. code-block:: bash
+
+   git branch
 
 Switching between branches
 ==========================
@@ -165,6 +174,27 @@ To switch between a branch and the master within your repository.
 
    git checkout <branch-name>
    git checkout master
+
+
+Delete local branch
+===================
+
+To delete a local branch (not active one).
+
+   This is typically done
+      - when a patch has merged.
+      - when a review has completed.
+
+.. code-block:: bash
+
+   git branch -d <branch-to-delete>
+
+If the above does not work, do a force delete.
+    - Before performing a force delete, analyze and check why the normal delete did not work.
+
+.. code-block:: bash
+
+   git branch -D <branch-to-delete>
 
 Add a file
 ==========
@@ -257,3 +287,99 @@ To revert changes to one or more files in a commit.
    git show <commit-id> -- <file> | git apply -R # Revert the <file> in <commit-id>
    git add <file>
    git commit --signoff --gpg-sign --amend
+
+Git Merge Conflicts
+===================
+
+During rebase with master, a merge conflict might occur.
+
+- Open the conflicted file in an editor
+- Search for "<<<<"
+- Observe the code between "<<<<" to ">>>>" and delete wrong parts (including <<<<, ====, >>>>)
+- When done, add file and continue rebase.
+
+   .. code-block:: bash
+
+      git add <modified file>
+      git rebase --continue
+
+- Continue this process, until rebase has completed.
+
+Workflow Sample 1
+=================
+
+Existing patch with comments in Gerrit, or a new patch.
+
+#. Clone the Git repository.
+
+   Please look at `Clone a repository`_.
+
+#. Download an existing patch, or create a new.
+
+   #. Download existing patch and rebase
+
+      .. code-block:: bash
+
+         git review -d <Gerrit patch number>
+         git fetch origin
+         git rebase origin/master
+
+
+   #. Create new patch/branch.
+
+      .. code-block:: bash
+
+         git branch -b my_special_fix
+
+#. Correct the patch
+   - code
+   - unit test
+   - release document
+   - commit message
+
+#. Run tox locally (if applicable) to ensure unit tests and lint are passing with no errors.
+
+   .. code-block:: bash
+
+      tox
+
+   Go back to previous step and correct any issues reported by tox.
+
+#. Add files to Git.
+
+   .. code-block:: bash
+
+      git add <each individual file>
+
+#. Commit files
+   If first time to commit
+
+   ... code-block:: bash
+
+      git commit --signoff --gpg-sign --verbose
+
+   If not first time to commit
+
+   ... code-block:: bash
+
+      git commit --amend
+
+#. Rebase against master.
+
+   .. code-block:: bash
+
+      git fetch origin
+      git rebase origin/master
+
+   If merge conflict occurs, solve this as in `Git Merge Conflicts`_ and repeat previous two steps.
+
+#. Push changes to Gerrit.
+
+   .. code-block:: bash
+
+      git review
+
+#. Clean up
+   When the patch has merged, delete the branch
+
+   Follow instructions in `Delete local branch`_
