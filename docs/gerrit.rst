@@ -37,8 +37,8 @@ Before you get started, you should have:
 * an ssh public/private key pair (see the good `GitHub docs on generating ssh keys
   <https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/>`_)
 
-  * register in the Gerrit server. See below for detailed instructions.
-    :ref:`register-key-gerrit`
+* register in the Gerrit server. See below for detailed instructions.
+  :ref:`register-key-gerrit`
 
 * git-review installed (see: https://www.mediawiki.org/wiki/Gerrit/git-review#Installation)
 
@@ -712,7 +712,7 @@ Sign Gerrit Commits
      but that then will seem to struggle asking for your
      passphrase unless you have your gpg-agent set up right.
 
-3. Add you GPG to Gerrit
+3. Add your GPG to Gerrit
 
    a. Run the following at the CLI:
 
@@ -797,7 +797,7 @@ Appendix
 Developer's Certificate of Origin (DCO)
 ---------------------------------------
 
-Code contributions to Linux Foundation projects must be have a sign-off by the
+Code contributions to Linux Foundation projects must have a sign-off by the
 author of the code which indicates that they have read and agree to the DCO.
 
 .. literalinclude:: _static/dco-1.1.txt
