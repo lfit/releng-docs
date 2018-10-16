@@ -1,0 +1,8 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Thanh Ha (zxiiro) <thanh.ha@linuxfoundation.org>
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Submitted-by: Anil Belur <abelur@linuxfoundation.org>
+Submitted-at: Tue, 16 Oct 2018 22:05:29 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/12994
+Project: releng/docs
+Branch: refs/heads/master
