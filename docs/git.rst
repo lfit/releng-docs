@@ -208,7 +208,8 @@ To amend a change in your local repository.
 Discard a change
 ================
 
-To discard changes introduced in the last commit.
+To discard changes introduced in the last commit. **Observe** This will only revert changes on your local git copy. If you have pushed something to the remote git repository, then this method will not work.
+
 
 .. code-block:: bash
 
