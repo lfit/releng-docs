@@ -257,3 +257,162 @@ To revert changes to one or more files in a commit.
    git show <commit-id> -- <file> | git apply -R # Revert the <file> in <commit-id>
    git add <file>
    git commit --signoff --gpg-sign --amend
+
+List branches
+=============
+
+To see which branches you have in your local git repository.
+
+.. code-block:: bash
+
+   git branch
+
+Delete local branch
+===================
+
+To delete a local branch (not active one), which you are no longer interested in.
+
+.. code-block:: bash
+
+   git branch -d <branch-to-delete>
+
+Workflow Sample 1
+=================
+We have an existing patch in Gerrit, that has some review comments.
+
+# Download master / Clone.
+## In this case, we work on something in lftools.
+
+.. code-block:: bash
+
+   git clone https://gerrit.linuxfoundation.org/infra/releng/lftools
+
+# Ensure that master is up to date.
+
+.. code-block:: bash
+
+   git checkout master
+   git pull
+
+# Download the existing patch from gerrit
+
+.. code-block:: bash
+
+   git review -d <gerrit patch number>
+
+# Rebase against master
+
+.. code-block:: bash
+
+   git rebase master
+
+# Correct the patch
+* commit message
+* code
+* unit test
+* release document
+
+# If applicable, remember to run the tox report
+# (It will perform basic checks, like lint, and unit tests)
+
+.. code-block:: bash
+
+   tox
+
+# Add, commit, and push the patch back to Gerrit.
+
+.. code-block:: bash
+
+   git add <each individual file>
+   git commit --amend
+   git review
+
+Workflow Sample 2
+=================
+We will modify a file in lftools (create a new patch)
+
+# Download master / Clone.
+## In this case, we work on something in lftools.
+
+.. code-block:: bash
+
+   git clone https://gerrit.linuxfoundation.org/infra/releng/lftools
+
+# Ensure that master is up to date.
+
+.. code-block:: bash
+
+   git checkout master
+   git pull
+
+# Download the existing patch from gerrit
+
+.. code-block:: bash
+
+   git branch -b my_special_fix
+
+# Create the patch
+* commit message
+* code
+* unit test
+* release document
+
+# If applicable, remember to run the tox report
+# (It will perform basic checks, like lint, and unit tests)
+
+.. code-block:: bash
+
+   tox
+
+# Add, commit, and push the patch back to Gerrit.
+
+.. code-block:: bash
+
+   git add <each individual file>
+   git commit --signoff --gpg-sign --verbose
+   git review
+
+Workflow Sample 3
+=================
+Someone review your special fix (sample 2) so now you need to fix it.
+The branch is still on your local repository. If not, see Sample 1
+
+# Ensure that master is up to date.
+
+.. code-block:: bash
+
+   git checkout master
+   git pull
+
+# Checkout your fix, and rebase
+
+.. code-block:: bash
+
+   git checkout my_special_fix
+   git rebase master
+
+# Fix the patch
+
+# If applicable, remember to run the tox report
+# (It will perform basic checks, like lint, and unit tests)
+
+.. code-block:: bash
+
+   tox
+
+# Add, commit, and push the patch back to Gerrit.
+
+.. code-block:: bash
+
+   git add <each individual file>
+   git commit --amend
+   git review
+
+Workflow Sample 4
+=================
+The my_special_fix patch has been merged, and we can remove the local copy.
+
+.. code-block:: bash
+
+   git checkout master
+   git branch -D my_special_fix
