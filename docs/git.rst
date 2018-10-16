@@ -122,7 +122,7 @@ To clone a Git repository.
 Auto Generate Change IDs
 ========================
 
-To generate change-id's automatically.
+To generate a change-id automatically for each patch:
 
 .. literalinclude:: _static/commit-hook.example
     :language: bash
@@ -154,7 +154,16 @@ To create a local branch from master.
 
 .. code-block:: bash
 
-   git branch -b <branch-name> origin/master
+   git checkout -b <branch-name> origin/master
+
+List branches
+=============
+
+To see the available list of branches
+
+.. code-block:: bash
+
+   git branch
 
 Switching between branches
 ==========================
@@ -165,6 +174,22 @@ To switch between a branch and the master within your repository.
 
    git checkout <branch-name>
    git checkout master
+
+
+Delete local branch
+===================
+
+To delete a local branch (not active one).
+
+.. code-block:: bash
+
+   git branch -d <branch-to-delete>
+
+or if above do not work
+
+.. code-block:: bash
+
+   git branch -D <branch-to-delete>
 
 Add a file
 ==========
@@ -257,3 +282,145 @@ To revert changes to one or more files in a commit.
    git show <commit-id> -- <file> | git apply -R # Revert the <file> in <commit-id>
    git add <file>
    git commit --signoff --gpg-sign --amend
+
+Workflow Sample 1
+=================
+We have an existing patch in Gerrit, that has some review comments.
+
+#. Download master / Clone.
+
+   Please look at `Clone a repository`_.
+
+#. Download the existing patch from Gerrit
+
+   .. code-block:: bash
+
+      git review -d <Gerrit patch number>
+
+#. Rebase against master
+
+   .. code-block:: bash
+
+      git fetch origin
+      git rebase origin/master
+
+#. Correct the patch
+   - code
+   - unit test
+   - release document
+   - commit message
+
+#. If applicable, run the tox report.
+   It will perform basic checks, like lint, and unit tests
+
+   .. code-block:: bash
+
+      tox
+
+   If tox reported issues, fix all issues, and re-run the tox command.
+
+#. Add, commit, rebase, and push the patch back to Gerrit.
+
+   .. code-block:: bash
+
+      git add <each individual file>
+      git commit --amend
+      git fetch origin
+      git rebase origin/master
+      git review
+
+Workflow Sample 2
+=================
+Create a new patch
+
+#. Download master / Clone.
+
+   Please look at `Clone a repository`_.
+
+#. Create a new branch
+
+   .. code-block:: bash
+
+      git branch -b my_special_fix
+
+#. Rebase against master (good practice)
+
+   .. code-block:: bash
+
+      git fetch origin
+      git rebase origin/master
+
+#. Create the patch
+   - code
+   - unit test
+   - release document
+   - commit message
+
+#. If applicable, run the tox report.
+   It will perform basic checks, like lint, and unit tests
+
+   .. code-block:: bash
+
+      tox
+
+   If tox reported issues, fix all issues, and re-run the tox command.
+
+#. Add, commit, rebase, and push the patch back to Gerrit.
+
+   .. code-block:: bash
+
+      git add <each individual file>
+      git commit --signoff --gpg-sign --verbose
+      git fetch origin
+      git rebase origin/master
+      git review
+
+Workflow Sample 3
+=================
+Incorporate review comments provided by a committer on `Workflow Sample 2`_.
+The branch is still on the local repository. If not, see `Workflow Sample 1`_.
+
+#. Ensure that master is up to date.
+
+   .. code-block:: bash
+
+      git checkout master
+      git fetch origin
+      git rebase origin/master
+
+#. Checkout the patch branch, and rebase
+
+   .. code-block:: bash
+
+      git checkout my_special_fix
+      git rebase master
+
+#. Fix the patch
+
+#. If applicable, run the tox report.
+   It will perform basic checks, like lint, and unit tests
+
+   .. code-block:: bash
+
+      tox
+
+   If tox reported issues, fix all issues, and re-run the tox command.
+
+#. Add, commit, and push the patch back to Gerrit.
+
+   .. code-block:: bash
+
+      git add <each individual file>
+      git commit --amend
+      git fetch origin
+      git rebase origin/master
+      git review
+
+Workflow Sample 4
+=================
+The my_special_fix patch (`Workflow Sample 2`_) has merged, remove the local copy.
+
+.. code-block:: bash
+
+   git checkout master
+   git branch -D my_special_fix
