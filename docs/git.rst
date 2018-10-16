@@ -209,6 +209,9 @@ Discard a change
 ================
 
 To discard changes introduced in the last commit.
+**Observe** This will only revert changes on your local git copy.
+If you have pushed something to the remote git repository,
+then this method will not work.
 
 .. code-block:: bash
 
@@ -257,3 +260,31 @@ To revert changes to one or more files in a commit.
    git show <commit-id> -- <file> | git apply -R # Revert the <file> in <commit-id>
    git add <file>
    git commit --signoff --gpg-sign --amend
+
+List branches
+=============
+
+To see which branches you have in your local git repository.
+
+.. code-block:: bash
+
+   git branch
+
+Delete local branch
+===================
+
+To delete a local branch (not active one).
+
+.. code-block:: bash
+
+   git branch -d <branch-to-delete>
+
+Check local/remote repository
+=============================
+
+If you are going to use pull/push with out any specified repositories/branches,
+you should confirm what the defauls are first.
+
+.. code-block:: bash
+
+   git remote show origin
