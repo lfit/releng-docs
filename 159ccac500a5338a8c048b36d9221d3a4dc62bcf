@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de570c33_14122693",
+        "filename": "docs/git.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-16T03:57:11Z",
+      "side": 1,
+      "message": "extra space added here",
+      "revId": "159ccac500a5338a8c048b36d9221d3a4dc62bcf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a62ae595_d58ba3fe",
+        "filename": "docs/git.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-16T03:57:11Z",
+      "side": 1,
+      "message": "remove an blank spaces",
+      "range": {
+        "startLine": 270,
+        "startChar": 0,
+        "endLine": 270,
+        "endChar": 4
+      },
+      "revId": "159ccac500a5338a8c048b36d9221d3a4dc62bcf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "82183dc1_80ffb300",
+        "filename": "docs/git.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-16T03:57:11Z",
+      "side": 1,
+      "message": "extra space here, should be 3 spaces alligned to the `.. code-block:: bash`",
+      "revId": "159ccac500a5338a8c048b36d9221d3a4dc62bcf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "92834a70_3893ecd9",
+        "filename": "docs/git.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-16T03:57:11Z",
+      "side": 1,
+      "message": "break the line into a para if this exceeds 72 chars or this would be hard to review.",
+      "revId": "159ccac500a5338a8c048b36d9221d3a4dc62bcf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "12c55b5d_9ead6a80",
+        "filename": "docs/git.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-10-16T03:57:11Z",
+      "side": 1,
+      "message": "extra space here, should be 3 spaces alligned to the `.. code-block:: bash`",
+      "revId": "159ccac500a5338a8c048b36d9221d3a4dc62bcf",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
