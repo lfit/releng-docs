@@ -258,3 +258,31 @@ To revert changes to one or more files in a commit.
    git show <commit-id> -- <file> | git apply -R # Revert the <file> in <commit-id>
    git add <file>
    git commit --signoff --gpg-sign --amend
+
+List branches
+=============
+
+To see which branches you have in your local git repository.
+
+.. code-block:: bash
+
+    git branch
+    
+Delete local branch
+===================
+
+To delete a local branch (not active one).
+
+.. code-block:: bash
+
+    git branch -d <branch-to-delete>
+
+Check local/remote repository
+=============================
+
+If you want to issue a push/pull command with out any parameters, it is good practice to confirm which repository the various commands are pointing to first.
+
+.. code-block:: bash
+
+    git remote show origin
+
