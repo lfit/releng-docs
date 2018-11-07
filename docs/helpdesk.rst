@@ -19,6 +19,7 @@ these addresses depending on which project helpdesk you wish to reach:
 * ONAP: helpdesk@onap.org
 * OpenDaylight: helpdesk@opendaylight.org
 * OPNFV: helpdesk@opfnv.org
+* Tungsten Fabric: helpdesk@tungsten.io
 
 If your project is not listed here you can send your inquiry to the Generic
 releng helpdesk channel helpdesk@rt.linuxfoundation.org along with the name
