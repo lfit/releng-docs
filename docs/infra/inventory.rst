@@ -11,6 +11,7 @@ Inventory
    * - Project
      - SCM (Gerrit / GitHub)
      - Jenkins
+     - Jira
      - Nexus
      - Nexus 3
      - Sonar
@@ -19,6 +20,7 @@ Inventory
      - https://gerrit.acumos.org
      - https://jenkins.acumos.org
        https://jenkins.acumos.org/sandbox
+     - https://jira.acumos.org
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
      - https://sonar.acumos.org
@@ -27,6 +29,7 @@ Inventory
      - https://gerrit.automotivelinux.org
      - https://build.automotivelinux.org
        https://build.automotivelinux.org/sandbox
+     - https://jira.automotivelinux.org
      - N/A
      - N/A
      - N/A
@@ -35,6 +38,7 @@ Inventory
      - https://gerrit.akraino.org
      - https://jenkins.akraino.org
        https://jenkins.akraino.org/sandbox
+     - https://jira.akraino.org
      - https://nexus.akraino.org
      - https://nexus3.akraino.org
      - https://sonar.akraino.org
@@ -43,6 +47,7 @@ Inventory
      - https://github.com/AcademySoftwareFoundation
      - https://jenkins.aswf.io
        https://jenkins.aswf.io/sandbox
+     - https://jira.aswf.io
      - https://nexus.aswf.io
      - https://nexus3.aswf.io
      - N/A
@@ -51,6 +56,7 @@ Inventory
      - https://github.com/edgexfoundry
      - https://jenkins.edgexfoundry.org
        https://jenkins.edgexfoundry.org/sandbox
+     - N/A
      - https://nexus.edgexfoundry.org
      - https://nexus3.edgexfoundry.org
      - N/A
@@ -59,6 +65,7 @@ Inventory
      - https://gerrit.fd.io
      - https://jenkins.fd.io
        https://jenkins.fd.io/sandbox
+     - https://jira.fd.io
      - https://nexus.fd.io
      - N/A
      - https://sonar.fd.io
@@ -83,6 +90,7 @@ Inventory
      - https://gerrit.onap.org
      - https://jenkins.onap.org
        https://jenkins.onap.org/sandbox
+     - https://jira.iotivity.org
      - https://nexus.onap.org
      - https://nexus3.onap.org
      - https://sonar.onap.org
@@ -91,6 +99,7 @@ Inventory
      - https://git.opendaylight.org/gerrit
      - https://jenkins.opendaylight.org/releng
        https://jenkins.opendaylight.org/sandbox
+     - https://jira.opendaylight.org
      - https://nexus.opendaylight.org
      - https://nexus3.opendaylight.org
      - https://sonar.opendaylight.org
@@ -99,6 +108,7 @@ Inventory
      - https://gerrit.opnfv.org
      - https://build.opnfv.org/ci
        https://sandbox.opnfv.org
+     - https://jira.opnfv.org
      - N/A
      - N/A
      - N/A
@@ -106,6 +116,7 @@ Inventory
    * - Tungsten Fabric
      - https://gerrit.tungsten.io
      - N/A
+     - https://jira.tungsten.io
      - N/A
      - N/A
      - N/A
