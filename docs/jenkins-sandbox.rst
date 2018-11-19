@@ -108,6 +108,7 @@ Configure the file ``~/.config/jenkins_jobs/jenkins_jobs.ini`` as follows:
    keep_descriptions=False
    recursive=True
    retain_anchors=True
+   update=jobs
 
    [jenkins]
    user=<Provide your Jenkins Sandbox user-id (LFID)>
