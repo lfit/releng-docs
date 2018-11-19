@@ -66,26 +66,30 @@ once or twice.
 Push jobs via Gerrit comment
 ----------------------------
 
-This is the easiest and fastest way to start using the Sandbox. This is the recommended
-default way to use the Sandbox since this does not require the user to install JJB or
-configure it at all.
+This is the easiest and fastest way to start using the Jenkins Sandbox. This is
+the recommended way to use the Sandbox since this does not require a local
+installation of JJB.
 
-This is the recommended way to push jobs to the Sandbox system and does not require
-installation of Jenkins Job Builder locally.
-
-To push jobs to the Sandbox with jjb-deploy, add a comment on the Gerrit patch from ci-management:
-
-.. code-block:: bash
-
-   jjb-deploy <job name>
-
-The resultant job's configuration reflects the same code the patch's code base in the Gerrit.
-The job pushed into the Sandbox will reflect the changes made in the patch.
+To push jobs to the Jenkins Sandbox with the :ref:`jjb-deploy job
+<global-jjb:jjb-deploy>`, add a comment on any Gerrit patch.
 
 .. note::
 
-   You can use * wildcard for job names. This is not a good practice.
-   We highly recommended to use specific Jenkins job names instead.
+   While you can use ``*`` as a wildcard in job names. This is not a good
+   practice and we highly recommend using specific Jenkins job names for the
+   job you wish to test.
+
+.. code-block:: bash
+   :caption: jjb-deploy example
+
+   jjb-deploy <job name>
+
+
+* **If the comment was left on a non-ci-management patch**, the resultant job
+  will be based on the latest master branch of the ci-management repo.
+* **If the comment was left on a ci-management patch**, the resultant job's
+  configuration will reflect patch's code base in the Gerrit.
+
 
 .. _jjb-push-cli:
 
