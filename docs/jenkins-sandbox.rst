@@ -13,9 +13,10 @@ Facts to keep in mind before working on the Sandbox:
 - Jobs are automatically deleted every Saturday at 08:00 UTC
 - Committers can login and configure Jenkins jobs in the Sandbox directly
 - Sandbox jobs cannot perform any upload/deploy tasks
-- There are no project configuration files and project credentials loaded into the system
+- Project configuration files and credentials are not loaded into the system
 - Sandbox jobs cannot vote on Gerrit
-- Jenkins nodes have OpenStack configuration similarly to the production instance
+- Jenkins nodes have the same OpenStack configuration as the production
+  instance with minor differences.
 
 .. _get-sandbox-access:
 
@@ -66,26 +67,24 @@ once or twice.
 Push jobs via Gerrit comment
 ----------------------------
 
-This is the easiest and fastest way to start using the Sandbox. This is the recommended
-default way to use the Sandbox since this does not require the user to install JJB or
-configure it at all.
+This is the easiest and fastest way to start using the Jenkins Sandbox. This is
+the recommended way to use the Sandbox since this does not require a local
+installation of JJB.
 
-This is the recommended way to push jobs to the Sandbox system and does not require
-installation of Jenkins Job Builder locally.
-
-To push jobs to the Sandbox with jjb-deploy, add a comment on the Gerrit patch from ci-management:
+To push jobs to the Jenkins Sandbox with the :ref:`jjb-deploy job
+<global-jjb:jjb-deploy>`, add a comment on any Gerrit patch.
 
 .. code-block:: bash
+   :caption: jjb-deploy examples
 
    jjb-deploy <job name>
+   jjb-deploy ci-management-jjb-verify  # Push the ciman JJB verify job.
 
-The resultant job's configuration reflects the same code the patch's code base in the Gerrit.
-The job pushed into the Sandbox will reflect the changes made in the patch.
+* **Leaving a comment on a non-ci-management patch**, the resultant job
+  will use latest master branch of the ci-management repo.
+* **Leaving a comment on a ci-management patch**, the resultant job's
+  configuration will reflect patch's code base in Gerrit.
 
-.. note::
-
-   You can use * wildcard for job names. This is not a good practice.
-   We highly recommended to use specific Jenkins job names instead.
 
 .. _jjb-push-cli:
 
