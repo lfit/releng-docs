@@ -66,26 +66,27 @@ once or twice.
 Push jobs via Gerrit comment
 ----------------------------
 
-This is the easiest and fastest way to start using the Sandbox. This is the recommended
-default way to use the Sandbox since this does not require the user to install JJB or
-configure it at all.
+This is the easiest and fastest way to start using the Sandbox. This is the
+recommended way to use the Sandbox since this does not require the user to
+install JJB on their local system.
 
-This is the recommended way to push jobs to the Sandbox system and does not require
-installation of Jenkins Job Builder locally.
-
-To push jobs to the Sandbox with jjb-deploy, add a comment on the Gerrit patch from ci-management:
+To push jobs to the Sandbox with the :ref:`jjb-deploy job
+<global-jjb:jjb-deploy>`, add a comment on any Gerrit patch from the
+ci-management repo using the following format:
 
 .. code-block:: bash
 
    jjb-deploy <job name>
 
-The resultant job's configuration reflects the same code the patch's code base in the Gerrit.
-The job pushed into the Sandbox will reflect the changes made in the patch.
+The resultant job's configuration reflects the same code the patch's code base
+in the Gerrit. The job pushed into the Sandbox will reflect the changes made in
+the patch.
 
 .. note::
 
-   You can use * wildcard for job names. This is not a good practice.
-   We highly recommended to use specific Jenkins job names instead.
+   While you can use * wildcard for job names. This is not a good practice.
+   We highly recommended to use specific Jenkins job names for the job you
+   wish to test.
 
 .. _jjb-push-cli:
 
@@ -108,6 +109,7 @@ Configure the file ``~/.config/jenkins_jobs/jenkins_jobs.ini`` as follows:
    keep_descriptions=False
    recursive=True
    retain_anchors=True
+   update=jobs
 
    [jenkins]
    user=<Provide your Jenkins Sandbox user-id (LFID)>
