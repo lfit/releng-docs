@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "c2a62ccd_c5cb6610",
+        "filename": "docs/style-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2018-12-03T18:31:51Z",
+      "side": 1,
+      "message": "I have always known this to be true for numbers between 0-9. This also matches what\u0027s in the NASA style guide Aimee linked (though with a bunch of caveats) at 3.16.1.a.",
+      "parentUuid": "c9fd7942_4356c5cc",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "66d0c496_501e1fba",
         "filename": "docs/style-guide.rst",
         "patchSetId": 2
