@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c9fd7942_4356c5cc",
+        "filename": "docs/style-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-12-03T18:22:08Z",
+      "side": 1,
+      "message": "I think I got this from middle school? I\u0027m sure there\u0027s a reference I can find :) (otherwise I\u0027ll drop it).",
+      "parentUuid": "b3a05f9b_9872c2da",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "66d0c496_501e1fba",
         "filename": "docs/style-guide.rst",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2018-12-03T06:17:59Z",
       "side": 1,
       "message": "Do not",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 7
+      },
+      "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9841bb91_bc227285",
+        "filename": "docs/style-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 15
+      },
+      "writtenOn": "2018-12-03T18:22:08Z",
+      "side": 1,
+      "message": "I might want to read my own style guide. Sheesh.",
+      "parentUuid": "66d0c496_501e1fba",
       "range": {
         "startLine": 76,
         "startChar": 2,
