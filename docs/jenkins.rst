@@ -251,9 +251,9 @@ JJB Overview
 
 Jenkins Job Builder translates YAML code to job configuration suitable
 for consumption by Jenkins. When testing new Jenkins Jobs in the
-:ref:`lfdocs-jenkins-sandbox`, you will need to use the `jenkins-jobs`
-executable to translate a set of jobs into their XML descriptions and
-upload them to the Jenkins Sandbox server.
+:doc:`Jeknins Sandbox <jenkins-sandbox>`, you will need to use the
+``jenkins-jobs`` executable to translate a set of jobs into their XML
+descriptions and upload them to the Jenkins Sandbox server.
 
 Install JJB
 -----------
@@ -392,7 +392,7 @@ packer-builder to construct the image. We recommend using the Ansible
 provisioner as that is the standard used by LF packer builds.
 
 While developing a new builder image type, we can use the
-`lfdocs-jenkins-sandbox` to build and deploy the image for testing. Configure a
+:doc:`Jenkins Sandbox <jenkins-sandbox>` to build and deploy the image for testing. Configure a
 Jenkins Job the new image type using the global-jjb
 :ref:`gerrit-packer-merge <gjjb-packer-merge>` job template.
 
