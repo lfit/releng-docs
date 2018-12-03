@@ -1,7 +1,7 @@
-.. _lfdocs-jenkins-sandbox:
+.. _jenkins-sandbox:
 
-Jenkins Sandbox
-===============
+Jenkins Sandbox Guide
+=====================
 
 .. _jenkins-sandbox-overview:
 

@@ -19,6 +19,7 @@ Guides:
    gerrit
    gpg
    jenkins
+   jenkins-sandbox
    project-documentation
    nexus2
    nexus3

@@ -473,6 +473,6 @@ The Sandbox has limited amount of Virtual Machine nodes instances
 to test compared to production Jenkins.
 
 Documentation on using the Jenkins Sandbox and uploading jobs is available
-:ref:`here <lfdocs-jenkins-sandbox>`.
+:doc:`here <jenkins-sandbox>`.
 
 .. _jjb-docs: http://ci.openstack.org/jenkins-job-builder/
