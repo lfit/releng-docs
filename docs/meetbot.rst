@@ -56,9 +56,9 @@ Take notes
 
 * Use ``#info`` to record a note.
 
-   .. code-block:: none
+  .. code-block:: none
 
-      #info dneary suggested using MeetBot for meeting minutes
+     #info dneary suggested using MeetBot for meeting minutes
 
 * Use ``#agree <agreement>`` to record agreements to document consensus.
 
@@ -84,12 +84,12 @@ Take notes
 
 * Use ``#startvote <vote>`` and ``#endvote`` to start/end voting.
 
-   .. code-block:: none
+  .. code-block:: none
 
-      #startvote Do you approve a 15 minute coffee break? (+1, 0, -1)
+     #startvote Do you approve a 15 minute coffee break? (+1, 0, -1)
 
-   Voters will use ``#vote <option>`` to vote. Typically +1 is for approval,
-   0 abstain, and -1 non-approval.
+  Voters will use ``#vote <option>`` to vote. Typically +1 is for approval,
+  0 abstain, and -1 non-approval.
 
 * Use ``#undo`` to remove the last addition to the minutes.
 
