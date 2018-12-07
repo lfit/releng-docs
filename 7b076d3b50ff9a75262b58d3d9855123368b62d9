@@ -1,0 +1,251 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7e93561e_3b8db2b0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "\"Add git usage workflows and examples\"",
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "761564aa_7628d849",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "move this above: after \"Create a branch\".",
+      "range": {
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 268,
+        "endChar": 13
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c8e20b09_8fb41de4",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "move this above: after \"Create a branch\".",
+      "range": {
+        "startLine": 270,
+        "startChar": 0,
+        "endLine": 277,
+        "endChar": 35
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "530d7c5e_37e98c8e",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "Workflow 1\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
+      "range": {
+        "startLine": 279,
+        "startChar": 0,
+        "endLine": 279,
+        "endChar": 17
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ba032ca_2d77ae5c",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "if you want auto numbered points use.\n\n#. Clone the repository.",
+      "range": {
+        "startLine": 283,
+        "startChar": 0,
+        "endLine": 283,
+        "endChar": 1
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ba1e3dc_2d70d5bb",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "Maybe use a generic repo name? ex: gerrit.example.org",
+      "range": {
+        "startLine": 288,
+        "startChar": 13,
+        "endLine": 288,
+        "endChar": 67
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b9b506dd_0f303d7e",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "step not required",
+      "range": {
+        "startLine": 290,
+        "startChar": 0,
+        "endLine": 295,
+        "endChar": 11
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "edbc4ca6_d1242c91",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "#.",
+      "range": {
+        "startLine": 297,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 1
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9d2b1070_e406d202",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "this should move one step above since you\u0027ll want to rebase with the master branch, after fetching a refspec.",
+      "range": {
+        "startLine": 297,
+        "startChar": 0,
+        "endLine": 301,
+        "endChar": 38
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5849a594_17317ccf",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "#.",
+      "range": {
+        "startLine": 303,
+        "startChar": 0,
+        "endLine": 303,
+        "endChar": 1
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a089395b_b1504e4d",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 307,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2018-12-07T01:57:31Z",
+      "side": 1,
+      "message": "git fetch origin \ngit rebase origin/master",
+      "range": {
+        "startLine": 303,
+        "startChar": 0,
+        "endLine": 307,
+        "endChar": 20
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
