@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "373a35f8_018079d6",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2018-12-10T21:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "761564aa_7628d849",
+      "range": {
+        "startLine": 260,
+        "startChar": 0,
+        "endLine": 268,
+        "endChar": 13
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8e20b09_8fb41de4",
         "filename": "docs/git.rst",
         "patchSetId": 6
@@ -53,6 +77,30 @@
       "writtenOn": "2018-12-07T01:57:31Z",
       "side": 1,
       "message": "move this above: after \"Create a branch\".",
+      "range": {
+        "startLine": 270,
+        "startChar": 0,
+        "endLine": 277,
+        "endChar": 35
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fc8849b3_e8eabe5f",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 277,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2018-12-10T21:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8e20b09_8fb41de4",
       "range": {
         "startLine": 270,
         "startChar": 0,
@@ -111,6 +159,30 @@
     },
     {
       "key": {
+        "uuid": "8c755612_0751fb03",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2018-12-10T21:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ba032ca_2d77ae5c",
+      "range": {
+        "startLine": 283,
+        "startChar": 0,
+        "endLine": 283,
+        "endChar": 1
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8ba1e3dc_2d70d5bb",
         "filename": "docs/git.rst",
         "patchSetId": 6
@@ -122,6 +194,30 @@
       "writtenOn": "2018-12-07T01:57:31Z",
       "side": 1,
       "message": "Maybe use a generic repo name? ex: gerrit.example.org",
+      "range": {
+        "startLine": 288,
+        "startChar": 13,
+        "endLine": 288,
+        "endChar": 67
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be5651d8_3b5c4774",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2018-12-10T21:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8ba1e3dc_2d70d5bb",
       "range": {
         "startLine": 288,
         "startChar": 13,
@@ -157,6 +253,30 @@
     },
     {
       "key": {
+        "uuid": "50e2b43e_74be8558",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2018-12-10T21:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9b506dd_0f303d7e",
+      "range": {
+        "startLine": 290,
+        "startChar": 0,
+        "endLine": 295,
+        "endChar": 11
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "edbc4ca6_d1242c91",
         "filename": "docs/git.rst",
         "patchSetId": 6
@@ -168,6 +288,30 @@
       "writtenOn": "2018-12-07T01:57:31Z",
       "side": 1,
       "message": "#.",
+      "range": {
+        "startLine": 297,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 1
+      },
+      "revId": "7b076d3b50ff9a75262b58d3d9855123368b62d9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed7a98e6_d5ea0a45",
+        "filename": "docs/git.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2018-12-10T21:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edbc4ca6_d1242c91",
       "range": {
         "startLine": 297,
         "startChar": 0,
