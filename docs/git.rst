@@ -418,3 +418,76 @@ The my_special_fix patch has merged, and we can remove the local copy.
 
    git checkout master
    git branch -D my_special_fix
+
+Workflow Sample 5
+=================
+How to manage a big script, by submitting smaller patches which are depending on each other.
+
+#. Analyze the code, and find code blocks that are small and have no dependencies, or depends on
+previous code.
+For instance, each function by it self, common declarations, each class by it self etc.
+Key areas:
+* Each patch is building on the previous patch.
+* Each patch contains test unit code to fully test the new code in this patch.
+* Each patch passes all tox checks.
+
+#. Do Workflow Sample 2 for the first patch
+
+#. Add the code for the second patch, and again, submit it as per Workflow Sample 2 (from Create the patch step)
+Remember to do 'git commit --signoff --gpg-sign --verbose', to submit a new patch.
+
+#. And repeat previous step, until all patches submitted.
+
+Now you should have a set of patches, like: 1, 2, 3, 4, 5 who are all building on each other.
+
+Workflow Sample 6
+=================
+How to change a patch set.
+
+To change the patch set (one or more), you do the following.
+
+#. Ensure that master is up to date.
+
+.. code-block:: bash
+
+   git checkout master
+   git fetch origin
+   git rebase origin/master
+
+#. Checkout your fix, and rebase
+
+.. code-block:: bash
+
+   git review -d <my_patch_set>
+   git rebase master
+
+#. Followed by manually pick the patch sets you want to work on
+
+.. code-block:: bash
+
+   git rebase -i
+
+Change from 'pick' to 'edit' for the patch numbers you need to review.
+
+#. Change the files you need to, followed by
+
+.. code-block:: bash
+
+   git commit --amend
+   git rebase --continue
+
+#. Repeat previous step, until rebase finish.
+
+#. Good to rebase again
+
+.. code-block:: bash
+
+   git fetch origin
+   git rebase origin/master
+
+
+#. Time to submit patch again
+
+.. code-block:: bash
+
+   git review
