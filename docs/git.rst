@@ -424,3 +424,120 @@ The my_special_fix patch (`Workflow Sample 2`_) has merged, remove the local cop
 
    git checkout master
    git branch -D my_special_fix
+
+Workflow Sample 5
+=================
+How to manage a big script, by submitting smaller patches which are depending on each other.
+
+#. Analyze the code
+   - Find code blocks that are small with no dependencies
+   - Find code blocks that are small with dependencies on previous code.
+
+   For instance,
+      - each function by it self
+      - common declarations
+      - each class by it self etc.
+
+   Key areas:
+      - Each patch is building on the previous patch.
+      - Each patch contains test unit code to fully test the new code in this patch.
+      - Each patch passes all tox checks.
+
+#. First patch : Do `Workflow Sample 2`_
+
+#. Next patch
+   - Add the code for the next patch
+   - Submit it as per `Workflow Sample 2`_ (from Create the patch step)
+
+   Remember to do 'git commit --signoff --gpg-sign --verbose', to submit a new patch.
+
+#. And repeat previous step, until all patches submitted.
+
+#. Now you should have a set of patches, like: 1, 2, 3, 4, 5 who are all building on each other.
+
+Workflow Sample 6
+=================
+How to change a patch set.
+
+To change the patch set (one or more).
+
+#. Ensure that master is up to date.
+
+   .. code-block:: bash
+
+      git checkout master
+      git fetch origin
+      git rebase origin/master
+
+#. Checkout, and rebase
+
+   .. code-block:: bash
+
+      git review -d <my_patch_set last patch number>
+      git rebase master
+
+#. Rebase interactive
+
+   .. code-block:: bash
+
+      git rebase -i
+
+   Change from 'pick' to 'edit' for the patch numbers to be review/modified.
+
+#. Change files
+
+#. Add, Commit, continue with rebase
+
+   .. code-block:: bash
+
+      git add <modified file>
+      git commit --amend
+      git rebase --continue
+
+#. Repeat previous two steps, until rebase finish.
+
+#. Good to rebase again
+
+   .. code-block:: bash
+
+      git fetch origin
+      git rebase origin/master
+
+
+#. Time to submit patch again
+
+   .. code-block:: bash
+
+      git review
+
+Workflow Sample 7
+=================
+How to download an earlier version of the patch set.
+
+If you have managed to upload some bad codes, or managed to merge some patch sets by misstake, and you want to undo this by downloading an earlier patch set version, and upload it again as a new patch set.
+
+.. code-block:: bash
+
+    git review -d <my_patch_set last patch number>,<second last patch set no>
+    git review -R
+
+Alternative
+
+.. code-block:: bash
+
+    git pull <https link to the last patch, second last patch set no>
+    git review -R
+
+Example: There are 5 different versions of patch 13734.
+
+   #. Example with review
+
+      .. code-block:: bash
+
+         git review -d 13734,4
+
+   #. Example with git pull
+
+      .. code-block:: bash
+
+         git pull https://gerrit.linuxfoundation.org/infra/releng/lftools refs/changes/34/13734/4
