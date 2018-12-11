@@ -418,3 +418,63 @@ The my_special_fix patch has merged, and we can remove the local copy.
 
    git checkout master
    git branch -D my_special_fix
+
+Workflow Sample 5
+=================
+How to manage a big script, by submitting smaller patches which are depending on each other.
+
+#. Analyze the code, and find areas which can be submitted individually.
+For instance, each function by it self, common declarations, each class by it self etc.
+Key things:
+* Each patch is building on the previous patch.
+* Each patch contains test unit code to fully test the new code in this patch.
+* Each patch successfully passes all tox checks.
+
+#. Do Workflow Sample 2 for the first patch
+
+#. Add the code for the second patch, and again, submit it as per Workflow Sample 2 (from Create the patch step)
+Remember to do 'git commit -s -S -p' as each patch needs to be submitted as a new patch.
+
+#. And repeat previous step, until all patches submitted.
+
+Now you should have a set of patches, like: 1, 2, 3, 4, 5 who are all building on each other.
+
+If you need to modify the patch set (one or more), you do the following.
+
+#. Start with rebase against master
+
+.. code-block:: bash
+
+   git fetch origin
+   git rebase origin/master
+
+#. Followed by manually pick the patch sets you want to work on
+
+.. code-block:: bash
+
+   git rebase -i
+
+And change from 'pick' to 'edit' for the patch numbers you need to modify.
+
+#. Modify the files you need to modify, followed by
+
+.. code-block:: bash
+
+   git commit --amend
+   git rebase --continue
+
+#. Repeat previous step, until rebase is finished.
+
+#. Good to rebase again
+
+.. code-block:: bash
+
+   git fetch origin
+   git rebase origin/master
+
+
+#. Time to submit patch again
+
+.. code-block:: bash
+
+   git review
