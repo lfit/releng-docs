@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "427cb965_f05d5e29",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2018-12-30T22:55:44Z",
+      "side": 1,
+      "message": "should be warning",
+      "range": {
+        "startLine": 76,
+        "startChar": 3,
+        "endLine": 76,
+        "endChar": 7
+      },
+      "revId": "b6c5c1baa8ad60c46e7a98af1a09bdbacda7427a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
