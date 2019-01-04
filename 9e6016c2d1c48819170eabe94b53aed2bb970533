@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "333db25b_4d9fdb27",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "Suggestion: point out which settings are useful and why",
+      "range": {
+        "startLine": 79,
+        "startChar": 33,
+        "endLine": 79,
+        "endChar": 54
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5198a12d_3f132201",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "suggestion: change this line to \"To generate a change-id automatically for each patch:\"",
+      "range": {
+        "startLine": 125,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 38
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7e17119a_f63978de",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "On line 116 (in the Clone a Repository section) you use SSH but here you use anonymous HTTPS. Why the difference?",
+      "range": {
+        "startLine": 288,
+        "startChar": 3,
+        "endLine": 288,
+        "endChar": 40
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b9867d00_13d3ab9d",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "On line 116 (in the Clone a Repository section) you use SSH but here you use anonymous HTTPS. Perhaps it would be better to refer back to the Clone a Repository section.",
+      "range": {
+        "startLine": 332,
+        "startChar": 0,
+        "endLine": 336,
+        "endChar": 39
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e4f3cff8_d0793d5b",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "perhaps link back to Workflow Sample 2",
+      "range": {
+        "startLine": 376,
+        "startChar": 33,
+        "endLine": 376,
+        "endChar": 41
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c859107b_070319c8",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "minor edit: change to reviews",
+      "range": {
+        "startLine": 376,
+        "startChar": 8,
+        "endLine": 376,
+        "endChar": 15
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8461a436_1dd7f119",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T16:05:07Z",
+      "side": 1,
+      "message": "perhaps link back to Workflow Sample 1",
+      "range": {
+        "startLine": 377,
+        "startChar": 58,
+        "endLine": 377,
+        "endChar": 66
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
