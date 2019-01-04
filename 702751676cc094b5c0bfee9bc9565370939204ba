@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9b435b80_e0b053b4",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T20:21:48Z",
+      "side": 1,
+      "message": "Maybe change this to \"While you can use ``*`` as a wildcard in job names, this is not a good\n   practice. We highly recommend using specific Jenkins job names for the\n   job you wish to test.\"",
+      "range": {
+        "startLine": 79,
+        "startChar": 2,
+        "endLine": 81,
+        "endChar": 24
+      },
+      "revId": "702751676cc094b5c0bfee9bc9565370939204ba",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
