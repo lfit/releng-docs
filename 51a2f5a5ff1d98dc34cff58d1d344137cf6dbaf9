@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7130ddb9_7d458bcf",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T15:30:59Z",
+      "side": 1,
+      "message": "minor edit: change to \"similar\"",
+      "range": {
+        "startLine": 18,
+        "startChar": 45,
+        "endLine": 18,
+        "endChar": 54
+      },
+      "revId": "51a2f5a5ff1d98dc34cff58d1d344137cf6dbaf9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "71384b1c_041f5f3a",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 150
+      },
+      "writtenOn": "2019-01-04T15:30:59Z",
+      "side": 1,
+      "message": "minor edit to the use of \"the\": the resultant job\u0027s configuration will reflect the patch\u0027s code base in Gerrit",
+      "range": {
+        "startLine": 92,
+        "startChar": 50,
+        "endLine": 92,
+        "endChar": 53
+      },
+      "revId": "51a2f5a5ff1d98dc34cff58d1d344137cf6dbaf9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
