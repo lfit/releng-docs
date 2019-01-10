@@ -22,6 +22,30 @@
       "revId": "d6b6c70ef9a29612165cb79c4af29cfe532b36e1",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ef866821_584fae8d",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 8
+      },
+      "writtenOn": "2019-01-10T00:47:56Z",
+      "side": 1,
+      "message": "We do prevent pushing *:\n\n https://github.com/lfit/releng-global-jjb/blob/master/shell/jjb-deploy-job.sh#L32-L36\n\nThe only way folks can use * is by pushing more specific values like: aaa-maven-*",
+      "parentUuid": "7e8845ce_6cead360",
+      "range": {
+        "startLine": 77,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 24
+      },
+      "revId": "d6b6c70ef9a29612165cb79c4af29cfe532b36e1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
