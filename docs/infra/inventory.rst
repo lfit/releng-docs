@@ -15,6 +15,7 @@ Inventory
      - Nexus
      - Nexus 3
      - Sonar
+     - Bitergia
 
    * - Acumos
      - https://gerrit.acumos.org
@@ -24,12 +25,14 @@ Inventory
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
      - https://sonar.acumos.org
+     - N/A
 
    * - AGL
      - https://gerrit.automotivelinux.org
      - https://build.automotivelinux.org
        https://build.automotivelinux.org/sandbox
      - https://jira.automotivelinux.org
+     - N/A
      - N/A
      - N/A
      - N/A
@@ -42,6 +45,7 @@ Inventory
      - https://nexus.akraino.org
      - https://nexus3.akraino.org
      - https://sonar.akraino.org
+     - N/A
 
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
@@ -50,6 +54,7 @@ Inventory
      - https://jira.aswf.io
      - https://nexus.aswf.io
      - https://nexus3.aswf.io
+     - N/A
      - N/A
 
    * - EdgeX
@@ -69,6 +74,7 @@ Inventory
      - https://nexus.fd.io
      - N/A
      - https://sonar.fd.io
+     - N/A
 
    * - HyperLedger
      - https://gerrit.hyperledger.org
@@ -77,6 +83,7 @@ Inventory
      - https://jira.hyperledger.org
      - https://nexus.hyperledger.org
      - https://nexus3.hyperledger.org
+     - N/A
      - N/A
 
    * - IoTivity
@@ -87,6 +94,7 @@ Inventory
      - N/A
      - N/A
      - N/A
+     - https://iotivity.biterg.io
 
    * - ONAP
      - https://gerrit.onap.org
@@ -96,6 +104,7 @@ Inventory
      - https://nexus.onap.org
      - https://nexus3.onap.org
      - https://sonar.onap.org
+     - https://onap.biterg.io
 
    * - OpenDaylight
      - https://git.opendaylight.org/gerrit
@@ -105,6 +114,7 @@ Inventory
      - https://nexus.opendaylight.org
      - https://nexus3.opendaylight.org
      - https://sonar.opendaylight.org
+     - https://opendaylight.biterg.io
 
    * - OPNFV
      - https://gerrit.opnfv.org
@@ -114,11 +124,13 @@ Inventory
      - N/A
      - N/A
      - N/A
+     - https://opnfv.biterg.io
 
    * - Tungsten Fabric
      - https://gerrit.tungsten.io
      - N/A
      - https://jira.tungsten.io
+     - N/A
      - N/A
      - N/A
      - N/A
