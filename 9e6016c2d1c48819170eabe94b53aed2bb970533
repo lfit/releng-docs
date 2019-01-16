@@ -2,6 +2,121 @@
   "comments": [
     {
       "key": {
+        "uuid": "6b646795_245e30c5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "46bccf73_6a904621",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Let\u0027s use imperative mood \"Add\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 5
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "862e5232_3c8ba139",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "scenarios",
+      "range": {
+        "startLine": 9,
+        "startChar": 20,
+        "endLine": 9,
+        "endChar": 30
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ce508d2_b050bda6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 9,
+        "startChar": 35,
+        "endLine": 9,
+        "endChar": 38
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "500194ec_44eef830",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "What cleanup are you referring to?",
+      "range": {
+        "startLine": 13,
+        "startChar": 22,
+        "endLine": 13,
+        "endChar": 38
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "333db25b_4d9fdb27",
         "filename": "docs/git.rst",
         "patchSetId": 11
@@ -96,6 +211,121 @@
     },
     {
       "key": {
+        "uuid": "b331d6ec_08f43fec",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Remove the 1st blank space",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 160,
+        "endChar": 14
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0c092629_4d354d55",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "I would make this sentence less personal, something more like \n\n\"To see the available list of branches\"",
+      "range": {
+        "startLine": 162,
+        "startChar": 1,
+        "endLine": 162,
+        "endChar": 61
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f51a770e_c3785c0a",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 162,
+        "startChar": 46,
+        "endLine": 162,
+        "endChar": 49
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f7fce6d_692da86f",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Remove the 1st blank space",
+      "range": {
+        "startLine": 179,
+        "startChar": 0,
+        "endLine": 180,
+        "endChar": 20
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f232439_fb9db8e1",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Not needed, remove this part\n\nLet\u0027s make the documentation less personal",
+      "range": {
+        "startLine": 182,
+        "startChar": 44,
+        "endLine": 182,
+        "endChar": 82
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7e17119a_f63978de",
         "filename": "docs/git.rst",
         "patchSetId": 11
@@ -143,6 +373,52 @@
     },
     {
       "key": {
+        "uuid": "9bbffa28_b42e3fdc",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 290,
+        "startChar": 36,
+        "endLine": 290,
+        "endChar": 42
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3892f771_d8f937ec",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Let\u0027s make this less personal\n\n\"run the tox report\"",
+      "range": {
+        "startLine": 309,
+        "startChar": 18,
+        "endLine": 309,
+        "endChar": 48
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b9867d00_13d3ab9d",
         "filename": "docs/git.rst",
         "patchSetId": 11
@@ -183,6 +459,52 @@
         "startChar": 0,
         "endLine": 336,
         "endChar": 39
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e0270aa6_23fb20aa",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "practice",
+      "range": {
+        "startLine": 344,
+        "startChar": 31,
+        "endLine": 344,
+        "endChar": 39
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ef53658_ab3edf6d",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Let\u0027s make this less personal \n\n\"run the tox report\"",
+      "range": {
+        "startLine": 357,
+        "startChar": 17,
+        "endLine": 357,
+        "endChar": 47
       },
       "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
@@ -324,6 +646,52 @@
         "startChar": 58,
         "endLine": 377,
         "endChar": 66
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4ace3c9_44ebd411",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 396,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "Let\u0027s make this less personal \n\n\"run the tox report\"",
+      "range": {
+        "startLine": 396,
+        "startChar": 18,
+        "endLine": 396,
+        "endChar": 48
+      },
+      "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fef0c14_82968094",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-16T19:05:12Z",
+      "side": 1,
+      "message": "\"and remove the local copy\"",
+      "range": {
+        "startLine": 415,
+        "startChar": 37,
+        "endLine": 415,
+        "endChar": 70
       },
       "revId": "9e6016c2d1c48819170eabe94b53aed2bb970533",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
