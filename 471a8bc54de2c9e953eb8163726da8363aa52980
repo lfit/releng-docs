@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b22d0e95_29df35b0",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T07:09:37Z",
+      "side": 1,
+      "message": "mistake",
+      "range": {
+        "startLine": 517,
+        "startChar": 85,
+        "endLine": 517,
+        "endChar": 93
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa23531_e74ac960",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T07:09:37Z",
+      "side": 1,
+      "message": "line too long",
+      "range": {
+        "startLine": 517,
+        "startChar": 0,
+        "endLine": 517,
+        "endChar": 205
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d40f87f_cbc6f968",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T07:09:37Z",
+      "side": 1,
+      "message": "we need only 3 ws prefixed, but there is 4 ws",
+      "range": {
+        "startLine": 521,
+        "startChar": 0,
+        "endLine": 522,
+        "endChar": 17
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4315cd7c_8d3c45ad",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T07:09:37Z",
+      "side": 1,
+      "message": "we dont need git review -R unless you want to change the work to state that you are syncing the CR back to the repo.",
+      "range": {
+        "startLine": 522,
+        "startChar": 4,
+        "endLine": 522,
+        "endChar": 17
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52647670_733e4f7d",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 529,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T07:09:37Z",
+      "side": 1,
+      "message": "we need only 3 ws prefixed, but there is 4 ws",
+      "range": {
+        "startLine": 528,
+        "startChar": 0,
+        "endLine": 529,
+        "endChar": 17
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
