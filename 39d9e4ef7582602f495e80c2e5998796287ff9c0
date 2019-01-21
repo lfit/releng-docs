@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "887d3866_a868d56b",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baba5b27_290d00ae",
+      "range": {
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 37
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aeced81_a4552247",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -59,6 +83,30 @@
       "writtenOn": "2019-01-21T03:29:36Z",
       "side": 1,
       "message": "Align with the above line, prefix 3 ws in both lines.",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 298,
+        "endChar": 38
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fbd64ef6_ccc7baff",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aeced81_a4552247",
       "range": {
         "startLine": 296,
         "startChar": 0,
@@ -94,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "d8c24c1e_0b031d61",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac620bef_2d2d6162",
+      "range": {
+        "startLine": 302,
+        "startChar": 0,
+        "endLine": 305,
+        "endChar": 27
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "90fa6ba6_98fccb3b",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -105,6 +177,30 @@
       "writtenOn": "2019-01-21T03:29:36Z",
       "side": 1,
       "message": "allignment required",
+      "range": {
+        "startLine": 308,
+        "startChar": 0,
+        "endLine": 311,
+        "endChar": 18
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "989bdfdd_3efe4105",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "90fa6ba6_98fccb3b",
       "range": {
         "startLine": 308,
         "startChar": 0,
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "ad5a66a4_f5d9be82",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89b34595_23752b61",
+      "range": {
+        "startLine": 315,
+        "startChar": 0,
+        "endLine": 318,
+        "endChar": 6
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ee99d2c6_08f2915f",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -151,6 +271,30 @@
       "writtenOn": "2019-01-21T03:29:36Z",
       "side": 1,
       "message": "allignment required",
+      "range": {
+        "startLine": 325,
+        "startChar": 0,
+        "endLine": 330,
+        "endChar": 13
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aaca24d3_6706ab36",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ee99d2c6_08f2915f",
       "range": {
         "startLine": 325,
         "startChar": 0,
@@ -186,6 +330,30 @@
     },
     {
       "key": {
+        "uuid": "ac746aa8_6237e12e",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4fdc5c57_d915ae92",
+      "range": {
+        "startLine": 340,
+        "startChar": 3,
+        "endLine": 340,
+        "endChar": 21
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "794fd73d_e8ef0f7b",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -197,6 +365,30 @@
       "writtenOn": "2019-01-21T03:29:36Z",
       "side": 1,
       "message": "allign with above line",
+      "range": {
+        "startLine": 342,
+        "startChar": 0,
+        "endLine": 344,
+        "endChar": 31
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d2ecce39_c74ae65d",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "794fd73d_e8ef0f7b",
       "range": {
         "startLine": 342,
         "startChar": 0,
@@ -232,6 +424,30 @@
     },
     {
       "key": {
+        "uuid": "2a439097_3068666f",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eb556515_ecbfde0c",
+      "range": {
+        "startLine": 348,
+        "startChar": 0,
+        "endLine": 351,
+        "endChar": 27
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "40f0edb3_69f7a018",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -243,6 +459,30 @@
       "writtenOn": "2019-01-21T03:29:36Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 362,
+        "startChar": 0,
+        "endLine": 364,
+        "endChar": 6
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96d52c62_f20bec1b",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40f0edb3_69f7a018",
       "range": {
         "startLine": 362,
         "startChar": 0,
@@ -278,6 +518,30 @@
     },
     {
       "key": {
+        "uuid": "678b3a6e_129c443a",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "19f77d3f_9fc31d54",
+      "range": {
+        "startLine": 368,
+        "startChar": 0,
+        "endLine": 374,
+        "endChar": 13
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "079024c2_57b8cb87",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -289,6 +553,30 @@
       "writtenOn": "2019-01-21T03:29:36Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 383,
+        "startChar": 0,
+        "endLine": 387,
+        "endChar": 27
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fe15775a_68999ca8",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "079024c2_57b8cb87",
       "range": {
         "startLine": 383,
         "startChar": 0,
@@ -324,6 +612,30 @@
     },
     {
       "key": {
+        "uuid": "d96907b3_1491d86a",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "982438bd_a67e87ea",
+      "range": {
+        "startLine": 391,
+        "startChar": 0,
+        "endLine": 394,
+        "endChar": 20
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "54911daf_43705d8f",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -335,6 +647,30 @@
       "writtenOn": "2019-01-21T03:31:04Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 401,
+        "startChar": 0,
+        "endLine": 403,
+        "endChar": 6
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "26c8611b_d491d9dc",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 403,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54911daf_43705d8f",
       "range": {
         "startLine": 401,
         "startChar": 0,
@@ -370,6 +706,30 @@
     },
     {
       "key": {
+        "uuid": "1051133c_c1ad20d8",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "72de7f58_3327834c",
+      "range": {
+        "startLine": 407,
+        "startChar": 0,
+        "endLine": 413,
+        "endChar": 13
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a3b0dab1_9993c51b",
         "filename": "docs/git.rst",
         "patchSetId": 13
@@ -381,6 +741,30 @@
       "writtenOn": "2019-01-21T03:31:04Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 419,
+        "startChar": 0,
+        "endLine": 422,
+        "endChar": 31
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "49101f2d_32e6d36c",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-01-21T04:55:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3b0dab1_9993c51b",
       "range": {
         "startLine": 419,
         "startChar": 0,
