@@ -1,0 +1,326 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "64131bfb_ee07b277",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "PS update the commit message you are fixing this.",
+      "range": {
+        "startLine": 157,
+        "startChar": 7,
+        "endLine": 157,
+        "endChar": 15
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baba5b27_290d00ae",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "Align with the above line, prefix 3 spaces in this line. Or you will lose the ordered numbering with this.",
+      "range": {
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 37
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aeced81_a4552247",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "Align with the above line, prefix 3 ws in both lines.",
+      "range": {
+        "startLine": 296,
+        "startChar": 0,
+        "endLine": 298,
+        "endChar": 38
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ac620bef_2d2d6162",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "Allign with above line, prefix 3 ws in all 3 lines.\n\nex: \n\n#. Rebase against master\n\n   .. code-block:: bash\n\n      git fetch origin\n      git rebase origin/master",
+      "range": {
+        "startLine": 302,
+        "startChar": 0,
+        "endLine": 305,
+        "endChar": 27
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "90fa6ba6_98fccb3b",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "allignment required",
+      "range": {
+        "startLine": 308,
+        "startChar": 0,
+        "endLine": 311,
+        "endChar": 18
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "89b34595_23752b61",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 315,
+        "startChar": 0,
+        "endLine": 318,
+        "endChar": 6
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee99d2c6_08f2915f",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "allignment required",
+      "range": {
+        "startLine": 325,
+        "startChar": 0,
+        "endLine": 330,
+        "endChar": 13
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4fdc5c57_d915ae92",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "Create a new branch",
+      "range": {
+        "startLine": 340,
+        "startChar": 3,
+        "endLine": 340,
+        "endChar": 21
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "794fd73d_e8ef0f7b",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "allign with above line",
+      "range": {
+        "startLine": 342,
+        "startChar": 0,
+        "endLine": 344,
+        "endChar": 31
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eb556515_ecbfde0c",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "allign with above line",
+      "range": {
+        "startLine": 348,
+        "startChar": 0,
+        "endLine": 351,
+        "endChar": 27
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "40f0edb3_69f7a018",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 362,
+        "startChar": 0,
+        "endLine": 364,
+        "endChar": 6
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19f77d3f_9fc31d54",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 374,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 368,
+        "startChar": 0,
+        "endLine": 374,
+        "endChar": 13
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "079024c2_57b8cb87",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 383,
+        "startChar": 0,
+        "endLine": 387,
+        "endChar": 27
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "982438bd_a67e87ea",
+        "filename": "docs/git.rst",
+        "patchSetId": 13
+      },
+      "lineNbr": 394,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-21T03:29:36Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 391,
+        "startChar": 0,
+        "endLine": 394,
+        "endChar": 20
+      },
+      "revId": "39d9e4ef7582602f495e80c2e5998796287ff9c0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
