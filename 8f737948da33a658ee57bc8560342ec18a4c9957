@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1713954_1d4a451d",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "Workflow 2 can be merged with Workflow 1, making (`git review -d` step optional)",
+      "range": {
+        "startLine": 332,
+        "startChar": 0,
+        "endLine": 332,
+        "endChar": 17
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6506313d_8ad9a9c5",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "Clone the git repository.",
+      "range": {
+        "startLine": 336,
+        "startChar": 3,
+        "endLine": 336,
+        "endChar": 27
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "42624189_d2c27893",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "missing period",
+      "range": {
+        "startLine": 340,
+        "startChar": 3,
+        "endLine": 340,
+        "endChar": 22
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "723ff2b0_4a71338b",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "not required if you have cloned the repo in the previous step.",
+      "range": {
+        "startLine": 346,
+        "startChar": 0,
+        "endLine": 351,
+        "endChar": 30
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5b7484a_a5e61ba4",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "PS change these lines are suggested above.",
+      "range": {
+        "startLine": 359,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 70
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dbbb7e85_d18a2d19",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "Run tox locally (if applicable) to ensure unit tests and lint are passing successfully.",
+      "range": {
+        "startLine": 400,
+        "startChar": 3,
+        "endLine": 400,
+        "endChar": 37
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e13fd217_5628029c",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "rm this line.",
+      "range": {
+        "startLine": 401,
+        "startChar": 3,
+        "endLine": 401,
+        "endChar": 58
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5e66cd68_9beb921b",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 407,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "Go back to the previous step and fix any issues reported by tox.",
+      "range": {
+        "startLine": 407,
+        "startChar": 3,
+        "endLine": 407,
+        "endChar": 70
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "403fdd55_0caf5d55",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "Update and ...",
+      "range": {
+        "startLine": 409,
+        "startChar": 3,
+        "endLine": 409,
+        "endChar": 15
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "75694748_9f4f4382",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T00:31:46Z",
+      "side": 1,
+      "message": "PS remove this as a separate workflow. It\u0027s only a single step which is already documented above on how to remove/del branches. You cna include this in Workflow 3, if you still want to keep it.\n\nA more important workflow \"how user can deal with a merge conflict\"",
+      "range": {
+        "startLine": 419,
+        "startChar": 0,
+        "endLine": 426,
+        "endChar": 31
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
