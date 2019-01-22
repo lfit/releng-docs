@@ -2,6 +2,167 @@
   "comments": [
     {
       "key": {
+        "uuid": "9308749a_a0b1d6a2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2b40c5e2_138b87b3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Git",
+      "range": {
+        "startLine": 9,
+        "startChar": 31,
+        "endLine": 9,
+        "endChar": 34
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ab4082d_5a5e3066",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Add \n\n(Use imperative mood)",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 5
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "635305f4_e2cf379e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 13,
+        "startChar": 2,
+        "endLine": 13,
+        "endChar": 9
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aed4185a_4dab0d02",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Fix",
+      "range": {
+        "startLine": 14,
+        "startChar": 2,
+        "endLine": 14,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1b50a39b_8ee6ef49",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Add",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 15,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "42f68dfb_99e8538d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-01-22T16:54:45Z",
+      "side": 1,
+      "message": "Add",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c4533526_af6a6828",
         "filename": "docs/git.rst",
         "patchSetId": 18
