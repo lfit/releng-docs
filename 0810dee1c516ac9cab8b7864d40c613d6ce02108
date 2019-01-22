@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4533526_af6a6828",
+        "filename": "docs/git.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-01-22T09:41:45Z",
+      "side": 1,
+      "message": "\"if the above does not work, do a force delete.\"\n\nI\u0027d personally, never recommend a force delete. You should look at the error and try to fix it before trying to delete the branch.",
+      "range": {
+        "startLine": 192,
+        "startChar": 3,
+        "endLine": 192,
+        "endChar": 23
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
