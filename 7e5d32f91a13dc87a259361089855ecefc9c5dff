@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "651cc501_6f9e9e2e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f896a0cb_5ea772f4",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 40
+      },
+      "revId": "7e5d32f91a13dc87a259361089855ecefc9c5dff",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "34bcc0d9_34afccb1",
         "filename": "docs/git.rst",
         "patchSetId": 9
@@ -36,6 +60,30 @@
       "writtenOn": "2019-02-06T02:28:22Z",
       "side": 1,
       "message": "blank line separator required here.",
+      "range": {
+        "startLine": 293,
+        "startChar": 0,
+        "endLine": 293,
+        "endChar": 56
+      },
+      "revId": "7e5d32f91a13dc87a259361089855ecefc9c5dff",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "771ca7bf_7c767b99",
+        "filename": "docs/git.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 293,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34bcc0d9_34afccb1",
       "range": {
         "startLine": 293,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "2232af0a_a78f8d6a",
+        "filename": "docs/git.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9cd725c9_fd080be5",
+      "range": {
+        "startLine": 307,
+        "startChar": 0,
+        "endLine": 308,
+        "endChar": 17
+      },
+      "revId": "7e5d32f91a13dc87a259361089855ecefc9c5dff",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c2e8d3fb_235821c0",
         "filename": "docs/git.rst",
         "patchSetId": 9
@@ -82,6 +154,30 @@
       "writtenOn": "2019-02-06T02:28:22Z",
       "side": 1,
       "message": "Go to the",
+      "range": {
+        "startLine": 411,
+        "startChar": 3,
+        "endLine": 411,
+        "endChar": 13
+      },
+      "revId": "7e5d32f91a13dc87a259361089855ecefc9c5dff",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fde4611_f4fece8d",
+        "filename": "docs/git.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2e8d3fb_235821c0",
       "range": {
         "startLine": 411,
         "startChar": 3,
