@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3d566178_9b48132a",
+        "filename": "docs/git.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 412,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-02-06T02:28:22Z",
+      "side": 1,
+      "message": "that",
+      "range": {
+        "startLine": 412,
+        "startChar": 61,
+        "endLine": 412,
+        "endChar": 64
+      },
+      "revId": "be9be271500d890efdf6718dade8b6438f3d3bd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
