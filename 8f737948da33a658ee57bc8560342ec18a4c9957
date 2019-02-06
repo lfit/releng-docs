@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "29e9bc6b_e8b484f2",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1713954_1d4a451d",
+      "range": {
+        "startLine": 332,
+        "startChar": 0,
+        "endLine": 332,
+        "endChar": 17
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6506313d_8ad9a9c5",
         "filename": "docs/git.rst",
         "patchSetId": 17
@@ -36,6 +60,30 @@
       "writtenOn": "2019-01-22T00:31:46Z",
       "side": 1,
       "message": "Clone the git repository.",
+      "range": {
+        "startLine": 336,
+        "startChar": 3,
+        "endLine": 336,
+        "endChar": 27
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e0937435_21c5d63f",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6506313d_8ad9a9c5",
       "range": {
         "startLine": 336,
         "startChar": 3,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "f26691ef_8a910112",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42624189_d2c27893",
+      "range": {
+        "startLine": 340,
+        "startChar": 3,
+        "endLine": 340,
+        "endChar": 22
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "723ff2b0_4a71338b",
         "filename": "docs/git.rst",
         "patchSetId": 17
@@ -82,6 +154,30 @@
       "writtenOn": "2019-01-22T00:31:46Z",
       "side": 1,
       "message": "not required if you have cloned the repo in the previous step.",
+      "range": {
+        "startLine": 346,
+        "startChar": 0,
+        "endLine": 351,
+        "endChar": 30
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "73580ae2_501030ce",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "The patch might be out of date, and needs to be rebased. Or?\nOnly needed when downloading an existing patch though.\nMoved it to only be done when downloading an existing patch.",
+      "parentUuid": "723ff2b0_4a71338b",
       "range": {
         "startLine": 346,
         "startChar": 0,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "d807a02f_8da1a85b",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5b7484a_a5e61ba4",
+      "range": {
+        "startLine": 359,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 70
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dbbb7e85_d18a2d19",
         "filename": "docs/git.rst",
         "patchSetId": 17
@@ -128,6 +248,30 @@
       "writtenOn": "2019-01-22T00:31:46Z",
       "side": 1,
       "message": "Run tox locally (if applicable) to ensure unit tests and lint are passing successfully.",
+      "range": {
+        "startLine": 400,
+        "startChar": 3,
+        "endLine": 400,
+        "endChar": 37
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "27f45761_cfd8e89c",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dbbb7e85_d18a2d19",
       "range": {
         "startLine": 400,
         "startChar": 3,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "83c9f922_6689a451",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 401,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e13fd217_5628029c",
+      "range": {
+        "startLine": 401,
+        "startChar": 3,
+        "endLine": 401,
+        "endChar": 58
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5e66cd68_9beb921b",
         "filename": "docs/git.rst",
         "patchSetId": 17
@@ -174,6 +342,30 @@
       "writtenOn": "2019-01-22T00:31:46Z",
       "side": 1,
       "message": "Go back to the previous step and fix any issues reported by tox.",
+      "range": {
+        "startLine": 407,
+        "startChar": 3,
+        "endLine": 407,
+        "endChar": 70
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ca64583_d58f4970",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 407,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e66cd68_9beb921b",
       "range": {
         "startLine": 407,
         "startChar": 3,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "dace9572_ac35e825",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "403fdd55_0caf5d55",
+      "range": {
+        "startLine": 409,
+        "startChar": 3,
+        "endLine": 409,
+        "endChar": 15
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "75694748_9f4f4382",
         "filename": "docs/git.rst",
         "patchSetId": 17
@@ -220,6 +436,30 @@
       "writtenOn": "2019-01-22T00:31:46Z",
       "side": 1,
       "message": "PS remove this as a separate workflow. It\u0027s only a single step which is already documented above on how to remove/del branches. You cna include this in Workflow 3, if you still want to keep it.\n\nA more important workflow \"how user can deal with a merge conflict\"",
+      "range": {
+        "startLine": 419,
+        "startChar": 0,
+        "endLine": 426,
+        "endChar": 31
+      },
+      "revId": "8f737948da33a658ee57bc8560342ec18a4c9957",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "25b810af_177e0f38",
+        "filename": "docs/git.rst",
+        "patchSetId": 17
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75694748_9f4f4382",
       "range": {
         "startLine": 419,
         "startChar": 0,
