@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "b40d822e_80b5bfb5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9308749a_a0b1d6a2",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2b40c5e2_138b87b3",
         "filename": "/COMMIT_MSG",
         "patchSetId": 18
@@ -71,6 +95,54 @@
     },
     {
       "key": {
+        "uuid": "528fe9d4_f33ba1a7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b40c5e2_138b87b3",
+      "range": {
+        "startLine": 9,
+        "startChar": 31,
+        "endLine": 9,
+        "endChar": 34
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c7368170_cd5bdba1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done, Really not comfortable with Imperative mode",
+      "parentUuid": "6ab4082d_5a5e3066",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 5
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "635305f4_e2cf379e",
         "filename": "/COMMIT_MSG",
         "patchSetId": 18
@@ -82,6 +154,30 @@
       "writtenOn": "2019-01-22T16:54:45Z",
       "side": 1,
       "message": "Remove",
+      "range": {
+        "startLine": 13,
+        "startChar": 2,
+        "endLine": 13,
+        "endChar": 9
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ec68a4b_5d4f7fb8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "635305f4_e2cf379e",
       "range": {
         "startLine": 13,
         "startChar": 2,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "f3dbdc09_eff9fd30",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aed4185a_4dab0d02",
+      "range": {
+        "startLine": 14,
+        "startChar": 2,
+        "endLine": 14,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1b50a39b_8ee6ef49",
         "filename": "/COMMIT_MSG",
         "patchSetId": 18
@@ -128,6 +248,30 @@
       "writtenOn": "2019-01-22T16:54:45Z",
       "side": 1,
       "message": "Add",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 15,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b58f4340_9b963152",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b50a39b_8ee6ef49",
       "range": {
         "startLine": 15,
         "startChar": 2,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "4d9b7d3f_027acc2d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 18
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42f68dfb_99e8538d",
+      "range": {
+        "startLine": 16,
+        "startChar": 2,
+        "endLine": 16,
+        "endChar": 7
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c4533526_af6a6828",
         "filename": "docs/git.rst",
         "patchSetId": 18
@@ -174,6 +342,30 @@
       "writtenOn": "2019-01-22T09:41:45Z",
       "side": 1,
       "message": "\"if the above does not work, do a force delete.\"\n\nI\u0027d personally, never recommend a force delete. You should look at the error and try to fix it before trying to delete the branch.",
+      "range": {
+        "startLine": 192,
+        "startChar": 3,
+        "endLine": 192,
+        "endChar": 23
+      },
+      "revId": "0810dee1c516ac9cab8b7864d40c613d6ce02108",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d2551089_83786ea2",
+        "filename": "docs/git.rst",
+        "patchSetId": 18
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4533526_af6a6828",
       "range": {
         "startLine": 192,
         "startChar": 3,
