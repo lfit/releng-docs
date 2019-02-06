@@ -94,6 +94,54 @@
     },
     {
       "key": {
+        "uuid": "91705189_dfdb495b",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4315cd7c_8d3c45ad",
+      "range": {
+        "startLine": 522,
+        "startChar": 4,
+        "endLine": 522,
+        "endChar": 17
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "203f03c6_3b934aa7",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 522,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d40f87f_cbc6f968",
+      "range": {
+        "startLine": 521,
+        "startChar": 0,
+        "endLine": 522,
+        "endChar": 17
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "52647670_733e4f7d",
         "filename": "docs/git.rst",
         "patchSetId": 5
@@ -105,6 +153,30 @@
       "writtenOn": "2019-01-21T07:09:37Z",
       "side": 1,
       "message": "we need only 3 ws prefixed, but there is 4 ws",
+      "range": {
+        "startLine": 528,
+        "startChar": 0,
+        "endLine": 529,
+        "endChar": 17
+      },
+      "revId": "471a8bc54de2c9e953eb8163726da8363aa52980",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80b8677c_ef320acc",
+        "filename": "docs/git.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 529,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:01:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "52647670_733e4f7d",
       "range": {
         "startLine": 528,
         "startChar": 0,
