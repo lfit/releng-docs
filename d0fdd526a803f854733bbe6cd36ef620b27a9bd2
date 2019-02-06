@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6c46dd97_2b5ecdbd",
+        "filename": "docs/git.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fad03e18_97f6edf2",
+      "range": {
+        "startLine": 380,
+        "startChar": 63,
+        "endLine": 380,
+        "endChar": 66
+      },
+      "revId": "d0fdd526a803f854733bbe6cd36ef620b27a9bd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0d3a50e3_56d7930a",
         "filename": "docs/git.rst",
         "patchSetId": 15
@@ -36,6 +60,30 @@
       "writtenOn": "2019-01-21T07:16:28Z",
       "side": 1,
       "message": "Not very useful, same as deleting a branch.",
+      "range": {
+        "startLine": 420,
+        "startChar": 0,
+        "endLine": 426,
+        "endChar": 31
+      },
+      "revId": "d0fdd526a803f854733bbe6cd36ef620b27a9bd2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f64bb0b7_01d927ae",
+        "filename": "docs/git.rst",
+        "patchSetId": 15
+      },
+      "lineNbr": 426,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-06T05:05:41Z",
+      "side": 1,
+      "message": "Yeap, but that fits the flow... :)\nIf not this one, anything else?",
+      "parentUuid": "0d3a50e3_56d7930a",
       "range": {
         "startLine": 420,
         "startChar": 0,
