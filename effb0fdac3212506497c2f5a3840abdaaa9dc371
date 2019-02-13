@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "57ae3339_b7378344",
+        "filename": "docs/style-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-13T07:04:41Z",
+      "side": 1,
+      "message": "I thought it was 0-9 should be written in words, and higher in numbers. \nhttps://www.quickanddirtytips.com/education/grammar/how-to-write-numbers\nhttps://www.grammarly.com/blog/when-to-spell-out-numbers/\nDon\u0027t seem to be a fixed rule though. All over the place, apart from 0-9...",
+      "parentUuid": "c2a62ccd_c5cb6610",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "66d0c496_501e1fba",
         "filename": "docs/style-guide.rst",
         "patchSetId": 2
@@ -108,6 +132,30 @@
       "side": 1,
       "message": "I might want to read my own style guide. Sheesh.",
       "parentUuid": "66d0c496_501e1fba",
+      "range": {
+        "startLine": 76,
+        "startChar": 2,
+        "endLine": 76,
+        "endChar": 7
+      },
+      "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b6b3698_d972bf1d",
+        "filename": "docs/style-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-02-13T07:04:41Z",
+      "side": 1,
+      "message": "I need to read this document later :)",
+      "parentUuid": "9841bb91_bc227285",
       "range": {
         "startLine": 76,
         "startChar": 2,
