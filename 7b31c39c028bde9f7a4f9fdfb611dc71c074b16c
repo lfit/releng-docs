@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "13d8a4ef_b2659017",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 396,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-02-20T09:39:07Z",
+      "side": 1,
+      "message": "itself",
+      "range": {
+        "startLine": 396,
+        "startChar": 25,
+        "endLine": 396,
+        "endChar": 32
+      },
+      "revId": "7b31c39c028bde9f7a4f9fdfb611dc71c074b16c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c1dbfbc3_8e400cb2",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 398,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-02-20T09:39:07Z",
+      "side": 1,
+      "message": "itself",
+      "range": {
+        "startLine": 398,
+        "startChar": 22,
+        "endLine": 398,
+        "endChar": 29
+      },
+      "revId": "7b31c39c028bde9f7a4f9fdfb611dc71c074b16c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a40f1d76_8e8601d0",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-02-20T09:39:07Z",
+      "side": 1,
+      "message": "mistake",
+      "range": {
+        "startLine": 476,
+        "startChar": 85,
+        "endLine": 476,
+        "endChar": 93
+      },
+      "revId": "7b31c39c028bde9f7a4f9fdfb611dc71c074b16c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "27b1836f_a1b33792",
+        "filename": "docs/git.rst",
+        "patchSetId": 11
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-02-20T09:39:07Z",
+      "side": 1,
+      "message": "Break this line\n\nIn my opinion, this sentence contains too much explanation which is not needed and seems little bit personal which is something we are trying to avoid in the documentation. \n\nI would just remove this line and correct the one in line 476 to: \n\n\"How to download an earlier version of the patch set and push it as the latest version.\"",
+      "range": {
+        "startLine": 476,
+        "startChar": 0,
+        "endLine": 476,
+        "endChar": 205
+      },
+      "revId": "7b31c39c028bde9f7a4f9fdfb611dc71c074b16c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
