@@ -93,7 +93,7 @@ Anonymous HTTP Clone
 
 Recommended if the intention is to view code and not make any contributions:
 
-#. Browse the project and click ``Gerneal``
+#. Browse the project and click ``General``
 
 #. Click ``anonymous http`` tab.
 
@@ -403,7 +403,7 @@ Pre-review
 ----------
 
 Change authors will want to push changes to Gerrit before they are actually
-ready for review. This is an encoraged good practice. It has been the
+ready for review. This is an encouraged good practice. It has been the
 experience of experienced community members that pushing often tends to reduce
 the amount of work and ensures speedy code reviews.
 
@@ -466,7 +466,7 @@ Reviewers will give feedback via Gerrit comments or inline against the diff.
 
    Gerrit inline feedback about a typo
 
-Updated versions of the proposed change get pushed as new patchesets to the same
+Updated versions of the proposed change get pushed as new patchsets to the same
 Gerrit, either by the original submitter or other contributors. Amending proposed changes
 owned by others while reviewing may be more efficient than documenting the problem, -1ing,
 waiting for the original submitter to make the changes, re-reviewing and merging.
@@ -474,7 +474,7 @@ waiting for the original submitter to make the changes, re-reviewing and merging
 Download changes for local manipulation and re-uploaded updates via git-review.
 
 See `Update an existing patch`_ above. Once you have re-uploaded the patch the Gerrit web
-UI for the proposed change will reflect the new patcheset.
+UI for the proposed change will reflect the new patchset.
 
 .. figure:: _static/gerrit-patch-update-history.png
 
