@@ -244,28 +244,27 @@ The ``lftools nexus create repo`` command needs two files as parameters:
      # Using ONAP as example
 
      base_groupId: 'org.onap'
+     email_domain: 'onap.org'
+     global_privs:
+       - 'LF Deployment Role'
      repositories:
       appc:
         password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
         extra_privs:
-          - 'LF Deployment Role'
           - 'Staging: Deployer (autorelease)'
         repositories:
           cdt:
             password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
             extra_privs:
-              - 'LF Deployment Role'
               - 'Staging: Deployer (autorelease)'
       aaf:
         password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
         extra_privs:
-          - 'LF Deployment Role'
           - 'Staging: Deployer (autorelease)'
         repositories:
           sms:
             password: 'NjPAd1ZZ5RbDalZy4ROHaApb4Bk3buTU'
             extra_privs:
-              - 'LF Deployment Role'
               - 'Staging: Deployer (autorelease)'
 
 appc is the parent for cdt and aaf is the parent of sms.
@@ -273,7 +272,9 @@ The projects created will be: appc, appc-cdt, aaf and aaf-sms.
 
 .. note::
 
-   ``extra_privs`` could have a different name between LF projects.
+   'Staging: Deployer (autorelease)' in the above example is in the
+   ``extra_privs`` section as an example. If it applies to all repos, it can be
+   part of the ``global_privs`` section.
 
 * `-s, --settings` Configuration file with all the admin settings
 
@@ -285,8 +286,6 @@ The projects created will be: appc, appc-cdt, aaf and aaf-sms.
 
      user: 'admin'
      password: 'admin123'
-
-     email_domain: 'onap.org'
 
 After running `lftools nexus create repo -c <the_repo_config> -s <your_settings_config>`,
 the script will create all repos, users, roles and privileges. Also, the `Repository Targets`
