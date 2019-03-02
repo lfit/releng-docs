@@ -22,6 +22,30 @@
       "revId": "c37879043465290df24428d021def33002a02d06",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f100121f_e2b2c146",
+        "filename": "docs/infra/nexus.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2019-03-02T00:52:38Z",
+      "side": 0,
+      "message": "I made a code change to read this from config.yaml rather than settings.yaml.\nsettings.yaml is just connection information, while config.yaml is the repo configuration. Since the email_domain is used as part of the config rather than the connection, it belongs in config.yaml.",
+      "parentUuid": "2ad73a4c_71ca709f",
+      "range": {
+        "startLine": 289,
+        "startChar": 3,
+        "endLine": 289,
+        "endChar": 29
+      },
+      "revId": "c37879043465290df24428d021def33002a02d06",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
