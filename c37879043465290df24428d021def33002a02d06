@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ad73a4c_71ca709f",
+        "filename": "docs/infra/nexus.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-03-02T00:32:50Z",
+      "side": 0,
+      "message": "Do not remove this. It is needed for the users emails \nhttps://nexus.onap.org/#security-users",
+      "range": {
+        "startLine": 289,
+        "startChar": 3,
+        "endLine": 289,
+        "endChar": 29
+      },
+      "revId": "c37879043465290df24428d021def33002a02d06",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
