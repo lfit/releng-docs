@@ -69,6 +69,30 @@
       "revId": "f2a47dd92d65e5fca110e1a1586043d0af32ba8d",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc95c7ab_1d9811e7",
+        "filename": "docs/infra/nexus.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2019-03-07T22:30:33Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "0445867e_16c10599",
+      "range": {
+        "startLine": 275,
+        "startChar": 37,
+        "endLine": 275,
+        "endChar": 67
+      },
+      "revId": "f2a47dd92d65e5fca110e1a1586043d0af32ba8d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
