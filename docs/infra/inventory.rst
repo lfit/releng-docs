@@ -130,8 +130,7 @@ Inventory
    * - Tungsten Fabric
      - https://gerrit.tungsten.io
      - N/A
-       https://jira.tungsten.io
-     - N/A
+     - https://jira.tungsten.io
      - N/A
      - N/A
      - N/A
