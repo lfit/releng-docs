@@ -97,6 +97,16 @@ Inventory
      - N/A
      - https://iotivity.biterg.io
 
+   * - ODPI
+     - https://github.com/odpi
+     - https://jenkins.odpi.org
+       https://jenkins.odpi.org/sandbox
+     - N/A
+     - https://nexus.odpi.org
+     - N/A
+     - https://sonar.odpi.org
+     - N/A
+
    * - ONAP
      - https://gerrit.onap.org
      - https://jenkins.onap.org
