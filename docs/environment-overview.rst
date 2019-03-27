@@ -59,7 +59,7 @@ shipping mechanisms that we use for capturing the console logs require that the
 CI infrastructure be open to the public. To improve the log storage, as well as
 avoid potential issues with licensing for JIRA and Confluence the recommendation
 for projects is stay in pre-formation for as short a time as possible or if
-possible, skip a restricted formation phased altogether.
+possible, skip a restricted formation phase altogether.
 
 Preparation for code seeds
 ==========================
