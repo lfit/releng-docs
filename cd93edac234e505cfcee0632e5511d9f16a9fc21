@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "930021f9_07f1d538",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-04-04T20:59:53Z",
+      "side": 1,
+      "message": "\"having\" sounds less personal\n\nor just \"requires lftools\" ...",
+      "range": {
+        "startLine": 300,
+        "startChar": 28,
+        "endLine": 300,
+        "endChar": 41
+      },
+      "revId": "cd93edac234e505cfcee0632e5511d9f16a9fc21",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ce2f340_8c3bc620",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-04-04T20:59:53Z",
+      "side": 1,
+      "message": "\"the ``jenkins_jobs.ini`` file.\"\n\nTo make it less personal",
+      "range": {
+        "startLine": 304,
+        "startChar": 63,
+        "endLine": 305,
+        "endChar": 32
+      },
+      "revId": "cd93edac234e505cfcee0632e5511d9f16a9fc21",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
