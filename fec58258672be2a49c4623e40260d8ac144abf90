@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "51de6c7d_6c190508",
+        "filename": ".coafile",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-04-04T22:13:57Z",
+      "side": 1,
+      "message": "instead we should add this link to the linkcheck_ignore list which already exists.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 61
+      },
+      "revId": "fec58258672be2a49c4623e40260d8ac144abf90",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
