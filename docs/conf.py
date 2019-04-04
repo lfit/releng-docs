@@ -27,6 +27,7 @@ linkcheck_ignore = [
     'https://gerrit.linuxfoundation.org/infra/#/settings/http-password',
     'https://jenkins.acumos.org.*',
     'https://build.automotivelinux.org.*',
+    'https://build.automotivelinux.org/sandbox',
     'https://.*.example.org.*',
     'https://git.opendaylight.org/gerrit/#/settings/gpg-keys',
     'https://wiki.debian.org/meetbot',  # SNI link needs Python 2.7.9+
