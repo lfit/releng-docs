@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "682ec4a8_c19ba798",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-04-05T00:19:59Z",
+      "side": 1,
+      "message": "\"the cloud configuration\"\n\nSounds better",
+      "revId": "eb43849da780499b5f580a5234aa9bfea0d87589",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
