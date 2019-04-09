@@ -218,7 +218,7 @@ Bootstrap common-packer and initial builder
 
    #. Navigate to ``https://openstack-cloud.example.org/project/key_pairs``
    #. Import the contents of ``/tmp/jenkins.pub`` into the OpenStack cloud
-      provider account with the keypair name ``jenkins``
+      provider account with the keypair name ``jenkins-ssh``
 
 #. Navigate to ``https://jenkins.example.org/configfiles/selectProvider``
 #. Create a ``OpenStack User Data`` file with the following specs:
@@ -276,13 +276,13 @@ Bootstrap common-packer and initial builder
          SECURITY_GROUPS=default
          AVAILABILITY_ZONE=ca-ymq-2
          STARTUP_TIMEOUT=600000
-         KEY_PAIR_NAME=jenkins
+         KEY_PAIR_NAME=jenkins-ssh
          NUM_EXECUTORS=1
          JVM_OPTIONS=
          FS_ROOT=/w
          RETENTION_TIME=0
 
-   #. Create ``jenkins-config/clouds/openstack/odlvex/centos7-builder-2c-1g.cfg``
+   #. Create ``jenkins-config/clouds/openstack/cattle/centos7-builder-2c-1g.cfg``
 
       .. code-block:: bash
 
@@ -295,17 +295,23 @@ Bootstrap common-packer and initial builder
 
          This step requires ``crudini`` tool, install if necessary.
 
-      Set ``jenkins_silos`` to match the config section name in the
-      previous step.
+      .. note::
 
-      Run the following commands (Ignore the ``Section not found: production``
-      error):
+         This step requires having lftools available on your path and a
+         ``~/.config/jenkins_jobs/jenkins_jobs.ini`` configured with Jenkins
+         credentials.
+
+      Set ``jenkins_silos`` to match the config section name in the
+      ``jenkins_jobs.ini`` file.
+
+      Run the following commands:
 
       .. code-block:: bash
 
          export WORKSPACE=$(pwd)
          export jenkins_silos=production
          bash ./jjb/global-jjb/shell/jenkins-configure-clouds.sh
+         # OPTIONAL: view the created script
          cat archives/groovy-inserts/production-cloud-cfg.groovy
 
       Then navigate to
@@ -322,22 +328,8 @@ Bootstrap common-packer and initial builder
          git commit -sm "Add OpenStack cloud configuration"
          git push
 
-#. Navigate to ``https://jenkins.example.org/configure``
-#. Click ``Add a new cloud`` > ``Cloud (OpenStack)``
-#. Configure the cloud
-
-   .. code-block:: none
-      :caption: example
-
-      Cloud Name: cattle
-      End Point URL: https://auth.vexxhost.net/v3/
-      Ignore unverified SSL certificates: false
-      Credential: openstack-cloud-credential
-      Region: ca-ymq-1
-
-   .. note::
-
-      The configuration here is temporary to bootstrap
+#. Navigate to ``https://jenkins.example.org/configure`` and verify the cloud
+   configuration.
 
 .. _infra-bootstrap-global-jjb:
 
