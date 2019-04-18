@@ -22,5 +22,5 @@ these addresses depending on which project helpdesk you wish to reach:
 * Tungsten Fabric: helpdesk@tungsten.io
 
 If your project is not listed here you can send your inquiry to the Generic
-releng helpdesk channel helpdesk@rt.linuxfoundation.org along with the name
+RelEng helpdesk channel releng@rt.linuxfoundation.org along with the name
 of the project in the subject line.
