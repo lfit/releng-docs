@@ -11,7 +11,7 @@ Setup DCO
 
 To setup a DCO we require configuring probot for our GitHub Organization.
 
-#. Navigate to https://github.com/integration/dco
+#. Navigate to https://github.com/apps/dco
 #. Click ``Configure`` at the top right of the page
 #. Choose the Organization to deploy the DCO to
 #. Set ``All repositories`` and ``Save``

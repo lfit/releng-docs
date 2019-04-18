@@ -68,7 +68,7 @@ Security Configuration
 Security recommendations for Jenkins.
 
 #. Install the `OWASP Markup Formater Plugin
-   <https://wiki.jenkins.io/display/JENKINS/OWASP+Markup+Formatter+Plugin+("Safe+HTML"+formatter)>`_
+   <http://wiki.jenkins-ci.org/display/JENKINS/OWASP+Markup+Formatter+Plugin>`_
 #. Navigate to `https://jenkins.example.org/configureSecurity/`
 #. Configure the following:
 
