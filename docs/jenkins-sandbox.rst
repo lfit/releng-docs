@@ -208,13 +208,13 @@ following command to push the job to the Sandbox:
 
 .. code-block:: bash
 
-   jenkins-jobs update jjb/ <job-name>
+   jenkins-jobs update -j jjb/ <job-name>
 
 For Example:
 
 .. code-block:: bash
 
-   jenkins-jobs update jjb/ ci-management-jjb-merge
+   jenkins-jobs update -j jjb/ ci-management-jjb-merge
 
 Delete a Job
 ^^^^^^^^^^^^
@@ -223,13 +223,13 @@ Execute the following command to Delete a job from Sandbox:
 
 .. code-block:: bash
 
-   jenkins-jobs delete jjb/ <job-name>
+   jenkins-jobs delete -j jjb/ <job-name>
 
 For Example:
 
 .. code-block:: bash
 
-   jenkins-jobs delete jjb/ ci-management-jjb-merge
+   jenkins-jobs delete -j jjb/ ci-management-jjb-merge
 
 You can also delete the job from the UI options in Jenkins Sandbox.
 
