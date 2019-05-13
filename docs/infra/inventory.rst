@@ -137,6 +137,16 @@ Inventory
      - N/A
      - https://opnfv.biterg.io
 
+   * - O-RAN
+     - https://gerrit.o-ran-sc.org
+     - https://jenkins.o-ran-sc.org
+       https://jenkins.o-ran-sc.org/sandbox
+     - https://jira.o-ran-sc.org
+     - https://nexus.o-ran-sc.org
+     - https://nexus3.o-ran-sc.org
+     - https://sonarcloud.io/organizations/o-ran-sc/projects
+     - N/A
+
    * - Tungsten Fabric
      - https://gerrit.tungsten.io
      - N/A
