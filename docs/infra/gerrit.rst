@@ -82,6 +82,36 @@ Initial configuration (required once)
 Repository replication setup (repeat for each repository)
 ---------------------------------------------------------
 
+.. note::
+
+   After initial setups, descibed above gerrit project creation, github repo creation
+   and gerrit replication are now done with lftools commands.
+
+
+* :doc:`lftools <lftools:commands/index>`
+
+To create_repo, clone_repo, create_groups_file and add_gitreview:
+
+.. code-block:: bash
+
+    lftools gerrit create [OPTIONS] GERRIT_URL LDAP_GROUP REPO USER
+
+To create a github repo:
+
+.. code-block:: bash
+
+    lftools github create-repo --sparse ORGANIZATION REPOSITORY DESCRIPTION
+
+To enable replication:
+
+.. code-block:: bash
+
+    lftools gerrit create --enable GERRIT_URL LDAP_GROUP REPO USER
+
+
+Manual Process
+--------------
+
 Perform the following in each repository mirrored from Gerrit
 
 #. Create the repository in the GitHub organization replacing any
