@@ -31,6 +31,7 @@ linkcheck_ignore = [
     'https://.*.example.org.*',
     'https://git.opendaylight.org/gerrit/#/settings/gpg-keys',
     'https://wiki.debian.org/meetbot',  # SNI link needs Python 2.7.9+
+    'https://iotivity.biterg.io'
 ]
 
 def setup(app):
