@@ -17,6 +17,7 @@ these addresses depending on which project helpdesk you wish to reach:
 * Hyperledger: helpdesk@hyperledger.org
 * IoTivity: helpdesk@iotivity.org
 * LF Edge: helpesk@lfedge.org
+* ODPi: helpdesk@odpi.org
 * ONAP: helpdesk@onap.org
 * OpenDaylight: helpdesk@opendaylight.org
 * OPNFV: helpdesk@opfnv.org
