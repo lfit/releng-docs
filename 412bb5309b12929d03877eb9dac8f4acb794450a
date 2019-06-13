@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "277d96f3_84541761",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 489,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-06-13T11:32:45Z",
+      "side": 1,
+      "message": "Perhaps something like\nGERRIT_REFSPEC \u003d \u003cFrom Gerrit download patch\u003e ## Sample \"refs/changes/30/15830/6\"",
+      "revId": "412bb5309b12929d03877eb9dac8f4acb794450a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71f7c527_de6a6b10",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-06-13T11:32:45Z",
+      "side": 1,
+      "message": "Don\u0027t we need \u0027pip install -r requirements.txt\u0027 as well?",
+      "range": {
+        "startLine": 498,
+        "startChar": 0,
+        "endLine": 498,
+        "endChar": 1
+      },
+      "revId": "412bb5309b12929d03877eb9dac8f4acb794450a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
