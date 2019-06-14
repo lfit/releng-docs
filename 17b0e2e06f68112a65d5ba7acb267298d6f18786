@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0777f503_cb2c902b",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2019-06-14T21:28:33Z",
+      "side": 1,
+      "message": "... issues requiring input or action from members of the Linux Foundation IT staff.",
+      "range": {
+        "startLine": 8,
+        "startChar": 58,
+        "endLine": 9,
+        "endChar": 3
+      },
+      "revId": "17b0e2e06f68112a65d5ba7acb267298d6f18786",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
