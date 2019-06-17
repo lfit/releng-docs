@@ -20,7 +20,7 @@ We can help you faster and better if you provide a detailed explanation of the
 problem in the description field of your new support request. Once you submit
 the request, you can track its status by selecting "Requests->My Requests" in
 the top-right of the Service Desk interface. If there are any changes to your
-request, you will receive an automated email notificaiton.
+request, you will receive an automated email notification.
 
 Our response time to routine support requests will vary depending on the nature
 of the request and we will generally take care of issues during US business hours.
