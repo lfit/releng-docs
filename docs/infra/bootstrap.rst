@@ -254,7 +254,8 @@ Bootstrap common-packer and initial builder
       ``jenkins-config/clouds/openstack/cattle/cloud.cfg``
 
       Replace ``<BUILD_IMAGE_NAME>`` and ``<NETWORK_ID>`` in the below file
-      with the details for your cloud.
+      with the details for your cloud. ``<NETWORK_ID>`` can be found in
+      https://dashboard.vexxhost.net/project/networks/
 
       .. code-block:: bash
          :caption: jenkins-config/clouds/openstack/cattle/cloud.cfg
@@ -293,7 +294,8 @@ Bootstrap common-packer and initial builder
 
       .. note::
 
-         This step requires ``crudini`` tool, install if necessary.
+         This step requires ``crudini`` tool, install from your package manager
+         to avoid python 2 vs 3 problems in your virtualenv.
 
       .. note::
 
