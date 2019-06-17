@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9cd35fcd_d92d797c",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-06-17T21:25:00Z",
+      "side": 1,
+      "message": "this should be a note and link in quotes, since this is not in any block.\n\n``https://dashboard.vexxhost.net/project/networks/``",
+      "range": {
+        "startLine": 257,
+        "startChar": 38,
+        "endLine": 258,
+        "endChar": 54
+      },
+      "revId": "16ffc21da5e0bd6d0d37314e820812ec286c2b34",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
