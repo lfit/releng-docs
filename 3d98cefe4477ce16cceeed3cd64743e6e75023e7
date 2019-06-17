@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2089cac5_c0a64af5",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-06-17T18:47:44Z",
+      "side": 1,
+      "message": "notification",
+      "range": {
+        "startLine": 23,
+        "startChar": 45,
+        "endLine": 23,
+        "endChar": 57
+      },
+      "revId": "3d98cefe4477ce16cceeed3cd64743e6e75023e7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
