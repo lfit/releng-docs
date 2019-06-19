@@ -29,8 +29,9 @@ pushing job templates to the production instance.
 To access the Sandbox use: jenkins.example.org/sandbox
 
 The access to the Sandbox uses the same LFID used in the production Jenkins
-instance, but in this case a new `LF Helpdesk <mailto:helpdesk@rt.linuxfoundation.org>`_ ticket
-(for the related project) needs creation to request the sandbox access.
+instance, but in this case a new `LF Helpdesk
+<https://docs.releng.linuxfoundation.org/en/latest/helpdesk.html>`_ ticket
+needs creation to request the sandbox access.
 
 .. todo:: Link to Opening Helpdesk ticket docs
 
