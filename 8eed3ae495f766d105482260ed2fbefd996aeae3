@@ -22,6 +22,30 @@
       "revId": "8eed3ae495f766d105482260ed2fbefd996aeae3",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ee97f1f0_92932ae0",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2019-06-19T21:08:06Z",
+      "side": 1,
+      "message": "I actually had initially done that, because I really dislike this wording. However, coala complains about \"needs to be\" as being in the passive voice (probably why this awkward wording was created in the first place), so I changed it back.",
+      "parentUuid": "48ba69e9_6bd13bef",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 1
+      },
+      "revId": "8eed3ae495f766d105482260ed2fbefd996aeae3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
     }
   ]
 }
