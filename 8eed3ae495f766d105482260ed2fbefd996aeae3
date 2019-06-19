@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "48ba69e9_6bd13bef",
+        "filename": "docs/jenkins-sandbox.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-06-19T20:56:28Z",
+      "side": 1,
+      "message": "perhpas rephrase to something like...\nneeds to be created to request access to the sandbox",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 1
+      },
+      "revId": "8eed3ae495f766d105482260ed2fbefd996aeae3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
