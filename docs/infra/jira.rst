@@ -117,7 +117,7 @@ Post configuration
 
 * Inform LF Helpdesk about new Jira instance
 
-  Send an email to helpdesk@rt.linuxfoundation.org as follows:
+  Create a new :ref:`Helpdesk <lfdocs-helpdesk>` ticket with the following text:
 
   .. code-block:: none
 
