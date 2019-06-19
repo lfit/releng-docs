@@ -475,4 +475,42 @@ to test compared to production Jenkins.
 Documentation on using the Jenkins Sandbox and uploading jobs is available
 :doc:`here <jenkins-sandbox>`.
 
+How to test unmerged CR in global-jjb or lftools with Jenkins
+=============================================================
+
+To test one or more changes in review state on the global-jjb or lftools
+repository with a Jenkins job's on sandbox, insert the sample code in the
+relevant builder section on the job. This reduces the number of regressions
+and/or hot fixes required post-release.
+
+Example code for lftools changes:
+
+.. code-block:: bash
+
+   git clone https://gerrit.linuxfoundation.org/infra/releng/lftools /tmp/lftools
+   cd /tmp/lftools
+   # For example replace ${GERRIT_REFSPEC} with 'refs/changes/81/15881/2'
+   git fetch "https://gerrit.linuxfoundation.org/infra/releng/lftools" ${GERRIT_REFSPEC} && git cherry-pick --ff --keep-redundant-commits FETCH_HEAD
+   git log --pretty=format:"%h%x09%an%x09%s" -n5
+   virtualenv --quiet "/tmp/lftools-env"
+   set +u
+   source "/tmp/lftools-env/bin/activate"
+   set -u
+   pip install --quiet -r requirements.txt -e .
+   cd ${WORKSPACE}
+
+Example code for global-jjb changes:
+
+.. code-block:: bash
+
+   cd $WORKSPACE/global-jjb
+   # For example replace ${GERRIT_REFSPEC} with 'refs/changes/81/15881/2'
+   git fetch "https://gerrit.linuxfoundation.org/infra/releng/global-jjb" ${GERRIT_REFSPEC} && git cherry-pick --ff --keep-redundant-commits FETCH_HEAD
+   git log --pretty=format:"%h%x09%an%x09%s" -n5
+   cd ${WORKSPACE}
+
+.. note::
+
+   Repeat the line to fetch ${GERRIT_REFSPEC} to test one or more changes.
+
 .. _jjb-docs: http://ci.openstack.org/jenkins-job-builder/
