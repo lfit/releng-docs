@@ -85,6 +85,20 @@ to login to Jenkins.
 
    .. include:: ../_static/ciman/jobbuilder-user-permissions.example
 
+.. _setup-sandbox-access:
+
+Setup Sandbox Access
+--------------------
+
+To allow people access to the Jenkins Sandbox, we require an LDAP group to
+exist with the appropriate people added.  Use :doc:`lftools lfidapi create-group <lftools:commands/lfidapi>`
+to create a group called ``$project-jenkins-sandbox-access`` and add any initial
+members you might need.
+
+#. Go to https://jenkins.example.org/configureSecurity and add the group with:
+
+   .. include:: ../_static/ciman/sandbox-access-permissions.example
+
 .. _infra-bootstrap-ci-management:
 
 ci-management repo
