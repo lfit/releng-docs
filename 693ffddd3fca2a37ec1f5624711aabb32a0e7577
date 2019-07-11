@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "698e1007_1dbebad6",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-11T19:18:27Z",
+      "side": 1,
+      "message": "Long line! lines should be no longer than 80 char",
+      "revId": "693ffddd3fca2a37ec1f5624711aabb32a0e7577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0a897595_7d468c2a",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-11T19:18:27Z",
+      "side": 1,
+      "message": "Long line! lines should be no longer than 80 char",
+      "revId": "693ffddd3fca2a37ec1f5624711aabb32a0e7577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9407465e_74d09fe0",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-11T19:18:27Z",
+      "side": 1,
+      "message": "Long line! lines should be no longer than 80 char",
+      "revId": "693ffddd3fca2a37ec1f5624711aabb32a0e7577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fcbb9aa5_02de2e0c",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-11T19:18:27Z",
+      "side": 1,
+      "message": "Long line! lines should be no longer than 80 char",
+      "revId": "693ffddd3fca2a37ec1f5624711aabb32a0e7577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f0ab471e_a653cc17",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-11T19:18:27Z",
+      "side": 1,
+      "message": "Dangling whitespace",
+      "revId": "693ffddd3fca2a37ec1f5624711aabb32a0e7577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "596ee13f_223d68cf",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-11T19:18:27Z",
+      "side": 1,
+      "message": "Dangling whitespace",
+      "revId": "693ffddd3fca2a37ec1f5624711aabb32a0e7577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
