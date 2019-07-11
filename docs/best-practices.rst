@@ -127,3 +127,70 @@ Jenkins Job Builder
 
 .. noqa
 .. _google-blog-code-health: https://testing.googleblog.com/2017/06/code-health-too-many-comments-on-your.html
+
+GitHub Workflow
+===============
+
+When working directly on Github (as opposed to Gerrit systems mirrored to
+Github), you'll need to create a fork and use branches/ pull requests to get
+changes merged to the main repo. Here are some instructions on creating and
+maintaining your fork.
+
+Forking and working
+-------------------
+
+#. Fork your `$PROJECT/$REPO` to your personal Github account
+
+   * NOTE if you are forking the ci-management repository you should consider
+      changing the local fork name after you have forked it to be
+      `$PROJECT-ci-management` this has 2 benefits:
+
+      1. Let you know which upstream project the ci-management repo it's for
+
+      2. Allow you to fork the *next* ci-management repository that you
+      might need to work on
+
+#. Clone **your** repo
+
+   .. code-block:: bash
+
+      git clone git@github.com:$MYACCOUNT/$REPO
+#. Setup an upstream remote
+
+   .. code-block:: bash
+
+      git remote add upstream git@github.com:$PROJECT/$REPO
+#. Create local branch and do your work (same as with gerrit)
+
+   .. code-block:: bash
+
+      git checkout -b $feature
+#. Push your local branch to your fork, preferably as a branch on your fork
+
+   .. code-block:: bash
+
+      git push origin $feature
+#. Raise PR against the upstream (note: when pushing a branch from your local
+   to your fork the CLI gives you a URL for raising the PR)
+
+Care and feeding of your fork
+-----------------------------
+
+Your fork will fall out of sync with the upstream repo so be sure to tend
+   to your fork before working on it.
+
+#. Fetch upstream changes from the remote you've already added:
+
+   .. code-block:: bash
+
+      git fetch upstream
+#. Switch to primary branch and refresh your master branch
+
+   .. code-block:: bash
+
+      git checkout master && git pull --rebase upstream master
+#. Update Github with your synced fork:
+
+   .. code-block:: bash
+
+      git push origin
