@@ -22,6 +22,30 @@
       "revId": "9e504becfb1d762e931b1228343c3c0c52e67427",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01b8f657_a2fbb7d3",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-18T15:44:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc95c97a_a7a67917",
+      "range": {
+        "startLine": 48,
+        "startChar": 47,
+        "endLine": 48,
+        "endChar": 68
+      },
+      "revId": "9e504becfb1d762e931b1228343c3c0c52e67427",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
