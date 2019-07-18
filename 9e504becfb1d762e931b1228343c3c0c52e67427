@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc95c97a_a7a67917",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2019-07-18T15:33:21Z",
+      "side": 1,
+      "message": "This one still needs to be cleaned up. Should read \"that it is relevant with\".",
+      "range": {
+        "startLine": 48,
+        "startChar": 47,
+        "endLine": 48,
+        "endChar": 68
+      },
+      "revId": "9e504becfb1d762e931b1228343c3c0c52e67427",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
