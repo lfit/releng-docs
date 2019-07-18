@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "81c4fb34_2092278c",
+        "filename": "docs/helpdesk.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-07-18T02:40:38Z",
+      "side": 1,
+      "message": "typo spelling: receive",
+      "range": {
+        "startLine": 31,
+        "startChar": 36,
+        "endLine": 31,
+        "endChar": 43
+      },
+      "revId": "0d57830f9b02886a1b18b9033020c7ab365958d3",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0181adf0_f205d813",
         "filename": "docs/helpdesk.rst",
         "patchSetId": 2
