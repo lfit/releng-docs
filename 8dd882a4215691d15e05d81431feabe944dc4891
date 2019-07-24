@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "57ba0d93_bb2ca731",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-07-24T02:04:09Z",
+      "side": 1,
+      "message": "Could we avoid hardcoded links?",
+      "range": {
+        "startLine": 22,
+        "startChar": 88,
+        "endLine": 22,
+        "endChar": 94
+      },
+      "revId": "8dd882a4215691d15e05d81431feabe944dc4891",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb8c669e_11a3fff1",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-07-24T02:04:09Z",
+      "side": 1,
+      "message": "Should we add external link for reference? for instance https://www.howtoforge.com/linux-basics-how-to-install-ssh-keys-on-the-shell",
+      "revId": "8dd882a4215691d15e05d81431feabe944dc4891",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd7b69d1_d31d4972",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-07-24T02:04:09Z",
+      "side": 1,
+      "message": "Could we avoid hardcoded links?",
+      "range": {
+        "startLine": 88,
+        "startChar": 88,
+        "endLine": 88,
+        "endChar": 94
+      },
+      "revId": "8dd882a4215691d15e05d81431feabe944dc4891",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
