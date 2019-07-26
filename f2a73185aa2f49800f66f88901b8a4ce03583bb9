@@ -1,4 +1,28 @@
 {
   "pushCert": "certificate version 0.1\npusher 9BC48D34CF1FFDC4 1564023245 -0500\npushee ssh://gerrit.linuxfoundation.org:29418/releng/docs.git\nnonce 1564023245-1197717EEC44DC349BC72929A5881465E96FDC7E\n\n0000000000000000000000000000000000000000 f2a73185aa2f49800f66f88901b8a4ce03583bb9 refs/publish/master/releng-562\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEa+anm2rKD2s8dXlhm8SNNM8f/cQFAl05Gc0ACgkQm8SNNM8f\n/cTb7ggA3modB7is3gAhMMDThmD4oe4O6Q0FWKPC8Qum99v7ZdXVFPIBlWM3unPM\n9iYpIbqqGN7BBLm2Ac7bHY3qAyDBMczvmfLiXlRQJW7exGpKBOYXqb9cQLahHhoo\nbTmCSoYOI0GkBZMGYv8mHetriLIillgzogZOlOML52duLiXTOmBalzNDN8tQnqq5\neF/ScPn6lLZeaPgVGUMz4Z9pbqPd43CmUR+s/hKxQ53vac5WTI7khQMOgLXAZgBT\nQEg59x0aQgFaCSSckTVRr38PPs0/AnhyH+5s0O6kJ5Be7EW3co6eUxBiaXM5Z9ah\nBxP5a/moVIfl9XFQNN0lGOqyFd5Azw\u003d\u003d\n\u003dog/L\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "key": {
+        "uuid": "18d8a7b3_ae84555e",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2019-07-26T13:25:28Z",
+      "side": 1,
+      "message": "This change should be removed, as it will conflict with the change I made to fix this issue. That change has now been merged to master, so this will be a conflict when rebased.",
+      "range": {
+        "startLine": 257,
+        "startChar": 56,
+        "endLine": 257,
+        "endChar": 89
+      },
+      "revId": "f2a73185aa2f49800f66f88901b8a4ce03583bb9",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
 }
