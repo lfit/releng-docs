@@ -254,7 +254,7 @@ Bootstrap common-packer and initial builder
       ``jenkins-config/clouds/openstack/cattle/cloud.cfg``
 
       Replace ``<BUILD_IMAGE_NAME>`` and ``<NETWORK_ID>`` in the below file
-      with the details for your cloud. ``<NETWORK_ID>`` can be found in
+      with the details for your cloud. Find ``<NETWORK_ID>`` at
       https://dashboard.vexxhost.net/project/networks/
 
       .. code-block:: bash
