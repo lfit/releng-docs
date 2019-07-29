@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Jessica Wagantall <jwagantall@linuxfoundation.org>
+Submitted-by: Daniel Pono Takamori <dtakamori@contractor.linuxfoundation.org>
+Submitted-at: Mon, 29 Jul 2019 19:42:36 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/releng/docs/+/16068
+Project: releng/docs
+Branch: refs/heads/master
