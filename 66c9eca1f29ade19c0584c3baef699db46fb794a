@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "19ad3768_79f0c4cf",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-07-29T19:18:12Z",
+      "side": 1,
+      "message": "Jenkins Sandbox",
+      "range": {
+        "startLine": 93,
+        "startChar": 30,
+        "endLine": 93,
+        "endChar": 45
+      },
+      "revId": "66c9eca1f29ade19c0584c3baef699db46fb794a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e3ade5c3_ad255846",
+        "filename": "docs/infra/bootstrap.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2019-07-29T19:18:12Z",
+      "side": 1,
+      "message": "an LDAP group must exist with the appropriate people added.",
+      "range": {
+        "startLine": 93,
+        "startChar": 47,
+        "endLine": 94,
+        "endChar": 37
+      },
+      "revId": "66c9eca1f29ade19c0584c3baef699db46fb794a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    }
+  ]
+}
