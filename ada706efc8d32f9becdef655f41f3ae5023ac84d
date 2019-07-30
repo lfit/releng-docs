@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee284a62_b534d548",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-30T15:09:54Z",
+      "side": 1,
+      "message": "Add to the footer (Just above the Change-Id:)\n\nIssue: RELENG-2189",
+      "revId": "ada706efc8d32f9becdef655f41f3ae5023ac84d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5b5e64c8_778a0662",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-30T15:09:54Z",
+      "side": 1,
+      "message": "Dangling whitespace",
+      "range": {
+        "startLine": 145,
+        "startChar": 65,
+        "endLine": 145,
+        "endChar": 66
+      },
+      "revId": "ada706efc8d32f9becdef655f41f3ae5023ac84d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "80d979a3_27c34940",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-07-30T15:09:54Z",
+      "side": 1,
+      "message": "These should be sub-bullets",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 149,
+        "endChar": 27
+      },
+      "revId": "ada706efc8d32f9becdef655f41f3ae5023ac84d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
