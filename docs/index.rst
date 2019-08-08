@@ -24,6 +24,7 @@ Guides:
    nexus2
    nexus3
    meetbot
+   ssh
 
 .. TODO Release Workflow (RELENG-511)
 .. TODO Javadoc (RELENG-515)
