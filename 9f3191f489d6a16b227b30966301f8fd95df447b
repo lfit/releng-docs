@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 9BC48D34CF1FFDC4 1565282997 -0500\npushee ssh://gerrit.linuxfoundation.org:29418/releng/docs.git\nnonce 1565282997-B994047CA16D207EA97816419261A22B1553B8F5\n\n0000000000000000000000000000000000000000 9f3191f489d6a16b227b30966301f8fd95df447b refs/publish/master/releng562\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEa+anm2rKD2s8dXlhm8SNNM8f/cQFAl1MUrUACgkQm8SNNM8f\n/cQArQf8CdJWLizqGkub2JyAIvbZhLmPL/qEZ+6b5pD9EH8cj9QoAIr5WGLk6oDz\nUYTJNStr9EcCR8NuV1HjeJ6zTmDNkkozrqW5nq2Y0J+lLfrr5QqDxHC89fwm3lnU\ncTHisxTraN+W2mivic3JV+NDDK3LVoOmYV3EE+GUiRVtPMu2lpT9brUzluQvImWM\naw7yLRrJtwnOuAEqelegVq119bQ/XijV7n31qmvbwqI2pBdUeoCS1EdWG7uIVVrZ\nn/1im/gvFtfw7w2jFmHW12XWO8cLE5PfmsPTVGWPniy0x0jzox64siDCLCaUwCHJ\nQFr5zgBXNJ9Dcxxz/0xl6aWz/lfCAQ\u003d\u003d\n\u003dBz4x\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
