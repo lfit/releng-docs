@@ -1,4 +1,158 @@
 {
   "pushCert": "certificate version 0.1\npusher 9BC48D34CF1FFDC4 1565302438 -0500\npushee ssh://gerrit.linuxfoundation.org:29418/releng/docs.git\nnonce 1565302438-56BD4024E8D54C61621AFB80D5F54F0FB8AC0E81\n\n0000000000000000000000000000000000000000 52356082ff2b589bbeb77dbfabbcd95cb1794e42 refs/publish/master/rel562\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEa+anm2rKD2s8dXlhm8SNNM8f/cQFAl1MnqYACgkQm8SNNM8f\n/cSCGQgA2aLsccHLB49sWb8RVMUN3RL7Vwm92sZo+5HTr9g4GVGKWiC6dprfzLEw\nP4rE3K+qrfrzErIElzPa8A0y70AkwoWAX29mSB5b6bMCy58Zgj4TENY3hskwQ6XB\n3YT74KqTJBneo9xXyZDzec0AecpmWpQAb/l6D6FbXjHR9fmcXmQaFfYMdFs2QdxF\n1xj5z6pYRWKNlbGoJ6a80Sc3siowbjQmGnIxRGHMF+BHey6vVi/YQU/AEjpvY7GU\nd2R5nGfFs/eLW0416Q5VoO+IhyRXqH9m91Tr0EhKWzW4h4Ctwo+C8HPSmCkBoaTE\nkYR+fkVmq0/dDpF7x1vBR16z08EMQg\u003d\u003d\n\u003dBxo/\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "key": {
+        "uuid": "9c95f440_83bcaf29",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "This might be clarified to something like \"You can use an existing key if you\u0027d like, but creating a new key per service is a good security practice.\"",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91d4143e_c370d226",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "If you see \"No such file or directory\", then there aren\u0027t any existing keys and you\u0027ll need to create a new one.",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ae3b13b_230b5a02",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "capitalization of SSH",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4a73f807_ea8329de",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "this should not be done as admin but your own user right?",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9b6fc8ba_50359e2e",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"\nsuggest 4096 bit size for security?",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9449237e_a7d9db74",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "see earlier note on line 15",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4da9eb40_61aa3c24",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "capitalization of SSH",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d4f9a7f7_b114d668",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "capitalization of SSH",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8460571_bf6c7fd1",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2019-08-08T22:44:36Z",
+      "side": 1,
+      "message": "see note on line 53",
+      "revId": "52356082ff2b589bbeb77dbfabbcd95cb1794e42",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
 }
