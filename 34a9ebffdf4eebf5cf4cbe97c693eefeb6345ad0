@@ -23,6 +23,30 @@
       "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "91ed77f4_ffaad3c5",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-08-13T21:22:56Z",
+      "side": 1,
+      "message": "I would say that these are the gold standard docs regarding this. https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent",
+      "parentUuid": "906cc864_6168ba10",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 89,
+        "endChar": 0
+      },
+      "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
     }
   ]
 }
