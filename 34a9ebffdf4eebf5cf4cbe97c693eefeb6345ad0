@@ -1,4 +1,28 @@
 {
   "pushCert": "certificate version 0.1\npusher 9BC48D34CF1FFDC4 1565359355 -0500\npushee ssh://gerrit.linuxfoundation.org:29418/releng/docs.git\nnonce 1565359355-4B5ECDF2FDFE3E60D605924C808BF0D5E674F341\n\n0000000000000000000000000000000000000000 34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0 refs/publish/master/rel562\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEa+anm2rKD2s8dXlhm8SNNM8f/cQFAl1NfPsACgkQm8SNNM8f\n/cRsmwgAmhBOEOGDXdskKJkn9bgJyPXZW4IQGzuBR0dIyESaNVWs6jLlvi+KugfJ\nLQkj/JGnPkMVnv7hKJ+A15jUIb2KcRGlLO7qWvjFD7jTnd+wh1jlwJNt+K7YMQ1Z\n6BZozGhS0k2SK4bEUyN6it+IR/BevqMncFp8FgEG8e12mjAolmq8ImcJd1KYmRR6\njG5uWj+nnjqB4WgtTAD1VWwz1RgQ0V0NLjglSCBmuv64FyRAkp4/qHl5a0CZMNNo\n1d8+WTJBRnC+zJh1haiYfsVMeRuXIwJcTe7hC0y3Oi+HfTLfPTiyjQaqiFPN5/6D\nmxiqxkWosPElQm4myhcjYz7risJSbQ\u003d\u003d\n\u003dGf8S\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "key": {
+        "uuid": "906cc864_6168ba10",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-08-13T21:20:38Z",
+      "side": 1,
+      "message": "I would say, ssh-add -L to show ssh keys in the key ring, also there is no mention of adding the key to your key ring.",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 89,
+        "endChar": 0
+      },
+      "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
 }
