@@ -113,7 +113,7 @@ Inventory
      - N/A
      - https://nexus.odpi.org
      - N/A
-     - https://sonar.odpi.org
+     - https://sonarcloud.io/organizations/odpi/projects
      - N/A
      - `ODPi Jenkins <https://p.datadoghq.com/sb/fa2d55142-dc2734651a1b5bf77b787355d600150b>`_
 
