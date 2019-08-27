@@ -47,6 +47,30 @@
       "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f727845b_00e1bfff",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 280
+      },
+      "writtenOn": "2019-08-27T13:42:17Z",
+      "side": 1,
+      "message": "Hey Aric,\n\nThis is the same document that was reviewed and uploaded to confluence for JSD. It was suppose to be generic as per Andy and after his review on it, he had suggested to uploaded to the docs.\nhttps://confluence.linuxfoundation.org/display/ITKB/How+to+generate+SSH+Key\n\nThank You\nMilin",
+      "parentUuid": "91ed77f4_ffaad3c5",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 89,
+        "endChar": 0
+      },
+      "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
