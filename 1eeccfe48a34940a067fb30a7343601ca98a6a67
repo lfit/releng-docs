@@ -1,0 +1,8 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Daniel Pono Takamori <dtakamori@contractor.linuxfoundation.org>
+Code-Review+2: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-by: Andrew Grimberg <agrimberg@linuxfoundation.org>
+Submitted-at: Tue, 27 Aug 2019 17:27:04 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/releng/docs/+/16690
+Project: releng/docs
+Branch: refs/heads/master
