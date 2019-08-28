@@ -10,7 +10,7 @@ Inventory
 
    * - Project
      - SCM (Gerrit / GitHub)
-     - Jenkins
+     - CI Platform
      - Jira
      - Nexus
      - Nexus 3
@@ -55,6 +55,7 @@ Inventory
      - https://github.com/AcademySoftwareFoundation
      - https://jenkins.aswf.io
        https://jenkins.aswf.io/sandbox
+       `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
      - https://jira.aswf.io
      - https://nexus.aswf.io
      - https://nexus3.aswf.io
@@ -106,10 +107,11 @@ Inventory
      - https://iotivity.biterg.io
      - `IoTivity Jenkins <https://p.datadoghq.com/sb/bc58c260b-d0d31af86ffbb1384b80bbb432c71654>`_
 
-   * - ODPI
+   * - ODPi
      - https://github.com/odpi
      - https://jenkins.odpi.org
        https://jenkins.odpi.org/sandbox
+       `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
      - N/A
      - https://nexus.odpi.org
      - N/A
