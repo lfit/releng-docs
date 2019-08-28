@@ -71,6 +71,30 @@
       "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "41466b0e_0af895cc",
+        "filename": "docs/ssh.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 280
+      },
+      "writtenOn": "2019-08-28T18:18:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f727845b_00e1bfff",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 89,
+        "endChar": 0
+      },
+      "revId": "34a9ebffdf4eebf5cf4cbe97c693eefeb6345ad0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
