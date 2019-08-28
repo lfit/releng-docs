@@ -10,7 +10,7 @@ Inventory
 
    * - Project
      - SCM (Gerrit / GitHub)
-     - Jenkins
+     - CI Platform
      - Jira
      - Nexus
      - Nexus 3
@@ -20,8 +20,8 @@ Inventory
 
    * - Acumos
      - https://gerrit.acumos.org
-     - https://jenkins.acumos.org
-       https://jenkins.acumos.org/sandbox
+     - | https://jenkins.acumos.org
+       | https://jenkins.acumos.org/sandbox
      - https://jira.acumos.org
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
@@ -31,8 +31,8 @@ Inventory
 
    * - AGL
      - https://gerrit.automotivelinux.org
-     - https://build.automotivelinux.org
-       https://build.automotivelinux.org/sandbox
+     - | https://build.automotivelinux.org
+       | https://build.automotivelinux.org/sandbox
      - https://jira.automotivelinux.org
      - N/A
      - N/A
@@ -42,8 +42,8 @@ Inventory
 
    * - Akraino
      - https://gerrit.akraino.org
-     - https://jenkins.akraino.org
-       https://jenkins.akraino.org/sandbox
+     - | https://jenkins.akraino.org
+       | https://jenkins.akraino.org/sandbox
      - https://jira.akraino.org
      - https://nexus.akraino.org
      - https://nexus3.akraino.org
@@ -53,8 +53,9 @@ Inventory
 
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
-     - https://jenkins.aswf.io
-       https://jenkins.aswf.io/sandbox
+     - | https://jenkins.aswf.io
+       | https://jenkins.aswf.io/sandbox
+       | `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
      - https://jira.aswf.io
      - https://nexus.aswf.io
      - https://nexus3.aswf.io
@@ -64,8 +65,8 @@ Inventory
 
    * - EdgeX
      - https://github.com/edgexfoundry
-     - https://jenkins.edgexfoundry.org
-       https://jenkins.edgexfoundry.org/sandbox
+     - | https://jenkins.edgexfoundry.org
+       | https://jenkins.edgexfoundry.org/sandbox
      - N/A
      - https://nexus.edgexfoundry.org
      - https://nexus3.edgexfoundry.org
@@ -75,8 +76,8 @@ Inventory
 
    * - FD.io
      - https://gerrit.fd.io
-     - https://jenkins.fd.io
-       https://jenkins.fd.io/sandbox
+     - | https://jenkins.fd.io
+       | https://jenkins.fd.io/sandbox
      - https://jira.fd.io
      - https://nexus.fd.io
      - N/A
@@ -86,8 +87,8 @@ Inventory
 
    * - HyperLedger
      - https://gerrit.hyperledger.org
-     - https://jenkins.hyperledger.org
-       https://jenkins.hyperledger.org/sandbox
+     - | https://jenkins.hyperledger.org
+       | https://jenkins.hyperledger.org/sandbox
      - https://jira.hyperledger.org
      - https://nexus.hyperledger.org
      - https://nexus3.hyperledger.org
@@ -97,8 +98,8 @@ Inventory
 
    * - IoTivity
      - https://gerrit.iotivity.org
-     - https://jenkins.iotivity.org
-       https://jenkins.iotivity.org/sandbox
+     - | https://jenkins.iotivity.org
+       | https://jenkins.iotivity.org/sandbox
      - https://jira.iotivity.org
      - N/A
      - N/A
@@ -106,10 +107,11 @@ Inventory
      - https://iotivity.biterg.io
      - `IoTivity Jenkins <https://p.datadoghq.com/sb/bc58c260b-d0d31af86ffbb1384b80bbb432c71654>`_
 
-   * - ODPI
+   * - ODPi
      - https://github.com/odpi
-     - https://jenkins.odpi.org
-       https://jenkins.odpi.org/sandbox
+     - | https://jenkins.odpi.org
+       | https://jenkins.odpi.org/sandbox
+       | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
      - N/A
      - https://nexus.odpi.org
      - N/A
@@ -119,8 +121,8 @@ Inventory
 
    * - ONAP
      - https://gerrit.onap.org
-     - https://jenkins.onap.org
-       https://jenkins.onap.org/sandbox
+     - | https://jenkins.onap.org
+       | https://jenkins.onap.org/sandbox
      - https://jira.onap.org
      - https://nexus.onap.org
      - https://nexus3.onap.org
@@ -130,8 +132,8 @@ Inventory
 
    * - OpenDaylight
      - https://git.opendaylight.org/gerrit
-     - https://jenkins.opendaylight.org/releng
-       https://jenkins.opendaylight.org/sandbox
+     - | https://jenkins.opendaylight.org/releng
+       | https://jenkins.opendaylight.org/sandbox
      - https://jira.opendaylight.org
      - https://nexus.opendaylight.org
      - https://nexus3.opendaylight.org
@@ -141,8 +143,8 @@ Inventory
 
    * - OPNFV
      - https://gerrit.opnfv.org
-     - https://build.opnfv.org/ci
-       https://sandbox.opnfv.org
+     - | https://build.opnfv.org/ci
+       | https://sandbox.opnfv.org
      - https://jira.opnfv.org
      - N/A
      - N/A
@@ -152,8 +154,8 @@ Inventory
 
    * - O-RAN
      - https://gerrit.o-ran-sc.org
-     - https://jenkins.o-ran-sc.org
-       https://jenkins.o-ran-sc.org/sandbox
+     - | https://jenkins.o-ran-sc.org
+       | https://jenkins.o-ran-sc.org/sandbox
      - https://jira.o-ran-sc.org
      - https://nexus.o-ran-sc.org
      - https://nexus3.o-ran-sc.org
@@ -173,8 +175,8 @@ Inventory
 
    * - Zowe
      - https://github.com/zowe
-     - https://jenkins.zowe.org
-       https://jenkins.zowe.org/sandbox
+     - | https://jenkins.zowe.org
+       | https://jenkins.zowe.org/sandbox
      - N/A
      - N/A
      - N/A
