@@ -492,7 +492,7 @@ Example code for lftools changes:
    # For example replace ${GERRIT_REFSPEC} with 'refs/changes/81/15881/2'
    git fetch "https://gerrit.linuxfoundation.org/infra/releng/lftools" ${GERRIT_REFSPEC} && git cherry-pick --ff --keep-redundant-commits FETCH_HEAD
    git log --pretty=format:"%h%x09%an%x09%s" -n5
-   virtualenv --quiet "/tmp/lftools-env"
+   virtualenv --quiet -p $(which python3) "/tmp/lftools-env"
    set +u
    source "/tmp/lftools-env/bin/activate"
    set -u
