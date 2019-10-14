@@ -53,9 +53,7 @@ Inventory
 
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
-     - | https://jenkins.aswf.io
-       | https://jenkins.aswf.io/sandbox
-       | `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
+     - `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
      - https://jira.aswf.io
      - https://nexus.aswf.io
      - https://nexus3.aswf.io
