@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "377d3eaa_8021e107",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-10-18T05:00:04Z",
+      "side": 1,
+      "message": "Do you need this command to be pip3?\nThese were my commands on my WS.\n\n 1075  mkdir dev\n 1077  sudo pip3 install virtualenv\n 1083  /usr/local/bin/virtualenv dev\n 1084  cd dev\n 1085  . bin/activate\n 1087  git clone ssh://.../lftools\n 1088  cd lftools\n 1089  pip install -r requirements.txt\n 1090  pip install -e .\n 1091  pip install tox",
+      "range": {
+        "startLine": 499,
+        "startChar": 0,
+        "endLine": 499,
+        "endChar": 3
+      },
+      "revId": "3b01051f11fd820829ea6127faa8553a70945928",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
