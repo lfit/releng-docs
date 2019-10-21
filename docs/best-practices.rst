@@ -21,7 +21,8 @@ that they are not hitting any of these):
 **General**
 
 - Does the Git commit message sufficiently describes the change?
-  (Refer to: https://chris.beams.io/posts/git-commit/)
+  (Refer to: https://chris.beams.io/posts/git-commit/ and
+  https://fatbusinessman.com/2019/my-favourite-git-commit)
 - Does the commit message have an 'Issue: <someissue>' in the footer and not
   in the subject line or body?
 - Are there any typos?
