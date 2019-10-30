@@ -25,7 +25,8 @@ Inventory
      - https://jira.acumos.org
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
-     - https://sonar.acumos.org
+     - | https://sonar.acumos.org
+       | https://sonarcloud.io/organizations/acumos/projects
      - N/A
      - `Acumos Jenkins <https://p.datadoghq.com/sb/8b3d6afcf-81d00a49cfa327e4ff422c8ccfee6b2e>`_
 
@@ -47,7 +48,8 @@ Inventory
      - https://jira.akraino.org
      - https://nexus.akraino.org
      - https://nexus3.akraino.org
-     - https://sonar.akraino.org
+     - | https://sonar.akraino.org
+       | https://sonarcloud.io/organizations/akraino-edge-stack/projects
      - N/A
      - `Akraino Jenkins <https://p.datadoghq.com/sb/be5bb4dc7-4a4339214a96eaf4bd75e8515953c4ab>`_
 
@@ -57,7 +59,7 @@ Inventory
      - https://jira.aswf.io
      - https://nexus.aswf.io
      - https://nexus3.aswf.io
-     - N/A
+     - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
      - N/A
      - N/A
 
@@ -68,7 +70,7 @@ Inventory
      - N/A
      - https://nexus.edgexfoundry.org
      - https://nexus3.edgexfoundry.org
-     - N/A
+     - https://sonarcloud.io/organizations/edgexfoundry/projects
      - N/A
      - `EdgeX Jenkins <https://p.datadoghq.com/sb/57e4b2d73-edaf7ba14e20bc461fc369a19b9bfa3f>`_
 
@@ -124,7 +126,8 @@ Inventory
      - https://jira.onap.org
      - https://nexus.onap.org
      - https://nexus3.onap.org
-     - https://sonar.onap.org
+     - | https://sonar.onap.org
+       | https://sonarcloud.io/organizations/onap/projects
      - https://onap.biterg.io
      - `ONAP Jenkins <https://p.datadoghq.com/sb/09907bd64-75f6f514781dd3914ee963a30e5b4155>`_
 
@@ -178,6 +181,6 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - N/A
+     - https://sonarcloud.io/organizations/zowe/projects
      - N/A
      - N/A
