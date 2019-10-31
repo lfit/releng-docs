@@ -20,6 +20,7 @@ Jenkins jobs.
 
     jenkins-sandbox
 
+.. _jenkins-quick-start:
 
 Quick Start
 ===========
@@ -105,6 +106,8 @@ the jobs published in Jenkins.
 This will push the jobs to Gerrit and your jobs will appear in Jenkins once the
 releng/builder or ci-management teams has reviewed and merged your patch.
 
+.. _jenkins-build-minions:
+
 Build minions
 =============
 
@@ -129,6 +132,8 @@ section to understand how the configuration changes get merged.
 
 For details on how to build an image for a particular build flavor, refer to the
 :ref: `Packer Images <lfdocs-packer-images>` section.
+
+.. _jenkins-cloud-cfg:
 
 Cloud configuration (Global Configuration)
 ------------------------------------------
@@ -177,6 +182,8 @@ LFIT configures a cloud and build minions via OpenStack Cloud plugin:
 
       The value should match an available ``Label`` for the node template.
 
+.. _jenkins-build-minion-flavors:
+
 Build minion flavors
 --------------------
 
@@ -185,6 +192,8 @@ This section points to each LF project's build minions availability and flavors.
 * OpenDaylight: https://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex
 
 .. todo:: Add more LF projects build minions links
+
+.. _jenkins-log-server:
 
 Log Server
 ==========
@@ -228,6 +237,8 @@ Nexus log repository. You can access these files through the URL.
 * Jenkins Sandbox:
   ``https://logs.example.org/sandbox``
 
+.. _jenkins-log-cleanup-schedule:
+
 Log Cleanup Schedule
 ====================
 
@@ -238,6 +249,8 @@ scheduled intervals.
   than 180 days.
 * Jenkins Sandbox: Delete logs and jobs every week on Saturday at 08:00 UTC.
 
+.. _jenkins-jjb:
+
 Jenkins Job Builder
 ===================
 
@@ -245,6 +258,8 @@ Jenkins Job Builder takes simple descriptions of Jenkins jobs in YAML format
 and uses them to configure Jenkins.
 
 * `Jenkins Job Builder (JJB) documentation <http://ci.openstack.org/jenkins-job-builder>`_
+
+.. _jenkins-jjb-overview:
 
 JJB Overview
 ------------
@@ -255,6 +270,8 @@ for consumption by Jenkins. When testing new Jenkins Jobs in the
 ``jenkins-jobs`` executable to translate a set of jobs into their XML
 descriptions and upload them to the Jenkins Sandbox server.
 
+.. _jenkins-jjb-install:
+
 Install JJB
 -----------
 
@@ -262,6 +279,8 @@ You can install the latest version of JJB and its dependencies with
 `pip <Install JJB using pip_>`_ using Python `Virtual Environments`_ or lock a
 specific version of JJB in `jjb/requirements.txt`, as a workaround for known
 issues. The documentation is available in `pip-assisted <Install JJB using pip_>`_ install.
+
+.. _jenkins-virtualenv:
 
 Virtual Environments
 --------------------
@@ -303,6 +322,8 @@ To deactivate your virtual environment.
 .. code-block:: bash
 
     deactivate
+
+.. _jenkins-jjb-install-pip:
 
 Install JJB using pip
 ---------------------
@@ -433,6 +454,8 @@ line in the logs that look like::
 
 This line provides the name of the new image we built.
 
+.. _jenkins-prod-sandbox:
+
 Jenkins Production & Jenkins Sandbox
 ====================================
 
@@ -475,6 +498,8 @@ to test compared to production Jenkins.
 Documentation on using the Jenkins Sandbox and uploading jobs is available
 :doc:`here <jenkins-sandbox>`.
 
+.. _jenkins-test-unmerged-cr:
+
 How to test unmerged CR in global-jjb or lftools with Jenkins
 =============================================================
 
@@ -512,5 +537,3 @@ Example code for global-jjb changes:
 .. note::
 
    Repeat the line to fetch ${GERRIT_REFSPEC} to test one or more changes.
-
-.. _jjb-docs: http://ci.openstack.org/jenkins-job-builder/
