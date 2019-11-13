@@ -21,6 +21,9 @@
 from docs_conf.conf import *
 
 intersphinx_mapping['ansible'] = ('https://docs.ansible.com/ansible/latest/', None)
+intersphinx_mapping['global-jjb'] = ('https://docs.releng.linuxfoundation.org/projects/global-jjb/en/latest/', None)
+
+#https://docs.releng.linuxfoundation.org/projects/global-jjb/en/latest/objects.inv
 
 linkcheck_ignore = [
     'https://gerrit.linuxfoundation.org/infra/releng/docs-conf',
