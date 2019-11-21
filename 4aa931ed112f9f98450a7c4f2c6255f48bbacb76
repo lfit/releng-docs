@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a1fb69a_d7edbd4f",
+        "filename": "docs/committer-management.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-11-21T15:55:41Z",
+      "side": 1,
+      "message": "Reflow, this is one giant long line and should be broken over several at 80 character boundary.\n\nSecond, this reads funny. This should be more like the following:\n\nTo add someone as a committer a change to the INFO.yaml needs to be created for review adding the needed information. Upon a successful merge automation will process the change and modify permissions as needed.",
+      "revId": "4aa931ed112f9f98450a7c4f2c6255f48bbacb76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6d8eae30_77883734",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-11-21T15:55:41Z",
+      "side": 1,
+      "message": "This change should be a separate change that you then depend on.",
+      "revId": "4aa931ed112f9f98450a7c4f2c6255f48bbacb76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f025d4f0_d542f9a3",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-11-21T15:55:41Z",
+      "side": 1,
+      "message": "Reflow at 80 character",
+      "revId": "4aa931ed112f9f98450a7c4f2c6255f48bbacb76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
