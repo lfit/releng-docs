@@ -12,7 +12,7 @@ Inventory
      - SCM (Gerrit / GitHub)
      - CI Platform
      - Jira
-     - Nexus
+     - Nexus / Artifactory
      - Nexus 3
      - Sonar
      - Bitergia
@@ -58,7 +58,7 @@ Inventory
      - `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
      - https://jira.aswf.io
      - https://nexus.aswf.io
-     - https://nexus3.aswf.io
+     - N/A
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
      - N/A
      - N/A
@@ -109,15 +109,13 @@ Inventory
 
    * - ODPi
      - https://github.com/odpi
-     - | https://jenkins.odpi.org
-       | https://jenkins.odpi.org/sandbox
-       | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
+     - | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
      - N/A
-     - https://nexus.odpi.org
+     - https://odpi.jfrog.io/odpi/webapp/
      - N/A
      - https://sonarcloud.io/organizations/odpi/projects
      - N/A
-     - `ODPi Jenkins <https://p.datadoghq.com/sb/fa2d55142-dc2734651a1b5bf77b787355d600150b>`_
+     - N/A
 
    * - ONAP
      - https://gerrit.onap.org
