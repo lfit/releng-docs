@@ -383,6 +383,23 @@ dependent change and then cherry-pick our patch on top of the change.
 
       git review -R
 
+Rebasing a change against master
+================================
+
+In the case that your patchset cannot be re-based via the U/I (merge conflict)
+
+
+   .. code-block:: bash
+
+      git pull origin master
+      git review -d 12345
+      git rebase master
+      "fix conflicts"
+      git add *
+      git rebase --continue
+      git review
+
+
 Code Review
 ===========
 
