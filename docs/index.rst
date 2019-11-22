@@ -35,6 +35,7 @@ Self-Service:
    :maxdepth: 1
 
    committer-management
+   project-creation
 
 Tools:
 
