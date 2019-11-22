@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1adac837_420da395",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-11-22T22:45:34Z",
+      "side": 1,
+      "message": "all caps",
+      "range": {
+        "startLine": 17,
+        "startChar": 31,
+        "endLine": 17,
+        "endChar": 35
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66764e6e_afb01acf",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-11-22T22:45:34Z",
+      "side": 1,
+      "message": "We should probably have a link to the Gerrit guide and in specific the \u0027Push using git review\u0027 section. If we use this system for GitHub we\u0027re going to have folks that may never have used Gerrit before having to submit these!",
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f4edf8e_0d37538b",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2019-11-22T22:45:34Z",
+      "side": 1,
+      "message": "All caps",
+      "range": {
+        "startLine": 41,
+        "startChar": 6,
+        "endLine": 41,
+        "endChar": 8
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
