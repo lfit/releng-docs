@@ -29,6 +29,13 @@ Guides:
 .. TODO Release Workflow (RELENG-511)
 .. TODO Javadoc (RELENG-515)
 
+Self-Service:
+
+.. toctree::
+   :maxdepth: 1
+
+   committer-management
+
 Tools:
 
 - :doc:`common-packer <common-packer:index>`
