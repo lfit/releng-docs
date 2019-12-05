@@ -140,6 +140,30 @@
     },
     {
       "key": {
+        "uuid": "d6beddce_e7ba6c19",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-12-05T21:57:05Z",
+      "side": 1,
+      "message": "I have a patch up to remove this requirement",
+      "parentUuid": "e918d910_a5acd2d7",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 56
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "66764e6e_afb01acf",
         "filename": "docs/project-creation.rst",
         "patchSetId": 1
