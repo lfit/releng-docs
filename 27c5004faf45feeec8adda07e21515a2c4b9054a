@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "5cab22b1_0e9a3a7e",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-12-05T21:55:53Z",
+      "side": 1,
+      "message": "\"Self-Serve\" might not be apt here since the customer is not running the tools and scripts unless it\u0027s done through a job.",
+      "range": {
+        "startLine": 10,
+        "startChar": 9,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1adac837_420da395",
         "filename": "docs/project-creation.rst",
         "patchSetId": 1
@@ -22,6 +45,98 @@
       "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aeff05c4_c6ded778",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-12-05T21:55:53Z",
+      "side": 1,
+      "message": "testsuite",
+      "range": {
+        "startLine": 28,
+        "startChar": 57,
+        "endLine": 28,
+        "endChar": 65
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "18884ccd_055523f9",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-12-05T21:55:53Z",
+      "side": 1,
+      "message": "please mention which version of lftools that is required here in the docs.",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 11
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e918d910_a5acd2d7",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-12-05T21:55:53Z",
+      "side": 1,
+      "message": "add note that this requires and lftools.ini file without which this cmd wont work.",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 56
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17eac1ca_9e5ee859",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2019-12-05T21:55:53Z",
+      "side": 1,
+      "message": "Good to add some info on what this link must contain, pretty sure you are looking for keywords, that needs to document.",
+      "range": {
+        "startLine": 28,
+        "startChar": 81,
+        "endLine": 28,
+        "endChar": 130
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     },
     {
       "key": {
