@@ -164,6 +164,52 @@
     },
     {
       "key": {
+        "uuid": "e9e1919b_61b086b5",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-12-06T00:07:07Z",
+      "side": 1,
+      "message": "https://link.to.TSC.meeting.minutes\"",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 9
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b458271a_ceabfd85",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2019-12-06T00:07:07Z",
+      "side": 1,
+      "message": "Do we want to add something like \nvi INFO.yaml",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 1
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "66764e6e_afb01acf",
         "filename": "docs/project-creation.rst",
         "patchSetId": 1
