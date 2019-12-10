@@ -87,8 +87,7 @@ Inventory
 
    * - HyperLedger
      - https://gerrit.hyperledger.org
-     - | https://jenkins.hyperledger.org
-       | https://jenkins.hyperledger.org/sandbox
+     - https://jenkins.hyperledger.org
      - https://jira.hyperledger.org
      - https://nexus.hyperledger.org
      - https://nexus3.hyperledger.org
