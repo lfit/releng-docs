@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "659da1f2_6cb6cca9",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-12-10T18:04:46Z",
+      "side": 1,
+      "message": "Not sure what you mean here, the goal is for a customer to submit an info file to the info-master repository.",
+      "parentUuid": "5cab22b1_0e9a3a7e",
+      "range": {
+        "startLine": 10,
+        "startChar": 9,
+        "endLine": 10,
+        "endChar": 19
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1adac837_420da395",
         "filename": "docs/project-creation.rst",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2019-12-06T00:37:16Z",
       "side": 1,
       "message": "these steps can easily be incorporated in the lftools code, which requires a directory created from the CLI input.",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 32
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f7e5b196_2eab7068",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-12-10T18:04:46Z",
+      "side": 1,
+      "message": "I\u0027m not sure I need to code creating a directory, pretty straight forward.\nAlso a user never needs to use lftools to create an info file, its just to make the job easier.",
+      "parentUuid": "85e610a4_05acbefe",
       "range": {
         "startLine": 26,
         "startChar": 0,
@@ -233,6 +281,54 @@
     },
     {
       "key": {
+        "uuid": "5cbd6109_37bec3eb",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-12-10T18:04:46Z",
+      "side": 1,
+      "message": "That would be wrong.",
+      "parentUuid": "0456c8b8_3af182e6",
+      "range": {
+        "startLine": 28,
+        "startChar": 133,
+        "endLine": 28,
+        "endChar": 142
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "17b1ef1a_d89d4691",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-12-10T18:04:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6beddce_e7ba6c19",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 56
+      },
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b458271a_ceabfd85",
         "filename": "docs/project-creation.rst",
         "patchSetId": 1
@@ -267,6 +363,24 @@
       "writtenOn": "2019-11-22T22:45:34Z",
       "side": 1,
       "message": "We should probably have a link to the Gerrit guide and in specific the \u0027Push using git review\u0027 section. If we use this system for GitHub we\u0027re going to have folks that may never have used Gerrit before having to submit these!",
+      "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71c1a88d_ea878b7d",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2019-12-10T18:04:46Z",
+      "side": 1,
+      "message": "Let\u0027s tackle that later, as I do not have creating github projects implemented.",
+      "parentUuid": "66764e6e_afb01acf",
       "revId": "27c5004faf45feeec8adda07e21515a2c4b9054a",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
