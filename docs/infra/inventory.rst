@@ -95,17 +95,6 @@ Inventory
      - N/A
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
-   * - IoTivity
-     - https://gerrit.iotivity.org
-     - | https://jenkins.iotivity.org
-       | https://jenkins.iotivity.org/sandbox
-     - https://jira.iotivity.org
-     - N/A
-     - N/A
-     - N/A
-     - https://iotivity.biterg.io
-     - `IoTivity Jenkins <https://p.datadoghq.com/sb/bc58c260b-d0d31af86ffbb1384b80bbb432c71654>`_
-
    * - ODPi
      - https://github.com/odpi
      - | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
