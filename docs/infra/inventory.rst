@@ -165,7 +165,7 @@ Inventory
      - | https://jenkins.zowe.org
        | https://jenkins.zowe.org/sandbox
      - N/A
-     - N/A
+     - https://zowe.jfrog.io/
      - N/A
      - https://sonarcloud.io/organizations/zowe/projects
      - N/A
