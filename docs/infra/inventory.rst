@@ -158,7 +158,7 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - N/A
+     - `LFN - TF Stats <https://lfanalytics.io/projects/f676cf85-6999-4798-87d2-95fef2cd4547/dashboard>`_
 
    * - Zowe
      - https://github.com/zowe
