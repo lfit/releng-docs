@@ -48,8 +48,7 @@ Inventory
      - https://jira.akraino.org
      - https://nexus.akraino.org
      - https://nexus3.akraino.org
-     - | https://sonar.akraino.org
-       | https://sonarcloud.io/organizations/akraino-edge-stack/projects
+     - https://sonarcloud.io/organizations/akraino-edge-stack/projects
      - N/A
      - `Akraino Jenkins <https://p.datadoghq.com/sb/be5bb4dc7-4a4339214a96eaf4bd75e8515953c4ab>`_
 
