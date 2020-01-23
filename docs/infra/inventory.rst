@@ -89,8 +89,8 @@ Inventory
      - https://gerrit.hyperledger.org
      - https://jenkins.hyperledger.org
      - https://jira.hyperledger.org
-     - https://nexus.hyperledger.org
-     - https://nexus3.hyperledger.org
+     - N/A
+     - N/A
      - N/A
      - N/A
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
