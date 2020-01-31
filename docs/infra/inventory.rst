@@ -157,14 +157,14 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - N/A
+     - `LFN - TF Stats <https://lfanalytics.io/projects/f676cf85-6999-4798-87d2-95fef2cd4547/dashboard>`_
 
    * - Zowe
      - https://github.com/zowe
      - | https://jenkins.zowe.org
        | https://jenkins.zowe.org/sandbox
      - N/A
-     - N/A
+     - https://zowe.jfrog.io/
      - N/A
      - https://sonarcloud.io/organizations/zowe/projects
      - N/A
