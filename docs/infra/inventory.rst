@@ -85,8 +85,8 @@ Inventory
      - `FD.io Jenkins <https://p.datadoghq.com/sb/6d568ea50-a06ebab16a3e27553f99a1b7dbd29719>`_
 
    * - HyperLedger
-     - https://gerrit.hyperledger.org
-     - https://jenkins.hyperledger.org
+     - https://github.com/hyperledger
+     - N/A
      - https://jira.hyperledger.org
      - N/A
      - N/A
