@@ -85,7 +85,7 @@ You can use an existing key if you'd like, but creating a new key per service is
 
        cd ~/.ssh
 
-    If you see "No such file or directory", then there aren't any existing keys and you'll need to create a new one. Go to `Generate a new SSH key`._ you can also refer to https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent.
+    If you see "No such file or directory", then there aren't any existing keys and you'll need to create a new one. Go to `Generate a new SSH key`._ you can also refer to https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent.
 
     Check to see if you have a key already:
 
