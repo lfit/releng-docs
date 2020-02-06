@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ede7998b_624d000d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-02-06T16:56:12Z",
+      "side": 1,
+      "message": "Do we have a Jira card to attach to this change?",
+      "revId": "baf2a58b9878c24fb1cb76dbcda06518769f19a5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd2541f0_f76eaeab",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-02-06T16:56:12Z",
+      "side": 1,
+      "message": "I feel this should be more like the following:\n\nmkdir -p info-master/gerrit.example.org/example-parent/example-child \u0026\u0026 \\\n  cd info-master/gerrit.example.org/example-parent/example-child\n\nThe reason being that the example-parent may not exist either and this makes sure the full and needed path gets created.",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 44
+      },
+      "revId": "baf2a58b9878c24fb1cb76dbcda06518769f19a5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6afcc6f1_9cd8bac3",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-02-06T16:56:12Z",
+      "side": 1,
+      "message": "Why are these two separate code blocks?",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 154
+      },
+      "revId": "baf2a58b9878c24fb1cb76dbcda06518769f19a5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
