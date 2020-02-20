@@ -32,8 +32,7 @@ Inventory
 
    * - AGL
      - https://gerrit.automotivelinux.org
-     - | https://build.automotivelinux.org
-       | https://build.automotivelinux.org/sandbox
+     - https://build.automotivelinux.org
      - https://jira.automotivelinux.org
      - N/A
      - N/A
