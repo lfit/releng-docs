@@ -538,4 +538,31 @@ Example code for global-jjb changes:
 
    Repeat the line to fetch ${GERRIT_REFSPEC} to test one or more changes.
 
+Extra sample for a packer job change:
+
+- Upload the patch to Gerrit
+- Ensure that the Jenkins verification check has passed
+- Check the console log for the Jenkins verification, and search for this row in the beginning
+
+.. code-block:: bash
+
+   Checking out Revision e86c6d1789931e5f0133f7b852ff2d35ac589970 (refs/changes/47/63147/9)
+
+- Change the Jenkins configuration for failing job (packer in this case).
+- Find the script(s) which is handling the problematic area, and insert something like this before.
+
+.. code-block:: bash
+
+   ## My patch
+
+   pushd packer/common-packer/provision
+   git fetch https://gerrit.linuxfoundation.org/infra/releng/common-packer refs/changes/47/63147/9
+   git checkout e86c6d1789931e5f0133f7b852ff2d35ac589970
+   popd
+
+   ## End my patch
+
+- Save the configuration, and start the job with Build with Parameters.
+- Verify the success or failure through the logs
+
 .. _jjb-docs: http://ci.openstack.org/jenkins-job-builder/
