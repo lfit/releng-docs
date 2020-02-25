@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4283fcf7_01b017fd",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 552,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-02-25T04:19:00Z",
+      "side": 1,
+      "message": "this is not required, how if you want keep these make them generic step and add above all the examples.",
+      "range": {
+        "startLine": 542,
+        "startChar": 0,
+        "endLine": 552,
+        "endChar": 99
+      },
+      "revId": "8c0f9bb81648ef86d458ec29a8736c006a1f546e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bfb92d33_39a8bb3a",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-02-25T04:19:00Z",
+      "side": 1,
+      "message": "add this as an example above for the common-packer to keep it consistant",
+      "range": {
+        "startLine": 554,
+        "startChar": 0,
+        "endLine": 563,
+        "endChar": 18
+      },
+      "revId": "8c0f9bb81648ef86d458ec29a8736c006a1f546e",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
