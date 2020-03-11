@@ -93,6 +93,16 @@ Inventory
      - N/A
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
+   * - LF Edge
+     - https://github.com/lf-edge
+     - | https://jenkins.lfedge.org/
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+
    * - ODPi
      - https://github.com/odpi
      - | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
