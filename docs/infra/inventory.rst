@@ -14,6 +14,7 @@ Inventory
      - Jira
      - Nexus / Artifactory
      - Nexus 3
+     - Build logs
      - Sonar
      - Bitergia
      - Stats
@@ -25,6 +26,7 @@ Inventory
      - https://jira.acumos.org
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
+     - https://logs.acumos.org
      - | https://sonar.acumos.org
        | https://sonarcloud.io/organizations/acumos/projects
      - N/A
@@ -38,6 +40,7 @@ Inventory
      - N/A
      - N/A
      - N/A
+     - N/A
      - `AGL Jenkins <https://p.datadoghq.com/sb/3518d575a-120dfd954476d285d54afc74ea7cfcc3>`_
 
    * - Akraino
@@ -47,6 +50,7 @@ Inventory
      - https://jira.akraino.org
      - https://nexus.akraino.org
      - https://nexus3.akraino.org
+     - https://logs.akraino.org
      - https://sonarcloud.io/organizations/akraino-edge-stack/projects
      - N/A
      - `Akraino Jenkins <https://p.datadoghq.com/sb/be5bb4dc7-4a4339214a96eaf4bd75e8515953c4ab>`_
@@ -56,6 +60,7 @@ Inventory
      - `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
      - https://jira.aswf.io
      - https://nexus.aswf.io
+     - N/A
      - N/A
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
      - N/A
@@ -68,6 +73,7 @@ Inventory
      - N/A
      - https://nexus.edgexfoundry.org
      - https://nexus3.edgexfoundry.org
+     - https://logs.edgexfoundry.org
      - https://sonarcloud.io/organizations/edgexfoundry/projects
      - N/A
      - `EdgeX Jenkins <https://p.datadoghq.com/sb/57e4b2d73-edaf7ba14e20bc461fc369a19b9bfa3f>`_
@@ -79,6 +85,7 @@ Inventory
      - https://jira.fd.io
      - https://nexus.fd.io
      - N/A
+     - https://logs.fd.io
      - https://sonar.fd.io
      - N/A
      - `FD.io Jenkins <https://p.datadoghq.com/sb/6d568ea50-a06ebab16a3e27553f99a1b7dbd29719>`_
@@ -87,6 +94,7 @@ Inventory
      - https://github.com/hyperledger
      - N/A
      - https://jira.hyperledger.org
+     - N/A
      - N/A
      - N/A
      - N/A
@@ -102,12 +110,14 @@ Inventory
      - N/A
      - N/A
      - N/A
+     - N/A
 
    * - ODPi
      - https://github.com/odpi
      - | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
      - N/A
      - https://odpi.jfrog.io/odpi/webapp/
+     - N/A
      - N/A
      - https://sonarcloud.io/organizations/odpi/projects
      - N/A
@@ -120,6 +130,7 @@ Inventory
      - https://jira.onap.org
      - https://nexus.onap.org
      - https://nexus3.onap.org
+     - https://logs.onap.org
      - | https://sonar.onap.org
        | https://sonarcloud.io/organizations/onap/projects
      - https://onap.biterg.io
@@ -132,6 +143,7 @@ Inventory
      - https://jira.opendaylight.org
      - https://nexus.opendaylight.org
      - https://nexus3.opendaylight.org
+     - https://logs.opendaylight.org
      - https://sonar.opendaylight.org
      - https://opendaylight.biterg.io
      - `ODL Jenkins <https://p.datadoghq.com/sb/68be64401-3b1e66c2845bacfbb8b965b9d853a882>`_
@@ -141,6 +153,7 @@ Inventory
      - | https://build.opnfv.org/ci
        | https://sandbox.opnfv.org
      - https://jira.opnfv.org
+     - N/A
      - N/A
      - N/A
      - N/A
@@ -154,6 +167,7 @@ Inventory
      - https://jira.o-ran-sc.org
      - https://nexus.o-ran-sc.org
      - https://nexus3.o-ran-sc.org
+     - https://logs.o-ran-sc.org
      - https://sonarcloud.io/organizations/o-ran-sc/projects
      - N/A
      - `O-RAN Jenkins <https://p.datadoghq.com/sb/zjgst8myh3u0sedk-a518861c9a61dd321c4ca98f24375195>`_
@@ -162,6 +176,7 @@ Inventory
      - https://gerrit.tungsten.io
      - N/A
      - https://jira.tungsten.io
+     - N/A
      - N/A
      - N/A
      - N/A
@@ -175,6 +190,7 @@ Inventory
      - N/A
      - https://zowe.jfrog.io/
      - N/A
+     - https://s3-logs.zowe.org/logs
      - https://sonarcloud.io/organizations/zowe/projects
      - N/A
      - N/A
