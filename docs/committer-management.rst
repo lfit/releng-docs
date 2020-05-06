@@ -161,15 +161,16 @@ Here is an INFO file with more than one name row under the type (one name row al
 
 .. code-block:: yaml
 
-    - type: 'Removal'
-      name: 'Person 1'
-      name: 'Person 2'
-      link: 'https://lists.example.org/g/message/msgnbr'
+        - type: 'Removal'
+          name: 'Person 1'
+          name: 'Person 2'
+          link: 'https://lists.example.org/g/message/msgnbr'
 
 
 And this is the result when you do the lint check
 
 .. code-block:: bash
+
 
     yamllint INFO.yaml
       98:11     error    duplication of key "name" in mapping  (key-duplicates)
