@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d402aa14_82f9f7d5",
+        "filename": "docs/committer-management.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-05-07T13:13:36Z",
+      "side": 1,
+      "message": "can yaml be verified with the schema file as an input?\n\n# shellcheck disable\u003dSC1090\nsource ~/lf-env.sh\nlf-activate-venv zipp\u003d\u003d1.1.0 PyYAML jsonschema rfc3987 yamllint yq\npip freeze\n\n# Download info-schema.yaml and yaml-verfy-schema.py\nwget -q https://raw.githubusercontent.com/lfit/releng-global-jjb/master/schema/info-schema.yaml \\\nhttps://raw.githubusercontent.com/lfit/releng-global-jjb/master/yaml-verify-schema.py\n\nyamllint INFO.yaml\n\npython yaml-verify-schema.py \\\n    -s info-schema.yaml \\\n    -y INFO.yaml",
+      "range": {
+        "startLine": 110,
+        "startChar": 4,
+        "endLine": 110,
+        "endChar": 12
+      },
+      "revId": "11e308c2206e593292ad0002218b380a5ff6295d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
