@@ -43,7 +43,7 @@ Nexus 3 Repositories
 
 Nexus 3 allows users to manage different types of repositories. To learn more about
 how to manage them, please refer to `Sonatype's official documentation
-<https://help.sonatype.com/repomanager3/configuration/repository-management/>`_.
+<https://help.sonatype.com/repomanager3/repository-management>`_.
 
 Most LF projects manage their Docker images using the following repos:
 
