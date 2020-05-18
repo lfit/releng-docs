@@ -144,7 +144,8 @@ Inventory
      - https://nexus.opendaylight.org
      - https://nexus3.opendaylight.org
      - https://logs.opendaylight.org
-     - https://sonar.opendaylight.org
+     - | https://sonar.opendaylight.org
+       | https://sonarcloud.io/organizations/opendaylight/projects
      - https://opendaylight.biterg.io
      - `ODL Jenkins <https://p.datadoghq.com/sb/68be64401-3b1e66c2845bacfbb8b965b9d853a882>`_
 
