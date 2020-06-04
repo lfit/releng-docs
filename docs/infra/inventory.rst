@@ -59,7 +59,7 @@ Inventory
      - https://github.com/AcademySoftwareFoundation
      - `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
      - https://jira.aswf.io
-     - https://nexus.aswf.io
+     - N/A
      - N/A
      - N/A
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
