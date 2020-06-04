@@ -88,7 +88,8 @@ Inventory
      - https://logs.fd.io
      - https://sonar.fd.io
      - N/A
-     - `FD.io Jenkins <https://p.datadoghq.com/sb/c3585feaa-00f9540471c4351548451ba8d3644bc7>`_
+     - | `FD.io Jenkins <https://p.datadoghq.com/sb/c3585feaa-00f9540471c4351548451ba8d3644bc7>`_
+       | `FD.io Gerrit/ Jenkins Stats <https://p.datadoghq.com/sb/c3585feaa-e2557654b93a3b706b5ae541b728b42f>`_
 
    * - HyperLedger
      - https://github.com/hyperledger
