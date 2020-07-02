@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "71b535e7_1a2eca8d",
+        "filename": "docs/committer-management.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-02T00:37:06Z",
+      "side": 1,
+      "message": "please re-write this line avoiding \"it\" and referning the pass/fail criteria would be more understandable.",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 94
+      },
+      "revId": "4733f9f9b2886a6bf8ae95274388deaeb278be54",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3dc43e06_97ebe56c",
+        "filename": "docs/committer-management.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-02T00:37:06Z",
+      "side": 1,
+      "message": "correct indent required as above.",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 60
+      },
+      "revId": "4733f9f9b2886a6bf8ae95274388deaeb278be54",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e3144473_a90e9d51",
+        "filename": "docs/committer-management.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-02T00:37:06Z",
+      "side": 1,
+      "message": "indents",
+      "range": {
+        "startLine": 128,
+        "startChar": 1,
+        "endLine": 130,
+        "endChar": 57
+      },
+      "revId": "4733f9f9b2886a6bf8ae95274388deaeb278be54",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
