@@ -20,9 +20,10 @@ process the change and update permissions as needed.
 
 .. note::
 
-    some projects TCS's require approval to add committers.
+    Some projects TCS's require approval to add committers and/or PTL.
     If this is the case, append a link to the meeting minutes
     in the tsc: changes: section
+
 
 Filling out the INFO file
 =========================
@@ -38,8 +39,43 @@ The identity_ site will provide you with the values for your user.
     company: ''
     id: ''
 
+Filling out the REPOSITORIES section
+====================================
+
+In this section you will list your repository, one (1) repository
+which this INFO file handles. Each repository must have its own INFO file.
+
+.. code-block:: yaml
+
+    repositories:
+        - example
+
+
+.. note::
+
+    Do **not** have more than one repository under the repositories heading.
+    Below is an example of **what not to do**
+
+.. code-block:: yaml
+
+    repositories:
+        - example
+        - example2
+        - example3
+
+
+
 Filling out the TSC approval section
 ====================================
+
+In this section you list the history of PTL/Committers.
+Add each committers entry or exit from the committer list,
+and one committer per type.
+Even if not required by your project, a good habit is to provide a
+link to the Minutes of Meeting with the approval, or if an approval
+is not needed, to a mail which informs of the decision.
+
+The type can be Approval, Addition or Removal.
 
 .. code-block:: yaml
 
@@ -49,7 +85,119 @@ Filling out the TSC approval section
         changes:
             - type: 'approval'
               name: 'name of new committer'
-              link: 'link to meeting minutes'
+              link: 'link to relevant Minutes of Meeting'
+
+.. note::
+
+    Do not forget to add the yammllint option. Otherwise you will get a yamllint error
+
+      *error    line too long (124 > 80 characters)  (line-length)*
+
+.. note::
+
+    One name per change type. Yamllint will return error otherwise. If you have
+    more names, you need to add each name within its own type section.::
+
+      changes:
+        - type: 'Addition'
+            name: 'Person1'
+            link: 'https://wiki.example.org/pages/URL-2-PermissionMail1'
+        - type: 'Addition'
+            name: 'Person2'
+            link: 'https://wiki.example.org/pages/URL-2-PermissionMail2'
+
+
+    For instance, the below faulty change section will give yamllint error::
+
+      changes:
+        - type: 'Addition'
+            name: 'Person1'
+            name: 'Person2'
+            link: 'https://wiki.example.org/pages/URL-2-PermissionMail'
+
+
+    *error    duplication of key "name" in mapping  (key-duplicates)*
+
+Example
+
+.. code-block:: yaml
+
+    tsc:
+        # yamllint disable rule:line-length
+        approval: 'https://lists.example.org/pipermail/example-tsc'
+        changes:
+            - type: 'addition'
+              name: 'John Doe'
+              link: 'https://wiki.example.org/display/TOC/2019+09+18'
+            - type: 'addition'
+              name: 'Jane Doe'
+              link: 'https://lists.example.org/g/example-TSC/message/3725'
+            - type: 'removal'
+              name: 'Gone Doe'
+              link: 'https://lists.example.org/g/example-TSC/message/3726'
+
+
+Lint check before submitting
+============================
+
+Always a good habit to perform a lint check before submitting.
+One tool for this is the yamllint
+
+.. code-block:: bash
+
+    sudo dnf install yamllint
+
+And then to check your INFO file
+
+.. code-block:: bash
+
+    yamllint INFO.yaml
+
+No output indicates no fault found.
+
+To showcase how yamllint will present possible errors, see below example.
+
+Here is an INFO file with more than one name row under the type (one name row allowed).
+
+.. code-block:: yaml
+
+    - type: 'Removal'
+      name: 'Person 1'
+      name: 'Person 2'
+      link: 'https://lists.example.org/g/message/msgnbr'
+
+
+And this is the result when you do the lint check
+
+.. code-block:: bash
+
+    yamllint INFO.yaml
+      98:11     error    duplication of key "name" in mapping  (key-duplicates)
+      99:11     error    duplication of key "name" in mapping  (key-duplicates)
+
+Verify against INFO.yaml schema
+===============================
+
+Also good habit to verify that your INFO.yaml file is following the proper schema.
+
+
+Download info-schema.yaml and yaml-verify-schema.py
+
+.. code-block:: yaml
+
+    wget -q https://raw.githubusercontent.com/lfit/releng-global-jjb/master/schema/info-schema.yaml \
+    https://raw.githubusercontent.com/lfit/releng-global-jjb/master/yaml-verify-schema.py
+
+Verify INFO.yaml uses correct schema
+
+.. code-block:: yaml
+
+    python yaml-verify-schema.py \
+    -s info-schema.yaml \
+    -y INFO.yaml
+
+No output indicates INFO.yaml file is valid against the schema. **Otherwise**, ensure you correct any issues before continuing.
+
 
 Example INFO file
 =================
