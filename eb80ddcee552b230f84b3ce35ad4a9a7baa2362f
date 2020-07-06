@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Submitted-by: Bengt Thuree <bthuree@linuxfoundation.org>
+Submitted-at: Mon, 06 Jul 2020 04:39:52 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/releng/docs/+/64400
+Project: releng/docs
+Branch: refs/heads/master
