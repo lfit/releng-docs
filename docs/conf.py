@@ -34,5 +34,7 @@ linkcheck_ignore = [
     'https://iotivity.biterg.io'
 ]
 
+sphinx_tabs_valid_builders = ['linkcheck']
+
 def setup(app):
     app.add_stylesheet("css/ribbon.css")

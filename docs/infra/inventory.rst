@@ -131,8 +131,7 @@ Inventory
      - https://nexus.onap.org
      - https://nexus3.onap.org
      - https://logs.onap.org
-     - | https://sonar.onap.org
-       | https://sonarcloud.io/organizations/onap/projects
+     - https://sonarcloud.io/organizations/onap/projects
      - https://onap.biterg.io
      - `ONAP Jenkins <https://p.datadoghq.com/sb/09907bd64-75f6f514781dd3914ee963a30e5b4155>`_
 
