@@ -20,6 +20,7 @@ Guides:
    gpg
    jenkins
    jenkins-sandbox
+   jenkins-build-failure-analyzer
    project-documentation
    nexus2
    nexus3
