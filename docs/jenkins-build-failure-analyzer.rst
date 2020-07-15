@@ -1,0 +1,86 @@
+.. _jenkins-build-failure-analyzer:
+
+##############################
+Jenkins Build Failure Analyzer
+##############################
+
+The Build Failure Analyzer Jenkins plugin analyzes the causes of failed builds and
+presents the causes on the build page.
+
+It does this by using a knowledge base of build failure causes that is built up from scratch.
+
+Plugin Documentation
+====================
+
+The official plugin documentation can be found here:
+https://plugins.jenkins.io/build-failure-analyzer/
+
+``Make sure your Jenkins server has this plugin installed before proceeding.``
+
+Plugin Permissions
+==================
+
+The Build Failure Analyzer plugin's permissions can be configured under
+``Manage Jenkins`` -> ``Configure Global Security`` -> ``Authorization`` section
+
+The table under the Authorization section will show the ``Build Failure Analyzer``
+column.
+
+Users and/or groups can be configured to grant the following permissions:
+
+* View Causes
+* Update Causes
+* Remove Causes
+
+
+View Causes
+===========
+
+Depending on the permissions granted to the groups to use the Build Failure Analyzer,
+users will be able to see the ``Failure Cause Management`` option in the left side menu
+in Jenkins.
+
+This option will display the current causes in a table with:
+
+* Name
+* Categories
+* Description
+* Comment
+* Modified
+* Remove Cause Icon (If this permission was granted)
+
+.. image:: _static/jenkins-build-analyzer-causes.png
+   :scale: 80 %
+   :alt: Jenkins Failure Cause Management table.
+   :align: center
+
+Update Causes
+=============
+
+New causes can be created using the ``Create New`` option.
+
+A new cause will require the following information:
+
+* Name
+* Description
+* Comment
+* Categories (It will autocomplete for any exisiting categories)
+* Indications (What to look for in the log single or multiple line). Regex pattern or text)
+* Modification history (Date, time and username)
+
+.. image:: _static/jenkins-build-analyzer-new-cause.png
+   :scale: 80 %
+   :alt: Jenkins Create New Build Cause.
+   :align: center
+
+Existing causes can be updated by clicking on the name of a cause in the current table.
+
+
+Delete Causes
+=============
+
+The last column of the causes table will show a remove icon for those groups with permissions
+to Remove Causes. No icon will be shown if this permission is not granted.
+
+The same Remove option will appear if the user clicks on the name of any of the causes in the
+table.
