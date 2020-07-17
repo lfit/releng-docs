@@ -46,6 +46,30 @@
       "revId": "61115d0544f73871113b10907ea18622715fe49d",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecd0d72a_99bc305e",
+        "filename": "docs/jenkins-build-failure-analyzer.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-17T18:32:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e31149f_04a4044b",
+      "range": {
+        "startLine": 70,
+        "startChar": 43,
+        "endLine": 70,
+        "endChar": 52
+      },
+      "revId": "61115d0544f73871113b10907ea18622715fe49d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
