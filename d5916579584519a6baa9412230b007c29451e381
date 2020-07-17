@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5da07208_6da4c00d",
+        "filename": "docs/jenkins-build-failure-analyzer.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-17T17:59:01Z",
+      "side": 1,
+      "message": "extra parentheses",
+      "range": {
+        "startLine": 71,
+        "startChar": 42,
+        "endLine": 71,
+        "endChar": 43
+      },
+      "revId": "d5916579584519a6baa9412230b007c29451e381",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
