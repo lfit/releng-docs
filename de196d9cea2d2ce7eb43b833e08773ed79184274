@@ -34,6 +34,24 @@
       "revId": "de196d9cea2d2ce7eb43b833e08773ed79184274",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fa39ca18_48e4d370",
+        "filename": "tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-22T17:54:07Z",
+      "side": 0,
+      "message": "All [testenv:foo] inherit the definitions of the base [testenv] declaration unless explicitly overriding it. So, you\u0027re removing of this would mean that all the other environments would have to define their install_command.\n\nI would recommend _not_ removing this section.",
+      "parentUuid": "742699e9_d68430fa",
+      "revId": "de196d9cea2d2ce7eb43b833e08773ed79184274",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
     }
   ]
 }
