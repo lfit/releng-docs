@@ -16,6 +16,24 @@
       "revId": "de196d9cea2d2ce7eb43b833e08773ed79184274",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "742699e9_d68430fa",
+        "filename": "tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-07-22T17:43:21Z",
+      "side": 0,
+      "message": "I don\u0027t know what its purpose is.",
+      "parentUuid": "7564c89b_ec3eb1ae",
+      "revId": "de196d9cea2d2ce7eb43b833e08773ed79184274",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
     }
   ]
 }
