@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7564c89b_ec3eb1ae",
+        "filename": "tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-22T17:38:36Z",
+      "side": 0,
+      "message": "Why the removal of the base [testenv] section?",
+      "revId": "de196d9cea2d2ce7eb43b833e08773ed79184274",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
