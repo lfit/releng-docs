@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5ae3251_aef7d3c0",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:51:13Z",
+      "side": 1,
+      "message": "Please reflow the comment to be line broken at 80char. Make it multiline as needed.",
+      "revId": "cf9949916bce30b0118ba04938953bc8e41edf64",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5dbde557_8660658c",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:51:13Z",
+      "side": 1,
+      "message": "Please reflow the comment to be line broken at 80char. Make it multiline as needed.",
+      "revId": "cf9949916bce30b0118ba04938953bc8e41edf64",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "289f63ed_d5ec2bc6",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:51:13Z",
+      "side": 1,
+      "message": "Please reflow the comment to be line broken at 80char. Make it multiline as needed.",
+      "revId": "cf9949916bce30b0118ba04938953bc8e41edf64",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}

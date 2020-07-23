@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "59853762_1f5a381b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:51:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eff7885f_2af04e39",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9d4ee67b_3da53992",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 2
