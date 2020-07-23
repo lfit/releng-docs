@@ -1,0 +1,297 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f6afae86_2aee8019",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "Initial\nPS add your Jira Issue if you have one.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d4ee67b_3da53992",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "pleas add more info on what are these extra checks?",
+      "range": {
+        "startLine": 157,
+        "startChar": 19,
+        "endLine": 157,
+        "endChar": 36
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "721a352c_98ac2591",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "refer",
+      "range": {
+        "startLine": 159,
+        "startChar": 49,
+        "endLine": 159,
+        "endChar": 55
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "deb5ec97_1f7e6650",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "these the checks the prolog filter is used for?",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 31
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c5b0104_fea70c2a",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "the only file submitted with the change.",
+      "range": {
+        "startLine": 169,
+        "startChar": 33,
+        "endLine": 169,
+        "endChar": 38
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "23510925_1aba4fc1",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "Add a Prolog filter to the Gerrit All-Projects repository, that allows rest of reporitories to inherit and apply the rules.",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 104
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c93d0ec_76332fd2",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "3 ws followed by the directive line.\n\n   .. code-block:: bash\n\n       git clone \"ssh://\u003cuser\u003e@gerrit.\u003cproject\u003e.org:29418/All-Projects\"\n       git fetch origin refs/meta/config:config\n       git checkout config",
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "502c9145_5d349397",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "rm $",
+      "range": {
+        "startLine": 179,
+        "startChar": 8,
+        "endLine": 179,
+        "endChar": 9
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "559da14c_df0f01aa",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "rm $",
+      "range": {
+        "startLine": 180,
+        "startChar": 8,
+        "endLine": 180,
+        "endChar": 9
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08ca534e_0529b5e3",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "3 ws followed by the directive line.",
+      "range": {
+        "startLine": 201,
+        "startChar": 0,
+        "endLine": 202,
+        "endChar": 127
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "63de505e_80937478",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "Is the regex case sensitive to fail on lower case filenames?",
+      "range": {
+        "startLine": 304,
+        "startChar": 38,
+        "endLine": 304,
+        "endChar": 47
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d22f51e_fe398653",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "3 ws followed by the directive line",
+      "range": {
+        "startLine": 233,
+        "startChar": 1,
+        "endLine": 341,
+        "endChar": 0
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57bd89f4_e7e28fb5",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2020-07-23T10:13:22Z",
+      "side": 1,
+      "message": "remove $\n3 ws followed by the directive line",
+      "range": {
+        "startLine": 346,
+        "startChar": 10,
+        "endLine": 348,
+        "endChar": 49
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
