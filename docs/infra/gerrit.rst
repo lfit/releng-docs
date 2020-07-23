@@ -149,3 +149,218 @@ Perform the following in each repository mirrored from Gerrit
 
 #. Watch GitHub to see if the repo starts to replicate, if not
    troubleshoot by looking at ~gerrit/logs/replication*
+
+
+Gerrit Prolog Filter
+--------------------
+
+LF has automated the handling of committers and creation of repos,
+which makes it crucial that the INFO.yaml file are correct.
+
+To enforce this, Gerrit needs to do some extra checks on the submitted files,
+in particular the INFO.yaml file. The change set can not have more than 1 file,
+if the file is INFO.yaml, to enable fault tracing and handling.
+
+
+To summarize, below are the requirements:
+
+#. Ensure that self review with +2 is not allowed.
+
+#. Ensure that INFO.yaml has been automatically reviewed and approved by Jenkins.
+
+#. Ensure that INFO.yaml file is alone in the change set.
+
+A gerrit prolog filter, located in the Gerrit All-Projects repository,
+implements the above requirements. The project repos inherits and apply the filter.
+
+.. note::
+
+    For further information about Prolog and Gerrit refer to the `Prolog Cookbook`_
+
+..  _Prolog Cookbook: https://gerrit-review.googlesource.com/Documentation/prolog-cookbook.html
+
+Below are the instructions on how to install this filter.
+
+#. Clone the project's All-Projects repo
+
+   .. code-block:: bash
+
+       git clone "ssh://<user>@gerrit.<project>.org:29418/All-Projects"
+       git fetch origin refs/meta/config:config
+       git checkout config
+
+#. Confirm rules.pl is not modified.
+
+   Verify that the rules.pl file are either missing, or contains code for
+   non-author-approval like below
+
+   .. code-block:: prolog
+
+       submit_filter(In, Out) :-
+            In =.. [submit | Ls],
+            add_non_author_approval(Ls, R),
+            Out =.. [submit | R].
+
+       add_non_author_approval(S1, S2) :-
+            gerrit:commit_author(A),
+            gerrit:commit_label(label('Code-Review', 2), R),
+            R \= A, !,
+            S2 = [label('Non-Author-Code-Review', ok(R)) | S1].
+       add_non_author_approval(S1, [label('Non-Author-Code-Review', need(_)) | S1]).
+
+   .. note::
+
+       If rules.pl contains something else, please confirm before continuing,
+       since below steps will overwrite the old rules.pl.
+
+#. Get the user id for the automatic codereview users.
+
+   - Go to the appropriate Gerrit's groups page (https://gerrit.example.org/r/admin/groups)
+
+   - Click on **Non-Interactive Users**
+
+   - Click on **Members**
+     Verify these users are the correct ones.
+     For ONAP that would be *ONAP Jobbuilder*, *ecomp jobbuilder*,
+     and *LF Jenkins CI*
+
+   - Click on **Audit Log**
+     Find the *Added* row for each user. The *member* column contains the
+     userid (in parentheses).
+     For instance, for ONAP Jobbuilder the record states
+     **Added  ONAP Jobbuilder(459)** where the user id is 459.
+
+   These userid's should replace the userid's in the rules.pl further down
+   in this document. Below is the relevant code area in rules.pl.
+
+   .. code-block:: prolog
+
+       % Define who is the special Jenkins user
+       jenkins_user(user(459)).   % onap-jobbuilder@jenkins.onap.org
+       jenkins_user(user(3)).     % ecomp-jobbuilder@jenkins.openecomp.org
+       jenkins_user(user(4937)).  % releng+lf-jobbuilder@linuxfoundation.org
+
+#. Replace/Create rules.pl with below content
+
+   # Start ignoring allow_passive_voice
+
+   .. code-block:: prolog
+
+       submit_filter(In, Out) :-
+            In =.. [submit | Ls],
+            % Add the non-owner code review requiremet
+            reject_self_review(Ls, R1),
+            % Reject if multiple files and one is INFO.yaml
+            ensure_info_file_is_only_file(R1, R2),
+            % Reject if not INFO file has been verified by Jenkins
+            if_info_file_require_jenkins_plus_1(R2, R),
+            Out =.. [submit | R].
+
+       % =============
+       %filter to require all projects to have a code-reviewer other than the owner
+       % =============
+       reject_self_review(S1, S2) :-
+            % Set O to be the change owner
+            gerrit:change_owner(O),
+            % Find a +2 code review, if it exists, and set R to be the reviewer
+            gerrit:commit_label(label('Code-Review', 2), R),
+            % If there is a +2 review from someone other than the owner, then the filter has no work to do, assign S2 to S1
+            R \= O, !,
+            % The cut (!) predicate prevents further rules from being consulted
+            S2 = S1.
+
+       reject_self_review(S1, S2) :-
+            % Set O to be the change owner
+            gerrit:change_owner(O),
+            % Find a +2 code review, if it exists, and set R to be the reviewer - comment sign was missing
+            gerrit:commit_label(label('Code-Review', 2), R),
+            R = O, !,
+            % If there is not a +2 from someone else (above rule), and there is a +2 from the owner, reject with a self-reviewed label
+            S2 = [label('Self-Reviewed', reject(O))|S1].
+
+       % if the above two rules did not make it to the ! predicate, there are not any +2s so let the default rules through unfiltered
+       reject_self_review(S1, S1).
+
+
+       % =============
+       % Filter to require one file to be uploaded, if file is INFO.yaml
+       % =============
+       ensure_info_file_is_only_file(S1, S2) :-
+            % Ask how many files changed
+            gerrit:commit_stats(ModifiedFiles, _, _),
+            % Check if more than 1 file has changed
+            ModifiedFiles > 1,
+            % Check if one file name is INFO.yaml
+            gerrit:commit_delta('^INFO.yaml$'),
+            % If above two statements are true, give the cut (!) predicate.
+            !,
+            % Set O to be the change owner
+            gerrit:change_owner(O),
+            % If you reached here, then reject with Label.
+            S2 = [label('INFO-File-Not-Alone', reject(O))|S1].
+
+       ensure_info_file_is_only_file(S1, S1).
+
+
+       % =============
+       % Filter to require approved jenkins user to give +1 if INFO file
+       % =============
+       % Define who is the special Jenkins user
+       jenkins_user(user(459)).   % onap-jobbuilder@jenkins.onap.org
+       jenkins_user(user(3)).     % ecomp-jobbuilder@jenkins.openecomp.org
+       jenkins_user(user(4937)).  % releng+lf-jobbuilder@linuxfoundation.org
+
+
+       is_it_only_INFO_file() :-
+            % Ask how many files changed
+            gerrit:commit_stats(ModifiedFiles, _, _),
+            % Check that only 1 file is changed
+            ModifiedFiles = 1,
+            % Check if changed file name is INFO.yaml
+            gerrit:commit_delta('^INFO.yaml$').
+
+       if_info_file_require_jenkins_plus_1(S1, S2) :-
+            % Check if only INFO file is changed.
+            is_it_only_INFO_file(),
+            % Check that Verified is set to +1
+            gerrit:commit_label(label('Verified', 1), U),
+            % Confirm correct user gave the +1
+            jenkins_user(U),
+            !,
+            % Set O to be the change owner
+            gerrit:change_owner(O),
+            % Jenkins has verified file.
+            S2 = [label('Verified-By-Jenkins', ok(O))|S1].
+
+       if_info_file_require_jenkins_plus_1(S1, S2) :-
+            % Check if only INFO file is changed.
+            is_it_only_INFO_file(),
+            % Check if Verified failed (-1) +1
+            gerrit:commit_label(label('Verified', -1), U),
+            % Confirm correct user gave the -1
+            jenkins_user(U),
+            !,
+            % Set O to be the change owner
+            gerrit:change_owner(O),
+            % Jenkins failed verifying file.
+            S2 = [label('Verified-By-Jenkins', reject(O))|S1].
+
+       if_info_file_require_jenkins_plus_1(S1, S2) :-
+            % Check if only INFO file is changed.
+            is_it_only_INFO_file(),
+            !,
+            % Set O to be the change owner
+            gerrit:change_owner(O),
+            S2 = [label('Verified-By-Jenkins', need(O))|S1].
+
+       if_info_file_require_jenkins_plus_1(S1, S1).
+
+#. Push it to Gerrit
+
+   .. code-block:: bash
+
+       git add rules.pl
+       git commit -m "LF initial prolog filter"
+       git push origin HEAD:refs/meta/config
+
+   # Stop ignoring
