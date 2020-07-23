@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "049ef8e8_1a54c300",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:24:59Z",
+      "side": 1,
+      "message": "Initial",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "78d5ad8306f141ab3cdd88ad0fba17494f278ff8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "33a24bcb_0ee45486",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:24:59Z",
+      "side": 1,
+      "message": "Please add your issue here. Anil already linked it in an earlier comment. The line _in the footer_ should be:\n\nIssue: RELENG-1995",
+      "revId": "78d5ad8306f141ab3cdd88ad0fba17494f278ff8",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}

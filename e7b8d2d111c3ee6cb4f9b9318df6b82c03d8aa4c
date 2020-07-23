@@ -483,6 +483,30 @@
     },
     {
       "key": {
+        "uuid": "61b28767_94962adf",
+        "filename": "docs/infra/gerrit.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-23T14:24:59Z",
+      "side": 1,
+      "message": "We only execute changes on INFO.yaml not info.yaml. It must match our case or the file doesn\u0027t do anything. Ergo, there is no need to try to do a case insensitive match IMO.",
+      "parentUuid": "63de505e_80937478",
+      "range": {
+        "startLine": 304,
+        "startChar": 38,
+        "endLine": 304,
+        "endChar": 47
+      },
+      "revId": "e7b8d2d111c3ee6cb4f9b9318df6b82c03d8aa4c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2d22f51e_fe398653",
         "filename": "docs/infra/gerrit.rst",
         "patchSetId": 2
