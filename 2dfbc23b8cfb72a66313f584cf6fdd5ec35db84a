@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2ade2c5_e2d3216b",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "an",
+      "range": {
+        "startLine": 12,
+        "startChar": 76,
+        "endLine": 12,
+        "endChar": 79
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "271cab9e_2ab4975b",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 13,
+        "startChar": 15,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "13b6c5ab_c1b6bd54",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "An aside and not actionable in this change, but $ldap_group is going to be going away with the SAML conversion that is coming soon. We will need to update the create project automation to do the following in addition to creating the LFID group:\n\n* create a Gerrit native saml/\u003ccommit-group\u003e group\n* use that group to be configured as the owner of the repo",
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0018824c_76fd2b47",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 46,
+        "startChar": 11,
+        "endLine": 46,
+        "endChar": 17
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d148c746_3c404bbe",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "Gerrit",
+      "range": {
+        "startLine": 50,
+        "startChar": 31,
+        "endLine": 50,
+        "endChar": 37
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d6781f3_71e70d16",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "an",
+      "range": {
+        "startLine": 70,
+        "startChar": 15,
+        "endLine": 70,
+        "endChar": 18
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "794137a3_66eb26ac",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-27T16:02:03Z",
+      "side": 1,
+      "message": "We",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 1
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
