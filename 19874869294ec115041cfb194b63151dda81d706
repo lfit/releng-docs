@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "d6c7fc63_88847b01",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-08-05T21:10:05Z",
+      "side": 1,
+      "message": "Can you elaborate, do we need this to be an issue that everyone can see? Are IT- links disallowed now?",
+      "parentUuid": "7ae75c75_fe6bd2d1",
+      "revId": "19874869294ec115041cfb194b63151dda81d706",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "49e4bd37_690045c8",
         "filename": "docs/infra/inventory.rst",
         "patchSetId": 1
