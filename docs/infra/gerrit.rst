@@ -186,6 +186,7 @@ Below are the instructions on how to install this filter.
    .. code-block:: bash
 
        git clone "ssh://<user>@gerrit.<project>.org:29418/All-Projects"
+       cd All-Projects
        git fetch origin refs/meta/config:config
        git checkout config
 
@@ -364,7 +365,7 @@ Below are the instructions on how to install this filter.
    .. code-block:: bash
 
        git add rules.pl
-       git commit -m "LF initial prolog filter"
+       git commit -s -S -m "LF initial prolog filter"
        git push origin HEAD:refs/meta/config
 
    # Stop ignoring
