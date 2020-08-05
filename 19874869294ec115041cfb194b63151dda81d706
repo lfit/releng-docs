@@ -51,6 +51,24 @@
       "revId": "19874869294ec115041cfb194b63151dda81d706",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "245b8d69_2795251b",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-08-05T21:10:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49e4bd37_690045c8",
+      "revId": "19874869294ec115041cfb194b63151dda81d706",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
