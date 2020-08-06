@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "a0fb7f98_d2248be4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-08-06T18:56:51Z",
+      "side": 1,
+      "message": "We\u0027re running an OSS project, issue links should be public. As such, I strongly believe that IT links should not be used in our public repositories, only RELENG links. We\u0027ve gotten several questions by interested parties as to the reasoning behind a particular change but the party wasn\u0027t part of a given \"community\" and therefore couldn\u0027t see the JSD issue.\n\nThe easiest way to do this is from the IT issue, do the following: more -\u003e create linked issue. Make sure the issue is in the RELENG project. Use the resultant RELENG issue for the key.",
+      "parentUuid": "d6c7fc63_88847b01",
+      "revId": "19874869294ec115041cfb194b63151dda81d706",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "49e4bd37_690045c8",
         "filename": "docs/infra/inventory.rst",
         "patchSetId": 1
