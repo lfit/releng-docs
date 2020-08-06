@@ -46,6 +46,30 @@
       "revId": "1543b1146720f553efcdb99fd94d8999a7bfad3f",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "843a3fb4_1380ab27",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-08-06T19:33:03Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "3400ec5d_1045c180",
+      "range": {
+        "startLine": 91,
+        "startChar": 7,
+        "endLine": 91,
+        "endChar": 95
+      },
+      "revId": "1543b1146720f553efcdb99fd94d8999a7bfad3f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     }
   ]
 }
