@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "3546b9dd_3871fabe",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-08-06T19:11:17Z",
+      "side": 1,
+      "message": "fixed, and thanks for explaining it.",
+      "parentUuid": "a0fb7f98_d2248be4",
+      "revId": "19874869294ec115041cfb194b63151dda81d706",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "49e4bd37_690045c8",
         "filename": "docs/infra/inventory.rst",
         "patchSetId": 1
