@@ -1,0 +1,7 @@
+Verified+1: Jenkins CI <releng+lf-jenkins@linuxfoundation.org>
+Code-Review+2: DW Talton <dtalton@contractor.linuxfoundation.org>
+Submitted-by: Aric Gardner <agardner@linuxfoundation.org>
+Submitted-at: Thu, 06 Aug 2020 18:36:03 +0000
+Reviewed-on: https://gerrit.linuxfoundation.org/infra/c/releng/docs/+/64950
+Project: releng/docs
+Branch: refs/heads/master
