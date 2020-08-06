@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be303a99_7c9d2412",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2020-08-06T19:00:34Z",
+      "side": 0,
+      "message": "This change is unrelated to the rest of the commit, and is not documented in the commit message. I can\u0027t tell why it\u0027s being removed.",
+      "range": {
+        "startLine": 91,
+        "startChar": 7,
+        "endLine": 91,
+        "endChar": 95
+      },
+      "revId": "1543b1146720f553efcdb99fd94d8999a7bfad3f",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
