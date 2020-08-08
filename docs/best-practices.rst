@@ -49,71 +49,64 @@ that they are not hitting any of these):
 
     Refer to Google's blog (`google-blog-code-health`_) on effective code review.
 
-Generic Linting (Coala)
-=======================
+Generic Linting (pre-commit)
+============================
 
-Coala is a great tool for linting all languages. The easiest way to run Coala
-is with python-tox and requires Python 3 installed on the system:
+pre-commit is a Git hooks management tool and is great for running linters from
+any code languages. The easiest way to run pre-commit is with python-tox and
+requires Python 3 installed on the system:
 
 .. code-block:: bash
 
-    tox -ecoala
+    tox -epre-commit
 
-Running Coala without Tox can come in handy for executing Coala in
-interactive mode. In this case, install Coala in a Python viritualenv.
-Use virtualenvwrapper as it makes it simple to manage local virtual environments.
+However if you want a more automated experience we recommend running pre-commit
+directly and installing the hooks such that they automatically run when you
+execute the ``git commit`` command. In this case, install pre-commit using your
+package manager or ``pip install`` it if your distro does not have it
+available.
 
 Requirements
 ------------
 
 * Python 3
-* Python `virtualenv <https://virtualenv.pypa.io/en/stable/>`_
-* Python `virtualenvwrapper <https://virtualenvwrapper.readthedocs.io/en/latest/index.html>`_
+* Python `pre-commit <https://pre-commit.com/>`_
 
-Install Coala
--------------
+Install pre-commit
+------------------
 
-.. note::
-
-    Some distros have a package called *coala* available but do not confuse
-    this package with python-coala which is an entirely different piece of
-    software.
-
-Using virtualenv (assuming virtualenvwrapper is available), install Coala:
+If pre-commit is not available from your native package manager than you can
+install it via Python's ``pip install`` command:
 
 .. code-block:: bash
 
-    mkvirtualenv --python=/usr/bin/python3 coala
-    pip install coala coala-bears
-    coala --help
+    pip install --user pre-commit
+    pre-commit --help
 
-For future usage of an existing virtualenv, activate as follows:
+Once installed for every repo that are are working on you can install the
+pre-commit hooks directly into your local Git hooks on a per repo basis.
 
 .. code-block:: bash
 
-    # Re-activate Coala virtualenv
-    workon coala
-    # Run the coala command
-    coala --help
+    pre-commit install
 
-Set up Coala for a Project
---------------------------
-
-Use python-tox to manage a Coala setup for any projects that require linting.
+Set up pre-commit for a Project
+-------------------------------
 
 **Requirements**
 
 * Python 3
-* Python `virtualenv <https://virtualenv.pypa.io/en/stable/>`_
+* Python `pre-commit <https://pre-commit.com/>`_
 * Python `Tox <https://tox.readthedocs.io/>`_
 
-Configure the project with a tox.ini and a .coafile file.
-Below are examples of .coafile and tox.ini as defined by lftools. Inside
-the tox.ini file the interesting bits are under [testenv:coala].
+Configure the project with a ``tox.ini`` and a ``.pre-commit-config.yaml``
+file. Below are examples of ``.pre-commit-config.yaml`` and ``tox.ini`` as
+defined by this project. Inside the ``tox.ini`` file the interesting bits are
+under ``[testenv:pre-commit]``.
 
-**.coafile**
+**.pre-commit-config.yaml**
 
-.. literalinclude:: ../.coafile
+.. literalinclude:: ../.pre-commit-config.yaml
     :language: ini
 
 **tox.ini**
