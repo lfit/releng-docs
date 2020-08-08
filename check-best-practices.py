@@ -10,7 +10,7 @@
 ##############################################################################
 """Scan documentation for bad practices."""
 
-__author__ = 'Thanh Ha'
+__author__ = "Thanh Ha"
 
 
 import fnmatch
@@ -27,19 +27,19 @@ def check_sudo_pip(filename):
     counter = 0
 
     print("Scanning {}".format(filename))
-    with open(filename, 'r') as _file:
+    with open(filename, "r") as _file:
         for num, line in enumerate(_file, 1):
-            if re.search('sudo pip', line):
+            if re.search("sudo pip", line):
                 counter += 1
-                print('{}: {}'.format(num, line))
+                print("{}: {}".format(num, line))
 
     if counter:
-        print('ERROR: pip should never be used as a sudo command.')
-        print('Consider one of the following solutions:')
-        print('1. Use a virtualenv')
-        print('   (https://virtualenv.pypa.io/en/stable/)')
-        print('2. Use PEP370 instead via pip\'s --user parameter.')
-        print('   (https://www.python.org/dev/peps/pep-0370/)')
+        print("ERROR: pip should never be used as a sudo command.")
+        print("Consider one of the following solutions:")
+        print("1. Use a virtualenv")
+        print("   (https://virtualenv.pypa.io/en/stable/)")
+        print("2. Use PEP370 instead via pip's --user parameter.")
+        print("   (https://www.python.org/dev/peps/pep-0370/)")
         return True
 
     return False
@@ -47,8 +47,8 @@ def check_sudo_pip(filename):
 
 if __name__ == "__main__":
     counter = 0
-    for root, dirnames, filenames in os.walk('docs'):
-        for filename in fnmatch.filter(filenames, '*.rst'):
+    for root, dirnames, filenames in os.walk("docs"):
+        for filename in fnmatch.filter(filenames, "*.rst"):
             if check_sudo_pip(os.path.join(root, filename)):
                 counter += 1
 
