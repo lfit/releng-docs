@@ -94,6 +94,23 @@
     },
     {
       "key": {
+        "uuid": "1eb0013d_c2a2d3c7",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2020-08-27T20:28:57Z",
+      "side": 1,
+      "message": "maybe make this a link?",
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d539425b_aa364bee",
         "filename": "docs/project-creation.rst",
         "patchSetId": 14
@@ -111,6 +128,74 @@
         "endLine": 31,
         "endChar": 23
       },
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "38748b47_416a1ce3",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2020-08-27T20:28:57Z",
+      "side": 1,
+      "message": "equivalent",
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a8264fac_be37dcf5",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2020-08-27T20:28:57Z",
+      "side": 1,
+      "message": "link doesn\u0027t work, maybe this one instead? https://gerrit.onap.org/r/admin/repos/ccsdk/dashboard",
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a3fb3bfe_a184a959",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2020-08-27T20:28:57Z",
+      "side": 1,
+      "message": "available",
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab209a02_df341a15",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2020-08-27T20:28:57Z",
+      "side": 1,
+      "message": "minimum",
       "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
