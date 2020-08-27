@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ddcd3200_36cc9af3",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-08-27T20:27:27Z",
+      "side": 1,
+      "message": "I don\u0027t think we need this, maybe we can rephrase with \"Helps reduce administrator time spent on\nproject creation automation\"",
+      "range": {
+        "startLine": 12,
+        "startChar": 28,
+        "endLine": 12,
+        "endChar": 39
+      },
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a812218_f01a0252",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-08-27T20:27:27Z",
+      "side": 1,
+      "message": "it\u0027s",
+      "range": {
+        "startLine": 13,
+        "startChar": 61,
+        "endLine": 13,
+        "endChar": 64
+      },
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b1ac6c1_aa6189b5",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-08-27T20:27:27Z",
+      "side": 1,
+      "message": "Can we put in parenthesis which resources we are referring to?",
+      "range": {
+        "startLine": 13,
+        "startChar": 65,
+        "endLine": 13,
+        "endChar": 83
+      },
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "212a0ff0_a94f39a2",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-08-27T20:27:27Z",
+      "side": 1,
+      "message": "Can we put the text in this section in the form of steps?",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 11
+      },
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d539425b_aa364bee",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 14
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-08-27T20:27:27Z",
+      "side": 1,
+      "message": "equivalent",
+      "range": {
+        "startLine": 31,
+        "startChar": 14,
+        "endLine": 31,
+        "endChar": 23
+      },
+      "revId": "c9709eca7cb451e1a87e75380bc635f589ee3577",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
