@@ -13,7 +13,7 @@ occur around the code commits.
 
 .. note::
 
-   Here is more information on `Gerrit <https://code.google.com/p/gerrit/>`_
+   Here is more information on `Gerrit <https://www.gerritcodereview.com/>`_
 
 Prerequisites
 =============
