@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "23987ed3_7d162876",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-08-31T19:25:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ede7998b_624d000d",
+      "revId": "baf2a58b9878c24fb1cb76dbcda06518769f19a5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fd2541f0_f76eaeab",
         "filename": "docs/project-creation.rst",
         "patchSetId": 4

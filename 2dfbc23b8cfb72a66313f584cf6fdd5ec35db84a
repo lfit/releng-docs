@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e353d53b_bf0f042a",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-08-31T19:25:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2ade2c5_e2d3216b",
+      "range": {
+        "startLine": 12,
+        "startChar": 76,
+        "endLine": 12,
+        "endChar": 79
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "271cab9e_2ab4975b",
         "filename": "docs/project-creation.rst",
         "patchSetId": 10
@@ -45,6 +69,30 @@
       "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "87de30ed_73f673d1",
+        "filename": "docs/project-creation.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 12
+      },
+      "writtenOn": "2020-08-31T19:25:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "271cab9e_2ab4975b",
+      "range": {
+        "startLine": 13,
+        "startChar": 15,
+        "endLine": 13,
+        "endChar": 21
+      },
+      "revId": "2dfbc23b8cfb72a66313f584cf6fdd5ec35db84a",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
     },
     {
       "key": {
