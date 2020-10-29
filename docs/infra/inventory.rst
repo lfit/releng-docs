@@ -71,6 +71,19 @@ Inventory
      - https://lfanalytics.io/projects/academy-software-foundation
      - N/A
 
+   * - DENT
+     - https://github.com/orgs/dentproject
+     - | https://jenkins.dent.dev
+       | https://jenkins.dent.dev/sandbox
+     - N/A
+     - N/A
+     - https://nexus.dent.dev
+     - N/A
+     - https://logs.dent.dev
+     - N/A
+     - https://lfanalytics.io/projects/dent/dashboard
+     - N/A
+
    * - EdgeX
      - https://github.com/edgexfoundry
      - | https://jenkins.edgexfoundry.org
