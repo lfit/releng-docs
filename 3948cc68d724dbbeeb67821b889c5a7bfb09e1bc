@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "72ae7ef8_94d72e6e",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-10-29T21:27:52Z",
+      "side": 1,
+      "message": "We will not be using nexus3 for now.",
+      "range": {
+        "startLine": 81,
+        "startChar": 4,
+        "endLine": 81,
+        "endChar": 30
+      },
+      "revId": "3948cc68d724dbbeeb67821b889c5a7bfb09e1bc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ea4eaad7_cf3b8ee0",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2020-10-29T21:27:52Z",
+      "side": 1,
+      "message": "Not yet setup, but i think it will exist.. should we still keep it in the list?",
+      "range": {
+        "startLine": 83,
+        "startChar": 3,
+        "endLine": 83,
+        "endChar": 56
+      },
+      "revId": "3948cc68d724dbbeeb67821b889c5a7bfb09e1bc",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": true
+    }
+  ]
+}
