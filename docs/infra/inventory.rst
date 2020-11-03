@@ -29,8 +29,7 @@ Inventory
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
      - https://logs.acumos.org
-     - | https://sonar.acumos.org
-       | https://sonarcloud.io/organizations/acumos/projects
+     - https://sonarcloud.io/organizations/acumos/projects
      - https://lfanalytics.io/projects/lfai%2Facumos/dashboard
      - `Acumos Jenkins <https://p.datadoghq.com/sb/8b3d6afcf-81d00a49cfa327e4ff422c8ccfee6b2e>`_
 
