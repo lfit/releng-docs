@@ -30,7 +30,7 @@ Inventory
      - https://nexus3.acumos.org
      - https://logs.acumos.org
      - https://sonarcloud.io/organizations/acumos/projects
-     - https://lfanalytics.io/projects/lfai%2Facumos/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfai%2Facumos/dashboard
      - `Acumos Jenkins <https://p.datadoghq.com/sb/8b3d6afcf-81d00a49cfa327e4ff422c8ccfee6b2e>`_
 
    * - AGL
@@ -55,7 +55,7 @@ Inventory
      - https://nexus3.akraino.org
      - https://logs.akraino.org
      - https://sonarcloud.io/organizations/akraino-edge-stack/projects
-     - https://lfanalytics.io/projects/lfedge%2Fakraino-edge-stack/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfedge%2Fakraino-edge-stack/dashboard
      - `Akraino Jenkins <https://p.datadoghq.com/sb/be5bb4dc7-4a4339214a96eaf4bd75e8515953c4ab>`_
 
    * - ASWF
@@ -67,7 +67,7 @@ Inventory
      - N/A
      - N/A
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
-     - https://lfanalytics.io/projects/academy-software-foundation
+     - https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation
      - N/A
 
    * - DENT
@@ -93,7 +93,7 @@ Inventory
      - https://nexus3.edgexfoundry.org
      - https://logs.edgexfoundry.org
      - https://sonarcloud.io/organizations/edgexfoundry/projects
-     - https://lfanalytics.io/projects/lfedge%2Fedgex-foundry/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfedge%2Fedgex-foundry/dashboard
      - `EdgeX Jenkins <https://p.datadoghq.com/sb/57e4b2d73-edaf7ba14e20bc461fc369a19b9bfa3f>`_
 
    * - FD.io
@@ -106,7 +106,7 @@ Inventory
      - N/A
      - https://logs.fd.io
      - https://sonarcloud.io/organizations/fdio/projects
-     - https://lfanalytics.io/projects/lfn%2Ffdio/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Ffdio/dashboard
      - `FD.io Jenkins <https://p.datadoghq.com/sb/c3585feaa-00f9540471c4351548451ba8d3644bc7>`_
 
    * - HyperLedger
@@ -118,7 +118,7 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - https://lfanalytics.io/projects/hyperledger
+     - https://insights.lfx.linuxfoundation.org/projects/hyperledger
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
    * - LF Edge
@@ -130,7 +130,7 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - https://lfanalytics.io/projects/lfedge%2Ffledge/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfedge%2Ffledge/dashboard
      - N/A
 
    * - ODPi
@@ -155,7 +155,7 @@ Inventory
      - https://nexus3.onap.org
      - https://logs.onap.org
      - https://sonarcloud.io/organizations/onap/projects
-     - https://lfanalytics.io/projects/lfn%2Fonap/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fonap/dashboard
      - `ONAP Jenkins <https://p.datadoghq.com/sb/09907bd64-75f6f514781dd3914ee963a30e5b4155>`_
 
    * - OpenDaylight
@@ -169,7 +169,7 @@ Inventory
      - https://logs.opendaylight.org
      - | https://sonar.opendaylight.org
        | https://sonarcloud.io/organizations/opendaylight/projects
-     - https://lfanalytics.io/projects/lfn%2Fodl/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fodl/dashboard
      - `ODL Jenkins <https://p.datadoghq.com/sb/68be64401-3b1e66c2845bacfbb8b965b9d853a882>`_
 
    * - OPNFV
@@ -182,7 +182,7 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - https://lfanalytics.io/projects/lfn%2Fopnfv/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fopnfv/dashboard
      - `OPNFV Jenkins <https://p.datadoghq.com/sb/89fzhyo444eioxhj-e739a8783ecbe0f294ce1bdce873ef5e>`_
 
    * - O-RAN
@@ -207,7 +207,7 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - https://lfanalytics.io/projects/lfn%2Ftungsten-fabric/dashboard
+     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Ftungsten-fabric/dashboard
      - N/A
 
    * - Zowe
