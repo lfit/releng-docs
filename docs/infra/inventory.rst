@@ -29,8 +29,7 @@ Inventory
      - https://nexus.acumos.org
      - https://nexus3.acumos.org
      - https://logs.acumos.org
-     - | https://sonar.acumos.org
-       | https://sonarcloud.io/organizations/acumos/projects
+     - https://sonarcloud.io/organizations/acumos/projects
      - https://lfanalytics.io/projects/lfai%2Facumos/dashboard
      - `Acumos Jenkins <https://p.datadoghq.com/sb/8b3d6afcf-81d00a49cfa327e4ff422c8ccfee6b2e>`_
 
@@ -69,6 +68,19 @@ Inventory
      - N/A
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
      - https://lfanalytics.io/projects/academy-software-foundation
+     - N/A
+
+   * - DENT
+     - https://github.com/orgs/dentproject
+     - | https://jenkins.dent.dev
+       | https://jenkins.dent.dev/sandbox
+     - N/A
+     - N/A
+     - https://nexus.dent.dev
+     - N/A
+     - https://logs.dent.dev/logs
+     - N/A
+     - https://lfanalytics.io/projects/dent/dashboard
      - N/A
 
    * - EdgeX
