@@ -97,6 +97,30 @@
     },
     {
       "key": {
+        "uuid": "d2986ce2_27a3f173",
+        "filename": "docs/style-guide.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-12-30T20:00:20Z",
+      "side": 1,
+      "message": "I just read over section 3.16 of the NASA guide. It\u0027s very clear and concise and is pretty much the way I\u0027ve always thought it should be. I can\u0027t say as I\u0027ve always followed it, but it really speaks to me clearly. So, my suggestion would be to follow it.",
+      "parentUuid": "57ae3339_b7378344",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "66d0c496_501e1fba",
         "filename": "docs/style-guide.rst",
         "patchSetId": 2
