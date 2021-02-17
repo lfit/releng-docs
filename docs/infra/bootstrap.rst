@@ -282,7 +282,7 @@ Bootstrap common-packer and initial builder
 
          # Default Template Configuration
          IMAGE_NAME=<BUILD_IMAGE_NAME>
-         HARDWARE_ID=v1-standard-1
+         HARDWARE_ID=v3-standard-2
          NETWORK_ID=<NETWORK_ID>
          USER_DATA_ID=jenkins-init-script
          INSTANCE_CAP=10
@@ -302,7 +302,7 @@ Bootstrap common-packer and initial builder
       .. code-block:: bash
 
          IMAGE_NAME=ZZCI - CentOS 7 - builder - 20180604-1653
-         HARDWARE_ID=v1-standard-1
+         HARDWARE_ID=v3-standard-2
 
    #. Run global-jjb jenkins-cfg script to update Jenkins cloud config
 
