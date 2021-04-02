@@ -17,7 +17,7 @@ repos:
       - id: gitlint
 
   - repo: https://github.com/ambv/black
-    rev: stable
+    rev: 20.8b1
     hooks:
       - id: black
 
