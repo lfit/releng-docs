@@ -268,4 +268,4 @@ links listed as ``std:label`` refer to the ``:ref:`` syntax.
    :caption: Example lf-docs objects.inv
 
 .. _intersphinx: http://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html
-.. _linking: http://www.sphinx-doc.org/en/1.7/markup/inline.html
+.. _linking: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#inline-markup
