@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fc30e9f_9f75cdfd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2021-04-26T01:18:33Z",
+      "side": 1,
+      "message": "No emoji\u0027s in commit headers :P",
+      "revId": "e7b5216aaadf3f8bc9c55aeb3d398d62bda4b371",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
