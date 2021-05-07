@@ -52,6 +52,24 @@
       "parentUuid": "ec93eb09_5dd8cb0c",
       "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6fd86d9_783ea820",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 530
+      },
+      "writtenOn": "2021-05-07T19:28:23Z",
+      "side": 1,
+      "message": "Thanks you for these precisions.\nI took a look at I1ce07d05302e7c4b86b37231fe5f17eab8191b36  and this is really helpful. I\u0027ll wait a little for this to be merged to rework if you don\u0027t mind.\n\nAlso I disagree on the statement that the global-jjb gitlint configuration was enforcing these rules on the gate. All the changes that I pushed were beginning their subject line with a lower case character and they all received a verified +1\n\nAdditionnaly https://gerrit.linuxfoundation.org/infra/c/releng/global-jjb/+/67550 was not even abiding by the conventional commit rules.\n\nIf this is not specified in the best practices nor in any specific contributor guides, my opinion is that any new contributors will be confused on what to do, and probably get discouraged.",
+      "parentUuid": "ebb14c86_bf75a5fd",
+      "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
