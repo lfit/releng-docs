@@ -33,6 +33,12 @@ that they are not hitting any of these):
 - Is the code rebased onto the latest HEAD of the branch?
 - Does the code pull in any dependencies that might have license conflicts
   with this project's license?
+- Is the Git commit body independent from the title ?
+  The first paragraph should not be a continued flow from the subject line
+  but a paragraph that can stand on its own.
+- If important changes are brought by the commit(s), has an appropriate reno
+  ChangeLog YAML file been created ?
+  (Refer to https://docs.openstack.org/reno/latest/user/usage.html)
 
 **Code**
 
