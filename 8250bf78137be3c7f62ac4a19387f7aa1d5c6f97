@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "543b9638_e5288377",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:15:17Z",
+      "side": 1,
+      "message": "CI",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 2
+      },
+      "revId": "8250bf78137be3c7f62ac4a19387f7aa1d5c6f97",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc83dc0d_1593603f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:15:17Z",
+      "side": 1,
+      "message": "I\u0027m on the fence on this. We\u0027ve historically fallen on the side of more verbose logs as it allows for better overall analysis of how jobs are doing.\n\nYes, only outputting warnings and errors makes it easier to quickly troubleshoot but then it\u0027s generally harder to figure out why something that you\u0027re expecting to go one way went a different when it\u0027s run in the CI system.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 61
+      },
+      "revId": "8250bf78137be3c7f62ac4a19387f7aa1d5c6f97",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
