@@ -20,19 +20,24 @@ that they are not hitting any of these):
 
 **General**
 
-- Does the Git commit message sufficiently describes the change?
+- Does the Git commit message sufficiently describe the change?
   (Refer to: https://chris.beams.io/posts/git-commit/ and
   https://fatbusinessman.com/2019/my-favourite-git-commit)
-- Does the Git commit subject line follow the Conventional Commit specification?
-  (Refer to: https://www.conventionalcommits.org/ and
+- Does the Git commit subject line need to follow the Conventional Commit
+  specification?   (Refer to: https://www.conventionalcommits.org/ and
   https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
-- Does the commit message have an 'Issue: <someissue>' in the footer and not
-  in the subject line or body?
+- Does the commit message have an 'Issue: <someissue>' (or any similar tag such
+  as 'Issue-Id:' or 'JIRA:'   in the footer and not in the subject line or body?
 - Are there any typos?
 - Are all code review comments addressed?
 - Is the code rebased onto the latest HEAD of the branch?
 - Does the code pull in any dependencies that might have license conflicts
   with this project's license?
+- Is the Git commit body independent from the title ?
+  The first paragraph should not be a continued flow from the subject line
+  but a paragraph that can stand on its own.
+- If important changes are brought by the commit(s), is an appropriate
+  ChangeLog file need to be created ? (for example a reno YAML file for Releng)
 
 **Code**
 
