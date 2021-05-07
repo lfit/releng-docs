@@ -46,3 +46,9 @@ repos:
       - id: write-good
         files: "\\.(rst|md|markdown|mdown|mkdn)$"
         exclude: docs/infra/gerrit.rst|docs/best-practices.rst
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.17.6
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
