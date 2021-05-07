@@ -34,6 +34,24 @@
       "parentUuid": "680f623d_d2ba2277",
       "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebb14c86_bf75a5fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T19:03:09Z",
+      "side": 1,
+      "message": "Docs repo doesn\u0027t currently have gitlint configured to do so. It will be coming when I1ce07d05302e7c4b86b37231fe5f17eab8191b36 gets merged.\n\nAt present, only global-jjb is now enforcing.\n\n\nI want to be clear here, our best practices aren\u0027t supposed to be the be-all end-all of how to write changes and commit messages. They\u0027re guidelines. The projects that LF is specifically running out of our Gerrit for use by our communities follows those guidelines closely, but even so, you\u0027re going to run into variations. The documentation was explicitly written so that anyone can use it as a starting point for their own community.\n\nTrying to be specific for LF RE projects _and_ generic enough to support that use case are at odds with each other and the more generic has to win out in this case.",
+      "parentUuid": "ec93eb09_5dd8cb0c",
+      "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
