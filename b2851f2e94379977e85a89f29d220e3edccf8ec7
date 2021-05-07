@@ -16,6 +16,24 @@
       "message": "We\u0027re using gitlint for conventional commit enforcement. I don\u0027t want warring linters\n\nAdditionally, _we_ require capitalized subject lines. It\u0027s the LF RelEng convention.",
       "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec93eb09_5dd8cb0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 530
+      },
+      "writtenOn": "2021-05-07T18:46:54Z",
+      "side": 1,
+      "message": "OK but if we look at this recent log,\nhttps://jenkins.opendaylight.org/releng/job/lf-infra-docs-tox-verify-any/908/console\n\n01:32:40 [INFO] This may take a few minutes...\n01:32:43 gitlint..............................................(no files to check)Skipped\n\nit seems gitlint is not enforcing anything on the gate.\nAnd I don\u0027think the related commit message is following the conventional commit message rules.\nhttps://gerrit.linuxfoundation.org/infra/c/releng/docs/+/67567/1//COMMIT_MSG\n\nAbout the LF RelEng convention\nas it is currently written in the best practices, this is not clear\nbecause they point to https://www.conventionalcommits.org/ that is using lower case for types.\nIs there a place where I can find all the type possible values recommended by LF_ RelReng so that we update the documentation properly?",
+      "parentUuid": "680f623d_d2ba2277",
+      "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
