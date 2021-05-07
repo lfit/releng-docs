@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "680f623d_d2ba2277",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:12:18Z",
+      "side": 1,
+      "message": "We\u0027re using gitlint for conventional commit enforcement. I don\u0027t want warring linters\n\nAdditionally, _we_ require capitalized subject lines. It\u0027s the LF RelEng convention.",
+      "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
