@@ -121,6 +121,18 @@ Inventory
      - https://insights.lfx.linuxfoundation.org/projects/hyperledger
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
+   * - JQuery
+     - https://github.com/jquery
+     - | https://jenkins.jquery.com
+     - N/A
+     - https://jira.jquery.org
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+     - https://insights.lfx.linuxfoundation.org/projects/jquery
+     - N/A
+
    * - LF Edge
      - https://github.com/lf-edge
      - | https://jenkins.lfedge.org/
