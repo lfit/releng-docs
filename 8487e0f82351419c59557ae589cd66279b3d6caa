@@ -3,6 +3,46 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d89d831d_cd096619",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:08:04Z",
+      "side": 1,
+      "message": "Docs, not docs",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd36ea79_5d5c48c7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:08:04Z",
+      "side": 1,
+      "message": "Mention changelogs, sure, bot reno explicitly? Not unless you\u0027re going to add in that we recommend the use of it for python based projects or projects using sphinx documentation. Alternatively, I just found out about auto-changelog (https://pypi.org/project/auto-changelog/) and it can automatically create a changelog from commits following the CC style. It\u0027s not as flexible as reno though as you can\u0027t make fixes to the changelog entries (or give more color) if needs be.",
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f7c79262_8de6cc34",
         "filename": "docs/best-practices.rst",
         "patchSetId": 4
@@ -14,6 +54,24 @@
       "writtenOn": "2021-05-07T16:00:31Z",
       "side": 1,
       "message": "As discussed here\nhttps://gerrit.linuxfoundation.org/infra/c/releng/global-jjb/+/67570/comment/e4bffb6d_54d3f775/\n\nif this reference allows other types, it recommends by default the angular convention.\nWe should precise the list of supported types here which seems to be different and allows upper case characters",
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e7275d6_3f30cb2d",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:08:04Z",
+      "side": 1,
+      "message": "If you read the CC specification they are laying out guidelines on how the subject lines should be formatted, they are not explicitly stating _what_ the topics are, those are, and should be something that a given project defines. They are stating that the subject must be prefixed with a noun topic, not that they should be in lowercase. Reading through those links that are given you\u0027ll see that the generally accepted topics are (currently):\n\nFix, Feat, Chore, Docs, Style, Refactor, Perf, Test, Revert, CI, Build\n\nThose are the topics that are used by gitlint, which we are using via pre-commit. The defaults from gitlint were all lowercase, but we require them to be capitalized (as I\u0027ve shown). The reasoning for that is as follows.\n\nIf you read the links from our very first general best practice you\u0027ll end up on the Chris Beams \u0027How to Write a Git Commit Message\u0027 blog and in there you will get to the seven rules of a great git commit message.\n\nPoint 3 calls out that the subject line should be capitalized. This helps with legibility. As such, we specifically are enforcing that into our CC pre-commit check by only allowing topics that are capitalized.\n\nFinally, to circle back on the topics, those are, and should always be, something that a project can self define or add to. For instance, I\u0027m starting to use \u0027Decom\u0027 in internal projects related to decommissioning pet systems.",
+      "parentUuid": "f7c79262_8de6cc34",
       "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
@@ -35,6 +93,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f50d2041_c1d50e25",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:08:04Z",
+      "side": 1,
+      "message": "The best practices here are recommendations. All projects are different. What we\u0027re recommending is that _if_ a project is using an issue tracker (any issue tracker) that corresponding issues should be linked in the commit message footer and _not_ in the subject line (as many devs are want to do)",
+      "parentUuid": "d6cccbf9_3c57d875",
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4274c866_2be2c0c0",
@@ -48,6 +124,41 @@
       "writtenOn": "2021-05-07T15:55:49Z",
       "side": 1,
       "message": "@Andrew: I did not manage to find any hint of this rule in all the references given, nor any other else so I added it here to avoid various interpretations.",
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9960cc99_52db95f8",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:08:04Z",
+      "side": 1,
+      "message": "Go read the linked articles for the first bullet point of this list.",
+      "parentUuid": "4274c866_2be2c0c0",
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85decaa6_fd49eb1a",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T18:08:04Z",
+      "side": 1,
+      "message": "Please do not call out reno specifically. Reno is the tooling that we are using for some projects. Other projects do not use reno at all.\n\nMentioning that a changelog should be updated is fine, but dictating a particular tool is not. This documentation is not just documentation for LF Release Engineering projects, but a _general_ suggested standard for developers and other projects to use. It\u0027s essentially part of the LFRE recommended reading for people and organizations that haven\u0027t done open source or want to up their code review game.\n\nPlease note, my prior reviews telling you to go read the best practices document was to get you to understand part of why I was giving a negative review and to give more color around how to improve your changes.",
       "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
