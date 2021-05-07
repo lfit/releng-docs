@@ -70,6 +70,24 @@
       "parentUuid": "ebb14c86_bf75a5fd",
       "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7d2b34e_1783883b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-07T20:47:14Z",
+      "side": 1,
+      "message": "The change you\u0027re mentioning came in before we started enforcement. In fact, enforcement of the subject lines only just went live earlier today with the merging of change If45c7a256f7d769eb092d867217468b9d6c53384 at 08:26 PT.\n\nThis means that your entire global-jjb patch series is also based on a master that is before we started enforcement, which is why there have been so many manual comments from me about it.\n\nAs to getting confused on this, if folks are using pre-commit (like they should be) then they would get a failure during commit with the new enforcement since it would be happening at commit time (via pre-commit using the commit-msg hook) they would also get a failure in CI. In both cases the error would state why it failed and the actual options.",
+      "parentUuid": "e6fd86d9_783ea820",
+      "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
