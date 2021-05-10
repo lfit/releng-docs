@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a57c3894_93397945",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:30:04Z",
+      "side": 1,
+      "message": "Remove extra space. 2 spaces here is fine, but 3 is overkill",
+      "range": {
+        "startLine": 27,
+        "startChar": 16,
+        "endLine": 27,
+        "endChar": 19
+      },
+      "revId": "1694fcd5290d738f21f7906b526ce5b55ded85a1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bdf063e_6475189d",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:30:04Z",
+      "side": 1,
+      "message": "If the change has an associated issue tracker, does the commit...",
+      "range": {
+        "startLine": 29,
+        "startChar": 2,
+        "endLine": 29,
+        "endChar": 17
+      },
+      "revId": "1694fcd5290d738f21f7906b526ce5b55ded85a1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00e7ec5e_18a37242",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:30:04Z",
+      "side": 1,
+      "message": "You need to close \u0027)\u0027 your parenthetical",
+      "range": {
+        "startLine": 30,
+        "startChar": 27,
+        "endLine": 30,
+        "endChar": 28
+      },
+      "revId": "1694fcd5290d738f21f7906b526ce5b55ded85a1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fa50d3b_9859cae6",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:30:04Z",
+      "side": 1,
+      "message": "does",
+      "range": {
+        "startLine": 39,
+        "startChar": 53,
+        "endLine": 39,
+        "endChar": 55
+      },
+      "revId": "1694fcd5290d738f21f7906b526ce5b55ded85a1",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
