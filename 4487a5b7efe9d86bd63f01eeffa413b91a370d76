@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a91230bf_a7f4bce4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:55:37Z",
+      "side": 1,
+      "message": "This needs to be rebased off current HEAD. The parent that you\u0027re currently based on (Ie43773c374e35343edd8fa05600e95644eea671a) has been superseded by a more thorough (and tested) fix for getting gitlint to run properly in tox, both locally and in CI",
+      "revId": "4487a5b7efe9d86bd63f01eeffa413b91a370d76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
