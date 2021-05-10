@@ -88,6 +88,24 @@
       "parentUuid": "e6fd86d9_783ea820",
       "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9a72003_cb3e09f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 530
+      },
+      "writtenOn": "2021-05-10T16:31:00Z",
+      "side": 1,
+      "message": "I appreciate the feedback and I agree that there was probably an unfortunate timing here.\n\nIt is easier to say that now. But since the types used by RelEng slightly differ from commonly accepted standards and that the new enforcement was not yet ready in gitlint / pre-commit, I think that it would have be more helpful and fair either to ask rebasing once ready or to state clearly that the format was just about to shift and be enforced rather than pointing to a too generic documentation.\nThis was really confusing even with the manual comment.",
+      "parentUuid": "f7d2b34e_1783883b",
+      "revId": "b2851f2e94379977e85a89f29d220e3edccf8ec7",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
