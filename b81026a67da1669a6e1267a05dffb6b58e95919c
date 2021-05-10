@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e853720_ab54dd56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:47:13Z",
+      "side": 1,
+      "message": "I discovered over the weekend that even after we enabled gitlint in the CI it wasn\u0027t working correctly. While you\u0027re change is trying to get it working it won\u0027t work 100% correctly in CI\n\nPlease abandon in favor of https://gerrit.linuxfoundation.org/infra/c/releng/docs/+/67656 (which was just merged)",
+      "revId": "b81026a67da1669a6e1267a05dffb6b58e95919c",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
