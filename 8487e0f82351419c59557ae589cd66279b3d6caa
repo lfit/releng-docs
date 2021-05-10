@@ -224,6 +224,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd26a2b4_5ee40fde",
+        "filename": "docs/best-practices.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-05-10T16:44:16Z",
+      "side": 1,
+      "message": "It\u0027s not explicitly stated but implied by both of the articles.\n\nThe implication comes from the very nature of the use of the subject line and the body of the commit.\n\nChris Beams, section 5 (Use the imperative mood in the subject line). \"A properly formed Git commit subject line should always be able to complete the following sentence:\n\nIf applied, this commit will \u003cyour subject line here\u003e\"\n\nAlong with section 7 (Use the body to explain what and why vs. how) which explains that the body is a story about what a change is doing. While the subject line should not end in a period, it is implied and therefore the body should not be a continuation of the subject\u0027s thought but actually start to explain the what and why of the change.",
+      "parentUuid": "535c39ad_bb07cb5c",
+      "revId": "8487e0f82351419c59557ae589cd66279b3d6caa",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "85decaa6_fd49eb1a",
