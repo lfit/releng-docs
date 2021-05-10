@@ -24,6 +24,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2e13f1c_836145f2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 530
+      },
+      "writtenOn": "2021-05-10T16:19:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "543b9638_e5288377",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 2
+      },
+      "revId": "8250bf78137be3c7f62ac4a19387f7aa1d5c6f97",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cc83dc0d_1593603f",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-05-07T18:15:17Z",
       "side": 1,
       "message": "I\u0027m on the fence on this. We\u0027ve historically fallen on the side of more verbose logs as it allows for better overall analysis of how jobs are doing.\n\nYes, only outputting warnings and errors makes it easier to quickly troubleshoot but then it\u0027s generally harder to figure out why something that you\u0027re expecting to go one way went a different when it\u0027s run in the CI system.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 61
+      },
+      "revId": "8250bf78137be3c7f62ac4a19387f7aa1d5c6f97",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36681675_321b053d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 530
+      },
+      "writtenOn": "2021-05-10T16:19:21Z",
+      "side": 1,
+      "message": "I agree this is always a dilemna but if you look at the next change 67626, you will notice than for more than one year, noone ever noticed that a method was deprecated in conf.py and was generating a warning because it was hidden by the other sphinx log message...\n\nFor docs-linkcheck, I never found an example where complete logs were useful and I experienced many failures because of connectivity issues in minions. They are quite hard to detect in the middle of logs without greping the file.",
+      "parentUuid": "cc83dc0d_1593603f",
       "range": {
         "startLine": 9,
         "startChar": 0,
