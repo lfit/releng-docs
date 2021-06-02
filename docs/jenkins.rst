@@ -189,9 +189,14 @@ Build agents flavors
 
 This section points to each LF project's build agents availability and flavors.
 
-* OpenDaylight: https://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex
-
-.. todo:: Add more LF projects build agents links
+* Acumos: https://github.com/acumos/ci-management/tree/master/jenkins-config/clouds/openstack/ACUMOSVEX
+* Akraino: https://github.com/akraino-edge-stack/ci-management/tree/master/jenkins-config/clouds/openstack/cattle
+* EdgeX Foundry: https://github.com/edgexfoundry/ci-management/tree/master/jenkins-config/clouds/openstack/Primary
+* FD.io: https://github.com/FDio/ci-management/tree/master/jenkins-config/clouds
+* ONAP: https://github.com/onap/ci-management/tree/master/jenkins-config/clouds/openstack/cattle
+* OpenDaylight (ODL): https://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex
+* O-RAN: https://github.com/o-ran-sc/ci-management/tree/master/jenkins-config/clouds/openstack/cattle
+* Zowe: https://github.com/zowe/ci-management/tree/master/jenkins-config/clouds/openstack/cattle
 
 .. _jenkins-log-server:
 
