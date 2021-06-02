@@ -106,12 +106,12 @@ the jobs published in Jenkins.
 This will push the jobs to Gerrit and your jobs will appear in Jenkins once the
 releng/builder or ci-management teams has reviewed and merged your patch.
 
-.. _jenkins-build-minions:
+.. _jenkins-build-agents:
 
-Build minions
+Build agents
 =============
 
-Jenkins jobs run on build minions (executors) created on demand and deleted when the job
+Jenkins jobs run on build agents (executors) created on demand and deleted when the job
 terminates. Jenkins supports different types of dynamic build nodes and developers must
 know the flavors available to run their custom jobs.
 
@@ -139,7 +139,7 @@ Cloud configuration (Global Configuration)
 ------------------------------------------
 
 This information will help developers (who do not have administer permissions) understand how
-LFIT configures a cloud and build minions via OpenStack Cloud plugin:
+LFIT configures a cloud and build agents via OpenStack Cloud plugin:
 
 #. Log in into Jenkins and click on ``Manage Jenkins``
 
@@ -182,16 +182,16 @@ LFIT configures a cloud and build minions via OpenStack Cloud plugin:
 
       The value should match an available ``Label`` for the node template.
 
-.. _jenkins-build-minion-flavors:
+.. _jenkins-build-agents-flavors:
 
-Build minion flavors
+Build agents flavors
 --------------------
 
-This section points to each LF project's build minions availability and flavors.
+This section points to each LF project's build agents availability and flavors.
 
 * OpenDaylight: https://github.com/opendaylight/releng-builder/tree/master/jenkins-config/clouds/openstack/odlvex
 
-.. todo:: Add more LF projects build minions links
+.. todo:: Add more LF projects build agents links
 
 .. _jenkins-log-server:
 
