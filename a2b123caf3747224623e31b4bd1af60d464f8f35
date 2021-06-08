@@ -18,6 +18,23 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f9b71fd_55d4e678",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2021-06-08T20:50:35Z",
+      "side": 1,
+      "message": "Any chance for a code example with the docs? Reading this without much prior knowledge, I understand what the files are for and how they\u0027re used, but I don\u0027t really know what one should look like. Even a single example of defining a maven server would really add a lot to how much I feel like I understand the concepts being laid out.",
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "37828721_77da2f77",
@@ -54,6 +71,30 @@
       "writtenOn": "2021-06-08T19:10:19Z",
       "side": 1,
       "message": "\"a\" instead of \"an\"\n\nI think?",
+      "range": {
+        "startLine": 251,
+        "startChar": 75,
+        "endLine": 251,
+        "endChar": 77
+      },
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8337d855_20b7dfb2",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2021-06-08T20:50:35Z",
+      "side": 1,
+      "message": "Yes, should be \"a\".",
+      "parentUuid": "af9e5bc5_8ac55217",
       "range": {
         "startLine": 251,
         "startChar": 75,
