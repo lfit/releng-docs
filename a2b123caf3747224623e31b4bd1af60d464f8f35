@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9b68f2a_9823855a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-06-08T19:10:19Z",
+      "side": 1,
+      "message": "2 minor changes.. ",
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37828721_77da2f77",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-06-08T19:10:19Z",
+      "side": 1,
+      "message": "These files are managed",
+      "range": {
+        "startLine": 207,
+        "startChar": 50,
+        "endLine": 207,
+        "endChar": 69
+      },
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af9e5bc5_8ac55217",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-06-08T19:10:19Z",
+      "side": 1,
+      "message": "\"a\" instead of \"an\"\n\nI think?",
+      "range": {
+        "startLine": 251,
+        "startChar": 75,
+        "endLine": 251,
+        "endChar": 77
+      },
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
