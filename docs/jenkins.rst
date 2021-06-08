@@ -200,6 +200,70 @@ This section points to each LF project's build agents availability and flavors.
 
 .. _jenkins-log-server:
 
+Managed Config Files
+====================
+
+Jobs in Jenkins make extensive use of Managed Config Files for different types
+of files that store configuration or credentials. These files live in the
+ci-management repository along side of the rest of the community configurable
+components under the ``jenkins-admin/managed-config-files`` directory tree.
+
+This directory tree has the following case sensitive format:
+::
+
+   ci-mangement
+   |- jenkins-admin
+      |- managed-config-files
+         |- <config_type>
+            |- <file_id>
+               |- config-params.yaml
+               |- content
+               |- ??CredentialMappings.yaml
+               |- ??CrednetialMappings.sandbox.yaml
+         ...
+
+Configuration of credentials for production Jenkins systems come from the
+??CredentialMappings.yaml file.
+
+Configuration of credentials for sandbox Jenkins systems come from the
+??CredentialMappings.sandbox.yaml file.
+
+The config_type will correspond to the type that is under management as per how
+JCasC itself defines the file type.
+
+Common types in the LF environment are:
+
+* custom
+* globalMavenSettings
+* json
+* mavenSettings
+* openstackUserData
+* properties
+
+The file_id is precisely what the ID of the file should be for reference. The
+LF Release Engineering pratice is to always set a human readable / relatable
+ID.
+
+config-params.yaml are all the parameters related to this particular file that
+are _not_ the content of it or the credential mappings or the file content.
+
+The content file is the actual file that is under management. This must be a
+non-escaped version of the content for the field. It will be appropriately
+escaped when converted into the corresponding JCasC yaml.
+
+The two double ? in the name of the CredentialMappings files must have the
+appropriate mapping definition.
+
+The mapping type will use a verbatim copy when converting to the JCasC so it
+should be properly configured to match the config_type.
+
+The known breakdown of config_type to CredentialMappings is:
+
+* custom -> customizedCredentialMappings
+* mavenSetings -> serverCredentialMappings
+* properties -> propertiesCredentialMappings
+
+
 Log Server
 ==========
 
