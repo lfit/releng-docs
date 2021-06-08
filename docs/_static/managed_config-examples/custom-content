@@ -1,0 +1,5 @@
+This is just an example custom config file
+
+The user for the EXAMPLE token is: $EXAMPLE_USR
+The password for the EXAMPLE token is: $EXAMPLE_PSW
+The user_pass for the EXAMPLE token is: $EXAMPLE
