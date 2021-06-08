@@ -58,6 +58,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9d59b0d_c19ff764",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-08T21:52:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "37828721_77da2f77",
+      "range": {
+        "startLine": 207,
+        "startChar": 50,
+        "endLine": 207,
+        "endChar": 69
+      },
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af9e5bc5_8ac55217",
@@ -94,6 +118,30 @@
       "writtenOn": "2021-06-08T20:50:35Z",
       "side": 1,
       "message": "Yes, should be \"a\".",
+      "parentUuid": "af9e5bc5_8ac55217",
+      "range": {
+        "startLine": 251,
+        "startChar": 75,
+        "endLine": 251,
+        "endChar": 77
+      },
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ee3c2cf_de288b6d",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-08T21:52:06Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "af9e5bc5_8ac55217",
       "range": {
         "startLine": 251,
