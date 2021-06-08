@@ -35,6 +35,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "273c326f_0fb29159",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-08T22:46:41Z",
+      "side": 1,
+      "message": "I\u0027ve added an example of the files for a custom file that is doing token expansion and has differing credential mappings for production and sandbox in patchset 4",
+      "parentUuid": "1f9b71fd_55d4e678",
+      "revId": "a2b123caf3747224623e31b4bd1af60d464f8f35",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "37828721_77da2f77",
