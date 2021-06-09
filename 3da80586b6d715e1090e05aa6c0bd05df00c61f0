@@ -41,6 +41,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "826304fe_034ad385",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-09T05:00:58Z",
+      "side": 1,
+      "message": "The JCasC cron job which we run on the Jenkins systems will pick up these changes within 5 minutes of them being merged.\n\nWe still need to enable the cron job to use the script that is already doing openstack and the global env vars, but it lives in global-jjb/jenkins-admin/create_jenkins_managed_files.yaml",
+      "parentUuid": "c10c2438_e9c4eec9",
+      "range": {
+        "startLine": 203,
+        "startChar": 0,
+        "endLine": 203,
+        "endChar": 20
+      },
+      "revId": "3da80586b6d715e1090e05aa6c0bd05df00c61f0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "62f9ad6c_bc346380",
@@ -54,6 +78,30 @@
       "writtenOn": "2021-06-09T00:02:19Z",
       "side": 1,
       "message": "ci-management?",
+      "range": {
+        "startLine": 250,
+        "startChar": 50,
+        "endLine": 250,
+        "endChar": 60
+      },
+      "revId": "3da80586b6d715e1090e05aa6c0bd05df00c61f0",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "048ca413_f1fd3cd3",
+        "filename": "docs/jenkins.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-06-09T05:00:58Z",
+      "side": 1,
+      "message": "No, the file is under \u0027management\u0027. As in, it is a controlled file.",
+      "parentUuid": "62f9ad6c_bc346380",
       "range": {
         "startLine": 250,
         "startChar": 50,
