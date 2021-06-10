@@ -206,7 +206,7 @@ Managed Config Files
 Jobs in Jenkins make extensive use of Managed Config Files for different types
 of files that store configuration or credentials. These files live in the
 ci-management repository along side of the rest of the community configurable
-components under the ``jenkins-admin/managed-config-files`` directory tree.
+components under the ``jenkins-config/managed-config-files`` directory tree.
 
 This directory tree has the following case sensitive format:
 ::
