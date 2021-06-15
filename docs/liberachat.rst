@@ -1,23 +1,23 @@
-.. _freenode:
+.. _liberachat:
 
-############
-Freenode IRC
-############
+###############
+Libera.Chat IRC
+###############
 
-Freenode, is an IRC network used to discuss peer-directed projects. Freenode is
+Libera.Chat is an IRC network used to discuss peer-directed projects. Libera.Chat is
 a popular choice for Open Source project collaboration and having your project
 use this network makes it easy to cross collaborate with other communities.
 
 The Linux Foundation operates :ref:`support channels
-<freenode-lf-channels>` to provide community help.
+<liberachat-lf-channels>` to provide community help.
 
 .. important::
 
-   Due to prolonged SPAM attacks on Freenode, all Linux Foundation project
-   channels now require registered accounts to join.
-   :ref:`Register <freenode-register>` your account with the instructions below.
+   Due to prolonged SPAM attacks,
+   all Linux Foundation project channels now require registered accounts to join.
+   :ref:`Register <liberachat-register>` your account with the instructions below.
 
-.. _freenode-register:
+.. _liberachat-register:
 
 Register your username
 ======================
@@ -58,8 +58,8 @@ To Authenticate:
 Your IRC client will have a way of automating your login identification
 please refer to the docs of your IRC client for instructions.
 
-For further details on the Freenode registration process,
-please see https://freenode.net/kb/answer/registration
+For further details on the Libera.Chat registration process,
+please see https://libera.chat/guides/registration
 
 
 Channel management
@@ -105,7 +105,7 @@ should the original founder move on from the project. Provide the flags
 Once done notify LF Staff about the new channel registration.
 
 
-.. _freenode-lf-channels:
+.. _liberachat-lf-channels:
 
 Linux Foundation Channels
 =========================

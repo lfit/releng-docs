@@ -226,13 +226,13 @@ Example INFO file
         tag: '[]'
     realtime_discussion:
         type: 'irc'
-        server: 'freenode.net'
+        server: 'libera.chat'
         channel: '#example'
     meetings:
         - type: 'gotomeeting+irc'
           agenda: 'https://wiki.example.org/display/'
           url: ''
-          server: 'freenode.net'
+          server: 'libera.chat'
           channel: '#example'
           repeats: ''
           time: ''

@@ -7,7 +7,7 @@ MeetBot Guide
 LF Project communities use `MeetBot <https://wiki.debian.org/meetbot>`_  to take
 notes and to manage meetings on IRC.
 
-To host a meeting, join `#<project>-meeting` on irc.freenode.org and take notes
+To host a meeting, join `#<project>-meeting` on irc.libera.chat and take notes
 on the public IRC channel. It's recommended that all meetings participants assist
 with the task of taking notes. This reduces the onus of the task on a single
 person since its difficult to take notes and act as the chair of the meeting
