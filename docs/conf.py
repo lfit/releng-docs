@@ -35,6 +35,7 @@ linkcheck_ignore = [
     "https://git.opendaylight.org/gerrit/#/settings/gpg-keys",
     "https://wiki.debian.org/meetbot",  # SNI link needs Python 2.7.9+
     "https://iotivity.biterg.io",
+    "https://registry-1.docker.io",
 ]
 
 sphinx_tabs_valid_builders = ["linkcheck"]
