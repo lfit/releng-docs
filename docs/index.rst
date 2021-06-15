@@ -51,7 +51,7 @@ Help:
    :maxdepth: 2
 
    helpdesk
-   freenode
+   liberachat
 
 LF Internal:
 
