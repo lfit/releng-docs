@@ -251,3 +251,43 @@ Example INFO file
             - type: ''
               name: ''
               link: ''
+
+INFO.yaml auto-merge job
+========================
+
+The auto-merge job triggers after an INFO.yaml verify run for committer changes for
+an already exisiting repository.
+
+The job checks if the change verified belongs to a project where either TSC or TOC
+members approved automatically merging changes after the INFO verify job votes +1 Verified.
+
+Auto-merge skips changes for new project creation as it detects a new INFO.yaml file.
+In such case, a RELENG engineer needs to review the change.
+
+How to enable auto-merge
+------------------------
+
+#. Get TSC or TOC approval to enable auto-merge in your project
+
+#. Clone the LF ci-management repo
+
+   .. code-block:: bash
+
+      git clone "https://gerrit.linuxfoundation.org/infra/ci-management"
+
+#. Edit info-auto-merge script in jjb/ci-management/info-auto-merge.sh
+
+   .. code-block:: bash
+
+      if [[ $gerrit_name == "onap" || $gerrit_name == "o-ran-sc" ]]; then
+
+   .. note::
+
+      Add your project to the IF block in a new OR statement.
+      This IF block allows approved projects to auto-merge changes and skips if the project
+      is not listed.
+
+#. Push your change and wait for reviews and approval
+
+After merging your change, the account "lf-auto-merge" will +2 Code Review and Submit INFO.yaml file
+changes approved by info-master-verify.
