@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "d132c2fcdd4389b4fed4f710a5ce201249023154",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64f09748_468eb22c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2021-07-14T23:28:29Z",
+      "side": 1,
+      "message": "What about existing packer templates that have the availability zone configured? Should they be removed for Nova to make this optimization?",
+      "revId": "d132c2fcdd4389b4fed4f710a5ce201249023154",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
