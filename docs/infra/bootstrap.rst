@@ -289,7 +289,6 @@ Bootstrap common-packer and initial builder
          SANDBOX_CAP=4
          FLOATING_IP_POOL=
          SECURITY_GROUPS=default
-         AVAILABILITY_ZONE=ca-ymq-2
          STARTUP_TIMEOUT=600000
          KEY_PAIR_NAME=jenkins-ssh
          NUM_EXECUTORS=1
