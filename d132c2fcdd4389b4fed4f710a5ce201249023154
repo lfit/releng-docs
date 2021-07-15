@@ -51,6 +51,24 @@
       "parentUuid": "64f09748_468eb22c",
       "revId": "d132c2fcdd4389b4fed4f710a5ce201249023154",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d647d288_3df33bce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2021-07-15T21:08:22Z",
+      "side": 1,
+      "message": "yeah, I noticed that Mo has submitted changes related to that in most of the ci-man repos. :-))",
+      "parentUuid": "c6b677ca_eafee906",
+      "revId": "d132c2fcdd4389b4fed4f710a5ce201249023154",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
