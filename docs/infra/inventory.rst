@@ -75,7 +75,7 @@ Inventory
      - | https://jenkins.dent.dev
        | https://jenkins.dent.dev/sandbox
      - N/A
-     - https://jira.dent.dev/
+     - N/A
      - https://nexus.dent.dev
      - N/A
      - https://logs.dent.dev/logs
