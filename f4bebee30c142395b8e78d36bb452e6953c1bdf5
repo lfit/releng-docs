@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e32731e_926dc932",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-09-02T16:52:18Z",
+      "side": 1,
+      "message": "FYI Anil, (and anyone else that sees this), I would personally prefer folks to _not_ go rebasing or picking up my changes unless I say to. I GPG sign _every_ one of my changes and if someone else modifies it that throws the signature out!",
+      "revId": "f4bebee30c142395b8e78d36bb452e6953c1bdf5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
