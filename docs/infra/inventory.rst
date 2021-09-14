@@ -211,8 +211,7 @@ Inventory
 
    * - Zowe
      - https://github.com/zowe
-     - | https://jenkins.zowe.org
-       | https://jenkins.zowe.org/sandbox
+     - N/A
      - N/A
      - N/A
      - https://zowe.jfrog.io/
