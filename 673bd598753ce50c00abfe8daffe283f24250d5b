@@ -50,6 +50,24 @@
       "message": "I don\u0027t like merging different changes together, but given that the parent commit for this is failing because of this particular link check I think you\u0027re going to need to merge them into a single change to get it through CI :-/",
       "revId": "673bd598753ce50c00abfe8daffe283f24250d5b",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08635514_7ad98f12",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2021-09-16T02:21:33Z",
+      "side": 1,
+      "message": "Thanks Andy: Have squashed both into the same commit. I\u0027d generally prefer these changes to be separate, incase the change needs to reverted, its an easier step.",
+      "parentUuid": "1af9a175_ffa03281",
+      "revId": "673bd598753ce50c00abfe8daffe283f24250d5b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
