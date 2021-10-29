@@ -104,6 +104,8 @@ ReadTheDocs know where to pull your docs to build from.
    creating the project for you then open a
    :ref:`helpdesk ticket <lfdocs-helpdesk>`.
 
+Activate new created projects in ReadTheDocs using the RTD GUI
+
 #. Login to ReadTheDocs (LFIT can use the lf-rtd account)
 #. Click "Import a Project" on the `dashboard
    <https://readthedocs.org/dashboard>`_
