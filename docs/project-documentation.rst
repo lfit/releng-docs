@@ -93,8 +93,8 @@ Bootstrap your project with documentation by following these steps.
 Add a project to ReadTheDocs
 ============================
 
-In this task we will add a project to ReadTheDocs. This is necessary to let
-ReadTheDocs know where to pull your docs to build from.
+In this task we will add and activate a project to ReadTheDocs.
+This is necessary to let ReadTheDocs know where to pull your docs to build from.
 
 .. warning::
 
@@ -103,8 +103,6 @@ ReadTheDocs know where to pull your docs to build from.
    stops working on the project. If you would like helpdesk to assist with
    creating the project for you then open a
    :ref:`helpdesk ticket <lfdocs-helpdesk>`.
-
-Activate new created projects in ReadTheDocs using the RTD GUI
 
 #. Login to ReadTheDocs (LFIT can use the lf-rtd account)
 #. Click "Import a Project" on the `dashboard
@@ -157,6 +155,14 @@ Activate new created projects in ReadTheDocs using the RTD GUI
 
 Appendix
 ========
+
+Activate new sub-project:
+-------------------------
+
+   a. Select the sub-project
+   b. Select Admin > Edit Versions
+   c. Locate the version to activate in the "Activate a version" list
+   d. Activate it by pressing the "Activate" button on the right hand side of the entry
 
 Intersphinx Linking
 -------------------
