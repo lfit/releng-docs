@@ -16,6 +16,24 @@
       "message": "Double DCO line",
       "revId": "cf58584c2c7bff71585ee404db66e097bc483174",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3aa9f2fd_d633d00c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-11-01T16:59:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "deb3677b_961c5fc7",
+      "revId": "cf58584c2c7bff71585ee404db66e097bc483174",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
