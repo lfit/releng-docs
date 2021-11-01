@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "536eeea3_94bd2d55",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-01T18:37:48Z",
+      "side": 1,
+      "message": "i suggest to add a separate bullet point (8) after \"#. Setup sub-project\"\n\n#. Activate Sub-project\nSelect the sub-project\nSelect Admin -\u003e Edit Versions\nLocate the version you like to activate in the \"Activate a version\" list\nActivate it by pressing the \"Activate\" button on the right hand side of the entry",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 62
+      },
+      "revId": "d48b065db31960a74c4a64831c3784afc42f7751",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
