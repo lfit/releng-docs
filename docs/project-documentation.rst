@@ -128,6 +128,11 @@ Activate new created projects in ReadTheDocs using the RTD GUI
    c. Repository type: Git
    d. Click Next
 
+#. Setup Sub-project
+   a. Select the sub-project
+   b. Select Admin > Edit Versions
+   c. Locate the version to activate in the "Activate a version" list
+   d. Activate it by pressing the "Activate" button on the right hand side of the entry
 #. Click Admin > Maintainers
 #. Ensure lf-rtd is a maintainer of the project
 #. Setup sub-project
