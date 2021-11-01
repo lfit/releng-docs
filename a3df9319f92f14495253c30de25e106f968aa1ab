@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02a84af5_a69b3c5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-11-01T20:06:05Z",
+      "side": 1,
+      "message": "@Thomas, I feel that this is already covered in line 138. I feel this section would be redundant, is it?\n\nFor now, I think is best to abandon this, but feel free to modify the docs to what suits better for your team and feel free to add me as reviewer. ",
+      "revId": "a3df9319f92f14495253c30de25e106f968aa1ab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
