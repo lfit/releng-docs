@@ -130,7 +130,12 @@ Activate new created projects in ReadTheDocs using the RTD GUI
 
 #. Click Admin > Maintainers
 #. Ensure lf-rtd is a maintainer of the project
-#. Setup sub-project
+#. Setup Sub-project
+
+   a. Select the sub-project
+   b. Select Admin > Edit Versions
+   c. Locate the version to activate in the "Activate a version" list
+   d. Activate it by pressing the "Activate" button on the right hand side of the entry
 
    If this project is not the main documentation project then it needs to be
    setup as a sub-project of the main documentation project. This will create a
