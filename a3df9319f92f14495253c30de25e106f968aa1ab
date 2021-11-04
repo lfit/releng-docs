@@ -16,6 +16,24 @@
       "message": "@Thomas, I feel that this is already covered in line 138. I feel this section would be redundant, is it?\n\nFor now, I think is best to abandon this, but feel free to modify the docs to what suits better for your team and feel free to add me as reviewer. ",
       "revId": "a3df9319f92f14495253c30de25e106f968aa1ab",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f47a70d_92a30c28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-04T07:44:20Z",
+      "side": 1,
+      "message": "Hi Jess. I think, line 138 can be removed and replaced with what i have proposed. This would describe two important actions (import and activate) better.",
+      "parentUuid": "02a84af5_a69b3c5a",
+      "revId": "a3df9319f92f14495253c30de25e106f968aa1ab",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
