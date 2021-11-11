@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "163a42bd_7ad8c656",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-11-11T18:33:24Z",
+      "side": 1,
+      "message": "Comment removed by: Jessica Wagantall; Reason: incomplete",
+      "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
