@@ -16,6 +16,115 @@
       "message": "Comment removed by: Jessica Wagantall; Reason: incomplete",
       "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87692f44_9ebeba54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-15T06:18:03Z",
+      "side": 1,
+      "message": "things are now mixed up a little bit ... but please check my proposals ...",
+      "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6b5be7c_465faeed",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-15T06:18:03Z",
+      "side": 1,
+      "message": "add and activate a",
+      "range": {
+        "startLine": 96,
+        "startChar": 21,
+        "endLine": 96,
+        "endChar": 26
+      },
+      "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6afc993_02e9c80f",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-15T06:18:03Z",
+      "side": 1,
+      "message": "this can be removed now",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 107,
+        "endChar": 62
+      },
+      "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "508851a3_6d8a3dae",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-15T06:18:03Z",
+      "side": 1,
+      "message": "remove here and ...",
+      "range": {
+        "startLine": 135,
+        "startChar": 0,
+        "endLine": 138,
+        "endChar": 87
+      },
+      "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a82d9b59_c415d020",
+        "filename": "docs/project-documentation.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 417
+      },
+      "writtenOn": "2021-11-15T06:18:03Z",
+      "side": 1,
+      "message": "... here. add a new headline:\n\n#. Activate new sub-project:\n\n   a. Select the sub-project\n   b. Select Admin \u003e Edit Versions\n   c. Locate the version to activate in the \"Activate a version\" list\n   d. Activate it by pressing the \"Activate\" button on the right hand side of the entr",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 8
+      },
+      "revId": "bd9487168a384e8eb41c149e8b04e44721f983c2",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
