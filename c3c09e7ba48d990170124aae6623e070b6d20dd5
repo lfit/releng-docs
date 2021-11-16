@@ -16,6 +16,23 @@
       "message": "Thanks Thomas!\n\nonce verify passes i will request my team for +2\u0027s",
       "revId": "c3c09e7ba48d990170124aae6623e070b6d20dd5",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d0fe003_82938048",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2021-11-16T20:12:14Z",
+      "side": 1,
+      "message": "seems to be failing due to https://logs.opendaylight.org/ not being accessible.. checking.. ",
+      "revId": "c3c09e7ba48d990170124aae6623e070b6d20dd5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
