@@ -29,6 +29,9 @@ that they are not hitting any of these):
 - If the change has an associated issue tracker, does the commit message have an
   'Issue: <someissue>' (or any similar tag such as 'Issue-Id:' or 'JIRA:') in
   the footer and not in the subject line or body?
+- Is _all_ meta-data in the footer? This includes the above point and any other
+  key-value data pairings that are truly meta-data. Such as, but not limited to,
+  Signed-off-by, Change-Id, Issue, Jira, Issue-Id, Bug, etc.
 - Are there any typos?
 - Are all code review comments addressed?
 - Is the code rebased onto the latest HEAD of the branch?
