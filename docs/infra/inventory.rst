@@ -60,12 +60,14 @@ Inventory
 
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
-     - `ASWF Azure Pipelines <https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build>`_
+     - `GitHub Actions <https://github.com/AcademySoftwareFoundation>`_
      - N/A
      - https://jira.aswf.io
+     - | `Artifactory <https://linuxfoundation.jfrog.io/artifactory/aswf-conan/>`_
+       | `Docker Hub <https://hub.docker.com/u/aswf>`_
+       | `GitHub Releases for source releases <https://github.com/AcademySoftwareFoundation>`_
      - N/A
-     - N/A
-     - N/A
+     - `GitHub Actions <https://github.com/AcademySoftwareFoundation>`_
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
      - https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation
      - N/A
