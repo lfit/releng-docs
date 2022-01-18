@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7901d24a_22996dd6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-01-18T17:00:15Z",
+      "side": 1,
+      "message": "You added two columns to the header (wiki \u0026 docs) but didn\u0027t add corresponding columns to all of the projects.",
+      "revId": "d315748a9e29d92892ecc5dd5c396d5ccc93318b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5525b9eb_58319a69",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-01-18T17:00:15Z",
+      "side": 1,
+      "message": "Dangling whitespace",
+      "range": {
+        "startLine": 147,
+        "startChar": 99,
+        "endLine": 147,
+        "endChar": 100
+      },
+      "revId": "d315748a9e29d92892ecc5dd5c396d5ccc93318b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
