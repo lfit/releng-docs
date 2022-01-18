@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "169ec3a7_9002938b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2022-01-18T18:29:28Z",
+      "side": 1,
+      "message": "Sorry, just saw a couple places with trailing whitespace.",
+      "revId": "6b4cd6c13069397f1a82d4809fd021299b21c887",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37e9fc8e_e34a56a5",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2022-01-18T18:29:28Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 220,
+        "startChar": 13,
+        "endLine": 220,
+        "endChar": 14
+      },
+      "revId": "6b4cd6c13069397f1a82d4809fd021299b21c887",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd2e99cb_5e5bfa6b",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2022-01-18T18:29:28Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "range": {
+        "startLine": 263,
+        "startChar": 105,
+        "endLine": 263,
+        "endChar": 106
+      },
+      "revId": "6b4cd6c13069397f1a82d4809fd021299b21c887",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
