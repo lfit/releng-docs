@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c38981b8_433295e9",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "seems like this line was originally under the \"Build logs\" section, so wiki and docs lines should go after this line",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "962c688e_e101da6d",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7203cd51_66288458",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a24ab2fc_5bd0f424",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ba34677_eb9d4295",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e718d90_0b289a76",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b457dca7_5faf75f3",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be38224c_eb3f2306",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f9a591b_51c3db0d",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83ca4a6c_6ec84092",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f08ebe37_48d24f34",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2d57362_d4060d81",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T19:37:46Z",
+      "side": 1,
+      "message": "this line is from Build logs section, so it should go before the 2 new lines",
+      "revId": "c7c7bebb7fcc39bf4af733cd03bd759bff175214",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
