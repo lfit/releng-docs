@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10ead05f_5701f12a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-01-18T18:21:35Z",
+      "side": 1,
+      "message": "LGTM. I would, like for others to take a look and make sure that links all look good for them too.",
+      "revId": "2259cf6af08742eea0f4608aaf65dad0cf278f76",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
