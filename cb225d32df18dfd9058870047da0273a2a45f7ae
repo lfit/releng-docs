@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42c496d7_9460fe5a",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2022-01-18T17:35:58Z",
+      "side": 1,
+      "message": "I don\u0027t think this belongs to dentproject. I think this is unrelated. \nDent keeps all their docs in GH",
+      "range": {
+        "startLine": 94,
+        "startChar": 7,
+        "endLine": 94,
+        "endChar": 34
+      },
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
