@@ -16,6 +16,8 @@ Inventory
      - Nexus / Artifactory
      - Nexus 3
      - Build logs
+     - Wiki
+     - Docs
      - Sonar
      - Insight Dashboard
      - Stats
@@ -83,7 +85,7 @@ Inventory
      - https://logs.dent.dev/logs
      - N/A
      - https://lfanalytics.io/projects/dent/dashboard
-     - N/A
+     - `DENT Jenkins https://p.datadoghq.com/sb/c3585feaa-b7a7266853c6b1668386e77aac8f361d`
 
    * - EdgeX
      - https://github.com/edgexfoundry
@@ -113,9 +115,12 @@ Inventory
 
    * - HyperLedger
      - https://github.com/hyperledger
-     - N/A
+     - | `HyperLedger GitHub actions https://github.com/hyperledger`
+       | `HyperLedger Circle CI https://app.circleci.com/pipelines/github/hyperledger-labs`
+       | `HyperLedger Azure https://dev.azure.com/Hyperledger`
      - N/A
      - https://jira.hyperledger.org
+     - https://hyperledger.jfrog.io/ui/packages
      - N/A
      - N/A
      - N/A
@@ -133,11 +138,25 @@ Inventory
      - N/A
      - N/A
      - https://insights.lfx.linuxfoundation.org/projects/lfedge%2Ffledge/dashboard
+     - `LF Edge Jenkins https://p.datadoghq.com/sb/c3585feaa-b995f8100f8b4e83b2755a1de4315a36`
+
+   * - LF RelEng
+     - https://gerrit.linuxfoundation.org/
+     - N/A
+     - https://github.com/lfit
+     - | `LF RelEng Projects https://jira.linuxfoundation.org/secure/RapidBoard.jspa?rapidView=323` 
+       | `LF Support Desk  https://support.linuxfoundation.org`
+     - N/A
+     - N/A
+     - N/A
+     - N/A
+     - N/A
      - N/A
 
    * - ODPi
      - https://github.com/odpi
      - | `ODPi Azure Pipelines <https://dev.azure.com/ODPi/Egeria/_build>`_
+       | `ODPi GitHub actions https://github.com/odpi`
      - N/A
      - N/A
      - https://odpi.jfrog.io/odpi/webapp/
@@ -173,7 +192,7 @@ Inventory
      - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fodl/dashboard
      - `ODL Jenkins <https://p.datadoghq.com/sb/68be64401-3b1e66c2845bacfbb8b965b9d853a882>`_
 
-   * - OPNFV
+   * - Anuket 
      - https://gerrit.opnfv.org
      - | https://build.opnfv.org/ci
        | https://sandbox.opnfv.org
@@ -183,8 +202,8 @@ Inventory
      - N/A
      - N/A
      - N/A
-     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fopnfv/dashboard
-     - `OPNFV Jenkins <https://p.datadoghq.com/sb/89fzhyo444eioxhj-e739a8783ecbe0f294ce1bdce873ef5e>`_
+     - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fanuket/dashboard
+     - `Anuket Jenkins https://p.datadoghq.com/sb/c3585feaa-37dcc9293cd635857bf766ace07232dd`_
 
    * - O-RAN
      - https://gerrit.o-ran-sc.org
@@ -196,12 +215,13 @@ Inventory
      - https://nexus3.o-ran-sc.org
      - https://logs.o-ran-sc.org
      - https://sonarcloud.io/organizations/o-ran-sc/projects
-     - N/A
+     - https://insights.lfx.linuxfoundation.org/projects/oran/dashboard
      - `O-RAN Jenkins <https://p.datadoghq.com/sb/zjgst8myh3u0sedk-a518861c9a61dd321c4ca98f24375195>`_
 
    * - Tungsten Fabric
      - https://gerrit.tungsten.io
-     - N/A
+     - | https://jenkins.tungsten.io
+       | https://jenkins.tungsten.io/sandbox
      - https://github.com/tungstenfabric
      - https://jira.tungsten.io
      - N/A
@@ -209,16 +229,16 @@ Inventory
      - N/A
      - N/A
      - https://insights.lfx.linuxfoundation.org/projects/lfn%2Ftungsten-fabric/dashboard
-     - N/A
+     - `Tungsten Fabric Jenkins https://p.datadoghq.com/sb/c3585feaa-a035a6fdf3527de9be8772e9a30a5a0c` 
 
    * - Zowe
      - https://github.com/zowe
+     - `Zowe GitHub Actions https://github.com/zowe`
      - N/A
      - N/A
      - N/A
      - https://zowe.jfrog.io/
      - N/A
-     - https://s3-logs.zowe.org/logs
      - https://sonarcloud.io/organizations/zowe/projects
-     - N/A
+     - https://insights.lfx.linuxfoundation.org/projects/open-mainframe-project%2Fzowe/dashboard
      - N/A
