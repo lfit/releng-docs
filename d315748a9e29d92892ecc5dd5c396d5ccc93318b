@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "677a90f3_12f68cf1",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 577
+      },
+      "writtenOn": "2022-01-18T17:05:07Z",
+      "side": 1,
+      "message": "maybe we can mix these 2 (Wiki and Docs) into single column named \"Documentation\"",
+      "revId": "d315748a9e29d92892ecc5dd5c396d5ccc93318b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5525b9eb_58319a69",
         "filename": "docs/infra/inventory.rst",
         "patchSetId": 1
