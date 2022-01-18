@@ -48,6 +48,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "57f9bacc_6259ee31",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8b5d9fa_be235979",
+      "range": {
+        "startLine": 94,
+        "startChar": 7,
+        "endLine": 94,
+        "endChar": 34
+      },
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e3e74723_7a03c471",
@@ -61,6 +85,30 @@
       "writtenOn": "2022-01-18T18:01:08Z",
       "side": 1,
       "message": "Please see line 80 on how to do linked wording. Also, I would lose the \u0027HyperLedger\u0027 at the front of each of these links",
+      "range": {
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 62
+      },
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43337aee_5882a58a",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3e74723_7a03c471",
       "range": {
         "startLine": 132,
         "startChar": 0,
@@ -88,6 +136,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "56cff1c9_8d35df93",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6c48a88_e31df1bc",
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "06211eeb_121aa29d",
@@ -101,6 +167,30 @@
       "writtenOn": "2022-01-18T18:01:08Z",
       "side": 1,
       "message": "Please see line 80 on how to do properly hyperlinking",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 165,
+        "endChar": 63
+      },
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b25e655_d83b7042",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06211eeb_121aa29d",
       "range": {
         "startLine": 164,
         "startChar": 0,
@@ -128,6 +218,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3abb621_b54b19fd",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e3d472a_70768510",
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6fe8f73d_88c9ca17",
@@ -145,6 +253,24 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "de5d3b09_2719d976",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6fe8f73d_88c9ca17",
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3f82266_92522faa",
@@ -158,6 +284,24 @@
       "writtenOn": "2022-01-18T18:01:08Z",
       "side": 1,
       "message": "Please see line 80 on how to do properly hyperlinking",
+      "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02009bc2_efcef7a8",
+        "filename": "docs/infra/inventory.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 31
+      },
+      "writtenOn": "2022-01-18T18:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3f82266_92522faa",
       "revId": "cb225d32df18dfd9058870047da0273a2a45f7ae",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
