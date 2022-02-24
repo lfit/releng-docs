@@ -192,9 +192,10 @@ Verify INFO.yaml uses correct schema
 
 .. code-block:: yaml
 
+    pip install -U jsonschema
     python yaml-verify-schema.py \
-    -s info-schema.yaml \
-    -y INFO.yaml
+    --yaml INFO.yaml \
+    --schema info-schema.yaml
 
 No output indicates INFO.yaml file is valid against the schema. **Otherwise**, ensure you correct any issues before continuing.
 
