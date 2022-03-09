@@ -44,6 +44,7 @@ Tools:
 - :doc:`lfdocs-conf <lfdocs-conf:index>`
 - :doc:`lftools <lftools:index>`
 - :doc:`global-jjb <global-jjb:index>`
+- :doc:`pipelines <pipelines:index>`
 
 Help:
 
