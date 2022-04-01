@@ -634,8 +634,7 @@ Configure your Machine
 
    .. note::
 
-      Required when uploading patches to Gerrit servers <= 2.13. In
-      Gerrit 2.14 and newer use your Linux Foundation ID password.
+      Required when uploading patches to Gerrit servers via HTTPS.
 
    Navigate to `<https://gerrit.linuxfoundation.org/infra/#/settings/http-password>`_
    and click **Generate Password**. Write this to the file **.netrc** in your
