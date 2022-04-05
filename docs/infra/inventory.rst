@@ -206,7 +206,7 @@ Inventory
        | https://docs.anuket.io
      - N/A
      - https://insights.lfx.linuxfoundation.org/projects/lfn%2Fanuket/dashboard
-     - `Anuket Jenkins <https://p.datadoghq.com/sb/c3585feaa-37dcc9293cd635857bf766ace07232dd>`_
+     - `Anuket Jenkins <https://p.datadoghq.com/sb/c3585feaa-c1a5c5696a6ca66b890e6615ea1cc906>`_
 
    * - O-RAN
      - | https://gerrit.o-ran-sc.org
