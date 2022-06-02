@@ -92,6 +92,7 @@ Inventory
        | https://jenkins.fd.io/sandbox
      - https://jira.fd.io
      - N/A
+     - https://packagecloud.io/fdio
      - https://logs.fd.io
      - | https://wiki.fd.io
        | https://fd.io/documentation
