@@ -189,7 +189,6 @@ Build agents flavors
 
 This section points to each LF project's build agents availability and flavors.
 
-* Acumos: https://github.com/acumos/ci-management/tree/master/jenkins-config/clouds/openstack/ACUMOSVEX
 * Akraino: https://github.com/akraino-edge-stack/ci-management/tree/master/jenkins-config/clouds/openstack/cattle
 * EdgeX Foundry: https://github.com/edgexfoundry/ci-management/tree/master/jenkins-config/clouds/openstack/Primary
 * FD.io: https://github.com/FDio/ci-management/tree/master/jenkins-config/clouds
