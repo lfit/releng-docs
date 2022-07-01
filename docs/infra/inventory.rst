@@ -19,21 +19,6 @@ Inventory
      - Insight Dashboard
      - Stats
 
-   * - Acumos
-     - | https://gerrit.acumos.org
-       | https://github.com/acumos
-     - | https://jenkins.acumos.org
-       | https://jenkins.acumos.org/sandbox
-     - https://jira.acumos.org
-     - | https://nexus.acumos.org
-       | https://nexus3.acumos.org
-     - https://logs.acumos.org
-     - | https://wiki.acumos.org
-       | https://docs.acumos.org
-     - https://sonarcloud.io/organizations/acumos/projects
-     - https://insights.lfx.linuxfoundation.org/projects/lfai%2Facumos/dashboard
-     - `Acumos Jenkins <https://p.datadoghq.com/sb/c3585feaa-e8c9fffad68d9bf5443efbf064d7c314>`_
-
    * - AGL
      - | https://gerrit.automotivelinux.org
        | https://github.com/automotive-grade-linux
@@ -106,7 +91,7 @@ Inventory
      - | https://jenkins.fd.io
        | https://jenkins.fd.io/sandbox
      - https://jira.fd.io
-     - https://nexus.fd.io
+     - N/A
      - https://logs.fd.io
      - | https://wiki.fd.io
        | https://fd.io/documentation
