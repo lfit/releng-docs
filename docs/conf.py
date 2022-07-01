@@ -28,7 +28,6 @@ intersphinx_mapping["ansible"] = (  # noqa
 linkcheck_ignore = [
     "https://gerrit.linuxfoundation.org/infra/releng/docs-conf",
     "https://gerrit.linuxfoundation.org/infra/#/settings/http-password",
-    "https://jenkins.acumos.org.*",
     "https://build.automotivelinux.org.*",
     "https://build.automotivelinux.org/sandbox",
     "https://.*.example.org.*",
