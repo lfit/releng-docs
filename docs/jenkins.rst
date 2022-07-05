@@ -227,8 +227,8 @@ Configuration of credentials for production Jenkins systems come from the
 Configuration of credentials for sandbox Jenkins systems come from the
 ??CredentialMappings.sandbox.yaml file.
 
-The config_type will correspond to the type that is under management as per how
-JCasC itself defines the file type.
+The config_type will correspond to the type that is under management
+is how JCasC itself defines the file type.
 
 Common types in the LF environment are:
 
@@ -568,8 +568,8 @@ directly to test the behavior.
 
 The Jenkins Sandbox can contain dummy configuration files and dummy credentials in
 case it helps take the test further and not fail on the first steps due to the configuration
-not being present. Any attempt to actually use the configuration files in order
-to make any server communications will fail. To add dummy configuration files, please
+not being present. Any attempt to use the configuration files will cause the server
+communications to fail. To add dummy configuration files, please
 create a new ticket to :ref:`Helpdesk <lfdocs-helpdesk>`.
 
 In such case, merge jobs, push, CLM, Docker or Sonar jobs get tested to some extent due
