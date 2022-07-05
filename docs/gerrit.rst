@@ -458,9 +458,8 @@ If the change it's a draft, you'll need to publish it. Do this from the Gerrit w
 Remove your -1 vote if you've marked it with one. If you think the patch is ready for
 merge, vote +1. If there is not an automated job to test your change and vote +1/-1
 for Verified, you will need to do as much testing yourself as possible and then manually
-vote +1 to Verified. You can also vote +1 for Verified if you have done testing in
-addition to any automated tests. Describing the testing you did or did not do is
-typically helpful.
+vote +1 to Verified. Reviewers can  dditionally vote +1 for Verified along with
+automated jobs. Describing the testing you did or did not do is typically helpful.
 
 .. figure:: _static/gerrit-voting-interface.png
 

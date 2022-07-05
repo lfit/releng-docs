@@ -406,7 +406,7 @@ How to manage a big script, by submitting smaller patches which are depending on
 
 #. Next patch
    - Add the code for the next patch
-   - Submit it as per `Workflow Sample 1`_ (from Correct the patch step)
+   - Submit it according to `Workflow Sample 1`_ (from Correct the patch step)
 
    Remember to do 'git commit --signoff --gpg-sign --verbose', to submit a new patch.
 

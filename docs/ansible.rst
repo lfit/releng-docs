@@ -59,8 +59,8 @@ Set up an Ansible Role
      .. note::
 
         The ``ansible-galaxy`` command creates a directory named ROLE_NAME so
-        call it from outside of the repo directory and pass it the name of the
-        repo.
+        call it from outside the repo directory and pass it the name of the
+        repository.
 
 #. Change directory into the ROLE_NAME directory
 #. Create a .gitignore::

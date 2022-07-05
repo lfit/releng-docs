@@ -4,9 +4,9 @@
 OpenStack Management
 ####################
 
-We use OpenStack as our primary underlying cloud for CI. With the majority of
-the projects all hosted with the same vendor we can adopt common management
-practices across them.
+We use OpenStack as our primary underlying cloud for CI. Most LF
+projects hosted with the same vendor enables us to adopt common
+management practices across them.
 
 Sharing instance images
 =======================
