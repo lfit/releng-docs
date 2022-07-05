@@ -4,7 +4,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.3.0
     hooks:
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
@@ -12,12 +12,12 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.15.1
+    rev: v0.17.0
     hooks:
       - id: gitlint
 
   - repo: https://github.com/ambv/black
-    rev: 21.9b0
+    rev: 22.6.0
     hooks:
       - id: black
 
@@ -28,7 +28,7 @@ repos:
         args: ["--max-line-length=88"]
 
   - repo: https://github.com/pycqa/bandit
-    rev: 1.7.0
+    rev: 1.7.4
     hooks:
       - id: bandit
         # Bandit does not need to run on test code
@@ -41,7 +41,7 @@ repos:
 
 
   - repo: https://github.com/btford/write-good
-    rev: v1.0.4
+    rev: v1.0.8
     hooks:
       - id: write-good
         files: "\\.(rst|md|markdown|mdown|mkdn)$"
