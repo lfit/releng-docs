@@ -1,6 +1,7 @@
 {
   "comments": [
     {
+      "unresolved": true,
       "key": {
         "uuid": "d402aa14_82f9f7d5",
         "filename": "docs/committer-management.rst",
@@ -20,8 +21,31 @@
         "endChar": 12
       },
       "revId": "11e308c2206e593292ad0002218b380a5ff6295d",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": true
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e941f7fa_0e0978f0",
+        "filename": "docs/committer-management.rst",
+        "patchSetId": 5
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 214
+      },
+      "writtenOn": "2022-09-27T10:54:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d402aa14_82f9f7d5",
+      "range": {
+        "startLine": 110,
+        "startChar": 4,
+        "endLine": 110,
+        "endChar": 12
+      },
+      "revId": "11e308c2206e593292ad0002218b380a5ff6295d",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
