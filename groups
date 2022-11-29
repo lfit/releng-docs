@@ -1,4 +1,5 @@
-# UUID                                                                         	Group Name
+# UUID                                  	Group Name
 #
-0663f5f2c380310b4e48e4797fa8ec438bf5244e                                       	saml/lf-gerrit-releng-docs-committers
-d68d00a2419f8ff627fc120cf9dd9055ae422153                                       	GitHub Replication
+0663f5f2c380310b4e48e4797fa8ec438bf5244e	saml/lf-gerrit-releng-docs-committers
+824623e509ec71c6574dad386e59e709eaedd178	Gitlab Replication
+d68d00a2419f8ff627fc120cf9dd9055ae422153	GitHub Replication
