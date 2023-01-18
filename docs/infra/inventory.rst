@@ -92,7 +92,7 @@ Inventory
        | https://jenkins.fd.io/sandbox
      - https://jira.fd.io
      - https://packagecloud.io/fdio
-     - https://logs.fd.io
+     - https://s3-logs.fd.io/logs/
      - | https://wiki.fd.io
        | https://fd.io/documentation
      - https://sonarcloud.io/organizations/fdio/projects
@@ -211,8 +211,7 @@ Inventory
    * - Tungsten Fabric
      - | https://gerrit.tungsten.io
        | https://github.com/tungstenfabric
-     - | https://jenkins.tungsten.io
-       | https://jenkins.tungsten.io/sandbox
+     - N/A
      - https://jira.tungsten.io
      - N/A
      - N/A
@@ -220,7 +219,7 @@ Inventory
        | https://docs.tungsten.io
      - N/A
      - https://insights.lfx.linuxfoundation.org/projects/lfn%2Ftungsten-fabric/dashboard
-     - `Tungsten Fabric Jenkins <https://p.datadoghq.com/sb/c3585feaa-a035a6fdf3527de9be8772e9a30a5a0c>`_
+     - N/A
 
    * - Zowe
      - https://github.com/zowe
