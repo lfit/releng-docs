@@ -25,6 +25,11 @@ intersphinx_mapping["ansible"] = (  # noqa
     None,
 )
 
+intersphinx_mapping["gerrit-to-platform"] = (  # noqa
+    "https://docs.releng.linuxfoundation.org/projects/gerrit-to-platform/en/latest/",
+    None,
+)
+
 linkcheck_ignore = [
     "https://gerrit.linuxfoundation.org/infra/releng/docs-conf",
     "https://gerrit.linuxfoundation.org/infra/#/settings/http-password",

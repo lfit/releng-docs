@@ -45,6 +45,7 @@ Tools:
 - :doc:`lftools <lftools:index>`
 - :doc:`global-jjb <global-jjb:index>`
 - :doc:`pipelines <pipelines:index>`
+- :doc:`gerrit-to-platform <gerrit-to-platform:index>`
 
 Help:
 
