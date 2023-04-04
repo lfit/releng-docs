@@ -26,7 +26,7 @@ intersphinx_mapping["ansible"] = (  # noqa
 )
 
 intersphinx_mapping["gerrit-to-platform"] = (  # noqa
-    "https://docs.releng.linuxfoundation.org/projects/gerrit-to-platform/en/latest/",
+    "https://docs.releng.linuxfoundation.org/projects/gerrit-to-platform/en/stable/",
     None,
 )
 
