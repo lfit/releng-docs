@@ -66,7 +66,7 @@ jobs:
 
   # run pre-commit tox env separately to get use of more parallel processing
   pre-commit:
-    need: prepare
+    needs: prepare
     runs-on: ubuntu-latest
     steps:
       - uses: lfit/checkout-gerrit-change-action@v0.2
