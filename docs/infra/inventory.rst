@@ -59,18 +59,6 @@ Inventory
      - https://insights.lfx.linuxfoundation.org/projects/academy-software-foundation
      - N/A
 
-   * - DENT
-     - https://github.com/orgs/dentproject
-     - | https://jenkins.dent.dev
-       | https://jenkins.dent.dev/sandbox
-     - N/A
-     - https://nexus.dent.dev
-     - https://logs.dent.dev/logs
-     - https://github.com/dentproject/docs
-     - N/A
-     - https://lfanalytics.io/projects/dent/dashboard
-     - `DENT Jenkins <https://p.datadoghq.com/sb/c3585feaa-b7a7266853c6b1668386e77aac8f361d>`_
-
    * - EdgeX
      - https://github.com/edgexfoundry
      - | https://jenkins.edgexfoundry.org
