@@ -111,6 +111,23 @@
       "message": "Lgtm overall, just one question below.",
       "revId": "21204f13af297b1cf54b171aee2c1c764f35c616",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1c7da8b_09454af8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2023-04-04T21:53:41Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "21204f13af297b1cf54b171aee2c1c764f35c616",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
