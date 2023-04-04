@@ -24,6 +24,30 @@
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "271f9242_6dc9f5ae",
+        "filename": ".github/workflows/gerrit-verify.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-04-04T18:57:49Z",
+      "side": 1,
+      "message": "Premature optimization ;) I\u0027m just trying to get a little bit more parallel validation going on here. If you think it\u0027s not needed, I can just throw out the pre-commit step and remove the environment skip",
+      "parentUuid": "84770a55_9eec20f9",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 46
+      },
+      "revId": "21204f13af297b1cf54b171aee2c1c764f35c616",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "25906d78_c9973987",
