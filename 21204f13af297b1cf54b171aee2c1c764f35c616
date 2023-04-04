@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84770a55_9eec20f9",
+        "filename": ".github/workflows/gerrit-verify.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2023-04-04T18:56:12Z",
+      "side": 1,
+      "message": "This all looks functionally fine, I\u0027m just wondering why we\u0027re separating out pre-commit here? Particularly when it\u0027s just being run via tox, and then has to be explicitly skipped in the tox step.",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 46
+      },
+      "revId": "21204f13af297b1cf54b171aee2c1c764f35c616",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25906d78_c9973987",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2023-04-04T18:56:12Z",
+      "side": 1,
+      "message": "Lgtm overall, just one question below.",
+      "revId": "21204f13af297b1cf54b171aee2c1c764f35c616",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
