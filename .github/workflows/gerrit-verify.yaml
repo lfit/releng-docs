@@ -53,15 +53,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clear votes
-        uses: lfit/gerrit-review-action@v0.2
+        uses: lfit/gerrit-review-action@v0.3
         with:
-          host: gerrit.linuxfoundation.org
+          host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}
-          key: ${{ secrets.LFIT_GERRIT_SSH_PRIVKEY }}
-          passphrase: ${{ secrets.LFIT_GERRIT_SSH_PRIVKEY_PASSPHRASE }}
+          key: ${{ secrets.LFIT_GERRIT_SSH_PRIVKEY_NP }}
+          known_hosts: ${{ vars.LFIT_GERRIT_KNOWN_HOSTS }}
           gerrit-change-number: ${{ inputs.GERRIT_CHANGE_NUMBER }}
           gerrit-patchset-number: ${{ inputs.GERRIT_PATCHSET_NUMBER }}
           vote-type: clear
+      - name: Allow replication
+        run:
+          sleep 10s
+
 
 
   # run pre-commit tox env separately to get use of more parallel processing
@@ -104,12 +108,12 @@ jobs:
     steps:
       - uses: technote-space/workflow-conclusion-action@v3
       - name: Set vote
-        uses: lfit/gerrit-review-action@v0.2
+        uses: lfit/gerrit-review-action@v0.3
         with:
-          host: gerrit.linuxfoundation.org
+          host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}
-          key: ${{ secrets.LFIT_GERRIT_SSH_PRIVKEY }}
-          passphrase: ${{ secrets.LFIT_GERRIT_SSH_PRIVKEY_PASSPHRASE }}
+          key: ${{ secrets.LFIT_GERRIT_SSH_PRIVKEY_NP }}
+          known_hosts: ${{ vars.LFIT_GERRIT_KNOWN_HOSTS }}
           gerrit-change-number: ${{ inputs.GERRIT_CHANGE_NUMBER }}
           gerrit-patchset-number: ${{ inputs.GERRIT_PATCHSET_NUMBER }}
           vote-type: ${{ env.WORKFLOW_CONCLUSION }}
