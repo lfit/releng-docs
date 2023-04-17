@@ -1,6 +1,7 @@
 {
   "comments": [
     {
+      "unresolved": true,
       "key": {
         "uuid": "eb28a75c_1b99fcb2",
         "filename": "/COMMIT_MSG",
@@ -20,10 +21,10 @@
         "endChar": 33
       },
       "revId": "c9f318aebb5149fb87db3476a3a68daa1b84c53e",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": true
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "5c4ad185_c54a18c1",
         "filename": "/COMMIT_MSG",
@@ -44,10 +45,10 @@
         "endChar": 33
       },
       "revId": "c9f318aebb5149fb87db3476a3a68daa1b84c53e",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "af2d705c_d8a0eeb8",
         "filename": "docs/infra/gerrit.rst",
@@ -67,10 +68,10 @@
         "endChar": 44
       },
       "revId": "c9f318aebb5149fb87db3476a3a68daa1b84c53e",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": true
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": true,
       "key": {
         "uuid": "d5ef7fc5_a744e795",
         "filename": "docs/infra/gerrit.rst",
@@ -91,8 +92,59 @@
         "endChar": 44
       },
       "revId": "c9f318aebb5149fb87db3476a3a68daa1b84c53e",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": true
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ],
+  "submitRequirementResults": [
+    {
+      "submitRequirement": {
+        "name": "Code-Review",
+        "description": {
+          "value": "A maximum \u0027Code-Review\u0027 vote from a non-uploader is required for the \u0027Code-Review\u0027 label. A minimum vote is blocking."
+        },
+        "applicabilityExpression": {},
+        "submittabilityExpression": {
+          "expressionString": "label:Code-Review\u003dMAX,user\u003dnon_uploader AND -label:Code-Review\u003dMIN"
+        },
+        "overrideExpression": {},
+        "allowOverrideInChildProjects": false
+      },
+      "applicabilityExpressionResult": {},
+      "submittabilityExpressionResult": {
+        "value": {"expression":{"expressionString":"label:Code-Review=MAX,user=non_uploader AND -label:Code-Review=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Code-Review=MAX,user=non_uploader","label:Code-Review=MIN"]}
+      },
+      "overrideExpressionResult": {},
+      "patchSetCommitId": "c9f318aebb5149fb87db3476a3a68daa1b84c53e",
+      "legacy": {
+        "value": false
+      },
+      "forced": {},
+      "hidden": {}
+    },
+    {
+      "submitRequirement": {
+        "name": "Verified",
+        "description": {
+          "value": "A maximum \u0027Verified\u0027 vote is required for the \u0027Verified\u0027 label. A minimum vote is blocking."
+        },
+        "applicabilityExpression": {},
+        "submittabilityExpression": {
+          "expressionString": "label:Verified\u003dMAX AND -label:Verified\u003dMIN"
+        },
+        "overrideExpression": {},
+        "allowOverrideInChildProjects": false
+      },
+      "applicabilityExpressionResult": {},
+      "submittabilityExpressionResult": {
+        "value": {"expression":{"expressionString":"label:Verified=MAX AND -label:Verified=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":["label:Verified=MIN"],"failingAtoms":["label:Verified=MAX"]}
+      },
+      "overrideExpressionResult": {},
+      "patchSetCommitId": "c9f318aebb5149fb87db3476a3a68daa1b84c53e",
+      "legacy": {
+        "value": false
+      },
+      "forced": {},
+      "hidden": {}
     }
   ]
 }
