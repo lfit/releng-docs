@@ -1,6 +1,7 @@
 {
   "comments": [
     {
+      "unresolved": false,
       "key": {
         "uuid": "b3a05f9b_9872c2da",
         "filename": "docs/style-guide.rst",
@@ -20,10 +21,10 @@
         "endChar": 20
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "c9fd7942_4356c5cc",
         "filename": "docs/style-guide.rst",
@@ -44,10 +45,10 @@
         "endChar": 20
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "c2a62ccd_c5cb6610",
         "filename": "docs/style-guide.rst",
@@ -68,10 +69,10 @@
         "endChar": 20
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "57ae3339_b7378344",
         "filename": "docs/style-guide.rst",
@@ -92,10 +93,10 @@
         "endChar": 20
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "d2986ce2_27a3f173",
         "filename": "docs/style-guide.rst",
@@ -116,10 +117,10 @@
         "endChar": 20
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "66d0c496_501e1fba",
         "filename": "docs/style-guide.rst",
@@ -139,10 +140,10 @@
         "endChar": 7
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "9841bb91_bc227285",
         "filename": "docs/style-guide.rst",
@@ -163,10 +164,10 @@
         "endChar": 7
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     },
     {
+      "unresolved": false,
       "key": {
         "uuid": "0b6b3698_d972bf1d",
         "filename": "docs/style-guide.rst",
@@ -187,8 +188,59 @@
         "endChar": 7
       },
       "revId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
-      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09",
-      "unresolved": false
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ],
+  "submitRequirementResults": [
+    {
+      "submitRequirement": {
+        "name": "Code-Review",
+        "description": {
+          "value": "A maximum \u0027Code-Review\u0027 vote from a non-uploader is required for the \u0027Code-Review\u0027 label. A minimum vote is blocking."
+        },
+        "applicabilityExpression": {},
+        "submittabilityExpression": {
+          "expressionString": "label:Code-Review\u003dMAX,user\u003dnon_uploader AND -label:Code-Review\u003dMIN"
+        },
+        "overrideExpression": {},
+        "allowOverrideInChildProjects": false
+      },
+      "applicabilityExpressionResult": {},
+      "submittabilityExpressionResult": {
+        "value": {"expression":{"expressionString":"label:Code-Review=MAX,user=non_uploader AND -label:Code-Review=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Code-Review=MAX,user=non_uploader","label:Code-Review=MIN"]}
+      },
+      "overrideExpressionResult": {},
+      "patchSetCommitId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "legacy": {
+        "value": false
+      },
+      "forced": {},
+      "hidden": {}
+    },
+    {
+      "submitRequirement": {
+        "name": "Verified",
+        "description": {
+          "value": "A maximum \u0027Verified\u0027 vote is required for the \u0027Verified\u0027 label. A minimum vote is blocking."
+        },
+        "applicabilityExpression": {},
+        "submittabilityExpression": {
+          "expressionString": "label:Verified\u003dMAX AND -label:Verified\u003dMIN"
+        },
+        "overrideExpression": {},
+        "allowOverrideInChildProjects": false
+      },
+      "applicabilityExpressionResult": {},
+      "submittabilityExpressionResult": {
+        "value": {"expression":{"expressionString":"label:Verified=MAX AND -label:Verified=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":["label:Verified=MIN"],"failingAtoms":["label:Verified=MAX"]}
+      },
+      "overrideExpressionResult": {},
+      "patchSetCommitId": "effb0fdac3212506497c2f5a3840abdaaa9dc371",
+      "legacy": {
+        "value": false
+      },
+      "forced": {},
+      "hidden": {}
     }
   ]
 }
