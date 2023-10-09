@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "0fea0c78a728e3ce7b4ed576d04b55d3d46de4b5",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "595094fc_bb5cff43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-10-09T16:26:01Z",
+      "side": 1,
+      "message": "Vanessa, the URL for the OPNFV Jenkins is now jenkins.anuket.io. Can you please update this for both so we can get it merged?",
+      "revId": "0fea0c78a728e3ce7b4ed576d04b55d3d46de4b5",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
