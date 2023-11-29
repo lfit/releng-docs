@@ -197,13 +197,12 @@ Inventory
      - `O-RAN Jenkins <https://p.datadoghq.com/sb/c3585feaa-9156c6e40b32063e5463befdab5f44e1>`_
 
    * - Tungsten Fabric
+     - https://github.com/tungstenfabric
      - N/A
      - N/A
      - N/A
      - N/A
-     - N/A
-     - | https://wiki.tungsten.io
-       | https://docs.tungsten.io
+     - https://wiki.tungsten.io
      - N/A
      - https://insights.lfx.linuxfoundation.org/projects/lfn%2Ftungsten-fabric/dashboard
      - N/A
