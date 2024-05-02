@@ -10,7 +10,7 @@ It helps organizing dependencies and releases.
 .. note::
 
    And Nexus Repository Manager 2 specifics:
-   https://help.sonatype.com/repomanager2
+   https://help.sonatype.com/en/repository-manager-2.html
 
 To access Nexus 2 for a particular project, use URL:
 ``https://nexus.example.org``
@@ -43,7 +43,7 @@ Nexus 2 Repositories
 
 Nexus 2 allows users to manage different types of repositories. To learn more about
 how to manage them, please refer to `Sonatype's official documentation
-<https://help.sonatype.com/repomanager2/configuration/managing-repositories/>`_.
+<https://help.sonatype.com/en/managing-repositories-in-nexus-2.html>`_.
 
 Most LF projects manage their Maven artifacts using the following repos:
 
@@ -109,8 +109,8 @@ repositories. Anonymous users have read permissions, while administration teams 
 have write and delete permissions.
 
 Sonatype's documentation on creating users, roles and privileges found in:
-https://help.sonatype.com/repomanager2/configuration/managing-users/, and
-https://help.sonatype.com/repomanager2/configuration/managing-roles/.
+https://help.sonatype.com/en/managing-users.html, and
+https://help.sonatype.com/en/managing-roles.html.
 
 For LF projects, a user per Gerrit repository exists matching the repository name.
 

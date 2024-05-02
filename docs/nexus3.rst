@@ -10,7 +10,7 @@ It helps organizing dependencies and releases.
 .. note::
 
    Nexus Repository Manager 3 specifics:
-   https://help.sonatype.com/repomanager3
+   https://help.sonatype.com/en/sonatype-nexus-repository.html
 
 To access Nexus 3 for a particular project, use URL:
 ``https://nexus3.example.org``
@@ -43,7 +43,7 @@ Nexus 3 Repositories
 
 Nexus 3 allows users to manage different types of repositories. To learn more about
 how to manage them, please refer to `Sonatype's official documentation
-<https://help.sonatype.com/repomanager3/repository-management>`_.
+<https://help.sonatype.com/en/nexus-repository-administration.html>`_.
 
 Most LF projects manage their Docker images using the following repos:
 
