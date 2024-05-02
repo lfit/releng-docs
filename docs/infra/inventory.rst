@@ -91,7 +91,6 @@ Inventory
      - https://github.com/hyperledger
      - | `HyperLedger GitHub actions <https://github.com/hyperledger>`_
        | `HyperLedger Circle CI <https://app.circleci.com/pipelines/github/hyperledger-labs>`_
-       | `HyperLedger Azure <https://dev.azure.com/Hyperledger>`_
      - https://jira.hyperledger.org
      - https://hyperledger.jfrog.io/ui/packages
      - N/A
@@ -103,7 +102,7 @@ Inventory
 
    * - LF Edge
      - https://github.com/lf-edge
-     - | https://jenkins.lfedge.org
+     - | 'LF Edge GitHub Actions <https://github.com/lf-edge>'_
      - N/A
      - N/A
      - N/A
