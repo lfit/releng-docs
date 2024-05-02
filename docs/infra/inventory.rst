@@ -103,7 +103,7 @@ Inventory
 
    * - LF Edge
      - https://github.com/lf-edge
-     - | https://jenkins.lfedge.org
+     - | 'LF Edge GitHub Actions <https://github.com/lf-edge>'_
      - N/A
      - N/A
      - N/A
