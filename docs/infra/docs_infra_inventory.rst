@@ -9,14 +9,14 @@ Inventory
    :header-rows: 1
 
    * - Project
-     - SCM (Gerrit / GitHub / Mirror})
+     - SCM (Gerrit / GitHub / Mirror)
      - CI Platform
      - Jira
      - Artifact Repository
      - Build logs
      - Docs
      - Sonar
-     - Stats
+     - Monitoring
 
    * - AGL
      - | https://gerrit.automotivelinux.org
@@ -27,7 +27,6 @@ Inventory
      - N/A
      - | https://wiki.automotivelinux.org
        | https://docs.automotivelinux.org
-     - N/A
      - N/A
      - `AGL Jenkins <https://p.datadoghq.com/sb/c3585feaa-49d2003032adde1fe1218245f872b6aa>`_
 
@@ -92,12 +91,11 @@ Inventory
      - | https://wiki.hyperledger.org
        | https://hyperledger-fabric.readthedocs.io
      - N/A
-     - N/A
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
    * - LF Edge
      - https://github.com/lf-edge
-     - | 'LF Edge GitHub Actions <https://github.com/lf-edge>'_
+     - https://github.com/lf-edge
      - N/A
      - N/A
      - N/A
@@ -116,7 +114,6 @@ Inventory
      - https://docs.releng.linuxfoundation.org
      - N/A
      - N/A
-     - N/A
 
    * - ODPi
      - https://github.com/odpi
@@ -127,7 +124,6 @@ Inventory
      - N/A
      - N/A
      - https://sonarcloud.io/organizations/odpi/projects
-     - N/A
      - N/A
 
    * - ONAP
