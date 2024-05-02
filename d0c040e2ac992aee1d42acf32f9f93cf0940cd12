@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c725280e_cbb6bb99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2024-05-02T23:32:09Z",
+      "side": 1,
+      "message": "linkcheck failed on ...\n\n/home/runner/work/releng-docs/releng-docs/docs/infra/inventory.rst:5:broken link: https://dev.azure.com/Hyperledger (404 Client Error: Not Found for url: https://dev.azure.com/Hyperledger)",
+      "revId": "d0c040e2ac992aee1d42acf32f9f93cf0940cd12",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
