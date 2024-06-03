@@ -49,11 +49,12 @@ concurrency:
 
 
 jobs:
-  prepare:
+  clear-vote:
     runs-on: ubuntu-latest
     steps:
       - name: Clear votes
-        uses: lfit/gerrit-review-action@v0.3
+        # yamllint disable-line rule:line-length
+        uses: lfit/gerrit-review-action@9627b9a144f2a2cad70707ddfae87c87dce60729  # v0.8
         with:
           host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}
@@ -62,37 +63,37 @@ jobs:
           gerrit-change-number: ${{ inputs.GERRIT_CHANGE_NUMBER }}
           gerrit-patchset-number: ${{ inputs.GERRIT_PATCHSET_NUMBER }}
           vote-type: clear
-      - name: Allow replication
-        run:
-          sleep 10s
 
-
-
-  # run pre-commit tox env separately to get use of more parallel processing
-  pre-commit:
-    needs: prepare
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lfit/checkout-gerrit-change-action@v0.2
-        with:
-          gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
-          delay: "0s"
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-      - name: Run static analysis and format checkers
-        run: pipx run tox -e pre-commit
-
+  lint:
+    needs: clear-vote
+    # yamllint disable-line rule:line-length
+    uses: lfit/releng-reusable-workflows/.github/workflows/compose-repo-linting.yaml@main
+    with:
+      GERRIT_BRANCH: ${{ inputs.GERRIT_BRANCH }}
+      GERRIT_CHANGE_ID: ${{ inputs.GERRIT_CHANGE_ID }}
+      GERRIT_CHANGE_NUMBER: ${{ inputs.GERRIT_CHANGE_NUMBER }}
+      GERRIT_CHANGE_URL: ${{ inputs.GERRIT_CHANGE_URL }}
+      GERRIT_EVENT_TYPE: ${{ inputs.GERRIT_EVENT_TYPE }}
+      GERRIT_PATCHSET_NUMBER: ${{ inputs.GERRIT_PATCHSET_NUMBER }}
+      GERRIT_PATCHSET_REVISION: ${{ inputs.GERRIT_PATCHSET_REVISION }}
+      GERRIT_PROJECT: ${{ inputs.GERRIT_PROJECT }}
+      GERRIT_REFSPEC: ${{ inputs.GERRIT_REFSPEC }}
 
   tox:
-    needs: prepare
+    needs: clear-vote
     runs-on: ubuntu-latest
     steps:
-      - uses: lfit/checkout-gerrit-change-action@v0.2
+      - name: Checkout change
+        # yamllint disable-line rule:line-length
+        uses: lfit/checkout-gerrit-change-action@54d751e8bd167bc91f7d665dabe33fae87aaaa63  # v0.9
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
+          gerrit-url: ${{ vars.GERRIT_URL }}
           delay: "0s"
-      - uses: actions/setup-python@v4
+          fetch-depth: 0
+      - name: Setup Python
+        # yamllint disable-line rule:line-length
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d  # v5.1.0
         id: setup-python
         with:
           python-version: '3.11'
@@ -103,14 +104,15 @@ jobs:
 
   vote:
     if: ${{ always() }}
-    needs: [prepare, pre-commit, tox]
+    needs: [clear-vote, lint, tox]
     runs-on: ubuntu-latest
     steps:
       - name: Get workflow conclusion
         # yamllint disable-line rule:line-length
         uses: im-open/workflow-conclusion@e4f7c4980600fbe0818173e30931d3550801b992  # v2.2.3
       - name: Set vote
-        uses: lfit/gerrit-review-action@v0.3
+        # yamllint disable-line rule:line-length
+        uses: lfit/gerrit-review-action@9627b9a144f2a2cad70707ddfae87c87dce60729  # v0.8
         with:
           host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}

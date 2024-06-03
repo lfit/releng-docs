@@ -47,3 +47,8 @@ repos:
       - id: write-good
         files: "\\.(rst|md|markdown|mdown|mkdn)$"
         exclude: docs/infra/gerrit.rst|docs/best-practices.rst
+
+  - repo: https://github.com/rhysd/actionlint
+    rev: ea8102762106cdca9c88829f1295b39a544706f3  # frozen: v1.6.26
+    hooks:
+      - id: actionlint
