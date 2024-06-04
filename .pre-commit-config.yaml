@@ -4,7 +4,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: 2c9f875913ee60ca25ce70243dc24d5b6415598c  # frozen: v4.6.0
     hooks:
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
@@ -12,12 +12,12 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.18.0
+    rev: acc9d9de6369b76d22cb4167029d2035e8730b98  # frozen: v0.19.1
     hooks:
       - id: gitlint
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: fc609d3ce5e38f1d32423050196bf0ce4ecc59c1  # frozen: v0.4.5
+    rev: f42857794802b6a77b0e66f08803575aa80d3c8f  # frozen: v0.4.7
     hooks:
       - id: ruff
         files: ^(docs)/.+\.py$
@@ -27,26 +27,26 @@ repos:
 
 
   - repo: https://github.com/pycqa/bandit
-    rev: 1.7.5
+    rev: 22b4226078b041a16bf05163347a66ab4dbcf3a5  # frozen: 1.7.8
     hooks:
       - id: bandit
         # Bandit does not need to run on test code
         exclude: tests/.*
 
   - repo: https://github.com/pycqa/pydocstyle
-    rev: 6.3.0
+    rev: 07f6707e2c5612960347f7c00125620457f490a7  # frozen: 6.3.0
     hooks:
       - id: pydocstyle
 
 
   - repo: https://github.com/btford/write-good
-    rev: v1.0.8
+    rev: ab66ce10136dfad5146e69e70f82a3efac8842c1  # frozen: v1.0.8
     hooks:
       - id: write-good
         files: "\\.(rst|md|markdown|mdown|mkdn)$"
         exclude: docs/infra/gerrit.rst|docs/best-practices.rst
 
   - repo: https://github.com/rhysd/actionlint
-    rev: ea8102762106cdca9c88829f1295b39a544706f3  # frozen: v1.6.26
+    rev: 62dc61a45fc95efe8c800af7a557ab0b9165d63b  # frozen: v1.7.1
     hooks:
       - id: actionlint
