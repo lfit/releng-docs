@@ -1,4 +1,7 @@
 ---
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2018 The Linux Foundation
+
 default_language_version:
   python: python3
 
@@ -50,3 +53,8 @@ repos:
     rev: 62dc61a45fc95efe8c800af7a557ab0b9165d63b  # frozen: v1.7.1
     hooks:
       - id: actionlint
+
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: bafd6d7683dec1189d7a477489f6b8770bffc0dd  # frozen: v3.0.2
+    hooks:
+      - id: reuse
