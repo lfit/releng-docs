@@ -46,7 +46,7 @@ Inventory
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
      - `ASWF GitHub Actions <https://github.com/AcademySoftwareFoundation>`_
-     - https://jira.aswf.io
+     - https://aswf.atlassian.net
      - | `Artifactory <https://linuxfoundation.jfrog.io/artifactory/aswf-conan/>`_
        | `Docker Hub <https://hub.docker.com/u/aswf>`_
        | `GitHub Releases for source releases <https://github.com/AcademySoftwareFoundation>`_
