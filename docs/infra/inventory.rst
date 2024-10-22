@@ -93,6 +93,18 @@ Inventory
      - N/A
      - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
+   * - LF Broadband
+     - | https://gerrit.opencord.org
+       | https://github.com/opencord
+     - https://jenkins.opencord.org
+     - https://jira.opencord.org
+     - https://hub.docker.com/u/voltha
+     - N/A
+     - | https://docs.voltha.org/master/index.html
+       | https://lf-broadband.atlassian.net/wiki/spaces/HOME/overview
+     - N/A
+     - N/A
+
    * - LF Edge
      - https://github.com/lf-edge
      - `LF Edge GitHub Actions <https://github.com/lf-edge>`_
