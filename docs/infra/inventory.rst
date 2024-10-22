@@ -181,16 +181,6 @@ Inventory
      - https://sonarcloud.io/organizations/o-ran-sc/projects
      - `O-RAN Jenkins <https://p.datadoghq.com/sb/c3585feaa-9156c6e40b32063e5463befdab5f44e1>`_
 
-   * - Tungsten Fabric
-     - https://github.com/tungstenfabric
-     - N/A
-     - N/A
-     - N/A
-     - N/A
-     - https://wiki.tungsten.io
-     - N/A
-     - N/A
-
    * - Zowe
      - https://github.com/zowe
      - `Zowe GitHub Actions <https://github.com/zowe>`_
