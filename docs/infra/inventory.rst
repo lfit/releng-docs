@@ -16,7 +16,6 @@ Inventory
      - Build logs
      - Docs
      - Sonar
-     - Monitoring
 
    * - AGL
      - | https://gerrit.automotivelinux.org
@@ -28,7 +27,6 @@ Inventory
      - | https://wiki.automotivelinux.org
        | https://docs.automotivelinux.org
      - N/A
-     - `AGL Jenkins <https://p.datadoghq.com/sb/c3585feaa-49d2003032adde1fe1218245f872b6aa>`_
 
    * - Akraino
      - | https://gerrit.akraino.org
@@ -41,19 +39,17 @@ Inventory
      - | https://logs.akraino.org
      - | https://wiki.akraino.org
      - https://sonarcloud.io/organizations/akraino-edge-stack/projects
-     - `Akraino Jenkins <https://p.datadoghq.com/sb/c3585feaa-26a3af549bae39b469659eab29682aa5>`_
 
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
      - `ASWF GitHub Actions <https://github.com/AcademySoftwareFoundation>`_
-     - https://aswf.atlassian.net
+     - N/A
      - | `Artifactory <https://linuxfoundation.jfrog.io/artifactory/aswf-conan/>`_
        | `Docker Hub <https://hub.docker.com/u/aswf>`_
        | `GitHub Releases for source releases <https://github.com/AcademySoftwareFoundation>`_
      - N/A
      - https://wiki.aswf.io
      - https://sonarcloud.io/organizations/academysoftwarefoundation/projects
-     - N/A
 
    * - EdgeX
      - https://github.com/edgexfoundry
@@ -66,7 +62,6 @@ Inventory
      - | https://wiki.edgexfoundry.org
        | https://docs.edgexfoundry.org
      - https://sonarcloud.io/organizations/edgexfoundry/projects
-     - `EdgeX Jenkins <https://p.datadoghq.com/sb/c3585feaa-96d5da761fe79ea5f426caf9c85322f2>`_
 
    * - FD.io
      - | https://gerrit.fd.io
@@ -79,7 +74,6 @@ Inventory
      - | https://wiki.fd.io
        | https://fd.io/documentation
      - https://sonarcloud.io/organizations/fdio/projects
-     - `FD.io Jenkins <https://p.datadoghq.com/sb/c3585feaa-00f9540471c4351548451ba8d3644bc7>`_
 
    * - HyperLedger
      - https://github.com/hyperledger
@@ -91,7 +85,6 @@ Inventory
      - | https://wiki.hyperledger.org
        | https://hyperledger-fabric.readthedocs.io
      - N/A
-     - `Hyperledger Jenkins <https://p.datadoghq.com/sb/4aea337fc-956801d8acf8c3488acc63492a03fd30>`_
 
    * - LF Broadband
      - | https://gerrit.opencord.org
@@ -103,7 +96,6 @@ Inventory
      - | https://docs.voltha.org/master/index.html
        | https://lf-broadband.atlassian.net/wiki/spaces/HOME/overview
      - N/A
-     - N/A
 
    * - LF Edge
      - https://github.com/lf-edge
@@ -113,7 +105,6 @@ Inventory
      - N/A
      - https://wiki.lfedge.org
      - N/A
-     - `LF Edge Jenkins <https://p.datadoghq.com/sb/c3585feaa-b995f8100f8b4e83b2755a1de4315a36>`_
 
    * - LF RelEng
      - | https://gerrit.linuxfoundation.org
@@ -125,7 +116,6 @@ Inventory
      - N/A
      - https://docs.releng.linuxfoundation.org
      - N/A
-     - N/A
 
    * - ODPi
      - https://github.com/odpi
@@ -136,7 +126,6 @@ Inventory
      - N/A
      - N/A
      - https://sonarcloud.io/organizations/odpi/projects
-     - N/A
 
    * - ONAP
      - | https://gerrit.onap.org
@@ -150,7 +139,6 @@ Inventory
      - | https://wiki.onap.org
        | https://docs.onap.org
      - https://sonarcloud.io/organizations/onap/projects
-     - `ONAP Jenkins <https://p.datadoghq.com/sb/c3585feaa-b48f9953043368edd15ae9b57524b44b>`_
 
    * - OpenDaylight
      - | https://git.opendaylight.org/gerrit
@@ -164,7 +152,6 @@ Inventory
      - | https://wiki.opendaylight.org
        | https://docs.opendaylight.org
      - https://sonarcloud.io/organizations/opendaylight/projects
-     - `ODL Jenkins <https://p.datadoghq.com/sb/c3585feaa-ba527716d05609b44d719dbbd4f156e0>`_
 
    * - Anuket
      - | https://gerrit.opnfv.org
@@ -177,7 +164,6 @@ Inventory
      - | https://wiki.anuket.io
        | https://docs.anuket.io
      - N/A
-     - `Anuket Jenkins <https://p.datadoghq.com/sb/c3585feaa-c1a5c5696a6ca66b890e6615ea1cc906>`_
 
    * - O-RAN
      - | https://gerrit.o-ran-sc.org
@@ -191,7 +177,6 @@ Inventory
      - | https://wiki.o-ran-sc.org
        | https://docs.o-ran-sc.org
      - https://sonarcloud.io/organizations/o-ran-sc/projects
-     - `O-RAN Jenkins <https://p.datadoghq.com/sb/c3585feaa-9156c6e40b32063e5463befdab5f44e1>`_
 
    * - Zowe
      - https://github.com/zowe
@@ -202,4 +187,3 @@ Inventory
      - | https://wiki.openmainframeproject.org
        | https://docs.zowe.org
      - https://sonarcloud.io/organizations/zowe/projects
-     - N/A
