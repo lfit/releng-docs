@@ -40,6 +40,18 @@ Inventory
      - | https://wiki.akraino.org
      - https://sonarcloud.io/organizations/akraino-edge-stack/projects
 
+   * - Anuket (Formerly OPNFV)
+     - | https://gerrit.opnfv.org
+       | https://github.com/opnfv
+       | https://gitlab.com/anuket
+     - https://gitlab.com/anuket
+     - https://jira.opnfv.org
+     - N/A
+     - N/A
+     - | https://wiki.anuket.io
+       | https://docs.anuket.io
+     - N/A
+
    * - ASWF
      - https://github.com/AcademySoftwareFoundation
      - `ASWF GitHub Actions <https://github.com/AcademySoftwareFoundation>`_
@@ -152,18 +164,6 @@ Inventory
      - | https://wiki.opendaylight.org
        | https://docs.opendaylight.org
      - https://sonarcloud.io/organizations/opendaylight/projects
-
-   * - Anuket
-     - | https://gerrit.opnfv.org
-       | https://github.com/opnfv
-     - | http://jenkins.anuket.io/
-       | http://jenkins.anuket.io/sandbox
-     - https://jira.opnfv.org
-     - N/A
-     - N/A
-     - | https://wiki.anuket.io
-       | https://docs.anuket.io
-     - N/A
 
    * - O-RAN
      - | https://gerrit.o-ran-sc.org
