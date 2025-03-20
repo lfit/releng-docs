@@ -1,0 +1,13 @@
+.rst-content .list-table table td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.rst-content .list-table table th:nth-child(1) {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+}

@@ -48,3 +48,4 @@ sphinx_tabs_valid_builders = ["linkcheck"]
 def setup(app):
     """Injects the report issue ribbon."""
     app.add_css_file("css/ribbon.css")
+    app.add_css_file("css/sticky-table-column.css")
