@@ -80,7 +80,7 @@ Inventory
        | https://github.com/FDio
      - | https://jenkins.fd.io
        | https://jenkins.fd.io/sandbox
-     - https://jira.fd.io
+     - https://github.com/FDio
      - https://packagecloud.io/fdio
      - https://s3-logs.fd.io/logs/
      - | https://wiki.fd.io
