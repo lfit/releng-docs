@@ -17,6 +17,19 @@ Inventory
      - Docs
      - Sonar
 
+   * - Aether
+     - | https://github.com/omec-project
+       | https://github.com/onosproject
+     - https://jenkins.aetherproject.org/
+     - https://lf-aether.atlassian.net/jira/projects
+     - | https://registry.aetherproject.org/
+       | https://hub.docker.com/u/omecproject
+       | https://hub.docker.com/u/aetherproject
+       | https://hub.docker.com/u/onosproject
+     - N/A
+     - https://lf-aether.atlassian.net/wiki
+     - N/A
+
    * - AGL
      - | https://gerrit.automotivelinux.org
        | https://github.com/automotive-grade-linux
