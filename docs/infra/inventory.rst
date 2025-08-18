@@ -112,10 +112,10 @@ Inventory
      - N/A
 
    * - LF Broadband
-     - | https://gerrit.opencord.org
+     - | https://gerrit.lfbroadband.org
        | https://github.com/opencord
-     - https://jenkins.opencord.org
-     - https://jira.opencord.org
+     - https://jenkins.lfbroadband.org
+     - https://lf-broadband.atlassian.net/jira
      - https://hub.docker.com/u/voltha
      - N/A
      - | https://docs.voltha.org/master/index.html
