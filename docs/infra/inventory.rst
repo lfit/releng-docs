@@ -20,10 +20,9 @@ Inventory
    * - Aether
      - | https://github.com/omec-project
        | https://github.com/onosproject
-     - https://jenkins.aetherproject.org/
+     - N/A
      - https://lf-aether.atlassian.net/jira/projects
-     - | https://registry.aetherproject.org/
-       | https://hub.docker.com/u/omecproject
+     - | https://hub.docker.com/u/omecproject
        | https://hub.docker.com/u/aetherproject
        | https://hub.docker.com/u/onosproject
      - N/A
@@ -42,14 +41,11 @@ Inventory
      - N/A
 
    * - Akraino
-     - | https://gerrit.akraino.org
-       | https://github.com/akraino-edge-stack
-     - | https://jenkins.akraino.org
-       | https://jenkins.akraino.org/sandbox
+     - | https://github.com/akraino-edge-stack
+     - | N/A
      - https://jira.akraino.org
-     - | https://nexus.akraino.org
-       | https://nexus3.akraino.org
-     - | https://logs.akraino.org
+     - | N/A
+     - | N/A
      - | https://wiki.akraino.org
      - https://sonarcloud.io/organizations/akraino-edge-stack/projects
 
