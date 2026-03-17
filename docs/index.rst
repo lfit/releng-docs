@@ -36,6 +36,7 @@ Self-Service:
    :maxdepth: 1
 
    committer-management
+   github-copilot-access
    project-creation
 
 Tools:
