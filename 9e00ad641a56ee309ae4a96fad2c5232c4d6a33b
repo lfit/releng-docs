@@ -22,6 +22,30 @@
       },
       "revId": "9e00ad641a56ee309ae4a96fad2c5232c4d6a33b",
       "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a117202_985b321f",
+        "filename": "docs/github-copilot-access.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2026-06-17T21:33:52Z",
+      "side": 1,
+      "message": "Yes, and I thought I did, but apparently I didn\u0027t!",
+      "parentUuid": "e89ea59e_cad8958b",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 77
+      },
+      "revId": "9e00ad641a56ee309ae4a96fad2c5232c4d6a33b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
     }
   ]
 }
