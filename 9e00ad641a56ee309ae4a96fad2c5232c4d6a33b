@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e89ea59e_cad8958b",
+        "filename": "docs/github-copilot-access.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 192
+      },
+      "writtenOn": "2026-06-17T21:32:08Z",
+      "side": 1,
+      "message": "Should this be updated as well? From the Slack conversation, it looks like the new URL is [...]/create/1803",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 77
+      },
+      "revId": "9e00ad641a56ee309ae4a96fad2c5232c4d6a33b",
+      "serverId": "f2a2391d-0403-4fa5-b183-4056999a8a09"
+    }
+  ]
+}
