@@ -33,10 +33,9 @@ LF Helpdesk:
 
 .. note::
 
-   Use the following temporary ticket link while the team finalizes the
-   permanent request type:
+   Use the following request link:
 
-   https://jira.linuxfoundation.org/plugins/servlet/desk/portal/2/create/1275
+   https://jira.linuxfoundation.org/plugins/servlet/desk/portal/2/create/1803
 
 Include the following information in your ticket:
 
