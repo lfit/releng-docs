@@ -15,7 +15,7 @@ Ansible roles are a collection of Ansible vars_files, tasks, and handlers
 packaged into a single package for easy distribution and reuse.
 
 Refer to the upstream
-:doc:`Ansible Roles <ansible:user_guide/playbooks_reuse_roles>` documentation
+:doc:`Ansible Roles <ansible:playbook_guide/playbooks_reuse_roles>` documentation
 for details.
 
 .. _ansible-galaxy:
