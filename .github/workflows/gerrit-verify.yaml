@@ -54,7 +54,7 @@ jobs:
     steps:
       - name: Clear votes
         # yamllint disable-line rule:line-length
-        uses: lfit/gerrit-review-action@9627b9a144f2a2cad70707ddfae87c87dce60729  # v0.8
+        uses: lfreleng-actions/gerrit-review-action@a1c036a59b94c8ab89de26d378f6a28cc7378b13  # v1.1.2
         with:
           host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}
@@ -67,7 +67,7 @@ jobs:
   lint:
     needs: clear-vote
     # yamllint disable-line rule:line-length
-    uses: lfit/releng-reusable-workflows/.github/workflows/compose-repo-linting.yaml@main
+    uses: lfit/releng-reusable-workflows/.github/workflows/compose-repo-linting.yaml@490195325b0f5b83e1de13df2dac6520d86ba1fb  # v0.8.0
     with:
       GERRIT_BRANCH: ${{ inputs.GERRIT_BRANCH }}
       GERRIT_CHANGE_ID: ${{ inputs.GERRIT_CHANGE_ID }}
@@ -85,15 +85,16 @@ jobs:
     steps:
       - name: Checkout change
         # yamllint disable-line rule:line-length
-        uses: lfit/checkout-gerrit-change-action@54d751e8bd167bc91f7d665dabe33fae87aaaa63  # v0.9
+        uses: lfreleng-actions/checkout-gerrit-change-action@f87b90a3370e62dad310797fedc7fd3700c75832  # v1.0.2
         with:
           gerrit-refspec: ${{ inputs.GERRIT_REFSPEC }}
+          gerrit-project: ${{ inputs.GERRIT_PROJECT }}
           gerrit-url: ${{ vars.GERRIT_URL }}
           delay: "0s"
           fetch-depth: 0
       - name: Setup Python
         # yamllint disable-line rule:line-length
-        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d  # v5.1.0
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
         id: setup-python
         with:
           python-version: '3.11'
@@ -109,10 +110,10 @@ jobs:
     steps:
       - name: Get workflow conclusion
         # yamllint disable-line rule:line-length
-        uses: im-open/workflow-conclusion@e4f7c4980600fbe0818173e30931d3550801b992  # v2.2.3
+        uses: im-open/workflow-conclusion@8eac7f17381a6917bc04fec3e2c92e70ebc37526  # v3.0.0
       - name: Set vote
         # yamllint disable-line rule:line-length
-        uses: lfit/gerrit-review-action@9627b9a144f2a2cad70707ddfae87c87dce60729  # v0.8
+        uses: lfreleng-actions/gerrit-review-action@a1c036a59b94c8ab89de26d378f6a28cc7378b13  # v1.1.2
         with:
           host: ${{ vars.LFIT_GERRIT_SERVER }}
           username: ${{ vars.LFIT_GERRIT_SSH_USER }}
