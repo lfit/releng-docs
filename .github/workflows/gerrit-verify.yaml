@@ -97,7 +97,8 @@ jobs:
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
         id: setup-python
         with:
-          python-version: '3.11'
+          # Match Read the Docs (.readthedocs.yaml) and tox.ini docs env
+          python-version: '3.13'
       - name: Run tests
         run: >-
           TOX_SKIP_ENV=pre-commit pipx run tox
