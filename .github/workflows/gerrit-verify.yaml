@@ -67,7 +67,7 @@ jobs:
   lint:
     needs: clear-vote
     # yamllint disable-line rule:line-length
-    uses: lfit/releng-reusable-workflows/.github/workflows/compose-repo-linting.yaml@490195325b0f5b83e1de13df2dac6520d86ba1fb  # v0.8.0
+    uses: lfit/releng-reusable-workflows/.github/workflows/compose-repo-linting.yaml@dd7e7f1359ca34ca29a409354fcc648b4ec7a561  # v0.10.2
     with:
       GERRIT_BRANCH: ${{ inputs.GERRIT_BRANCH }}
       GERRIT_CHANGE_ID: ${{ inputs.GERRIT_CHANGE_ID }}
